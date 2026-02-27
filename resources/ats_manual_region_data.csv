@@ -1,0 +1,6 @@
+Region_Name,Connections,State
+Northern Utah,Central Utah,Utah
+Central Utah,Northern Utah; St. George Area; Southeast Utah,Utah
+St. George Area,Central Utah; Southeast Utah,Utah
+Southeast Utah,St. George Area; Central Utah; Four Corners,Utah
+Four Corners,Southeast Utah,Colorado
