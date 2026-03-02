@@ -193,4 +193,4 @@ if __name__ == '__main__':
     json_data = generate_fast_travel_regions(json_data,garage_city_index)
     json_data = generate_starting_items(json_data,garage_city_index)
     for file in json_data:
-        json.dump(json_data[file], open("./manual_americantrucksimulator_harmonicseries/" + file + ".json", "w"))
+        json.dump(json_data[file], open("./manual_americantrucksimulator_harmonicseries/data/" + file + ".json", "w"))
