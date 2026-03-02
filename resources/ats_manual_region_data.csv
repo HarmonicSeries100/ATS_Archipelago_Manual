@@ -1,6 +1,10 @@
 Region_Name,Connections,State
 Northern Utah,Central Utah,Utah
-Central Utah,Northern Utah; St. George Area; Southeast Utah,Utah
+Central Utah,Northern Utah; St. George Area; Southeast Utah; Western Slope,Utah
 St. George Area,Central Utah; Southeast Utah,Utah
-Southeast Utah,St. George Area; Central Utah; Four Corners,Utah
-Four Corners,Southeast Utah,Colorado
+Southeast Utah,St. George Area; Central Utah; Four Corners; Western Slope,Utah
+Four Corners,Southeast Utah; Western Slope,Colorado
+Western Slope,Central Utah; Southeast Utah; Four Corners; Colorado Rockies,Colorado
+Colorado Rockies,Western Slope; Front Range,Colorado
+Front Range,Colorado Rockies; Colorado Plains,Colorado
+Colorado Plains,Front Range,Colorado
