@@ -1,10 +1,14 @@
 Region_Name,Connections,State,State_DLC
 Northern Utah,Central Utah,Utah,Utah
 Central Utah,Northern Utah; St. George Area; Southeast Utah; Western Slope,Utah,Utah
-St. George Area,Central Utah; Southeast Utah,Utah,Utah
-Southeast Utah,St. George Area; Central Utah; Four Corners; Western Slope,Utah,Utah
-Four Corners,Southeast Utah; Western Slope,Colorado; Utah,Colorado
+St. George Area,Central Utah; Southeast Utah; Arizona Mountains,Utah,Utah
+Southeast Utah,St. George Area; Central Utah; Four Corners; Western Slope; Arizona Mountains,Utah,Utah
+Four Corners,Southeast Utah; Western Slope; Arizona Mountains,Colorado; Utah; Arizona,Colorado
 Western Slope,Central Utah; Southeast Utah; Four Corners; Colorado Rockies,Colorado,Colorado
 Colorado Rockies,Western Slope; Front Range,Colorado,Colorado
 Front Range,Colorado Rockies; Colorado Plains,Colorado,Colorado
 Colorado Plains,Front Range,Colorado,Colorado
+Arizona Mountains,St. George Area; Southeast Utah; Arizona Desert; Southeast Arizona; Four Corners,Arizona,
+Arizona Desert,Arizona Mountains; Hoover Dam; Southeast Arizona,Arizona,
+Southeast Arizona,Arizona Mountains; Arizona Desert,Arizona,
+Hoover Dam,Arizona Desert,Arizona,

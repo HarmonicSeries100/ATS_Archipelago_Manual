@@ -225,6 +225,78 @@
   },
   {
     "count": 1,
+    "name": "Unlock Fast Travel - Clifton",
+    "category": [
+      "Fast Travel Unlock",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Flagstaff",
+    "category": [
+      "Fast Travel Unlock",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Kingman",
+    "category": [
+      "Fast Travel Unlock",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Page",
+    "category": [
+      "Fast Travel Unlock",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Phoenix",
+    "category": [
+      "Fast Travel Unlock",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Tucson",
+    "category": [
+      "Fast Travel Unlock",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Winslow",
+    "category": [
+      "Fast Travel Unlock",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Yuma",
+    "category": [
+      "Fast Travel Unlock",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Unlock Northern Utah",
     "category": [
       "Region Unlock",
@@ -274,7 +346,8 @@
       "Region Unlock",
       "DLC - Colorado",
       "Colorado",
-      "Utah"
+      "Utah",
+      "Arizona"
     ],
     "progression": true
   },
@@ -319,6 +392,45 @@
       "DLC - Colorado",
       "Colorado",
       "Start Region"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Arizona Mountains",
+    "category": [
+      "Region Unlock",
+      "Arizona",
+      "Start Region"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Arizona Desert",
+    "category": [
+      "Region Unlock",
+      "Arizona",
+      "Start Region"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Southeast Arizona",
+    "category": [
+      "Region Unlock",
+      "Arizona",
+      "Start Region"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Hoover Dam",
+    "category": [
+      "Region Unlock",
+      "Arizona"
     ],
     "progression": true
   }

@@ -145,7 +145,8 @@
       "Viewpoint",
       "DLC - Colorado",
       "Colorado",
-      "Utah"
+      "Utah",
+      "Arizona"
     ],
     "requires": ""
   },
@@ -156,7 +157,8 @@
       "Photo Trophy Point",
       "DLC - Colorado",
       "Colorado",
-      "Utah"
+      "Utah",
+      "Arizona"
     ],
     "requires": ""
   },
@@ -567,6 +569,213 @@
       "Viewpoint",
       "DLC - Utah",
       "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Camp Verde",
+    "region": "Arizona Desert",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Clifton",
+    "region": "Southeast Arizona",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Flagstaff",
+    "region": "Arizona Mountains",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Grand Canyon Village",
+    "region": "Arizona Mountains",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Kayenta",
+    "region": "Arizona Mountains",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Kingman",
+    "region": "Arizona Desert",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Lake Havasu City",
+    "region": "Arizona Desert",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Nogales",
+    "region": "Southeast Arizona",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Page",
+    "region": "Arizona Mountains",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Phoenix",
+    "region": "Arizona Desert",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "San Simon",
+    "region": "Southeast Arizona",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Show Low",
+    "region": "Southeast Arizona",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Sierra Vista",
+    "region": "Southeast Arizona",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Tucson",
+    "region": "Southeast Arizona",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Winslow",
+    "region": "Arizona Mountains",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Yuma",
+    "region": "Arizona Desert",
+    "category": [
+      "City",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Grand Canyon Village - Viewpoint",
+    "region": "Arizona Mountains",
+    "category": [
+      "Viewpoint",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Fort Smith",
+    "region": "Arizona Mountains",
+    "category": [
+      "Viewpoint",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Hoover Dam",
+    "region": "Hoover Dam",
+    "category": [
+      "Viewpoint",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Grand Canyon Village - Photo",
+    "region": "Arizona Mountains",
+    "category": [
+      "Photo Trophy Point",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Salt River",
+    "region": "Southeast Arizona",
+    "category": [
+      "Photo Trophy Point",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Phoenix Skyline",
+    "region": "Arizona Desert",
+    "category": [
+      "Photo Trophy Point",
+      "Arizona"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Hoover Dam - Photo",
+    "region": "Hoover Dam",
+    "category": [
+      "Photo Trophy Point",
+      "Arizona"
     ],
     "requires": ""
   }
