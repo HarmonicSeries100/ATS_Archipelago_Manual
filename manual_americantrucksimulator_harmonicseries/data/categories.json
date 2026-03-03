@@ -1,1 +1,11 @@
-{"Start Region": {"hidden": "true"}}
+{
+  "Start Region": {
+    "hidden": "true"
+  },
+  "DLC - Colorado": {
+    "hidden": true
+  },
+  "DLC - Utah": {
+    "hidden": true
+  }
+}

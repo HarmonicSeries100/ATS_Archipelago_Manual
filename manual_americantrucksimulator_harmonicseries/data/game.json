@@ -1,1 +1,98 @@
-{"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json", "game": "AmericanTruckSimulator", "creator": "HarmonicSeries", "filler_item_name": "Nice Photograph", "starting_items": [{"item_categories": ["Start Region"], "random": 1}, {"if_previous_item": ["Unlock Colorado Plains"], "items": ["Unlock Fast Travel - Burlington"], "random": 1}, {"if_previous_item": ["Unlock Colorado Rockies"], "items": ["Unlock Fast Travel - Alamosa", "Unlock Fast Travel - Steamboat Springs"], "random": 1}, {"if_previous_item": ["Unlock Front Range"], "items": ["Unlock Fast Travel - Colorado Springs", "Unlock Fast Travel - Denver", "Unlock Fast Travel - Fort Collins", "Unlock Fast Travel - Pueblo"], "random": 1}, {"if_previous_item": ["Unlock Western Slope"], "items": ["Unlock Fast Travel - Durango", "Unlock Fast Travel - Grand Junction", "Unlock Fast Travel - Montrose"], "random": 1}, {"if_previous_item": ["Unlock Central Utah"], "items": ["Unlock Fast Travel - Provo", "Unlock Fast Travel - Vernal", "Unlock Fast Travel - Price", "Unlock Fast Travel - Salina"], "random": 1}, {"if_previous_item": ["Unlock Northern Utah"], "items": ["Unlock Fast Travel - Salt Lake City", "Unlock Fast Travel - Ogden", "Unlock Fast Travel - Logan"], "random": 1}, {"if_previous_item": ["Unlock Southeast Utah"], "items": ["Unlock Fast Travel - Moab"], "random": 1}, {"if_previous_item": ["Unlock St. George Area"], "items": ["Unlock Fast Travel - Cedar City", "Unlock Fast Travel - St. George"], "random": 1}]}
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "AmericanTruckSimulator",
+  "creator": "HarmonicSeries",
+  "filler_item_name": "Nice Photograph",
+  "starting_items": [
+    {
+      "item_categories": [
+        "Start Region"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Colorado Plains"
+      ],
+      "items": [
+        "Unlock Fast Travel - Burlington"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Colorado Rockies"
+      ],
+      "items": [
+        "Unlock Fast Travel - Alamosa",
+        "Unlock Fast Travel - Steamboat Springs"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Front Range"
+      ],
+      "items": [
+        "Unlock Fast Travel - Colorado Springs",
+        "Unlock Fast Travel - Denver",
+        "Unlock Fast Travel - Fort Collins",
+        "Unlock Fast Travel - Pueblo"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Western Slope"
+      ],
+      "items": [
+        "Unlock Fast Travel - Durango",
+        "Unlock Fast Travel - Grand Junction",
+        "Unlock Fast Travel - Montrose"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Central Utah"
+      ],
+      "items": [
+        "Unlock Fast Travel - Provo",
+        "Unlock Fast Travel - Vernal",
+        "Unlock Fast Travel - Price",
+        "Unlock Fast Travel - Salina"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Northern Utah"
+      ],
+      "items": [
+        "Unlock Fast Travel - Salt Lake City",
+        "Unlock Fast Travel - Ogden",
+        "Unlock Fast Travel - Logan"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Southeast Utah"
+      ],
+      "items": [
+        "Unlock Fast Travel - Moab"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock St. George Area"
+      ],
+      "items": [
+        "Unlock Fast Travel - Cedar City",
+        "Unlock Fast Travel - St. George"
+      ],
+      "random": 1
+    }
+  ]
+}

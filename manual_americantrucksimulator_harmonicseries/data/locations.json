@@ -1,1 +1,573 @@
-[{"name": "Return to Starting City", "region": "FT Hub", "victory": true, "category": ["Victory"], "requires": "|National Park Passport Stamp:4|"}, {"name": "Burlington", "region": "Colorado Plains", "category": ["City", "Colorado"], "requires": ""}, {"name": "Lamar", "region": "Colorado Plains", "category": ["City", "Colorado"], "requires": ""}, {"name": "Sterling", "region": "Colorado Plains", "category": ["City", "Colorado"], "requires": ""}, {"name": "Alamosa", "region": "Colorado Rockies", "category": ["City", "Colorado"], "requires": ""}, {"name": "Steamboat Springs", "region": "Colorado Rockies", "category": ["City", "Colorado"], "requires": ""}, {"name": "Wolf Creek Pass", "region": "Colorado Rockies", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Red Cliff Bridge", "region": "Colorado Rockies", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Eisenhower Tunnel", "region": "Colorado Rockies", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Glenwood Canyon", "region": "Colorado Rockies", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Rocky Mountain Road", "region": "Colorado Rockies", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Alpine Visitor Center in Rocky Mountain National Park ", "region": "Colorado Rockies", "category": ["Photo Trophy Point", "Colorado"], "requires": ""}, {"name": "Eisenhower-Johnson Tunnels ", "region": "Colorado Rockies", "category": ["Photo Trophy Point", "Colorado"], "requires": ""}, {"name": "Hanging Lake Tunnel ", "region": "Colorado Rockies", "category": ["Photo Trophy Point", "Colorado"], "requires": ""}, {"name": "Four Corners Monument", "region": "Four Corners", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Four Corners Monument - Photo", "region": "Four Corners", "category": ["Photo Trophy Point", "Colorado"], "requires": ""}, {"name": "Colorado Springs", "region": "Front Range", "category": ["City", "Colorado"], "requires": ""}, {"name": "Denver", "region": "Front Range", "category": ["City", "Colorado"], "requires": ""}, {"name": "Fort Collins", "region": "Front Range", "category": ["City", "Colorado"], "requires": ""}, {"name": "Pueblo", "region": "Front Range", "category": ["City", "Colorado"], "requires": ""}, {"name": "Colorado Springs - Viewpoint", "region": "Front Range", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Cripple Creek & Victor Gold Mine", "region": "Front Range", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Denver Airport", "region": "Front Range", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Cripple Creek & Victor Gold Mine - Photo", "region": "Front Range", "category": ["Photo Trophy Point", "Colorado"], "requires": ""}, {"name": "Durango", "region": "Western Slope", "category": ["City", "Colorado"], "requires": ""}, {"name": "Grand Junction", "region": "Western Slope", "category": ["City", "Colorado"], "requires": ""}, {"name": "Montrose", "region": "Western Slope", "category": ["City", "Colorado"], "requires": ""}, {"name": "Rangely", "region": "Western Slope", "category": ["City", "Colorado"], "requires": ""}, {"name": "Million Dollar Highway", "region": "Western Slope", "category": ["Viewpoint", "Colorado"], "requires": ""}, {"name": "Million Dollar Highway - Photo", "region": "Western Slope", "category": ["Photo Trophy Point", "Colorado"], "requires": ""}, {"name": "Provo", "region": "Central Utah", "category": ["City", "Utah"], "requires": ""}, {"name": "Vernal", "region": "Central Utah", "category": ["City", "Utah"], "requires": ""}, {"name": "Price", "region": "Central Utah", "category": ["City", "Utah"], "requires": ""}, {"name": "Salina", "region": "Central Utah", "category": ["City", "Utah"], "requires": ""}, {"name": "Provo City Center Temple", "region": "Central Utah", "category": ["Photo Trophy Point", "Utah"], "requires": ""}, {"name": "Oil Fields of Utah", "region": "Central Utah", "category": ["Viewpoint", "Utah"], "requires": ""}, {"name": "Salt Lake City", "region": "Northern Utah", "category": ["City", "Utah"], "requires": ""}, {"name": "Ogden", "region": "Northern Utah", "category": ["City", "Utah"], "requires": ""}, {"name": "Logan", "region": "Northern Utah", "category": ["City", "Utah"], "requires": ""}, {"name": "Tree of Life", "region": "Northern Utah", "category": ["Photo Trophy Point", "Utah"], "requires": ""}, {"name": "Salt Lake City Downtown", "region": "Northern Utah", "category": ["Photo Trophy Point", "Utah"], "requires": ""}, {"name": "Bingham Canyon Mine", "region": "Northern Utah", "category": ["Viewpoint", "Utah"], "requires": ""}, {"name": "Bonneville Salt Flats", "region": "Northern Utah", "category": ["Viewpoint", "Utah"], "requires": ""}, {"name": "Moab", "region": "Southeast Utah", "category": ["City", "Utah"], "requires": ""}, {"name": "San Rafael Swell Top View Area", "region": "Southeast Utah", "category": ["Photo Trophy Point", "Utah"], "requires": ""}, {"name": "Moab Giants", "region": "Southeast Utah", "category": ["Photo Trophy Point", "Utah"], "requires": ""}, {"name": "Monument Valley - Photo", "region": "Southeast Utah", "category": ["Photo Trophy Point", "Utah"], "requires": ""}, {"name": "Hole N The Rock", "region": "Southeast Utah", "category": ["Viewpoint", "Utah"], "requires": ""}, {"name": "Hoover Rest Area", "region": "Southeast Utah", "category": ["Viewpoint", "Utah"], "requires": ""}, {"name": "San Rafael Swell Area", "region": "Southeast Utah", "category": ["Viewpoint", "Utah"], "requires": ""}, {"name": "Monument Valley", "region": "Southeast Utah", "category": ["Viewpoint", "Utah"], "requires": ""}, {"name": "Cedar City", "region": "St. George Area", "category": ["City", "Utah"], "requires": ""}, {"name": "St. George", "region": "St. George Area", "category": ["City", "Utah"], "requires": ""}, {"name": "Kanab", "region": "St. George Area", "category": ["Photo Trophy Point", "Utah"], "requires": ""}, {"name": "Glen Canyon Dam Bridge", "region": "St. George Area", "category": ["Viewpoint", "Utah"], "requires": ""}, {"name": "Moqui Cave", "region": "St. George Area", "category": ["Viewpoint", "Utah"], "requires": ""}, {"name": "City of St. George", "region": "St. George Area", "category": ["Viewpoint", "Utah"], "requires": ""}]
+[
+  {
+    "name": "Return to Starting City",
+    "region": "FT Hub",
+    "victory": true,
+    "category": [
+      "Victory"
+    ],
+    "requires": "|National Park Passport Stamp:4|"
+  },
+  {
+    "name": "Burlington",
+    "region": "Colorado Plains",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Lamar",
+    "region": "Colorado Plains",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Sterling",
+    "region": "Colorado Plains",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Alamosa",
+    "region": "Colorado Rockies",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Steamboat Springs",
+    "region": "Colorado Rockies",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Wolf Creek Pass",
+    "region": "Colorado Rockies",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Red Cliff Bridge",
+    "region": "Colorado Rockies",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Eisenhower Tunnel",
+    "region": "Colorado Rockies",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Glenwood Canyon",
+    "region": "Colorado Rockies",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Rocky Mountain Road",
+    "region": "Colorado Rockies",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Alpine Visitor Center in Rocky Mountain National Park ",
+    "region": "Colorado Rockies",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Eisenhower-Johnson Tunnels ",
+    "region": "Colorado Rockies",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Hanging Lake Tunnel ",
+    "region": "Colorado Rockies",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Four Corners Monument",
+    "region": "Four Corners",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Four Corners Monument - Photo",
+    "region": "Four Corners",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Colorado",
+      "Colorado",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Colorado Springs",
+    "region": "Front Range",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Denver",
+    "region": "Front Range",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Fort Collins",
+    "region": "Front Range",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Pueblo",
+    "region": "Front Range",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Colorado Springs - Viewpoint",
+    "region": "Front Range",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Cripple Creek & Victor Gold Mine",
+    "region": "Front Range",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Denver Airport",
+    "region": "Front Range",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Cripple Creek & Victor Gold Mine - Photo",
+    "region": "Front Range",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Durango",
+    "region": "Western Slope",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Grand Junction",
+    "region": "Western Slope",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Montrose",
+    "region": "Western Slope",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Rangely",
+    "region": "Western Slope",
+    "category": [
+      "City",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Million Dollar Highway",
+    "region": "Western Slope",
+    "category": [
+      "Viewpoint",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Million Dollar Highway - Photo",
+    "region": "Western Slope",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Colorado",
+      "Colorado"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Provo",
+    "region": "Central Utah",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Vernal",
+    "region": "Central Utah",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Price",
+    "region": "Central Utah",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Salina",
+    "region": "Central Utah",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Provo City Center Temple",
+    "region": "Central Utah",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Oil Fields of Utah",
+    "region": "Central Utah",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Salt Lake City",
+    "region": "Northern Utah",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Ogden",
+    "region": "Northern Utah",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Logan",
+    "region": "Northern Utah",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Tree of Life",
+    "region": "Northern Utah",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Salt Lake City Downtown",
+    "region": "Northern Utah",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Bingham Canyon Mine",
+    "region": "Northern Utah",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Bonneville Salt Flats",
+    "region": "Northern Utah",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Moab",
+    "region": "Southeast Utah",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "San Rafael Swell Top View Area",
+    "region": "Southeast Utah",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Moab Giants",
+    "region": "Southeast Utah",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Monument Valley - Photo",
+    "region": "Southeast Utah",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Hole N The Rock",
+    "region": "Southeast Utah",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Hoover Rest Area",
+    "region": "Southeast Utah",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "San Rafael Swell Area",
+    "region": "Southeast Utah",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Monument Valley",
+    "region": "Southeast Utah",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Cedar City",
+    "region": "St. George Area",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "St. George",
+    "region": "St. George Area",
+    "category": [
+      "City",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Kanab",
+    "region": "St. George Area",
+    "category": [
+      "Photo Trophy Point",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Glen Canyon Dam Bridge",
+    "region": "St. George Area",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "Moqui Cave",
+    "region": "St. George Area",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  },
+  {
+    "name": "City of St. George",
+    "region": "St. George Area",
+    "category": [
+      "Viewpoint",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "requires": ""
+  }
+]

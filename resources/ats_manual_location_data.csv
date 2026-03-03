@@ -1,57 +1,57 @@
-Location_Name,Region,Loc_Type,Has_Garage,State
-Burlington,Colorado Plains,City,Y,Colorado
-Lamar,Colorado Plains,City,N,Colorado
-Sterling,Colorado Plains,City,N,Colorado
-Alamosa,Colorado Rockies,City,Y,Colorado
-Steamboat Springs,Colorado Rockies,City,Y,Colorado
-Wolf Creek Pass,Colorado Rockies,Viewpoint,,Colorado
-Red Cliff Bridge,Colorado Rockies,Viewpoint,,Colorado
-Eisenhower Tunnel,Colorado Rockies,Viewpoint,,Colorado
-Glenwood Canyon,Colorado Rockies,Viewpoint,,Colorado
-Rocky Mountain Road,Colorado Rockies,Viewpoint,,Colorado
-Alpine Visitor Center in Rocky Mountain National Park ,Colorado Rockies,Photo Trophy,,Colorado
-Eisenhower-Johnson Tunnels ,Colorado Rockies,Photo Trophy,,Colorado
-Hanging Lake Tunnel ,Colorado Rockies,Photo Trophy,,Colorado
-Four Corners Monument,Four Corners,Viewpoint,,Colorado
-Four Corners Monument - Photo,Four Corners,Photo Trophy,,Colorado
-Colorado Springs,Front Range,City,Y,Colorado
-Denver,Front Range,City,Y,Colorado
-Fort Collins,Front Range,City,Y,Colorado
-Pueblo,Front Range,City,Y,Colorado
-Colorado Springs - Viewpoint,Front Range,Viewpoint,,Colorado
-Cripple Creek & Victor Gold Mine,Front Range,Viewpoint,,Colorado
-Denver Airport,Front Range,Viewpoint,,Colorado
-Cripple Creek & Victor Gold Mine - Photo,Front Range,Photo Trophy,,Colorado
-Durango,Western Slope,City,Y,Colorado
-Grand Junction,Western Slope,City,Y,Colorado
-Montrose,Western Slope,City,Y,Colorado
-Rangely,Western Slope,City,N,Colorado
-Million Dollar Highway,Western Slope,Viewpoint,,Colorado
-Million Dollar Highway - Photo,Western Slope,Photo Trophy,,Colorado
-Provo,Central Utah,City,Y,Utah
-Vernal,Central Utah,City,Y,Utah
-Price,Central Utah,City,Y,Utah
-Salina,Central Utah,City,Y,Utah
-Provo City Center Temple,Central Utah,Photo Trophy,,Utah
-Oil Fields of Utah,Central Utah,Viewpoint,,Utah
-Salt Lake City,Northern Utah,City,Y,Utah
-Ogden,Northern Utah,City,Y,Utah
-Logan,Northern Utah,City,Y,Utah
-Tree of Life,Northern Utah,Photo Trophy,,Utah
-Salt Lake City Downtown,Northern Utah,Photo Trophy,,Utah
-Bingham Canyon Mine,Northern Utah,Viewpoint,,Utah
-Bonneville Salt Flats,Northern Utah,Viewpoint,,Utah
-Moab,Southeast Utah,City,Y,Utah
-San Rafael Swell Top View Area,Southeast Utah,Photo Trophy,,Utah
-Moab Giants,Southeast Utah,Photo Trophy,,Utah
-Monument Valley - Photo,Southeast Utah,Photo Trophy,,Utah
-Hole N The Rock,Southeast Utah,Viewpoint,,Utah
-Hoover Rest Area,Southeast Utah,Viewpoint,,Utah
-San Rafael Swell Area,Southeast Utah,Viewpoint,,Utah
-Monument Valley,Southeast Utah,Viewpoint,,Utah
-Cedar City,St. George Area,City,Y,Utah
-St. George,St. George Area,City,Y,Utah
-Kanab,St. George Area,Photo Trophy,,Utah
-Glen Canyon Dam Bridge,St. George Area,Viewpoint,,Utah
-Moqui Cave,St. George Area,Viewpoint,,Utah
-City of St. George,St. George Area,Viewpoint,,Utah
+Location_Name,Region,Loc_Type,Has_Garage,State,State_DLC
+Burlington,Colorado Plains,City,Y,Colorado,Colorado
+Lamar,Colorado Plains,City,N,Colorado,Colorado
+Sterling,Colorado Plains,City,N,Colorado,Colorado
+Alamosa,Colorado Rockies,City,Y,Colorado,Colorado
+Steamboat Springs,Colorado Rockies,City,Y,Colorado,Colorado
+Wolf Creek Pass,Colorado Rockies,Viewpoint,,Colorado,Colorado
+Red Cliff Bridge,Colorado Rockies,Viewpoint,,Colorado,Colorado
+Eisenhower Tunnel,Colorado Rockies,Viewpoint,,Colorado,Colorado
+Glenwood Canyon,Colorado Rockies,Viewpoint,,Colorado,Colorado
+Rocky Mountain Road,Colorado Rockies,Viewpoint,,Colorado,Colorado
+Alpine Visitor Center in Rocky Mountain National Park ,Colorado Rockies,Photo Trophy,,Colorado,Colorado
+Eisenhower-Johnson Tunnels ,Colorado Rockies,Photo Trophy,,Colorado,Colorado
+Hanging Lake Tunnel ,Colorado Rockies,Photo Trophy,,Colorado,Colorado
+Four Corners Monument,Four Corners,Viewpoint,,Colorado; Utah,Colorado
+Four Corners Monument - Photo,Four Corners,Photo Trophy,,Colorado; Utah,Colorado
+Colorado Springs,Front Range,City,Y,Colorado,Colorado
+Denver,Front Range,City,Y,Colorado,Colorado
+Fort Collins,Front Range,City,Y,Colorado,Colorado
+Pueblo,Front Range,City,Y,Colorado,Colorado
+Colorado Springs - Viewpoint,Front Range,Viewpoint,,Colorado,Colorado
+Cripple Creek & Victor Gold Mine,Front Range,Viewpoint,,Colorado,Colorado
+Denver Airport,Front Range,Viewpoint,,Colorado,Colorado
+Cripple Creek & Victor Gold Mine - Photo,Front Range,Photo Trophy,,Colorado,Colorado
+Durango,Western Slope,City,Y,Colorado,Colorado
+Grand Junction,Western Slope,City,Y,Colorado,Colorado
+Montrose,Western Slope,City,Y,Colorado,Colorado
+Rangely,Western Slope,City,N,Colorado,Colorado
+Million Dollar Highway,Western Slope,Viewpoint,,Colorado,Colorado
+Million Dollar Highway - Photo,Western Slope,Photo Trophy,,Colorado,Colorado
+Provo,Central Utah,City,Y,Utah,Utah
+Vernal,Central Utah,City,Y,Utah,Utah
+Price,Central Utah,City,Y,Utah,Utah
+Salina,Central Utah,City,Y,Utah,Utah
+Provo City Center Temple,Central Utah,Photo Trophy,,Utah,Utah
+Oil Fields of Utah,Central Utah,Viewpoint,,Utah,Utah
+Salt Lake City,Northern Utah,City,Y,Utah,Utah
+Ogden,Northern Utah,City,Y,Utah,Utah
+Logan,Northern Utah,City,Y,Utah,Utah
+Tree of Life,Northern Utah,Photo Trophy,,Utah,Utah
+Salt Lake City Downtown,Northern Utah,Photo Trophy,,Utah,Utah
+Bingham Canyon Mine,Northern Utah,Viewpoint,,Utah,Utah
+Bonneville Salt Flats,Northern Utah,Viewpoint,,Utah,Utah
+Moab,Southeast Utah,City,Y,Utah,Utah
+San Rafael Swell Top View Area,Southeast Utah,Photo Trophy,,Utah,Utah
+Moab Giants,Southeast Utah,Photo Trophy,,Utah,Utah
+Monument Valley - Photo,Southeast Utah,Photo Trophy,,Utah,Utah
+Hole N The Rock,Southeast Utah,Viewpoint,,Utah,Utah
+Hoover Rest Area,Southeast Utah,Viewpoint,,Utah,Utah
+San Rafael Swell Area,Southeast Utah,Viewpoint,,Utah,Utah
+Monument Valley,Southeast Utah,Viewpoint,,Utah,Utah
+Cedar City,St. George Area,City,Y,Utah,Utah
+St. George,St. George Area,City,Y,Utah,Utah
+Kanab,St. George Area,Photo Trophy,,Utah,Utah
+Glen Canyon Dam Bridge,St. George Area,Viewpoint,,Utah,Utah
+Moqui Cave,St. George Area,Viewpoint,,Utah,Utah
+City of St. George,St. George Area,Viewpoint,,Utah,Utah

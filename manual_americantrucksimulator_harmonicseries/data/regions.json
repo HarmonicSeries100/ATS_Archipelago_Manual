@@ -1,1 +1,138 @@
-{"Northern Utah": {"connects_to": ["Central Utah"], "requires": "|Unlock Northern Utah|"}, "Central Utah": {"connects_to": ["Northern Utah", "St. George Area", "Southeast Utah", "Western Slope"], "requires": "|Unlock Central Utah|"}, "St. George Area": {"connects_to": ["Central Utah", "Southeast Utah"], "requires": "|Unlock St. George Area|"}, "Southeast Utah": {"connects_to": ["St. George Area", "Central Utah", "Four Corners", "Western Slope"], "requires": "|Unlock Southeast Utah|"}, "Four Corners": {"connects_to": ["Southeast Utah", "Western Slope"], "requires": "|Unlock Four Corners|"}, "Western Slope": {"connects_to": ["Central Utah", "Southeast Utah", "Four Corners", "Colorado Rockies"], "requires": "|Unlock Western Slope|"}, "Colorado Rockies": {"connects_to": ["Western Slope", "Front Range"], "requires": "|Unlock Colorado Rockies|"}, "Front Range": {"connects_to": ["Colorado Rockies", "Colorado Plains"], "requires": "|Unlock Front Range|"}, "Colorado Plains": {"connects_to": ["Front Range"], "requires": "|Unlock Colorado Plains|"}, "FT Hub": {"starting": true, "connects_to": ["FT - Colorado Plains", "FT - Colorado Rockies", "FT - Front Range", "FT - Western Slope", "FT - Central Utah", "FT - Northern Utah", "FT - Southeast Utah", "FT - St. George Area"]}, "FT - Colorado Plains": {"connects_to": ["FT Hub", "Colorado Plains"], "requires": "|Unlock Colorado Plains| AND (|Unlock Fast Travel - Burlington|)"}, "FT - Colorado Rockies": {"connects_to": ["FT Hub", "Colorado Rockies"], "requires": "|Unlock Colorado Rockies| AND (|Unlock Fast Travel - Alamosa| OR |Unlock Fast Travel - Steamboat Springs|)"}, "FT - Front Range": {"connects_to": ["FT Hub", "Front Range"], "requires": "|Unlock Front Range| AND (|Unlock Fast Travel - Colorado Springs| OR |Unlock Fast Travel - Denver| OR |Unlock Fast Travel - Fort Collins| OR |Unlock Fast Travel - Pueblo|)"}, "FT - Western Slope": {"connects_to": ["FT Hub", "Western Slope"], "requires": "|Unlock Western Slope| AND (|Unlock Fast Travel - Durango| OR |Unlock Fast Travel - Grand Junction| OR |Unlock Fast Travel - Montrose|)"}, "FT - Central Utah": {"connects_to": ["FT Hub", "Central Utah"], "requires": "|Unlock Central Utah| AND (|Unlock Fast Travel - Provo| OR |Unlock Fast Travel - Vernal| OR |Unlock Fast Travel - Price| OR |Unlock Fast Travel - Salina|)"}, "FT - Northern Utah": {"connects_to": ["FT Hub", "Northern Utah"], "requires": "|Unlock Northern Utah| AND (|Unlock Fast Travel - Salt Lake City| OR |Unlock Fast Travel - Ogden| OR |Unlock Fast Travel - Logan|)"}, "FT - Southeast Utah": {"connects_to": ["FT Hub", "Southeast Utah"], "requires": "|Unlock Southeast Utah| AND (|Unlock Fast Travel - Moab|)"}, "FT - St. George Area": {"connects_to": ["FT Hub", "St. George Area"], "requires": "|Unlock St. George Area| AND (|Unlock Fast Travel - Cedar City| OR |Unlock Fast Travel - St. George|)"}}
+{
+  "Northern Utah": {
+    "connects_to": [
+      "Central Utah"
+    ],
+    "requires": "|Unlock Northern Utah|"
+  },
+  "Central Utah": {
+    "connects_to": [
+      "Northern Utah",
+      "St. George Area",
+      "Southeast Utah",
+      "Western Slope"
+    ],
+    "requires": "|Unlock Central Utah|"
+  },
+  "St. George Area": {
+    "connects_to": [
+      "Central Utah",
+      "Southeast Utah"
+    ],
+    "requires": "|Unlock St. George Area|"
+  },
+  "Southeast Utah": {
+    "connects_to": [
+      "St. George Area",
+      "Central Utah",
+      "Four Corners",
+      "Western Slope"
+    ],
+    "requires": "|Unlock Southeast Utah|"
+  },
+  "Four Corners": {
+    "connects_to": [
+      "Southeast Utah",
+      "Western Slope"
+    ],
+    "requires": "|Unlock Four Corners|"
+  },
+  "Western Slope": {
+    "connects_to": [
+      "Central Utah",
+      "Southeast Utah",
+      "Four Corners",
+      "Colorado Rockies"
+    ],
+    "requires": "|Unlock Western Slope|"
+  },
+  "Colorado Rockies": {
+    "connects_to": [
+      "Western Slope",
+      "Front Range"
+    ],
+    "requires": "|Unlock Colorado Rockies|"
+  },
+  "Front Range": {
+    "connects_to": [
+      "Colorado Rockies",
+      "Colorado Plains"
+    ],
+    "requires": "|Unlock Front Range|"
+  },
+  "Colorado Plains": {
+    "connects_to": [
+      "Front Range"
+    ],
+    "requires": "|Unlock Colorado Plains|"
+  },
+  "FT Hub": {
+    "starting": true,
+    "connects_to": [
+      "FT - Colorado Plains",
+      "FT - Colorado Rockies",
+      "FT - Front Range",
+      "FT - Western Slope",
+      "FT - Central Utah",
+      "FT - Northern Utah",
+      "FT - Southeast Utah",
+      "FT - St. George Area"
+    ]
+  },
+  "FT - Colorado Plains": {
+    "connects_to": [
+      "FT Hub",
+      "Colorado Plains"
+    ],
+    "requires": "|Unlock Colorado Plains| AND (|Unlock Fast Travel - Burlington|)"
+  },
+  "FT - Colorado Rockies": {
+    "connects_to": [
+      "FT Hub",
+      "Colorado Rockies"
+    ],
+    "requires": "|Unlock Colorado Rockies| AND (|Unlock Fast Travel - Alamosa| OR |Unlock Fast Travel - Steamboat Springs|)"
+  },
+  "FT - Front Range": {
+    "connects_to": [
+      "FT Hub",
+      "Front Range"
+    ],
+    "requires": "|Unlock Front Range| AND (|Unlock Fast Travel - Colorado Springs| OR |Unlock Fast Travel - Denver| OR |Unlock Fast Travel - Fort Collins| OR |Unlock Fast Travel - Pueblo|)"
+  },
+  "FT - Western Slope": {
+    "connects_to": [
+      "FT Hub",
+      "Western Slope"
+    ],
+    "requires": "|Unlock Western Slope| AND (|Unlock Fast Travel - Durango| OR |Unlock Fast Travel - Grand Junction| OR |Unlock Fast Travel - Montrose|)"
+  },
+  "FT - Central Utah": {
+    "connects_to": [
+      "FT Hub",
+      "Central Utah"
+    ],
+    "requires": "|Unlock Central Utah| AND (|Unlock Fast Travel - Provo| OR |Unlock Fast Travel - Vernal| OR |Unlock Fast Travel - Price| OR |Unlock Fast Travel - Salina|)"
+  },
+  "FT - Northern Utah": {
+    "connects_to": [
+      "FT Hub",
+      "Northern Utah"
+    ],
+    "requires": "|Unlock Northern Utah| AND (|Unlock Fast Travel - Salt Lake City| OR |Unlock Fast Travel - Ogden| OR |Unlock Fast Travel - Logan|)"
+  },
+  "FT - Southeast Utah": {
+    "connects_to": [
+      "FT Hub",
+      "Southeast Utah"
+    ],
+    "requires": "|Unlock Southeast Utah| AND (|Unlock Fast Travel - Moab|)"
+  },
+  "FT - St. George Area": {
+    "connects_to": [
+      "FT Hub",
+      "St. George Area"
+    ],
+    "requires": "|Unlock St. George Area| AND (|Unlock Fast Travel - Cedar City| OR |Unlock Fast Travel - St. George|)"
+  }
+}

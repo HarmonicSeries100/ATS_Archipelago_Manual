@@ -10,6 +10,7 @@ import csv, json
 START_REGION_CATEGORY = "Start Region"
 FT_UNLOCK_CATEGORY = "Fast Travel Unlock"
 REGION_UNLOCK_CATEGORY = "Region Unlock"
+DLC_CATEGORY_PREFIX = "DLC - "
 UNLOCK_REGION_ITEM_PREFIX = "Unlock "
 UNLOCK_FT_ITEM_PREFIX = "Unlock Fast Travel - "
 FT_REGION_PREFIX = "FT - "
@@ -94,10 +95,11 @@ def get_location_object(location):
         "region": location["Region"],
         "category": [
             LOC_CATEGORY_MAPPING[location["Loc_Type"]],
-            location["State"]
+            DLC_CATEGORY_PREFIX+location["State_DLC"]
         ],
         "requires": ""
     }
+    loc_obj["category"].extend([item for item in location["State"].split('; ')])
     return loc_obj
 
 def get_fast_travel_item_from_location(location):
@@ -106,10 +108,11 @@ def get_fast_travel_item_from_location(location):
         "name": f"{UNLOCK_FT_ITEM_PREFIX}{location["Location_Name"]}",
         "category": [
             FT_UNLOCK_CATEGORY,
-            location["State"]
+            DLC_CATEGORY_PREFIX+location["State_DLC"]
         ],
         "progression": True
     }
+    fast_travel_obj["category"].extend([item for item in location["State"].split('; ')])
     return fast_travel_obj
 
 def get_region_object(region):
@@ -125,10 +128,11 @@ def get_region_unlock_item_from_region(region):
         "name": f"{UNLOCK_REGION_ITEM_PREFIX}{region["Region_Name"]}",
         "category": [
             REGION_UNLOCK_CATEGORY,
-            region["State"]
+            DLC_CATEGORY_PREFIX+region["State_DLC"]
         ],
         "progression": True
     }
+    region_unlock_item_obj["category"].extend([item for item in region["State"].split('; ')])
     return region_unlock_item_obj
 
 def get_starting_item(region,city_list):
@@ -144,6 +148,8 @@ def process_location_csv(json_data):
     with open('./resources/ats_manual_location_data.csv','r') as f:
         reader = csv.DictReader(f)
         for location in reader:
+            if DLC_CATEGORY_PREFIX+location["State_DLC"] not in json_data['categories']:
+                json_data['categories'][DLC_CATEGORY_PREFIX+location["State_DLC"]] = {"hidden": "true"}
             json_data['locations'].append(get_location_object(location))
             if location['Has_Garage'] == 'Y':
                 json_data['items'].append(get_fast_travel_item_from_location(location))
