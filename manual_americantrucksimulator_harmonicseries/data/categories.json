@@ -3,15 +3,24 @@
     "hidden": "true"
   },
   "DLC - Base": {
-    "hidden": "true"
+    "hidden": true
   },
   "DLC - Colorado": {
-    "hidden": "true"
+    "hidden": true,
+    "yaml_option": [
+      "own_Colorado"
+    ]
   },
   "DLC - New Mexico": {
-    "hidden": "true"
+    "hidden": true,
+    "yaml_option": [
+      "own_New Mexico"
+    ]
   },
   "DLC - Utah": {
-    "hidden": "true"
+    "hidden": true,
+    "yaml_option": [
+      "own_Utah"
+    ]
   }
 }
