@@ -12,6 +12,38 @@
     },
     {
       "if_previous_item": [
+        "Unlock Arizona Desert"
+      ],
+      "items": [
+        "Unlock Fast Travel - Kingman",
+        "Unlock Fast Travel - Phoenix",
+        "Unlock Fast Travel - Yuma"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Arizona Mountains"
+      ],
+      "items": [
+        "Unlock Fast Travel - Flagstaff",
+        "Unlock Fast Travel - Page",
+        "Unlock Fast Travel - Winslow"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Southeast Arizona"
+      ],
+      "items": [
+        "Unlock Fast Travel - Clifton",
+        "Unlock Fast Travel - Tucson"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
         "Unlock Colorado Plains"
       ],
       "items": [
@@ -54,13 +86,49 @@
     },
     {
       "if_previous_item": [
+        "Unlock Central New Mexico"
+      ],
+      "items": [
+        "Unlock Fast Travel - Albuquerque",
+        "Unlock Fast Travel - Clovis",
+        "Unlock Fast Travel - Gallup",
+        "Unlock Fast Travel - Socorro",
+        "Unlock Fast Travel - Tucumcari"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock New Mexico Highlands"
+      ],
+      "items": [
+        "Unlock Fast Travel - Farmington",
+        "Unlock Fast Travel - Raton",
+        "Unlock Fast Travel - Santa Fe"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Southern New Mexico"
+      ],
+      "items": [
+        "Unlock Fast Travel - Alamogordo",
+        "Unlock Fast Travel - Artesia",
+        "Unlock Fast Travel - Hobbs",
+        "Unlock Fast Travel - Roswell"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
         "Unlock Central Utah"
       ],
       "items": [
-        "Unlock Fast Travel - Provo",
-        "Unlock Fast Travel - Vernal",
         "Unlock Fast Travel - Price",
-        "Unlock Fast Travel - Salina"
+        "Unlock Fast Travel - Provo",
+        "Unlock Fast Travel - Salina",
+        "Unlock Fast Travel - Vernal"
       ],
       "random": 1
     },
@@ -69,9 +137,9 @@
         "Unlock Northern Utah"
       ],
       "items": [
-        "Unlock Fast Travel - Salt Lake City",
+        "Unlock Fast Travel - Logan",
         "Unlock Fast Travel - Ogden",
-        "Unlock Fast Travel - Logan"
+        "Unlock Fast Travel - Salt Lake City"
       ],
       "random": 1
     },
@@ -91,38 +159,6 @@
       "items": [
         "Unlock Fast Travel - Cedar City",
         "Unlock Fast Travel - St. George"
-      ],
-      "random": 1
-    },
-    {
-      "if_previous_item": [
-        "Unlock Southeast Arizona"
-      ],
-      "items": [
-        "Unlock Fast Travel - Clifton",
-        "Unlock Fast Travel - Tucson"
-      ],
-      "random": 1
-    },
-    {
-      "if_previous_item": [
-        "Unlock Arizona Mountains"
-      ],
-      "items": [
-        "Unlock Fast Travel - Flagstaff",
-        "Unlock Fast Travel - Page",
-        "Unlock Fast Travel - Winslow"
-      ],
-      "random": 1
-    },
-    {
-      "if_previous_item": [
-        "Unlock Arizona Desert"
-      ],
-      "items": [
-        "Unlock Fast Travel - Kingman",
-        "Unlock Fast Travel - Phoenix",
-        "Unlock Fast Travel - Yuma"
       ],
       "random": 1
     }

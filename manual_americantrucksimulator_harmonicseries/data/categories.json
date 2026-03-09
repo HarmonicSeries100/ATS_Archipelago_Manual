@@ -2,7 +2,13 @@
   "Start Region": {
     "hidden": "true"
   },
+  "DLC - Base": {
+    "hidden": "true"
+  },
   "DLC - Colorado": {
+    "hidden": "true"
+  },
+  "DLC - New Mexico": {
     "hidden": "true"
   },
   "DLC - Utah": {

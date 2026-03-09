@@ -98,8 +98,7 @@ def get_location_object(location):
         ],
         "requires": ""
     }
-    if location["State_DLC"]:
-        loc_obj["category"].append(DLC_CATEGORY_PREFIX+location["State_DLC"])
+    loc_obj["category"].append(DLC_CATEGORY_PREFIX+location["State_DLC"])
     loc_obj["category"].extend([item for item in location["State"].split('; ')])
     return loc_obj
 
@@ -112,8 +111,7 @@ def get_fast_travel_item_from_location(location):
         ],
         "progression": True
     }
-    if location["State_DLC"]:
-        fast_travel_obj["category"].append(DLC_CATEGORY_PREFIX+location["State_DLC"])
+    fast_travel_obj["category"].append(DLC_CATEGORY_PREFIX+location["State_DLC"])
     fast_travel_obj["category"].extend([item for item in location["State"].split('; ')])
     return fast_travel_obj
 
@@ -133,8 +131,7 @@ def get_region_unlock_item_from_region(region):
         ],
         "progression": True
     }
-    if region["State_DLC"]:
-        region_unlock_item_obj["category"].append(DLC_CATEGORY_PREFIX+region["State_DLC"])
+    region_unlock_item_obj["category"].append(DLC_CATEGORY_PREFIX+region["State_DLC"])
     region_unlock_item_obj["category"].extend([item for item in region["State"].split('; ')])
     return region_unlock_item_obj
 
@@ -151,8 +148,9 @@ def process_location_csv(json_data):
     with open('./resources/ats_manual_location_data.csv','r') as f:
         reader = csv.DictReader(f)
         for location in reader:
-            if DLC_CATEGORY_PREFIX+location["State_DLC"] not in json_data['categories'] and location["State_DLC"]:
-                json_data['categories'][DLC_CATEGORY_PREFIX+location["State_DLC"]] = {"hidden": "true"}
+            dlc_category = DLC_CATEGORY_PREFIX + location["State_DLC"]
+            if dlc_category not in json_data['categories']:
+                json_data['categories'][dlc_category] = {"hidden": "true"}
             json_data['locations'].append(get_location_object(location))
             if location['Has_Garage'] == 'Y':
                 json_data['items'].append(get_fast_travel_item_from_location(location))

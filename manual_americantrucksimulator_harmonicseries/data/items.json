@@ -25,6 +25,86 @@
   },
   {
     "count": 1,
+    "name": "Unlock Fast Travel - Kingman",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Base",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Phoenix",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Base",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Yuma",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Base",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Flagstaff",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Base",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Page",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Base",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Winslow",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Base",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Clifton",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Base",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Tucson",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Base",
+      "Arizona"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
     "name": "Unlock Fast Travel - Burlington",
     "category": [
       "Fast Travel Unlock",
@@ -125,27 +205,137 @@
   },
   {
     "count": 1,
-    "name": "Unlock Fast Travel - Provo",
+    "name": "Unlock Fast Travel - Albuquerque",
     "category": [
       "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
+      "DLC - New Mexico",
+      "New Mexico"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "Unlock Fast Travel - Vernal",
+    "name": "Unlock Fast Travel - Clovis",
     "category": [
       "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Gallup",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Socorro",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Tucumcari",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Farmington",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Raton",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Santa Fe",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Alamogordo",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Artesia",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Hobbs",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Roswell",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - New Mexico",
+      "New Mexico"
     ],
     "progression": true
   },
   {
     "count": 1,
     "name": "Unlock Fast Travel - Price",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Provo",
     "category": [
       "Fast Travel Unlock",
       "DLC - Utah",
@@ -165,7 +355,17 @@
   },
   {
     "count": 1,
-    "name": "Unlock Fast Travel - Salt Lake City",
+    "name": "Unlock Fast Travel - Vernal",
+    "category": [
+      "Fast Travel Unlock",
+      "DLC - Utah",
+      "Utah"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Fast Travel - Logan",
     "category": [
       "Fast Travel Unlock",
       "DLC - Utah",
@@ -185,7 +385,7 @@
   },
   {
     "count": 1,
-    "name": "Unlock Fast Travel - Logan",
+    "name": "Unlock Fast Travel - Salt Lake City",
     "category": [
       "Fast Travel Unlock",
       "DLC - Utah",
@@ -225,135 +425,50 @@
   },
   {
     "count": 1,
-    "name": "Unlock Fast Travel - Clifton",
-    "category": [
-      "Fast Travel Unlock",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Flagstaff",
-    "category": [
-      "Fast Travel Unlock",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Kingman",
-    "category": [
-      "Fast Travel Unlock",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Page",
-    "category": [
-      "Fast Travel Unlock",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Phoenix",
-    "category": [
-      "Fast Travel Unlock",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Tucson",
-    "category": [
-      "Fast Travel Unlock",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Winslow",
-    "category": [
-      "Fast Travel Unlock",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Yuma",
-    "category": [
-      "Fast Travel Unlock",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Northern Utah",
+    "name": "Unlock Arizona Desert",
     "category": [
       "Region Unlock",
-      "DLC - Utah",
-      "Utah",
+      "DLC - Base",
+      "Arizona",
       "Start Region"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "Unlock Central Utah",
+    "name": "Unlock Arizona Mountains",
     "category": [
       "Region Unlock",
-      "DLC - Utah",
-      "Utah",
+      "DLC - Base",
+      "Arizona",
       "Start Region"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "Unlock St. George Area",
+    "name": "Unlock Hoover Dam",
     "category": [
       "Region Unlock",
-      "DLC - Utah",
-      "Utah",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Southeast Utah",
-    "category": [
-      "Region Unlock",
-      "DLC - Utah",
-      "Utah",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Four Corners",
-    "category": [
-      "Region Unlock",
-      "DLC - Colorado",
-      "Colorado",
-      "Utah",
+      "DLC - Base",
       "Arizona"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "Unlock Western Slope",
+    "name": "Unlock Southeast Arizona",
+    "category": [
+      "Region Unlock",
+      "DLC - Base",
+      "Arizona",
+      "Start Region"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Colorado Plains",
     "category": [
       "Region Unlock",
       "DLC - Colorado",
@@ -386,7 +501,7 @@
   },
   {
     "count": 1,
-    "name": "Unlock Colorado Plains",
+    "name": "Unlock Western Slope",
     "category": [
       "Region Unlock",
       "DLC - Colorado",
@@ -397,40 +512,91 @@
   },
   {
     "count": 1,
-    "name": "Unlock Arizona Mountains",
+    "name": "Unlock Four Corners",
     "category": [
       "Region Unlock",
+      "DLC - Colorado",
+      "Colorado",
+      "Utah",
       "Arizona",
+      "New Mexico"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Central New Mexico",
+    "category": [
+      "Region Unlock",
+      "DLC - New Mexico",
+      "New Mexico",
       "Start Region"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "Unlock Arizona Desert",
+    "name": "Unlock New Mexico Highlands",
     "category": [
       "Region Unlock",
-      "Arizona",
+      "DLC - New Mexico",
+      "New Mexico",
       "Start Region"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "Unlock Southeast Arizona",
+    "name": "Unlock Southern New Mexico",
     "category": [
       "Region Unlock",
-      "Arizona",
+      "DLC - New Mexico",
+      "New Mexico",
       "Start Region"
     ],
     "progression": true
   },
   {
     "count": 1,
-    "name": "Unlock Hoover Dam",
+    "name": "Unlock Central Utah",
     "category": [
       "Region Unlock",
-      "Arizona"
+      "DLC - Utah",
+      "Utah",
+      "Start Region"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Northern Utah",
+    "category": [
+      "Region Unlock",
+      "DLC - Utah",
+      "Utah",
+      "Start Region"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock Southeast Utah",
+    "category": [
+      "Region Unlock",
+      "DLC - Utah",
+      "Utah",
+      "Start Region"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Unlock St. George Area",
+    "category": [
+      "Region Unlock",
+      "DLC - Utah",
+      "Utah",
+      "Start Region"
     ],
     "progression": true
   }

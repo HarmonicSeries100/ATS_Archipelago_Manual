@@ -1,9 +1,104 @@
 {
-  "Northern Utah": {
+  "Arizona Desert": {
     "connects_to": [
-      "Central Utah"
+      "Arizona Mountains",
+      "Hoover Dam",
+      "Southeast Arizona"
     ],
-    "requires": "|Unlock Northern Utah|"
+    "requires": "|Unlock Arizona Desert|"
+  },
+  "Arizona Mountains": {
+    "connects_to": [
+      "St. George Area",
+      "Southeast Utah",
+      "Arizona Desert",
+      "Southeast Arizona",
+      "Four Corners",
+      "Central New Mexico"
+    ],
+    "requires": "|Unlock Arizona Mountains|"
+  },
+  "Hoover Dam": {
+    "connects_to": [
+      "Arizona Desert"
+    ],
+    "requires": "|Unlock Hoover Dam|"
+  },
+  "Southeast Arizona": {
+    "connects_to": [
+      "Arizona Mountains",
+      "Arizona Desert",
+      "Central New Mexico",
+      "Southern New Mexico"
+    ],
+    "requires": "|Unlock Southeast Arizona|"
+  },
+  "Colorado Plains": {
+    "connects_to": [
+      "Front Range"
+    ],
+    "requires": "|Unlock Colorado Plains|"
+  },
+  "Colorado Rockies": {
+    "connects_to": [
+      "Western Slope",
+      "Front Range",
+      "New Mexico Highlands"
+    ],
+    "requires": "|Unlock Colorado Rockies|"
+  },
+  "Front Range": {
+    "connects_to": [
+      "Colorado Rockies",
+      "Colorado Plains",
+      "New Mexico Highlands"
+    ],
+    "requires": "|Unlock Front Range|"
+  },
+  "Western Slope": {
+    "connects_to": [
+      "Central Utah",
+      "Southeast Utah",
+      "Four Corners",
+      "Colorado Rockies",
+      "New Mexico Highlands"
+    ],
+    "requires": "|Unlock Western Slope|"
+  },
+  "Four Corners": {
+    "connects_to": [
+      "Southeast Utah",
+      "Western Slope",
+      "Arizona Mountains",
+      "New Mexico Highlands"
+    ],
+    "requires": "|Unlock Four Corners|"
+  },
+  "Central New Mexico": {
+    "connects_to": [
+      "New Mexico Highlands",
+      "Southern New Mexico",
+      "Arizona Mountains",
+      "Southeast Arizona"
+    ],
+    "requires": "|Unlock Central New Mexico|"
+  },
+  "New Mexico Highlands": {
+    "connects_to": [
+      "Four Corners",
+      "Western Slope",
+      "Colorado Rockies",
+      "Front Range",
+      "Central New Mexico"
+    ],
+    "requires": "|Unlock New Mexico Highlands|"
+  },
+  "Southern New Mexico": {
+    "connects_to": [
+      "Central New Mexico",
+      "Southeast Arizona"
+    ],
+    "requires": "|Unlock Southern New Mexico|"
   },
   "Central Utah": {
     "connects_to": [
@@ -14,17 +109,14 @@
     ],
     "requires": "|Unlock Central Utah|"
   },
-  "St. George Area": {
+  "Northern Utah": {
     "connects_to": [
-      "Central Utah",
-      "Southeast Utah",
-      "Arizona Mountains"
+      "Central Utah"
     ],
-    "requires": "|Unlock St. George Area|"
+    "requires": "|Unlock Northern Utah|"
   },
   "Southeast Utah": {
     "connects_to": [
-      "St. George Area",
       "Central Utah",
       "Four Corners",
       "Western Slope",
@@ -32,89 +124,52 @@
     ],
     "requires": "|Unlock Southeast Utah|"
   },
-  "Four Corners": {
-    "connects_to": [
-      "Southeast Utah",
-      "Western Slope",
-      "Arizona Mountains"
-    ],
-    "requires": "|Unlock Four Corners|"
-  },
-  "Western Slope": {
+  "St. George Area": {
     "connects_to": [
       "Central Utah",
-      "Southeast Utah",
-      "Four Corners",
-      "Colorado Rockies"
+      "Arizona Mountains"
     ],
-    "requires": "|Unlock Western Slope|"
-  },
-  "Colorado Rockies": {
-    "connects_to": [
-      "Western Slope",
-      "Front Range"
-    ],
-    "requires": "|Unlock Colorado Rockies|"
-  },
-  "Front Range": {
-    "connects_to": [
-      "Colorado Rockies",
-      "Colorado Plains"
-    ],
-    "requires": "|Unlock Front Range|"
-  },
-  "Colorado Plains": {
-    "connects_to": [
-      "Front Range"
-    ],
-    "requires": "|Unlock Colorado Plains|"
-  },
-  "Arizona Mountains": {
-    "connects_to": [
-      "St. George Area",
-      "Southeast Utah",
-      "Arizona Desert",
-      "Southeast Arizona",
-      "Four Corners"
-    ],
-    "requires": "|Unlock Arizona Mountains|"
-  },
-  "Arizona Desert": {
-    "connects_to": [
-      "Arizona Mountains",
-      "Hoover Dam",
-      "Southeast Arizona"
-    ],
-    "requires": "|Unlock Arizona Desert|"
-  },
-  "Southeast Arizona": {
-    "connects_to": [
-      "Arizona Mountains",
-      "Arizona Desert"
-    ],
-    "requires": "|Unlock Southeast Arizona|"
-  },
-  "Hoover Dam": {
-    "connects_to": [
-      "Arizona Desert"
-    ],
-    "requires": "|Unlock Hoover Dam|"
+    "requires": "|Unlock St. George Area|"
   },
   "FT Hub": {
     "starting": true,
     "connects_to": [
+      "FT - Arizona Desert",
+      "FT - Arizona Mountains",
+      "FT - Southeast Arizona",
       "FT - Colorado Plains",
       "FT - Colorado Rockies",
       "FT - Front Range",
       "FT - Western Slope",
+      "FT - Central New Mexico",
+      "FT - New Mexico Highlands",
+      "FT - Southern New Mexico",
       "FT - Central Utah",
       "FT - Northern Utah",
       "FT - Southeast Utah",
-      "FT - St. George Area",
-      "FT - Southeast Arizona",
-      "FT - Arizona Mountains",
-      "FT - Arizona Desert"
+      "FT - St. George Area"
     ]
+  },
+  "FT - Arizona Desert": {
+    "connects_to": [
+      "FT Hub",
+      "Arizona Desert"
+    ],
+    "requires": "|Unlock Arizona Desert| AND (|Unlock Fast Travel - Kingman| OR |Unlock Fast Travel - Phoenix| OR |Unlock Fast Travel - Yuma|)"
+  },
+  "FT - Arizona Mountains": {
+    "connects_to": [
+      "FT Hub",
+      "Arizona Mountains"
+    ],
+    "requires": "|Unlock Arizona Mountains| AND (|Unlock Fast Travel - Flagstaff| OR |Unlock Fast Travel - Page| OR |Unlock Fast Travel - Winslow|)"
+  },
+  "FT - Southeast Arizona": {
+    "connects_to": [
+      "FT Hub",
+      "Southeast Arizona"
+    ],
+    "requires": "|Unlock Southeast Arizona| AND (|Unlock Fast Travel - Clifton| OR |Unlock Fast Travel - Tucson|)"
   },
   "FT - Colorado Plains": {
     "connects_to": [
@@ -144,19 +199,40 @@
     ],
     "requires": "|Unlock Western Slope| AND (|Unlock Fast Travel - Durango| OR |Unlock Fast Travel - Grand Junction| OR |Unlock Fast Travel - Montrose|)"
   },
+  "FT - Central New Mexico": {
+    "connects_to": [
+      "FT Hub",
+      "Central New Mexico"
+    ],
+    "requires": "|Unlock Central New Mexico| AND (|Unlock Fast Travel - Albuquerque| OR |Unlock Fast Travel - Clovis| OR |Unlock Fast Travel - Gallup| OR |Unlock Fast Travel - Socorro| OR |Unlock Fast Travel - Tucumcari|)"
+  },
+  "FT - New Mexico Highlands": {
+    "connects_to": [
+      "FT Hub",
+      "New Mexico Highlands"
+    ],
+    "requires": "|Unlock New Mexico Highlands| AND (|Unlock Fast Travel - Farmington| OR |Unlock Fast Travel - Raton| OR |Unlock Fast Travel - Santa Fe|)"
+  },
+  "FT - Southern New Mexico": {
+    "connects_to": [
+      "FT Hub",
+      "Southern New Mexico"
+    ],
+    "requires": "|Unlock Southern New Mexico| AND (|Unlock Fast Travel - Alamogordo| OR |Unlock Fast Travel - Artesia| OR |Unlock Fast Travel - Hobbs| OR |Unlock Fast Travel - Roswell|)"
+  },
   "FT - Central Utah": {
     "connects_to": [
       "FT Hub",
       "Central Utah"
     ],
-    "requires": "|Unlock Central Utah| AND (|Unlock Fast Travel - Provo| OR |Unlock Fast Travel - Vernal| OR |Unlock Fast Travel - Price| OR |Unlock Fast Travel - Salina|)"
+    "requires": "|Unlock Central Utah| AND (|Unlock Fast Travel - Price| OR |Unlock Fast Travel - Provo| OR |Unlock Fast Travel - Salina| OR |Unlock Fast Travel - Vernal|)"
   },
   "FT - Northern Utah": {
     "connects_to": [
       "FT Hub",
       "Northern Utah"
     ],
-    "requires": "|Unlock Northern Utah| AND (|Unlock Fast Travel - Salt Lake City| OR |Unlock Fast Travel - Ogden| OR |Unlock Fast Travel - Logan|)"
+    "requires": "|Unlock Northern Utah| AND (|Unlock Fast Travel - Logan| OR |Unlock Fast Travel - Ogden| OR |Unlock Fast Travel - Salt Lake City|)"
   },
   "FT - Southeast Utah": {
     "connects_to": [
@@ -171,26 +247,5 @@
       "St. George Area"
     ],
     "requires": "|Unlock St. George Area| AND (|Unlock Fast Travel - Cedar City| OR |Unlock Fast Travel - St. George|)"
-  },
-  "FT - Southeast Arizona": {
-    "connects_to": [
-      "FT Hub",
-      "Southeast Arizona"
-    ],
-    "requires": "|Unlock Southeast Arizona| AND (|Unlock Fast Travel - Clifton| OR |Unlock Fast Travel - Tucson|)"
-  },
-  "FT - Arizona Mountains": {
-    "connects_to": [
-      "FT Hub",
-      "Arizona Mountains"
-    ],
-    "requires": "|Unlock Arizona Mountains| AND (|Unlock Fast Travel - Flagstaff| OR |Unlock Fast Travel - Page| OR |Unlock Fast Travel - Winslow|)"
-  },
-  "FT - Arizona Desert": {
-    "connects_to": [
-      "FT Hub",
-      "Arizona Desert"
-    ],
-    "requires": "|Unlock Arizona Desert| AND (|Unlock Fast Travel - Kingman| OR |Unlock Fast Travel - Phoenix| OR |Unlock Fast Travel - Yuma|)"
   }
 }
