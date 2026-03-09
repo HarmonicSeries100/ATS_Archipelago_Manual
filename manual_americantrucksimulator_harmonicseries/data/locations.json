@@ -119,7 +119,7 @@
     "requires": ""
   },
   {
-    "name": "Grand Canyon Village - Photo",
+    "name": "Grand Canyon - Photo",
     "region": "Arizona Mountains",
     "category": [
       "Photo Trophy Point",
@@ -129,7 +129,7 @@
     "requires": ""
   },
   {
-    "name": "Fort Smith",
+    "name": "Winslow - Viewpoint",
     "region": "Arizona Mountains",
     "category": [
       "Viewpoint",
@@ -139,7 +139,7 @@
     "requires": ""
   },
   {
-    "name": "Grand Canyon Village - Viewpoint",
+    "name": "Grand Canyon - Viewpoint",
     "region": "Arizona Mountains",
     "category": [
       "Viewpoint",
@@ -429,7 +429,7 @@
     "requires": ""
   },
   {
-    "name": "Cripple Creek & Victor Gold Mine",
+    "name": "Cripple Creek & Victor Gold Mine - Viewpoint",
     "region": "Front Range",
     "category": [
       "Viewpoint",
@@ -499,7 +499,7 @@
     "requires": ""
   },
   {
-    "name": "Million Dollar Highway",
+    "name": "Million Dollar Highway - Viewpoint",
     "region": "Western Slope",
     "category": [
       "Viewpoint",
@@ -522,7 +522,7 @@
     "requires": ""
   },
   {
-    "name": "Four Corners Monument",
+    "name": "Four Corners Monument - Viewpoint",
     "region": "Four Corners",
     "category": [
       "Viewpoint",
