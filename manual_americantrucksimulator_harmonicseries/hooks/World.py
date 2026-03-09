@@ -38,6 +38,15 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
+    # For now, assume all DLC enabled
+    allowed_states = [
+        "Arizona",
+        "Colorado",
+        "New Mexico",
+        "Utah"
+    ]
+    number_of_states = get_option_value(multiworld, player, "number_of_states")
+    world.chosen_states = world.random.sample(allowed_states, number_of_states)
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
@@ -163,6 +172,9 @@ def after_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, 
 
 # This is called right at the end, in case you want to write stuff to the spoiler log
 def before_write_spoiler(world: World, multiworld: MultiWorld, spoiler_handle) -> None:
+    spoiler_handle.write("Random States Chosen:\n")
+    for state in world.chosen_states:
+        spoiler_handle.write(f"{state}\n")
     pass
 
 # This is called when you want to add information to the hint text
