@@ -34,21 +34,21 @@
       "default": 2,
       "range_end": 4
     },
-    "own_Colorado": {
+    "own_colorado": {
       "type": "Toggle",
       "display_name": "Own Colorado DLC",
       "description": "Do you own the Colorado DLC?",
       "default": true,
       "group": "DLC"
     },
-    "own_New Mexico": {
+    "own_new_mexico": {
       "type": "Toggle",
       "display_name": "Own New Mexico DLC",
       "description": "Do you own the New Mexico DLC?",
       "default": true,
       "group": "DLC"
     },
-    "own_Utah": {
+    "own_utah": {
       "type": "Toggle",
       "display_name": "Own Utah DLC",
       "description": "Do you own the Utah DLC?",

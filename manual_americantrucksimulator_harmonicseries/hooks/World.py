@@ -17,6 +17,8 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
+from Options import OptionError
+
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -38,16 +40,25 @@ def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int)
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):
-    # For now, assume all DLC enabled
-    allowed_states = [
+    available_states = [
         "Arizona",
         "Colorado",
         "New Mexico",
         "Utah"
     ]
+    allowed_states = []
+    option_list = [f"own_{state.lower().replace(' ', '_')}" for state in available_states]
+    for option, state in zip(option_list,available_states):
+        # The base DLC states are always available and don't have an option toggle
+        if state in ['California', 'Nevada', 'Arizona']:
+            allowed_states.append(state)
+        elif is_option_enabled(multiworld, player, option):
+            allowed_states.append(state)
     number_of_states = get_option_value(multiworld, player, "number_of_states")
-    world.chosen_states = world.random.sample(allowed_states, number_of_states)
-    pass
+    try:
+        world.chosen_states = world.random.sample(allowed_states, number_of_states)
+    except ValueError:
+        raise OptionError(f"There are not enough valid states to choose from. # states required: {number_of_states} Allowed states: {allowed_states}")
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
