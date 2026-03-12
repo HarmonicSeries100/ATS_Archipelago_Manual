@@ -42,10 +42,6 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
-    pass
-
-# Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
-def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     # For now, assume all DLC enabled
     allowed_states = [
         "Arizona",
@@ -55,6 +51,10 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     ]
     number_of_states = get_option_value(multiworld, player, "number_of_states")
     world.chosen_states = world.random.sample(allowed_states, number_of_states)
+    pass
+
+# Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
+def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     pass
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
