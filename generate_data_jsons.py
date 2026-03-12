@@ -198,7 +198,7 @@ def process_location_csv(json_data):
             # Handle categories and options
             dlc_state = location["State_DLC"]
             dlc_category = DLC_CATEGORY_PREFIX + dlc_state
-            dlc_option = DLC_OPTION_PREFIX + dlc_state
+            dlc_option = DLC_OPTION_PREFIX + dlc_state.lower().replace(' ', '_')
             if dlc_category not in json_data['categories']:
                 json_data['categories'][dlc_category] ={
                     "hidden": True,

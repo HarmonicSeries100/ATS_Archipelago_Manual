@@ -16,6 +16,7 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item: "ManualIte
     chosen_states = set(multiworld.worlds[player].chosen_states)
     categories_to_check = {"Region Unlock", "Fast Travel Unlock"}
     item_categories = set(item["category"])
+    # If the item belongs to "state level" categories but are not part of the chosen states, then disable the item
     if item_categories & categories_to_check and not item_categories & chosen_states:
         return False
     return None
@@ -26,6 +27,7 @@ def before_is_location_enabled(multiworld: MultiWorld, player: int, location: "M
     chosen_states = set(multiworld.worlds[player].chosen_states)
     categories_to_check = {"City", "Viewpoint", "Photo Trophy Point"}
     location_categories = set(location["category"])
+    # If the location belongs to "state level" categories but are not part of the chosen states, then disable the location
     if location_categories & categories_to_check and not location_categories & chosen_states:
         return False
     return None
