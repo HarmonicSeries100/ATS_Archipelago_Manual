@@ -47,18 +47,50 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
         "Utah"
     ]
     allowed_states = []
-    option_list = [f"own_{state.lower().replace(' ', '_')}" for state in available_states]
-    for option, state in zip(option_list,available_states):
+    include_states = []
+    random_states = []
+    random_state_weights = []
+    dlc_option_list = [f"own_{state.lower().replace(' ', '_')}" for state in available_states]
+    for option, state in zip(dlc_option_list, available_states):
         # The base DLC states are always available and don't have an option toggle
         if state in ['California', 'Nevada', 'Arizona']:
             allowed_states.append(state)
         elif is_option_enabled(multiworld, player, option):
             allowed_states.append(state)
+    pref_option_list = [f"{state.lower().replace(' ', '_')}_preference" for state in allowed_states]
+    for option, state in zip(pref_option_list, allowed_states):
+        weighting = get_option_value(multiworld, player, option)
+        if weighting == 0:
+            continue
+        elif weighting == 100:
+            include_states.append(state)
+        else:
+            random_states.append(state)
+            random_state_weights.append(weighting)
+
     number_of_states = get_option_value(multiworld, player, "number_of_states")
-    try:
-        world.chosen_states = world.random.sample(allowed_states, number_of_states)
-    except ValueError:
-        raise OptionError(f"There are not enough valid states to choose from. # states required: {number_of_states} Allowed states: {allowed_states}")
+
+    logging.info(f"Include {include_states}")
+    logging.info(f"Random {random_states}")
+    logging.info(f"Weight {random_state_weights}")
+
+    if len(include_states) > number_of_states:
+        world.chosen_states = world.random.sample(include_states, number_of_states)
+    else:
+        world.chosen_states = include_states
+    remaining_state_count = number_of_states - len(include_states)
+
+    if remaining_state_count > len(random_states):
+        raise OptionError("Not enough valid states to choose from")
+
+    for _ in range(remaining_state_count):
+        state_choice = world.random.choices(random_states, weights=random_state_weights)[0]
+        world.chosen_states.append(state_choice)
+        index = random_states.index(state_choice)
+        random_states.pop(index)
+        random_state_weights.pop(index)
+    logging.info(world.chosen_states)
+
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
