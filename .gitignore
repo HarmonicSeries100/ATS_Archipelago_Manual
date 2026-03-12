@@ -1,6 +1,6 @@
 # Specific files
-compress_apworld.ps1
 maps/
+binaries/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
