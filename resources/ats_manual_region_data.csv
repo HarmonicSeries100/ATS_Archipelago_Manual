@@ -1,7 +1,6 @@
 Region_Name,Connections,State,State_DLC
-Arizona Desert,Arizona Mountains; Hoover Dam; Southeast Arizona,Arizona,Base
+Arizona Desert,Arizona Mountains; Southeast Arizona,Arizona,Base
 Arizona Mountains,St. George Area; Southeast Utah; Arizona Desert; Southeast Arizona; Four Corners; Central New Mexico,Arizona,Base
-Hoover Dam,Arizona Desert,Arizona,Base
 Southeast Arizona,Arizona Mountains; Arizona Desert; Central New Mexico; Southern New Mexico,Arizona,Base
 Colorado Plains,Front Range,Colorado,Colorado
 Colorado Rockies,Western Slope; Front Range; New Mexico Highlands,Colorado,Colorado

@@ -18,6 +18,8 @@ from ..Helpers import is_option_enabled, get_option_value, format_state_prog_ite
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
+from Options import OptionError
+
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -42,16 +44,57 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
-    # For now, assume all DLC enabled
-    allowed_states = [
+    available_states = [
         "Arizona",
         "Colorado",
         "New Mexico",
         "Utah"
     ]
+    allowed_states = []
+    include_states = []
+    random_states = []
+    random_state_weights = []
+    dlc_option_list = [f"own_{state.lower().replace(' ', '_')}" for state in available_states]
+    for option, state in zip(dlc_option_list, available_states):
+        # The base DLC states are always available and don't have an option toggle
+        if state in ['California', 'Nevada', 'Arizona']:
+            allowed_states.append(state)
+        elif is_option_enabled(multiworld, player, option):
+            allowed_states.append(state)
+    pref_option_list = [f"{state.lower().replace(' ', '_')}_preference" for state in allowed_states]
+    for option, state in zip(pref_option_list, allowed_states):
+        weighting = get_option_value(multiworld, player, option)
+        if weighting == 0:
+            continue
+        elif weighting == 100:
+            include_states.append(state)
+        else:
+            random_states.append(state)
+            random_state_weights.append(weighting)
+
     number_of_states = get_option_value(multiworld, player, "number_of_states")
-    world.chosen_states = world.random.sample(allowed_states, number_of_states)
-    pass
+
+    logging.info(f"Include {include_states}")
+    logging.info(f"Random {random_states}")
+    logging.info(f"Weight {random_state_weights}")
+
+    if len(include_states) > number_of_states:
+        world.chosen_states = world.random.sample(include_states, number_of_states)
+    else:
+        world.chosen_states = include_states
+    remaining_state_count = number_of_states - len(include_states)
+
+    if remaining_state_count > len(random_states):
+        raise OptionError("Not enough valid states to choose from")
+
+    for _ in range(remaining_state_count):
+        state_choice = world.random.choices(random_states, weights=random_state_weights)[0]
+        world.chosen_states.append(state_choice)
+        index = random_states.index(state_choice)
+        random_states.pop(index)
+        random_state_weights.pop(index)
+    logging.info(world.chosen_states)
+
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
 def before_create_regions(world: World, multiworld: MultiWorld, player: int):

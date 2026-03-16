@@ -2,7 +2,6 @@
   "Arizona Desert": {
     "connects_to": [
       "Arizona Mountains",
-      "Hoover Dam",
       "Southeast Arizona"
     ],
     "requires": "|Unlock Arizona Desert|"
@@ -17,12 +16,6 @@
       "Central New Mexico"
     ],
     "requires": "|Unlock Arizona Mountains|"
-  },
-  "Hoover Dam": {
-    "connects_to": [
-      "Arizona Desert"
-    ],
-    "requires": "|Unlock Hoover Dam|"
   },
   "Southeast Arizona": {
     "connects_to": [

@@ -447,16 +447,6 @@
   },
   {
     "count": 1,
-    "name": "Unlock Hoover Dam",
-    "category": [
-      "Region Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
     "name": "Unlock Southeast Arizona",
     "category": [
       "Region Unlock",

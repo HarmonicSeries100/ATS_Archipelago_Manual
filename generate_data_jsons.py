@@ -29,6 +29,7 @@ LOC_CATEGORY_MAPPING = {
     "Viewpoint": "Viewpoint"
 }
 VEHICLE_UNLOCK_CATEGORY = "Vehicle Unlock"
+STATE_PREFERENCE_SUFFIX = "_preference"
 
 
 def initialize_lists():
@@ -198,7 +199,7 @@ def process_location_csv(json_data):
             # Handle categories and options
             dlc_state = location["State_DLC"]
             dlc_category = DLC_CATEGORY_PREFIX + dlc_state
-            dlc_option = DLC_OPTION_PREFIX + dlc_state
+            dlc_option = DLC_OPTION_PREFIX + dlc_state.lower().replace(' ', '_')
             if dlc_category not in json_data['categories']:
                 json_data['categories'][dlc_category] ={
                     "hidden": True,
@@ -213,6 +214,23 @@ def process_location_csv(json_data):
                     "default": True,
                     "group": "DLC"
                 }
+            for state in location["State"].split('; '):
+                state_option = state.lower().replace(' ', '_') + STATE_PREFERENCE_SUFFIX
+                if state_option not in json_data['options']['user']:
+                    json_data['options']['user'][state_option] = {
+                        "type": "Range",
+                        "display_name": f"{state} Preference",
+                        "description": [
+                            f"Preference setting for {state}. Choose a weighting between 0 and 100",
+                            "0 will always exclude the state from being picked",
+                            "100 will always include the state",
+                            "If there are more '100' states than the number_of_states option, randomly choose between them with equal weighting"
+                        ],
+                        "default": 50,
+                        "range_start": 0,
+                        "range_end": 100,
+                        "group": "State_Preferences"
+                    }
 
             # Handle locations and items
             json_data['locations'].append(get_location_object(location))

@@ -149,26 +149,6 @@
     "requires": ""
   },
   {
-    "name": "Hoover Dam - Photo",
-    "region": "Hoover Dam",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Hoover Dam",
-    "region": "Hoover Dam",
-    "category": [
-      "Viewpoint",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
     "name": "Clifton",
     "region": "Southeast Arizona",
     "category": [
