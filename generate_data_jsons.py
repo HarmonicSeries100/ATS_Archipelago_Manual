@@ -20,8 +20,6 @@ FT_HUB_NAME = "FT Hub"
 FILLER_ITEM_NAME = "Nice Photograph"
 GOAL_ITEM_NAME = "National Park Passport Stamp"
 GOAL_CATEGORY = "National Park Passport Stamp"
-GOAL_ITEM_COUNT = 4
-GOAL_ITEM_REQUIRED = 4
 VICTORY_CATEGORY = "Victory"
 LOC_CATEGORY_MAPPING = {
     "City": "City",
@@ -54,7 +52,7 @@ def initialize_lists():
         },
         'items': [
             {
-                "count": GOAL_ITEM_COUNT,
+                "count": 1,
                 "name": GOAL_ITEM_NAME,
                 "category": [
                     GOAL_ITEM_NAME
@@ -86,7 +84,7 @@ def initialize_lists():
                 "category": [
                     VICTORY_CATEGORY
                 ],
-                "requires": f"|{GOAL_ITEM_NAME}:{GOAL_ITEM_REQUIRED}|"
+                "requires": f"{{OptionCount({GOAL_ITEM_NAME},number_of_stamps_required)}}"
             }
         ],
         'regions': {},
@@ -125,6 +123,23 @@ def initialize_lists():
                     "range_start": 1,
                     "default": 2,
                     "range_end": 4
+                },
+                "number_of_stamps_available": {
+                    "type": "Range",
+                    "display_name": "Number of Stamps Available",
+                    "description": "Number of National Park Stamps available in the randomizer",
+                    "range_start": 2,
+                    "default": 5,
+                    "range_end": 12
+                },
+                "number_of_stamps_required": {
+                    "type": "Range",
+                    "display_name": "Number of Stamps Required",
+                    "description": ["Number of National Park Stamps required to complete the passport",
+                                    "Must be less than or equal to the number of available stamps"],
+                    "range_start": 2,
+                    "default": 4,
+                    "range_end": 12
                 }
             }
         }

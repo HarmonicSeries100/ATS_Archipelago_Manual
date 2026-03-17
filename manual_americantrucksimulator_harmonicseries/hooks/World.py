@@ -32,7 +32,11 @@ from Options import OptionError
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
-
+def stamp_settings_check(multiworld: MultiWorld, player: int):
+    required_stamps = get_option_value(multiworld, player, "number_of_stamps_required")
+    available_stamps = get_option_value(multiworld, player, "number_of_stamps_available")
+    if available_stamps < required_stamps:
+        raise OptionError("Number of required stamps greater than number of available stamps")
 
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
@@ -44,6 +48,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
+    stamp_settings_check(multiworld, player)
     available_states = [
         "Arizona",
         "Colorado",
@@ -122,6 +127,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    available_stamps = get_option_value(multiworld, player, "number_of_stamps_available")
+    item_config["National Park Passport Stamp"] = {"progression": available_stamps}
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage

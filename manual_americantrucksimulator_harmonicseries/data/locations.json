@@ -6,7 +6,7 @@
     "category": [
       "Victory"
     ],
-    "requires": "|National Park Passport Stamp:4|"
+    "requires": "{OptionCount(National Park Passport Stamp,number_of_stamps_required)}"
   },
   {
     "name": "Camp Verde",

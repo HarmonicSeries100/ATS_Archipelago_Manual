@@ -34,6 +34,25 @@
       "default": 2,
       "range_end": 4
     },
+    "number_of_stamps_available": {
+      "type": "Range",
+      "display_name": "Number of Stamps Available",
+      "description": "Number of National Park Stamps available in the randomizer",
+      "range_start": 2,
+      "default": 5,
+      "range_end": 12
+    },
+    "number_of_stamps_required": {
+      "type": "Range",
+      "display_name": "Number of Stamps Required",
+      "description": [
+        "Number of National Park Stamps required to complete the passport",
+        "Must be less than or equal to the number of available stamps"
+      ],
+      "range_start": 2,
+      "default": 4,
+      "range_end": 12
+    },
     "arizona_preference": {
       "type": "Range",
       "display_name": "Arizona Preference",
