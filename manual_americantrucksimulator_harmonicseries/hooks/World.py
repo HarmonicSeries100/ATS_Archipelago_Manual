@@ -32,12 +32,6 @@ from Options import OptionError
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
-def stamp_settings_check(multiworld: MultiWorld, player: int):
-    required_stamps = get_option_value(multiworld, player, "number_of_stamps_required")
-    available_stamps = get_option_value(multiworld, player, "number_of_stamps_available")
-    if available_stamps < required_stamps:
-        raise OptionError("Number of required stamps greater than number of available stamps")
-
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
@@ -48,7 +42,6 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
-    stamp_settings_check(multiworld, player)
     available_states = [
         "Arizona",
         "Colorado",

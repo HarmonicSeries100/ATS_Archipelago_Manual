@@ -84,7 +84,7 @@ def initialize_lists():
                 "category": [
                     VICTORY_CATEGORY
                 ],
-                "requires": f"{{OptionCount({GOAL_ITEM_NAME},number_of_stamps_required)}}"
+                "requires": f"{{OptionCountPercent({GOAL_ITEM_NAME},percent_stamps_required)}}"
             }
         ],
         'regions': {},
@@ -132,14 +132,13 @@ def initialize_lists():
                     "default": 5,
                     "range_end": 12
                 },
-                "number_of_stamps_required": {
+                "percent_stamps_required": {
                     "type": "Range",
-                    "display_name": "Number of Stamps Required",
-                    "description": ["Number of National Park Stamps required to complete the passport",
-                                    "Must be less than or equal to the number of available stamps"],
-                    "range_start": 2,
-                    "default": 4,
-                    "range_end": 12
+                    "display_name": "Percent of Stamps Required",
+                    "description": "Percent of National Park Stamps required to complete the passport",
+                    "range_start": 1,
+                    "default": 80,
+                    "range_end": 100
                 }
             }
         }
