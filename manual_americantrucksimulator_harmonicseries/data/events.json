@@ -1,5 +1,11 @@
 {
 	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
-    "data": []
+    "data": [
+      {
+        "name": "Test Event",
+        "requires": "|National Park Passport Stamp:1|",
+        "visible": true
+      }
+    ]
 }
 

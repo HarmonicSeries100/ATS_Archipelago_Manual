@@ -1,593 +1,596 @@
-[
-  {
-    "count": 1,
-    "name": "National Park Passport Stamp",
-    "category": [
-      "National Park Passport Stamp"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Wiper Blades",
-    "category": [
-      "Vehicle Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": 1,
-    "name": "Headlights",
-    "category": [
-      "Vehicle Unlock"
-    ],
-    "useful": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Kingman",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Phoenix",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Yuma",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Flagstaff",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Page",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Winslow",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Clifton",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Tucson",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Burlington",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Alamosa",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Steamboat Springs",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Colorado Springs",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Denver",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Fort Collins",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Pueblo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Durango",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Grand Junction",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Montrose",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Albuquerque",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Clovis",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Gallup",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Socorro",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Tucumcari",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Farmington",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Raton",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Santa Fe",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Alamogordo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Artesia",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Hobbs",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Roswell",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Price",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Provo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Salina",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Vernal",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Logan",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Ogden",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Salt Lake City",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Moab",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - Cedar City",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Fast Travel - St. George",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Arizona Desert",
-    "category": [
-      "Region Unlock",
-      "DLC - Base",
-      "Arizona",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Arizona Mountains",
-    "category": [
-      "Region Unlock",
-      "DLC - Base",
-      "Arizona",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Southeast Arizona",
-    "category": [
-      "Region Unlock",
-      "DLC - Base",
-      "Arizona",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Colorado Plains",
-    "category": [
-      "Region Unlock",
-      "DLC - Colorado",
-      "Colorado",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Colorado Rockies",
-    "category": [
-      "Region Unlock",
-      "DLC - Colorado",
-      "Colorado",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Front Range",
-    "category": [
-      "Region Unlock",
-      "DLC - Colorado",
-      "Colorado",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Western Slope",
-    "category": [
-      "Region Unlock",
-      "DLC - Colorado",
-      "Colorado",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Four Corners",
-    "category": [
-      "Region Unlock",
-      "DLC - Colorado",
-      "Colorado",
-      "Utah",
-      "Arizona",
-      "New Mexico"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Central New Mexico",
-    "category": [
-      "Region Unlock",
-      "DLC - New Mexico",
-      "New Mexico",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock New Mexico Highlands",
-    "category": [
-      "Region Unlock",
-      "DLC - New Mexico",
-      "New Mexico",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Southern New Mexico",
-    "category": [
-      "Region Unlock",
-      "DLC - New Mexico",
-      "New Mexico",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Central Utah",
-    "category": [
-      "Region Unlock",
-      "DLC - Utah",
-      "Utah",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Northern Utah",
-    "category": [
-      "Region Unlock",
-      "DLC - Utah",
-      "Utah",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock Southeast Utah",
-    "category": [
-      "Region Unlock",
-      "DLC - Utah",
-      "Utah",
-      "Start Region"
-    ],
-    "progression": true
-  },
-  {
-    "count": 1,
-    "name": "Unlock St. George Area",
-    "category": [
-      "Region Unlock",
-      "DLC - Utah",
-      "Utah",
-      "Start Region"
-    ],
-    "progression": true
-  }
-]
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+  "data": [
+    {
+      "count": 1,
+      "name": "National Park Passport Stamp",
+      "category": [
+        "National Park Passport Stamp"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Wiper Blades",
+      "category": [
+        "Vehicle Unlock"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Headlights",
+      "category": [
+        "Vehicle Unlock"
+      ],
+      "useful": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Kingman",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Phoenix",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Yuma",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Flagstaff",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Page",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Winslow",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Clifton",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Tucson",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Burlington",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Alamosa",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Steamboat Springs",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Colorado Springs",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Denver",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Fort Collins",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Pueblo",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Durango",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Grand Junction",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Montrose",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Albuquerque",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Clovis",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Gallup",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Socorro",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Tucumcari",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Farmington",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Raton",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Santa Fe",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Alamogordo",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Artesia",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Hobbs",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Roswell",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Price",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Provo",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Salina",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Vernal",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Logan",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Ogden",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Salt Lake City",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Moab",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Cedar City",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - St. George",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Arizona Desert",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "Arizona",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Arizona Mountains",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "Arizona",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southeast Arizona",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "Arizona",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Colorado Plains",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Colorado Rockies",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Front Range",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Western Slope",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Four Corners",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Utah",
+        "Arizona",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central New Mexico",
+      "category": [
+        "Region Unlock",
+        "DLC - New Mexico",
+        "New Mexico",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock New Mexico Highlands",
+      "category": [
+        "Region Unlock",
+        "DLC - New Mexico",
+        "New Mexico",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southern New Mexico",
+      "category": [
+        "Region Unlock",
+        "DLC - New Mexico",
+        "New Mexico",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central Utah",
+      "category": [
+        "Region Unlock",
+        "DLC - Utah",
+        "Utah",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Northern Utah",
+      "category": [
+        "Region Unlock",
+        "DLC - Utah",
+        "Utah",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southeast Utah",
+      "category": [
+        "Region Unlock",
+        "DLC - Utah",
+        "Utah",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock St. George Area",
+      "category": [
+        "Region Unlock",
+        "DLC - Utah",
+        "Utah",
+        "Start Region"
+      ],
+      "progression": true
+    }
+  ]
+}

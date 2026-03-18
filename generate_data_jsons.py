@@ -34,8 +34,9 @@ def initialize_lists():
     # Note, meta.json, options.json is not generated
     json_data = {
         'categories': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
             START_REGION_CATEGORY: {
-                'hidden': 'true'
+                'hidden': True
             }
         },
         'game': {
@@ -50,44 +51,54 @@ def initialize_lists():
                 }
             ]
         },
-        'items': [
-            {
-                "count": 1,
-                "name": GOAL_ITEM_NAME,
-                "category": [
-                    GOAL_ITEM_NAME
+        'items': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+            "data":
+                [
+                    {
+                        "count": 1,
+                        "name": GOAL_ITEM_NAME,
+                        "category": [
+                            GOAL_ITEM_NAME
+                        ],
+                        "progression": True
+                    },
+                    {
+                        "count": 1,
+                        "name": "Wiper Blades",
+                        "category": [
+                            VEHICLE_UNLOCK_CATEGORY
+                        ],
+                        "useful": True
+                    },
+                    {
+                        "count": 1,
+                        "name": "Headlights",
+                        "category": [
+                            VEHICLE_UNLOCK_CATEGORY
+                        ],
+                        "useful": True
+                    },
                 ],
-                "progression": True
-            },
-            {
-                "count": 1,
-                "name": "Wiper Blades",
-                "category": [
-                    VEHICLE_UNLOCK_CATEGORY
+        },
+        'locations': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+            "data":
+                [
+                    {
+                        "name": "Victory",
+                        "region": FT_HUB_NAME,
+                        "victory": True,
+                        "category": [
+                            VICTORY_CATEGORY
+                        ],
+                        "requires": f"{{OptionCountPercent({GOAL_ITEM_NAME},percent_stamps_required)}}"
+                    }
                 ],
-                "useful": True
-            },
-            {
-                "count": 1,
-                "name": "Headlights",
-                "category": [
-                    VEHICLE_UNLOCK_CATEGORY
-                ],
-                "useful": True
-            },
-        ],
-        'locations': [
-            {
-                "name": "Victory",
-                "region": FT_HUB_NAME,
-                "victory": True,
-                "category": [
-                    VICTORY_CATEGORY
-                ],
-                "requires": f"{{OptionCountPercent({GOAL_ITEM_NAME},percent_stamps_required)}}"
-            }
-        ],
-        'regions': {},
+        },
+        'regions': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json"
+        },
         'options': {
             "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
             "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
@@ -101,10 +112,10 @@ def initialize_lists():
                     "aliases": {
                         "easiest": 0
                     },
-                    "hidden": "false"
+                    "hidden": False
                 },
                 "death_link": {
-                    "default": "false"
+                    "default": False
                 },
                 "filler_traps": {
                     "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
@@ -215,7 +226,7 @@ def process_location_csv(json_data):
             dlc_category = DLC_CATEGORY_PREFIX + dlc_state
             dlc_option = DLC_OPTION_PREFIX + dlc_state.lower().replace(' ', '_')
             if dlc_category not in json_data['categories']:
-                json_data['categories'][dlc_category] ={
+                json_data['categories'][dlc_category] = {
                     "hidden": True,
                 }
                 if dlc_state != 'Base':
@@ -247,9 +258,9 @@ def process_location_csv(json_data):
                     }
 
             # Handle locations and items
-            json_data['locations'].append(get_location_object(location))
+            json_data['locations']['data'].append(get_location_object(location))
             if location['Has_Garage'] == 'Y':
-                json_data['items'].append(get_fast_travel_item_from_location(location))
+                json_data['items']['data'].append(get_fast_travel_item_from_location(location))
                 try:
                     garage_cities[location['Region']].append(location['Location_Name'])
                 except KeyError:
@@ -262,7 +273,7 @@ def process_region_csv(json_data):
         reader = csv.DictReader(f)
         for region in reader:
             json_data['regions'][region["Region_Name"]] = get_region_object(region)
-            json_data['items'].append(get_region_unlock_item_from_region(region))
+            json_data['items']['data'].append(get_region_unlock_item_from_region(region))
     return json_data
 
 
@@ -280,9 +291,9 @@ def generate_fast_travel_regions(json_data, garage_city_index):
             "connects_to": [FT_HUB_NAME, region_name],
             "requires": f"|{UNLOCK_REGION_ITEM_PREFIX}{region_name}| AND ({" OR ".join([f"|{UNLOCK_FT_ITEM_PREFIX}{city}|" for city in city_list])})"
         }
-    for index, item in enumerate(json_data['items']):
+    for index, item in enumerate(json_data['items']['data']):
         if item['name'] in unlock_item_list:
-            json_data['items'][index]["category"].append(START_REGION_CATEGORY)
+            json_data['items']['data'][index]["category"].append(START_REGION_CATEGORY)
     return json_data
 
 

@@ -1,1067 +1,1070 @@
-[
-  {
-    "name": "Victory",
-    "region": "FT Hub",
-    "victory": true,
-    "category": [
-      "Victory"
-    ],
-    "requires": "{OptionCountPercent(National Park Passport Stamp,percent_stamps_required)}"
-  },
-  {
-    "name": "Camp Verde",
-    "region": "Arizona Desert",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Kingman",
-    "region": "Arizona Desert",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Lake Havasu City",
-    "region": "Arizona Desert",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Phoenix",
-    "region": "Arizona Desert",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Yuma",
-    "region": "Arizona Desert",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Phoenix Skyline",
-    "region": "Arizona Desert",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Flagstaff",
-    "region": "Arizona Mountains",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Grand Canyon Village",
-    "region": "Arizona Mountains",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Kayenta",
-    "region": "Arizona Mountains",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Page",
-    "region": "Arizona Mountains",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Winslow",
-    "region": "Arizona Mountains",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Grand Canyon - Photo",
-    "region": "Arizona Mountains",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Winslow - Viewpoint",
-    "region": "Arizona Mountains",
-    "category": [
-      "Viewpoint",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Grand Canyon - Viewpoint",
-    "region": "Arizona Mountains",
-    "category": [
-      "Viewpoint",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Clifton",
-    "region": "Southeast Arizona",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Nogales",
-    "region": "Southeast Arizona",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "San Simon",
-    "region": "Southeast Arizona",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Show Low",
-    "region": "Southeast Arizona",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Sierra Vista",
-    "region": "Southeast Arizona",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Tucson",
-    "region": "Southeast Arizona",
-    "category": [
-      "City",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Salt River",
-    "region": "Southeast Arizona",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Burlington",
-    "region": "Colorado Plains",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Lamar",
-    "region": "Colorado Plains",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Sterling",
-    "region": "Colorado Plains",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Alamosa",
-    "region": "Colorado Rockies",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Steamboat Springs",
-    "region": "Colorado Rockies",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Alpine Visitor Center in Rocky Mountain National Park ",
-    "region": "Colorado Rockies",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Eisenhower-Johnson Tunnels ",
-    "region": "Colorado Rockies",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Hanging Lake Tunnel ",
-    "region": "Colorado Rockies",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Eisenhower Tunnel",
-    "region": "Colorado Rockies",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Glenwood Canyon",
-    "region": "Colorado Rockies",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Red Cliff Bridge",
-    "region": "Colorado Rockies",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Rocky Mountain Road",
-    "region": "Colorado Rockies",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Wolf Creek Pass",
-    "region": "Colorado Rockies",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Colorado Springs",
-    "region": "Front Range",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Denver",
-    "region": "Front Range",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Fort Collins",
-    "region": "Front Range",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Pueblo",
-    "region": "Front Range",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Cripple Creek & Victor Gold Mine - Photo",
-    "region": "Front Range",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Colorado Springs - Viewpoint",
-    "region": "Front Range",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Cripple Creek & Victor Gold Mine - Viewpoint",
-    "region": "Front Range",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Denver Airport",
-    "region": "Front Range",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Durango",
-    "region": "Western Slope",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Grand Junction",
-    "region": "Western Slope",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Montrose",
-    "region": "Western Slope",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Rangely",
-    "region": "Western Slope",
-    "category": [
-      "City",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Million Dollar Highway - Photo",
-    "region": "Western Slope",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Million Dollar Highway - Viewpoint",
-    "region": "Western Slope",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Four Corners Monument - Photo",
-    "region": "Four Corners",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Colorado",
-      "Colorado",
-      "Utah",
-      "Arizona",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Four Corners Monument - Viewpoint",
-    "region": "Four Corners",
-    "category": [
-      "Viewpoint",
-      "DLC - Colorado",
-      "Colorado",
-      "Utah",
-      "Arizona",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Lupton",
-    "region": "Arizona Mountains",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - New Mexico",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Arizona Welcome Center Rest Area",
-    "region": "Arizona Mountains",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Albuquerque",
-    "region": "Central New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Clovis",
-    "region": "Central New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Gallup",
-    "region": "Central New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Socorro",
-    "region": "Central New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Tucumcari",
-    "region": "Central New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Big I",
-    "region": "Central New Mexico",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Clovis Memorial Park",
-    "region": "Central New Mexico",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Albuquerque - Viewpoint",
-    "region": "Central New Mexico",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "City of Vaughn",
-    "region": "Central New Mexico",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Route 66W Rest Stop",
-    "region": "Central New Mexico",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Farmington",
-    "region": "New Mexico Highlands",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Raton",
-    "region": "New Mexico Highlands",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Santa Fe",
-    "region": "New Mexico Highlands",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "City of Santa Fe",
-    "region": "New Mexico Highlands",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "US-64 Rest Area",
-    "region": "New Mexico Highlands",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "US-84 Rest Area",
-    "region": "New Mexico Highlands",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Alamogordo",
-    "region": "Southern New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Artesia",
-    "region": "Southern New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Carlsbad",
-    "region": "Southern New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Hobbs",
-    "region": "Southern New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Las Cruces",
-    "region": "Southern New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Roswell",
-    "region": "Southern New Mexico",
-    "category": [
-      "City",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "UFO Center in Roswell",
-    "region": "Southern New Mexico",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "City of Roswell",
-    "region": "Southern New Mexico",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "The Historic Monument of Lincoln",
-    "region": "Southern New Mexico",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "US-82 Rest Area",
-    "region": "Southern New Mexico",
-    "category": [
-      "Viewpoint",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Glen Canyon Dam Bridge",
-    "region": "Arizona Mountains",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Arizona"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Price",
-    "region": "Central Utah",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Provo",
-    "region": "Central Utah",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Salina",
-    "region": "Central Utah",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Vernal",
-    "region": "Central Utah",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Provo City Center Temple",
-    "region": "Central Utah",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Oil Fields of Utah",
-    "region": "Central Utah",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Logan",
-    "region": "Northern Utah",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Ogden",
-    "region": "Northern Utah",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Salt Lake City",
-    "region": "Northern Utah",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Salt Lake City Downtown",
-    "region": "Northern Utah",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Tree of Life",
-    "region": "Northern Utah",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Bingham Canyon Mine",
-    "region": "Northern Utah",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Bonneville Salt Flats",
-    "region": "Northern Utah",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Moab",
-    "region": "Southeast Utah",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Moab Giants",
-    "region": "Southeast Utah",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Monument Valley - Photo",
-    "region": "Southeast Utah",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "San Rafael Swell Top View Area",
-    "region": "Southeast Utah",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Hole N The Rock",
-    "region": "Southeast Utah",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Monument Valley",
-    "region": "Southeast Utah",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "San Rafael Swell Area",
-    "region": "Southeast Utah",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Cedar City",
-    "region": "St. George Area",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "St. George",
-    "region": "St. George Area",
-    "category": [
-      "City",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Kanab",
-    "region": "St. George Area",
-    "category": [
-      "Photo Trophy Point",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "City of St. George",
-    "region": "St. George Area",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Hoover Rest Area",
-    "region": "St. George Area",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  },
-  {
-    "name": "Moqui Cave",
-    "region": "St. George Area",
-    "category": [
-      "Viewpoint",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "requires": ""
-  }
-]
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+  "data": [
+    {
+      "name": "Victory",
+      "region": "FT Hub",
+      "victory": true,
+      "category": [
+        "Victory"
+      ],
+      "requires": "{OptionCountPercent(National Park Passport Stamp,percent_stamps_required)}"
+    },
+    {
+      "name": "Camp Verde",
+      "region": "Arizona Desert",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Kingman",
+      "region": "Arizona Desert",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Lake Havasu City",
+      "region": "Arizona Desert",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Phoenix",
+      "region": "Arizona Desert",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Yuma",
+      "region": "Arizona Desert",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Phoenix Skyline",
+      "region": "Arizona Desert",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Flagstaff",
+      "region": "Arizona Mountains",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grand Canyon Village",
+      "region": "Arizona Mountains",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Kayenta",
+      "region": "Arizona Mountains",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Page",
+      "region": "Arizona Mountains",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Winslow",
+      "region": "Arizona Mountains",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grand Canyon - Photo",
+      "region": "Arizona Mountains",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Winslow - Viewpoint",
+      "region": "Arizona Mountains",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grand Canyon - Viewpoint",
+      "region": "Arizona Mountains",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Clifton",
+      "region": "Southeast Arizona",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Nogales",
+      "region": "Southeast Arizona",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "San Simon",
+      "region": "Southeast Arizona",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Show Low",
+      "region": "Southeast Arizona",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Sierra Vista",
+      "region": "Southeast Arizona",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Tucson",
+      "region": "Southeast Arizona",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Salt River",
+      "region": "Southeast Arizona",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Burlington",
+      "region": "Colorado Plains",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Lamar",
+      "region": "Colorado Plains",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Sterling",
+      "region": "Colorado Plains",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Alamosa",
+      "region": "Colorado Rockies",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Steamboat Springs",
+      "region": "Colorado Rockies",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Alpine Visitor Center in Rocky Mountain National Park ",
+      "region": "Colorado Rockies",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Eisenhower-Johnson Tunnels ",
+      "region": "Colorado Rockies",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Hanging Lake Tunnel ",
+      "region": "Colorado Rockies",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Eisenhower Tunnel",
+      "region": "Colorado Rockies",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Glenwood Canyon",
+      "region": "Colorado Rockies",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Red Cliff Bridge",
+      "region": "Colorado Rockies",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Rocky Mountain Road",
+      "region": "Colorado Rockies",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Wolf Creek Pass",
+      "region": "Colorado Rockies",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Colorado Springs",
+      "region": "Front Range",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Denver",
+      "region": "Front Range",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Fort Collins",
+      "region": "Front Range",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Pueblo",
+      "region": "Front Range",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Cripple Creek & Victor Gold Mine - Photo",
+      "region": "Front Range",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Colorado Springs - Viewpoint",
+      "region": "Front Range",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Cripple Creek & Victor Gold Mine - Viewpoint",
+      "region": "Front Range",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Denver Airport",
+      "region": "Front Range",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Durango",
+      "region": "Western Slope",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grand Junction",
+      "region": "Western Slope",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Montrose",
+      "region": "Western Slope",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Rangely",
+      "region": "Western Slope",
+      "category": [
+        "City",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Million Dollar Highway - Photo",
+      "region": "Western Slope",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Million Dollar Highway - Viewpoint",
+      "region": "Western Slope",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Four Corners Monument - Photo",
+      "region": "Four Corners",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Colorado",
+        "Colorado",
+        "Utah",
+        "Arizona",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Four Corners Monument - Viewpoint",
+      "region": "Four Corners",
+      "category": [
+        "Viewpoint",
+        "DLC - Colorado",
+        "Colorado",
+        "Utah",
+        "Arizona",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Lupton",
+      "region": "Arizona Mountains",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - New Mexico",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Arizona Welcome Center Rest Area",
+      "region": "Arizona Mountains",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Albuquerque",
+      "region": "Central New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Clovis",
+      "region": "Central New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Gallup",
+      "region": "Central New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Socorro",
+      "region": "Central New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Tucumcari",
+      "region": "Central New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Big I",
+      "region": "Central New Mexico",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Clovis Memorial Park",
+      "region": "Central New Mexico",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Albuquerque - Viewpoint",
+      "region": "Central New Mexico",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "City of Vaughn",
+      "region": "Central New Mexico",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Route 66W Rest Stop",
+      "region": "Central New Mexico",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Farmington",
+      "region": "New Mexico Highlands",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Raton",
+      "region": "New Mexico Highlands",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Santa Fe",
+      "region": "New Mexico Highlands",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "City of Santa Fe",
+      "region": "New Mexico Highlands",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "US-64 Rest Area",
+      "region": "New Mexico Highlands",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "US-84 Rest Area",
+      "region": "New Mexico Highlands",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Alamogordo",
+      "region": "Southern New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Artesia",
+      "region": "Southern New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Carlsbad",
+      "region": "Southern New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Hobbs",
+      "region": "Southern New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Las Cruces",
+      "region": "Southern New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Roswell",
+      "region": "Southern New Mexico",
+      "category": [
+        "City",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "UFO Center in Roswell",
+      "region": "Southern New Mexico",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "City of Roswell",
+      "region": "Southern New Mexico",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "The Historic Monument of Lincoln",
+      "region": "Southern New Mexico",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "US-82 Rest Area",
+      "region": "Southern New Mexico",
+      "category": [
+        "Viewpoint",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Glen Canyon Dam Bridge",
+      "region": "Arizona Mountains",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Price",
+      "region": "Central Utah",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Provo",
+      "region": "Central Utah",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Salina",
+      "region": "Central Utah",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Vernal",
+      "region": "Central Utah",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Provo City Center Temple",
+      "region": "Central Utah",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Oil Fields of Utah",
+      "region": "Central Utah",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Logan",
+      "region": "Northern Utah",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Ogden",
+      "region": "Northern Utah",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Salt Lake City",
+      "region": "Northern Utah",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Salt Lake City Downtown",
+      "region": "Northern Utah",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Tree of Life",
+      "region": "Northern Utah",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bingham Canyon Mine",
+      "region": "Northern Utah",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bonneville Salt Flats",
+      "region": "Northern Utah",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Moab",
+      "region": "Southeast Utah",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Moab Giants",
+      "region": "Southeast Utah",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Monument Valley - Photo",
+      "region": "Southeast Utah",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "San Rafael Swell Top View Area",
+      "region": "Southeast Utah",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Hole N The Rock",
+      "region": "Southeast Utah",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Monument Valley",
+      "region": "Southeast Utah",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "San Rafael Swell Area",
+      "region": "Southeast Utah",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Cedar City",
+      "region": "St. George Area",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "St. George",
+      "region": "St. George Area",
+      "category": [
+        "City",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Kanab",
+      "region": "St. George Area",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "City of St. George",
+      "region": "St. George Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Hoover Rest Area",
+      "region": "St. George Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Moqui Cave",
+      "region": "St. George Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": ""
+    }
+  ]
+}
