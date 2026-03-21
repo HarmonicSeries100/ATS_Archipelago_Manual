@@ -11,10 +11,10 @@
       "aliases": {
         "easiest": 0
       },
-      "hidden": "false"
+      "hidden": false
     },
     "death_link": {
-      "default": "false"
+      "default": false
     },
     "filler_traps": {
       "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
@@ -33,6 +33,22 @@
       "range_start": 1,
       "default": 2,
       "range_end": 4
+    },
+    "number_of_stamps_available": {
+      "type": "Range",
+      "display_name": "Number of Stamps Available",
+      "description": "Number of National Park Stamps available in the randomizer",
+      "range_start": 2,
+      "default": 5,
+      "range_end": 12
+    },
+    "percent_stamps_required": {
+      "type": "Range",
+      "display_name": "Percent of Stamps Required",
+      "description": "Percent of National Park Stamps required to complete the passport",
+      "range_start": 1,
+      "default": 80,
+      "range_end": 100
     },
     "arizona_preference": {
       "type": "Range",

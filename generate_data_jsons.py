@@ -11,24 +11,27 @@ import csv, json
 START_REGION_CATEGORY = "Start Region"
 FT_UNLOCK_CATEGORY = "Fast Travel Unlock"
 REGION_UNLOCK_CATEGORY = "Region Unlock"
-DLC_CATEGORY_PREFIX = "DLC - "
-DLC_OPTION_PREFIX = "own_"
 UNLOCK_REGION_ITEM_PREFIX = "Unlock "
 UNLOCK_FT_ITEM_PREFIX = "Unlock Fast Travel - "
 FT_REGION_PREFIX = "FT - "
 FT_HUB_NAME = "FT Hub"
 FILLER_ITEM_NAME = "Nice Photograph"
-GOAL_ITEM_NAME = "National Park Passport Stamp"
-GOAL_CATEGORY = "National Park Passport Stamp"
-GOAL_ITEM_COUNT = 4
-GOAL_ITEM_REQUIRED = 4
+GOAL_COLLECT_NAME = "National Park Passport Stamp"
+GOAL_EVENT_NAME = "All Stamps Collected"
+GOAL_ITEM_NAME = "Validated Passport"
+GOAL_CATEGORY = "Passport Items"
 VICTORY_CATEGORY = "Victory"
+STATE_CAPITAL_CATEGORY = "State Capital"
+
 LOC_CATEGORY_MAPPING = {
     "City": "City",
     "Photo Trophy": "Photo Trophy Point",
     "Viewpoint": "Viewpoint"
 }
 VEHICLE_UNLOCK_CATEGORY = "Vehicle Unlock"
+
+DLC_CATEGORY_PREFIX = "DLC - "
+DLC_OPTION_PREFIX = "own_"
 STATE_PREFERENCE_SUFFIX = "_preference"
 
 
@@ -36,8 +39,12 @@ def initialize_lists():
     # Note, meta.json, options.json is not generated
     json_data = {
         'categories': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
             START_REGION_CATEGORY: {
-                'hidden': 'true'
+                'hidden': True
+            },
+            STATE_CAPITAL_CATEGORY: {
+                'hidden': True
             }
         },
         'game': {
@@ -52,44 +59,74 @@ def initialize_lists():
                 }
             ]
         },
-        'items': [
-            {
-                "count": GOAL_ITEM_COUNT,
-                "name": GOAL_ITEM_NAME,
-                "category": [
-                    GOAL_ITEM_NAME
+        'events': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
+            "data": [
+                {
+                    "name": GOAL_EVENT_NAME,
+                    "category": [GOAL_CATEGORY],
+                    "requires": f"{{OptionCountPercent({GOAL_COLLECT_NAME},percent_stamps_required)}}",
+                    "visible": True
+                }
+            ]
+        },
+        'items': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
+            "data":
+                [
+                    {
+                        "count": 1,
+                        "name": GOAL_COLLECT_NAME,
+                        "category": [
+                            GOAL_CATEGORY
+                        ],
+                        "progression": True
+                    },
+                    {
+                        "count": 1,
+                        "name": GOAL_ITEM_NAME,
+                        "category": [
+                            GOAL_CATEGORY
+                        ],
+                        "progression": True,
+                        "local": True
+                    },
+                    {
+                        "count": 1,
+                        "name": "Wiper Blades",
+                        "category": [
+                            VEHICLE_UNLOCK_CATEGORY
+                        ],
+                        "useful": True
+                    },
+                    {
+                        "count": 1,
+                        "name": "Headlights",
+                        "category": [
+                            VEHICLE_UNLOCK_CATEGORY
+                        ],
+                        "useful": True
+                    },
                 ],
-                "progression": True
-            },
-            {
-                "count": 1,
-                "name": "Wiper Blades",
-                "category": [
-                    VEHICLE_UNLOCK_CATEGORY
+        },
+        'locations': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.locations.schema.json",
+            "data":
+                [
+                    {
+                        "name": "Victory",
+                        "region": FT_HUB_NAME,
+                        "victory": True,
+                        "category": [
+                            VICTORY_CATEGORY
+                        ],
+                        "requires": f"|{GOAL_ITEM_NAME}|"
+                    }
                 ],
-                "useful": True
-            },
-            {
-                "count": 1,
-                "name": "Headlights",
-                "category": [
-                    VEHICLE_UNLOCK_CATEGORY
-                ],
-                "useful": True
-            },
-        ],
-        'locations': [
-            {
-                "name": "Victory",
-                "region": FT_HUB_NAME,
-                "victory": True,
-                "category": [
-                    VICTORY_CATEGORY
-                ],
-                "requires": f"|{GOAL_ITEM_NAME}:{GOAL_ITEM_REQUIRED}|"
-            }
-        ],
-        'regions': {},
+        },
+        'regions': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json"
+        },
         'options': {
             "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
             "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
@@ -103,10 +140,10 @@ def initialize_lists():
                     "aliases": {
                         "easiest": 0
                     },
-                    "hidden": "false"
+                    "hidden": False
                 },
                 "death_link": {
-                    "default": "false"
+                    "default": False
                 },
                 "filler_traps": {
                     "_comment": "Using values here let you set a 'recommended' filler_trap percentage or even a default percentage",
@@ -125,6 +162,22 @@ def initialize_lists():
                     "range_start": 1,
                     "default": 2,
                     "range_end": 4
+                },
+                "number_of_stamps_available": {
+                    "type": "Range",
+                    "display_name": "Number of Stamps Available",
+                    "description": "Number of National Park Stamps available in the randomizer",
+                    "range_start": 2,
+                    "default": 5,
+                    "range_end": 12
+                },
+                "percent_stamps_required": {
+                    "type": "Range",
+                    "display_name": "Percent of Stamps Required",
+                    "description": "Percent of National Park Stamps required to complete the passport",
+                    "range_start": 1,
+                    "default": 80,
+                    "range_end": 100
                 }
             }
         }
@@ -191,6 +244,21 @@ def get_starting_item(region, city_list):
     return starting_item_obj
 
 
+def get_state_capital_location(location):
+    state_capital_obj = {
+        "name": f"Passport Validation Center - {location['Location_Name']}",
+        "region": location["Region"],
+        "category": [
+            STATE_CAPITAL_CATEGORY,
+            VICTORY_CATEGORY
+        ],
+        "requires": f"|{GOAL_EVENT_NAME}|",
+        "place_item": [GOAL_ITEM_NAME]
+    }
+    state_capital_obj["category"].append(DLC_CATEGORY_PREFIX + location["State_DLC"])
+    state_capital_obj["category"].extend([item for item in location["State"].split('; ')])
+    return state_capital_obj
+
 def process_location_csv(json_data):
     garage_cities = {}
     with (open('./resources/ats_manual_location_data.csv', 'r') as f):
@@ -201,7 +269,7 @@ def process_location_csv(json_data):
             dlc_category = DLC_CATEGORY_PREFIX + dlc_state
             dlc_option = DLC_OPTION_PREFIX + dlc_state.lower().replace(' ', '_')
             if dlc_category not in json_data['categories']:
-                json_data['categories'][dlc_category] ={
+                json_data['categories'][dlc_category] = {
                     "hidden": True,
                 }
                 if dlc_state != 'Base':
@@ -233,13 +301,15 @@ def process_location_csv(json_data):
                     }
 
             # Handle locations and items
-            json_data['locations'].append(get_location_object(location))
+            json_data['locations']['data'].append(get_location_object(location))
             if location['Has_Garage'] == 'Y':
-                json_data['items'].append(get_fast_travel_item_from_location(location))
+                json_data['items']['data'].append(get_fast_travel_item_from_location(location))
                 try:
                     garage_cities[location['Region']].append(location['Location_Name'])
                 except KeyError:
                     garage_cities[location['Region']] = [location['Location_Name']]
+            if location['State_Capital'] == 'Y':
+                json_data['locations']['data'].append(get_state_capital_location(location))
     return json_data, garage_cities
 
 
@@ -248,7 +318,7 @@ def process_region_csv(json_data):
         reader = csv.DictReader(f)
         for region in reader:
             json_data['regions'][region["Region_Name"]] = get_region_object(region)
-            json_data['items'].append(get_region_unlock_item_from_region(region))
+            json_data['items']['data'].append(get_region_unlock_item_from_region(region))
     return json_data
 
 
@@ -266,9 +336,9 @@ def generate_fast_travel_regions(json_data, garage_city_index):
             "connects_to": [FT_HUB_NAME, region_name],
             "requires": f"|{UNLOCK_REGION_ITEM_PREFIX}{region_name}| AND ({" OR ".join([f"|{UNLOCK_FT_ITEM_PREFIX}{city}|" for city in city_list])})"
         }
-    for index, item in enumerate(json_data['items']):
+    for index, item in enumerate(json_data['items']['data']):
         if item['name'] in unlock_item_list:
-            json_data['items'][index]["category"].append(START_REGION_CATEGORY)
+            json_data['items']['data'][index]["category"].append(START_REGION_CATEGORY)
     return json_data
 
 

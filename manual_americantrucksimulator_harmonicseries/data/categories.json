@@ -1,6 +1,10 @@
 {
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
   "Start Region": {
-    "hidden": "true"
+    "hidden": true
+  },
+  "State Capital": {
+    "hidden": true
   },
   "DLC - Base": {
     "hidden": true

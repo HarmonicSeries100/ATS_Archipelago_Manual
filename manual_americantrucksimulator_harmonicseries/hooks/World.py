@@ -32,8 +32,6 @@ from Options import OptionError
 ## The fill_slot_data method will be used to send data to the Manual client for later use, like deathlink.
 ########################################################################################
 
-
-
 # Use this function to change the valid filler items to be created to replace item links or starting items.
 # Default value is the `filler_item_name` from game.json
 def hook_get_filler_item_name(world: World, multiworld: MultiWorld, player: int) -> str | bool:
@@ -44,6 +42,11 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
+    if hasattr(multiworld, "re_gen_passthrough"):
+        slot_data = multiworld.re_gen_passthrough.get(world.game, {})
+        world.chosen_states = slot_data["chosen_states"]
+        world.victory_state = slot_data["victory_state"]
+        return
     available_states = [
         "Arizona",
         "Colorado",
@@ -74,10 +77,6 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
     number_of_states = get_option_value(multiworld, player, "number_of_states")
 
-    logging.info(f"Include {include_states}")
-    logging.info(f"Random {random_states}")
-    logging.info(f"Weight {random_state_weights}")
-
     if len(include_states) > number_of_states:
         world.chosen_states = world.random.sample(include_states, number_of_states)
     else:
@@ -93,7 +92,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         index = random_states.index(state_choice)
         random_states.pop(index)
         random_state_weights.pop(index)
-    logging.info(world.chosen_states)
+    world.victory_state = world.random.choice(world.chosen_states)
 
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -122,6 +121,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 #       will create 5 items that are the "useful trap" class
 # {"Item Name": {ItemClassification.useful: 5}} <- You can also use the classification directly
 def before_create_items_all(item_config: dict[str, int|dict], world: World, multiworld: MultiWorld, player: int) -> dict[str, int|dict]:
+    available_stamps = get_option_value(multiworld, player, "number_of_stamps_available")
+    item_config["National Park Passport Stamp"] = {"progression": available_stamps}
     return item_config
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
@@ -215,6 +216,8 @@ def after_remove_item(world: World, state: CollectionState, Changed: bool, item:
 
 # This is called before slot data is set and provides an empty dict ({}), in case you want to modify it before Manual does
 def before_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, player: int) -> dict:
+    slot_data["chosen_states"] = world.chosen_states
+    slot_data["victory_state"] = world.victory_state
     return slot_data
 
 # This is called after slot data is set and provides the slot data at the time, in case you want to check and modify it after Manual is done with it
