@@ -42,6 +42,10 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     This is the earliest hook called during generation, before anything else is done.
     Use it to check or modify incompatible options, or to set up variables for later use.
     """
+    if hasattr(multiworld, "re_gen_passthrough"):
+        slot_data = multiworld.re_gen_passthrough.get(world.game, {})
+        world.chosen_states = slot_data["chosen_states"]
+        return
     available_states = [
         "Arizona",
         "Colorado",
@@ -215,6 +219,7 @@ def after_remove_item(world: World, state: CollectionState, Changed: bool, item:
 
 # This is called before slot data is set and provides an empty dict ({}), in case you want to modify it before Manual does
 def before_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, player: int) -> dict:
+    slot_data["chosen_states"] = world.chosen_states
     return slot_data
 
 # This is called after slot data is set and provides the slot data at the time, in case you want to check and modify it after Manual is done with it
