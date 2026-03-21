@@ -45,6 +45,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
     if hasattr(multiworld, "re_gen_passthrough"):
         slot_data = multiworld.re_gen_passthrough.get(world.game, {})
         world.chosen_states = slot_data["chosen_states"]
+        world.victory_state = slot_data["victory_state"]
         return
     available_states = [
         "Arizona",
@@ -76,10 +77,6 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
     number_of_states = get_option_value(multiworld, player, "number_of_states")
 
-    logging.info(f"Include {include_states}")
-    logging.info(f"Random {random_states}")
-    logging.info(f"Weight {random_state_weights}")
-
     if len(include_states) > number_of_states:
         world.chosen_states = world.random.sample(include_states, number_of_states)
     else:
@@ -95,7 +92,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         index = random_states.index(state_choice)
         random_states.pop(index)
         random_state_weights.pop(index)
-    logging.info(world.chosen_states)
+    world.victory_state = world.random.choice(world.chosen_states)
 
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -220,6 +217,7 @@ def after_remove_item(world: World, state: CollectionState, Changed: bool, item:
 # This is called before slot data is set and provides an empty dict ({}), in case you want to modify it before Manual does
 def before_fill_slot_data(slot_data: dict, world: World, multiworld: MultiWorld, player: int) -> dict:
     slot_data["chosen_states"] = world.chosen_states
+    slot_data["victory_state"] = world.victory_state
     return slot_data
 
 # This is called after slot data is set and provides the slot data at the time, in case you want to check and modify it after Manual is done with it

@@ -22,10 +22,14 @@ def before_is_item_enabled(multiworld: MultiWorld, player: int, item:  dict[str,
 # Return True to enable the location, False to disable it, or None to use the default behavior
 def before_is_location_enabled(multiworld: MultiWorld, player: int, location:  dict[str, Any]) -> Optional[bool]:
     chosen_states = set(multiworld.worlds[player].chosen_states)
+    victory_state = multiworld.worlds[player].victory_state
     categories_to_check = {"City", "Viewpoint", "Photo Trophy Point"}
     location_categories = set(location["category"])
     # If the location belongs to "state level" categories but are not part of the chosen states, then disable the location
     if location_categories & categories_to_check and not location_categories & chosen_states:
+        return False
+    # If location is a state capital and not the victory state, then disable the location
+    if "State Capital" in location_categories and victory_state not in location_categories:
         return False
     return None
     

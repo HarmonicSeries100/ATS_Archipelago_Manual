@@ -8,7 +8,7 @@
       "category": [
         "Victory"
       ],
-      "requires": "{OptionCountPercent(National Park Passport Stamp,percent_stamps_required)}"
+      "requires": "|Validated Passport|"
     },
     {
       "name": "Camp Verde",
@@ -49,6 +49,20 @@
         "Arizona"
       ],
       "requires": ""
+    },
+    {
+      "name": "Passport Validation Center - Phoenix",
+      "region": "Arizona Desert",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Base",
+        "Arizona"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
     },
     {
       "name": "Yuma",
@@ -371,6 +385,20 @@
       "requires": ""
     },
     {
+      "name": "Passport Validation Center - Denver",
+      "region": "Front Range",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Colorado",
+        "Colorado"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
+    },
+    {
       "name": "Fort Collins",
       "region": "Front Range",
       "category": [
@@ -667,6 +695,20 @@
       "requires": ""
     },
     {
+      "name": "Passport Validation Center - Santa Fe",
+      "region": "New Mexico Highlands",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
+    },
+    {
       "name": "City of Santa Fe",
       "region": "New Mexico Highlands",
       "category": [
@@ -895,6 +937,20 @@
         "Utah"
       ],
       "requires": ""
+    },
+    {
+      "name": "Passport Validation Center - Salt Lake City",
+      "region": "Northern Utah",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Utah",
+        "Utah"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
     },
     {
       "name": "Salt Lake City Downtown",

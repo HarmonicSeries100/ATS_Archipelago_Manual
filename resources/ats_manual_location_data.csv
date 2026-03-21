@@ -1,106 +1,106 @@
-Location_Name,Region,Loc_Type,Has_Garage,State,State_DLC
-Camp Verde,Arizona Desert,City,,Arizona,Base
-Kingman,Arizona Desert,City,Y,Arizona,Base
-Lake Havasu City,Arizona Desert,City,,Arizona,Base
-Phoenix,Arizona Desert,City,Y,Arizona,Base
-Yuma,Arizona Desert,City,Y,Arizona,Base
-Phoenix Skyline,Arizona Desert,Photo Trophy,,Arizona,Base
-Flagstaff,Arizona Mountains,City,Y,Arizona,Base
-Grand Canyon Village,Arizona Mountains,City,,Arizona,Base
-Kayenta,Arizona Mountains,City,,Arizona,Base
-Page,Arizona Mountains,City,Y,Arizona,Base
-Winslow,Arizona Mountains,City,Y,Arizona,Base
-Grand Canyon - Photo,Arizona Mountains,Photo Trophy,,Arizona,Base
-Winslow - Viewpoint,Arizona Mountains,Viewpoint,,Arizona,Base
-Grand Canyon - Viewpoint,Arizona Mountains,Viewpoint,,Arizona,Base
-Clifton,Southeast Arizona,City,Y,Arizona,Base
-Nogales,Southeast Arizona,City,,Arizona,Base
-San Simon,Southeast Arizona,City,,Arizona,Base
-Show Low,Southeast Arizona,City,,Arizona,Base
-Sierra Vista,Southeast Arizona,City,,Arizona,Base
-Tucson,Southeast Arizona,City,Y,Arizona,Base
-Salt River,Southeast Arizona,Photo Trophy,,Arizona,Base
-Burlington,Colorado Plains,City,Y,Colorado,Colorado
-Lamar,Colorado Plains,City,N,Colorado,Colorado
-Sterling,Colorado Plains,City,N,Colorado,Colorado
-Alamosa,Colorado Rockies,City,Y,Colorado,Colorado
-Steamboat Springs,Colorado Rockies,City,Y,Colorado,Colorado
-Alpine Visitor Center in Rocky Mountain National Park ,Colorado Rockies,Photo Trophy,,Colorado,Colorado
-Eisenhower-Johnson Tunnels ,Colorado Rockies,Photo Trophy,,Colorado,Colorado
-Hanging Lake Tunnel ,Colorado Rockies,Photo Trophy,,Colorado,Colorado
-Eisenhower Tunnel,Colorado Rockies,Viewpoint,,Colorado,Colorado
-Glenwood Canyon,Colorado Rockies,Viewpoint,,Colorado,Colorado
-Red Cliff Bridge,Colorado Rockies,Viewpoint,,Colorado,Colorado
-Rocky Mountain Road,Colorado Rockies,Viewpoint,,Colorado,Colorado
-Wolf Creek Pass,Colorado Rockies,Viewpoint,,Colorado,Colorado
-Colorado Springs,Front Range,City,Y,Colorado,Colorado
-Denver,Front Range,City,Y,Colorado,Colorado
-Fort Collins,Front Range,City,Y,Colorado,Colorado
-Pueblo,Front Range,City,Y,Colorado,Colorado
-Cripple Creek & Victor Gold Mine - Photo,Front Range,Photo Trophy,,Colorado,Colorado
-Colorado Springs - Viewpoint,Front Range,Viewpoint,,Colorado,Colorado
-Cripple Creek & Victor Gold Mine - Viewpoint,Front Range,Viewpoint,,Colorado,Colorado
-Denver Airport,Front Range,Viewpoint,,Colorado,Colorado
-Durango,Western Slope,City,Y,Colorado,Colorado
-Grand Junction,Western Slope,City,Y,Colorado,Colorado
-Montrose,Western Slope,City,Y,Colorado,Colorado
-Rangely,Western Slope,City,N,Colorado,Colorado
-Million Dollar Highway - Photo,Western Slope,Photo Trophy,,Colorado,Colorado
-Million Dollar Highway - Viewpoint,Western Slope,Viewpoint,,Colorado,Colorado
-Four Corners Monument - Photo,Four Corners,Photo Trophy,,Colorado; Utah; Arizona; New Mexico,Colorado
-Four Corners Monument - Viewpoint,Four Corners,Viewpoint,,Colorado; Utah; Arizona; New Mexico,Colorado
-Lupton,Arizona Mountains,Photo Trophy,,Arizona,New Mexico
-Arizona Welcome Center Rest Area,Arizona Mountains,Viewpoint,,Arizona,New Mexico
-Albuquerque,Central New Mexico,City,Y,New Mexico,New Mexico
-Clovis,Central New Mexico,City,Y,New Mexico,New Mexico
-Gallup,Central New Mexico,City,Y,New Mexico,New Mexico
-Socorro,Central New Mexico,City,Y,New Mexico,New Mexico
-Tucumcari,Central New Mexico,City,Y,New Mexico,New Mexico
-Big I,Central New Mexico,Photo Trophy,,New Mexico,New Mexico
-Clovis Memorial Park,Central New Mexico,Photo Trophy,,New Mexico,New Mexico
-Albuquerque - Viewpoint,Central New Mexico,Viewpoint,,New Mexico,New Mexico
-City of Vaughn,Central New Mexico,Viewpoint,,New Mexico,New Mexico
-Route 66W Rest Stop,Central New Mexico,Viewpoint,,New Mexico,New Mexico
-Farmington,New Mexico Highlands,City,Y,New Mexico,New Mexico
-Raton,New Mexico Highlands,City,Y,New Mexico,New Mexico
-Santa Fe,New Mexico Highlands,City,Y,New Mexico,New Mexico
-City of Santa Fe,New Mexico Highlands,Viewpoint,,New Mexico,New Mexico
-US-64 Rest Area,New Mexico Highlands,Viewpoint,,New Mexico,New Mexico
-US-84 Rest Area,New Mexico Highlands,Viewpoint,,New Mexico,New Mexico
-Alamogordo,Southern New Mexico,City,Y,New Mexico,New Mexico
-Artesia,Southern New Mexico,City,Y,New Mexico,New Mexico
-Carlsbad,Southern New Mexico,City,,New Mexico,New Mexico
-Hobbs,Southern New Mexico,City,Y,New Mexico,New Mexico
-Las Cruces,Southern New Mexico,City,,New Mexico,New Mexico
-Roswell,Southern New Mexico,City,Y,New Mexico,New Mexico
-UFO Center in Roswell,Southern New Mexico,Photo Trophy,,New Mexico,New Mexico
-City of Roswell,Southern New Mexico,Viewpoint,,New Mexico,New Mexico
-The Historic Monument of Lincoln,Southern New Mexico,Viewpoint,,New Mexico,New Mexico
-US-82 Rest Area,Southern New Mexico,Viewpoint,,New Mexico,New Mexico
-Glen Canyon Dam Bridge,Arizona Mountains,Viewpoint,,Arizona,Utah
-Price,Central Utah,City,Y,Utah,Utah
-Provo,Central Utah,City,Y,Utah,Utah
-Salina,Central Utah,City,Y,Utah,Utah
-Vernal,Central Utah,City,Y,Utah,Utah
-Provo City Center Temple,Central Utah,Photo Trophy,,Utah,Utah
-Oil Fields of Utah,Central Utah,Viewpoint,,Utah,Utah
-Logan,Northern Utah,City,Y,Utah,Utah
-Ogden,Northern Utah,City,Y,Utah,Utah
-Salt Lake City,Northern Utah,City,Y,Utah,Utah
-Salt Lake City Downtown,Northern Utah,Photo Trophy,,Utah,Utah
-Tree of Life,Northern Utah,Photo Trophy,,Utah,Utah
-Bingham Canyon Mine,Northern Utah,Viewpoint,,Utah,Utah
-Bonneville Salt Flats,Northern Utah,Viewpoint,,Utah,Utah
-Moab,Southeast Utah,City,Y,Utah,Utah
-Moab Giants,Southeast Utah,Photo Trophy,,Utah,Utah
-Monument Valley - Photo,Southeast Utah,Photo Trophy,,Utah,Utah
-San Rafael Swell Top View Area,Southeast Utah,Photo Trophy,,Utah,Utah
-Hole N The Rock,Southeast Utah,Viewpoint,,Utah,Utah
-Monument Valley,Southeast Utah,Viewpoint,,Utah,Utah
-San Rafael Swell Area,Southeast Utah,Viewpoint,,Utah,Utah
-Cedar City,St. George Area,City,Y,Utah,Utah
-St. George,St. George Area,City,Y,Utah,Utah
-Kanab,St. George Area,Photo Trophy,,Utah,Utah
-City of St. George,St. George Area,Viewpoint,,Utah,Utah
-Hoover Rest Area,St. George Area,Viewpoint,,Utah,Utah
-Moqui Cave,St. George Area,Viewpoint,,Utah,Utah
+Location_Name,Region,Loc_Type,Has_Garage,State,State_DLC,State_Capital
+Camp Verde,Arizona Desert,City,,Arizona,Base,
+Kingman,Arizona Desert,City,Y,Arizona,Base,
+Lake Havasu City,Arizona Desert,City,,Arizona,Base,
+Phoenix,Arizona Desert,City,Y,Arizona,Base,Y
+Yuma,Arizona Desert,City,Y,Arizona,Base,
+Phoenix Skyline,Arizona Desert,Photo Trophy,,Arizona,Base,
+Flagstaff,Arizona Mountains,City,Y,Arizona,Base,
+Grand Canyon Village,Arizona Mountains,City,,Arizona,Base,
+Kayenta,Arizona Mountains,City,,Arizona,Base,
+Page,Arizona Mountains,City,Y,Arizona,Base,
+Winslow,Arizona Mountains,City,Y,Arizona,Base,
+Grand Canyon - Photo,Arizona Mountains,Photo Trophy,,Arizona,Base,
+Winslow - Viewpoint,Arizona Mountains,Viewpoint,,Arizona,Base,
+Grand Canyon - Viewpoint,Arizona Mountains,Viewpoint,,Arizona,Base,
+Clifton,Southeast Arizona,City,Y,Arizona,Base,
+Nogales,Southeast Arizona,City,,Arizona,Base,
+San Simon,Southeast Arizona,City,,Arizona,Base,
+Show Low,Southeast Arizona,City,,Arizona,Base,
+Sierra Vista,Southeast Arizona,City,,Arizona,Base,
+Tucson,Southeast Arizona,City,Y,Arizona,Base,
+Salt River,Southeast Arizona,Photo Trophy,,Arizona,Base,
+Burlington,Colorado Plains,City,Y,Colorado,Colorado,
+Lamar,Colorado Plains,City,N,Colorado,Colorado,
+Sterling,Colorado Plains,City,N,Colorado,Colorado,
+Alamosa,Colorado Rockies,City,Y,Colorado,Colorado,
+Steamboat Springs,Colorado Rockies,City,Y,Colorado,Colorado,
+Alpine Visitor Center in Rocky Mountain National Park ,Colorado Rockies,Photo Trophy,,Colorado,Colorado,
+Eisenhower-Johnson Tunnels ,Colorado Rockies,Photo Trophy,,Colorado,Colorado,
+Hanging Lake Tunnel ,Colorado Rockies,Photo Trophy,,Colorado,Colorado,
+Eisenhower Tunnel,Colorado Rockies,Viewpoint,,Colorado,Colorado,
+Glenwood Canyon,Colorado Rockies,Viewpoint,,Colorado,Colorado,
+Red Cliff Bridge,Colorado Rockies,Viewpoint,,Colorado,Colorado,
+Rocky Mountain Road,Colorado Rockies,Viewpoint,,Colorado,Colorado,
+Wolf Creek Pass,Colorado Rockies,Viewpoint,,Colorado,Colorado,
+Colorado Springs,Front Range,City,Y,Colorado,Colorado,
+Denver,Front Range,City,Y,Colorado,Colorado,Y
+Fort Collins,Front Range,City,Y,Colorado,Colorado,
+Pueblo,Front Range,City,Y,Colorado,Colorado,
+Cripple Creek & Victor Gold Mine - Photo,Front Range,Photo Trophy,,Colorado,Colorado,
+Colorado Springs - Viewpoint,Front Range,Viewpoint,,Colorado,Colorado,
+Cripple Creek & Victor Gold Mine - Viewpoint,Front Range,Viewpoint,,Colorado,Colorado,
+Denver Airport,Front Range,Viewpoint,,Colorado,Colorado,
+Durango,Western Slope,City,Y,Colorado,Colorado,
+Grand Junction,Western Slope,City,Y,Colorado,Colorado,
+Montrose,Western Slope,City,Y,Colorado,Colorado,
+Rangely,Western Slope,City,N,Colorado,Colorado,
+Million Dollar Highway - Photo,Western Slope,Photo Trophy,,Colorado,Colorado,
+Million Dollar Highway - Viewpoint,Western Slope,Viewpoint,,Colorado,Colorado,
+Four Corners Monument - Photo,Four Corners,Photo Trophy,,Colorado; Utah; Arizona; New Mexico,Colorado,
+Four Corners Monument - Viewpoint,Four Corners,Viewpoint,,Colorado; Utah; Arizona; New Mexico,Colorado,
+Lupton,Arizona Mountains,Photo Trophy,,Arizona,New Mexico,
+Arizona Welcome Center Rest Area,Arizona Mountains,Viewpoint,,Arizona,New Mexico,
+Albuquerque,Central New Mexico,City,Y,New Mexico,New Mexico,
+Clovis,Central New Mexico,City,Y,New Mexico,New Mexico,
+Gallup,Central New Mexico,City,Y,New Mexico,New Mexico,
+Socorro,Central New Mexico,City,Y,New Mexico,New Mexico,
+Tucumcari,Central New Mexico,City,Y,New Mexico,New Mexico,
+Big I,Central New Mexico,Photo Trophy,,New Mexico,New Mexico,
+Clovis Memorial Park,Central New Mexico,Photo Trophy,,New Mexico,New Mexico,
+Albuquerque - Viewpoint,Central New Mexico,Viewpoint,,New Mexico,New Mexico,
+City of Vaughn,Central New Mexico,Viewpoint,,New Mexico,New Mexico,
+Route 66W Rest Stop,Central New Mexico,Viewpoint,,New Mexico,New Mexico,
+Farmington,New Mexico Highlands,City,Y,New Mexico,New Mexico,
+Raton,New Mexico Highlands,City,Y,New Mexico,New Mexico,
+Santa Fe,New Mexico Highlands,City,Y,New Mexico,New Mexico,Y
+City of Santa Fe,New Mexico Highlands,Viewpoint,,New Mexico,New Mexico,
+US-64 Rest Area,New Mexico Highlands,Viewpoint,,New Mexico,New Mexico,
+US-84 Rest Area,New Mexico Highlands,Viewpoint,,New Mexico,New Mexico,
+Alamogordo,Southern New Mexico,City,Y,New Mexico,New Mexico,
+Artesia,Southern New Mexico,City,Y,New Mexico,New Mexico,
+Carlsbad,Southern New Mexico,City,,New Mexico,New Mexico,
+Hobbs,Southern New Mexico,City,Y,New Mexico,New Mexico,
+Las Cruces,Southern New Mexico,City,,New Mexico,New Mexico,
+Roswell,Southern New Mexico,City,Y,New Mexico,New Mexico,
+UFO Center in Roswell,Southern New Mexico,Photo Trophy,,New Mexico,New Mexico,
+City of Roswell,Southern New Mexico,Viewpoint,,New Mexico,New Mexico,
+The Historic Monument of Lincoln,Southern New Mexico,Viewpoint,,New Mexico,New Mexico,
+US-82 Rest Area,Southern New Mexico,Viewpoint,,New Mexico,New Mexico,
+Glen Canyon Dam Bridge,Arizona Mountains,Viewpoint,,Arizona,Utah,
+Price,Central Utah,City,Y,Utah,Utah,
+Provo,Central Utah,City,Y,Utah,Utah,
+Salina,Central Utah,City,Y,Utah,Utah,
+Vernal,Central Utah,City,Y,Utah,Utah,
+Provo City Center Temple,Central Utah,Photo Trophy,,Utah,Utah,
+Oil Fields of Utah,Central Utah,Viewpoint,,Utah,Utah,
+Logan,Northern Utah,City,Y,Utah,Utah,
+Ogden,Northern Utah,City,Y,Utah,Utah,
+Salt Lake City,Northern Utah,City,Y,Utah,Utah,Y
+Salt Lake City Downtown,Northern Utah,Photo Trophy,,Utah,Utah,
+Tree of Life,Northern Utah,Photo Trophy,,Utah,Utah,
+Bingham Canyon Mine,Northern Utah,Viewpoint,,Utah,Utah,
+Bonneville Salt Flats,Northern Utah,Viewpoint,,Utah,Utah,
+Moab,Southeast Utah,City,Y,Utah,Utah,
+Moab Giants,Southeast Utah,Photo Trophy,,Utah,Utah,
+Monument Valley - Photo,Southeast Utah,Photo Trophy,,Utah,Utah,
+San Rafael Swell Top View Area,Southeast Utah,Photo Trophy,,Utah,Utah,
+Hole N The Rock,Southeast Utah,Viewpoint,,Utah,Utah,
+Monument Valley,Southeast Utah,Viewpoint,,Utah,Utah,
+San Rafael Swell Area,Southeast Utah,Viewpoint,,Utah,Utah,
+Cedar City,St. George Area,City,Y,Utah,Utah,
+St. George,St. George Area,City,Y,Utah,Utah,
+Kanab,St. George Area,Photo Trophy,,Utah,Utah,
+City of St. George,St. George Area,Viewpoint,,Utah,Utah,
+Hoover Rest Area,St. George Area,Viewpoint,,Utah,Utah,
+Moqui Cave,St. George Area,Viewpoint,,Utah,Utah,

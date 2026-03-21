@@ -11,22 +11,27 @@ import csv, json
 START_REGION_CATEGORY = "Start Region"
 FT_UNLOCK_CATEGORY = "Fast Travel Unlock"
 REGION_UNLOCK_CATEGORY = "Region Unlock"
-DLC_CATEGORY_PREFIX = "DLC - "
-DLC_OPTION_PREFIX = "own_"
 UNLOCK_REGION_ITEM_PREFIX = "Unlock "
 UNLOCK_FT_ITEM_PREFIX = "Unlock Fast Travel - "
 FT_REGION_PREFIX = "FT - "
 FT_HUB_NAME = "FT Hub"
 FILLER_ITEM_NAME = "Nice Photograph"
-GOAL_ITEM_NAME = "National Park Passport Stamp"
-GOAL_CATEGORY = "National Park Passport Stamp"
+GOAL_COLLECT_NAME = "National Park Passport Stamp"
+GOAL_EVENT_NAME = "All Stamps Collected"
+GOAL_ITEM_NAME = "Validated Passport"
+GOAL_CATEGORY = "Passport Items"
 VICTORY_CATEGORY = "Victory"
+STATE_CAPITAL_CATEGORY = "State Capital"
+
 LOC_CATEGORY_MAPPING = {
     "City": "City",
     "Photo Trophy": "Photo Trophy Point",
     "Viewpoint": "Viewpoint"
 }
 VEHICLE_UNLOCK_CATEGORY = "Vehicle Unlock"
+
+DLC_CATEGORY_PREFIX = "DLC - "
+DLC_OPTION_PREFIX = "own_"
 STATE_PREFERENCE_SUFFIX = "_preference"
 
 
@@ -36,6 +41,9 @@ def initialize_lists():
         'categories': {
             "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
             START_REGION_CATEGORY: {
+                'hidden': True
+            },
+            STATE_CAPITAL_CATEGORY: {
                 'hidden': True
             }
         },
@@ -51,17 +59,37 @@ def initialize_lists():
                 }
             ]
         },
+        'events': {
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
+            "data": [
+                {
+                    "name": GOAL_EVENT_NAME,
+                    "category": [GOAL_CATEGORY],
+                    "requires": f"{{OptionCountPercent({GOAL_COLLECT_NAME},percent_stamps_required)}}",
+                    "visible": True
+                }
+            ]
+        },
         'items': {
             "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.items.schema.json",
             "data":
                 [
                     {
                         "count": 1,
-                        "name": GOAL_ITEM_NAME,
+                        "name": GOAL_COLLECT_NAME,
                         "category": [
-                            GOAL_ITEM_NAME
+                            GOAL_CATEGORY
                         ],
                         "progression": True
+                    },
+                    {
+                        "count": 1,
+                        "name": GOAL_ITEM_NAME,
+                        "category": [
+                            GOAL_CATEGORY
+                        ],
+                        "progression": True,
+                        "local": True
                     },
                     {
                         "count": 1,
@@ -92,7 +120,7 @@ def initialize_lists():
                         "category": [
                             VICTORY_CATEGORY
                         ],
-                        "requires": f"{{OptionCountPercent({GOAL_ITEM_NAME},percent_stamps_required)}}"
+                        "requires": f"|{GOAL_ITEM_NAME}|"
                     }
                 ],
         },
@@ -216,6 +244,21 @@ def get_starting_item(region, city_list):
     return starting_item_obj
 
 
+def get_state_capital_location(location):
+    state_capital_obj = {
+        "name": f"Passport Validation Center - {location['Location_Name']}",
+        "region": location["Region"],
+        "category": [
+            STATE_CAPITAL_CATEGORY,
+            VICTORY_CATEGORY
+        ],
+        "requires": f"|{GOAL_EVENT_NAME}|",
+        "place_item": [GOAL_ITEM_NAME]
+    }
+    state_capital_obj["category"].append(DLC_CATEGORY_PREFIX + location["State_DLC"])
+    state_capital_obj["category"].extend([item for item in location["State"].split('; ')])
+    return state_capital_obj
+
 def process_location_csv(json_data):
     garage_cities = {}
     with (open('./resources/ats_manual_location_data.csv', 'r') as f):
@@ -265,6 +308,8 @@ def process_location_csv(json_data):
                     garage_cities[location['Region']].append(location['Location_Name'])
                 except KeyError:
                     garage_cities[location['Region']] = [location['Location_Name']]
+            if location['State_Capital'] == 'Y':
+                json_data['locations']['data'].append(get_state_capital_location(location))
     return json_data, garage_cities
 
 

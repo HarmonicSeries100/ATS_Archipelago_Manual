@@ -1,11 +1,13 @@
 {
-	"$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
-    "data": [
-      {
-        "name": "Test Event",
-        "requires": "|National Park Passport Stamp:1|",
-        "visible": true
-      }
-    ]
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.events.schema.json",
+  "data": [
+    {
+      "name": "All Stamps Collected",
+      "category": [
+        "Passport Items"
+      ],
+      "requires": "{OptionCountPercent(National Park Passport Stamp,percent_stamps_required)}",
+      "visible": true
+    }
+  ]
 }
-

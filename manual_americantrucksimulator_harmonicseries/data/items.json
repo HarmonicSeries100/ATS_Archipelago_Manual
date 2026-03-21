@@ -5,9 +5,18 @@
       "count": 1,
       "name": "National Park Passport Stamp",
       "category": [
-        "National Park Passport Stamp"
+        "Passport Items"
       ],
       "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Validated Passport",
+      "category": [
+        "Passport Items"
+      ],
+      "progression": true,
+      "local": true
     },
     {
       "count": 1,
