@@ -1,0 +1,17 @@
+{
+  "name": "American Truck Simulator PopTracker",
+  "game_name": "American Truck Simulator",
+  "package_version": "1.0.0.0",
+  "package_uid": "american_truck_sim_harmonic_series",
+  "author": "Harmonic_Series",
+  "min_poptracker_version": "0.25.9",
+  "target_poptracker_version": "0.32.0",
+  "variants": {
+    "standard": {
+      "display_name": "Map Tracker",
+      "flags": [
+        "ap"
+      ]
+    }
+  }
+}
