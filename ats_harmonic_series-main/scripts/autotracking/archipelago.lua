@@ -102,6 +102,24 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
+	if slot_data ~= nil then
+        for key, value in pairs(slot_data) do
+            local flag_obj = Tracker:FindObjectForCode(key)
+            if flag_obj ~= nil then
+                if flag_obj.Type == "toggle" then
+                    flag_obj.Active = (value ~= 0)
+                elseif flag_obj.Type == "consumable" then
+                    flag_obj.AcquiredCount = value
+                elseif flag_obj.Type == "progressive" then
+                    flag_obj.CurrentStage = STAGE_MAPPINGS[key][value]
+                end
+            end
+			if key == "number_of_stamps_available" then
+				local stamp_obj = Tracker:FindObjectForCode("national_park_passport_stamp")
+				stamp_obj.MaxCount = value
+			end
+        end
+    end
 end
 
 -- called right after an AP slot is connected

@@ -1,0 +1,403 @@
+[
+  {
+    "name": "National Park Passport Stamp",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/items/national_park_passport_stamp.png",
+    "codes": "national_park_passport_stamp",
+    "min_quantity": 0,
+    "max_quantity": 1
+  },
+  {
+    "name": "Validated Passport",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/validated_passport.png",
+    "codes": "validated_passport"
+  },
+  {
+    "name": "Unlock Fast Travel - Kingman",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_kingman.png",
+    "codes": "unlock_fast_travel_-_kingman"
+  },
+  {
+    "name": "Unlock Fast Travel - Phoenix",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_phoenix.png",
+    "codes": "unlock_fast_travel_-_phoenix"
+  },
+  {
+    "name": "Unlock Fast Travel - Yuma",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_yuma.png",
+    "codes": "unlock_fast_travel_-_yuma"
+  },
+  {
+    "name": "Unlock Fast Travel - Flagstaff",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_flagstaff.png",
+    "codes": "unlock_fast_travel_-_flagstaff"
+  },
+  {
+    "name": "Unlock Fast Travel - Page",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_page.png",
+    "codes": "unlock_fast_travel_-_page"
+  },
+  {
+    "name": "Unlock Fast Travel - Winslow",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_winslow.png",
+    "codes": "unlock_fast_travel_-_winslow"
+  },
+  {
+    "name": "Unlock Fast Travel - Clifton",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_clifton.png",
+    "codes": "unlock_fast_travel_-_clifton"
+  },
+  {
+    "name": "Unlock Fast Travel - Tucson",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_tucson.png",
+    "codes": "unlock_fast_travel_-_tucson"
+  },
+  {
+    "name": "Unlock Fast Travel - Burlington",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_burlington.png",
+    "codes": "unlock_fast_travel_-_burlington"
+  },
+  {
+    "name": "Unlock Fast Travel - Alamosa",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_alamosa.png",
+    "codes": "unlock_fast_travel_-_alamosa"
+  },
+  {
+    "name": "Unlock Fast Travel - Steamboat Springs",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_steamboat_springs.png",
+    "codes": "unlock_fast_travel_-_steamboat_springs"
+  },
+  {
+    "name": "Unlock Fast Travel - Colorado Springs",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_colorado_springs.png",
+    "codes": "unlock_fast_travel_-_colorado_springs"
+  },
+  {
+    "name": "Unlock Fast Travel - Denver",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_denver.png",
+    "codes": "unlock_fast_travel_-_denver"
+  },
+  {
+    "name": "Unlock Fast Travel - Fort Collins",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_fort_collins.png",
+    "codes": "unlock_fast_travel_-_fort_collins"
+  },
+  {
+    "name": "Unlock Fast Travel - Pueblo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_pueblo.png",
+    "codes": "unlock_fast_travel_-_pueblo"
+  },
+  {
+    "name": "Unlock Fast Travel - Durango",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_durango.png",
+    "codes": "unlock_fast_travel_-_durango"
+  },
+  {
+    "name": "Unlock Fast Travel - Grand Junction",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_grand_junction.png",
+    "codes": "unlock_fast_travel_-_grand_junction"
+  },
+  {
+    "name": "Unlock Fast Travel - Montrose",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_montrose.png",
+    "codes": "unlock_fast_travel_-_montrose"
+  },
+  {
+    "name": "Unlock Fast Travel - Albuquerque",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_albuquerque.png",
+    "codes": "unlock_fast_travel_-_albuquerque"
+  },
+  {
+    "name": "Unlock Fast Travel - Clovis",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_clovis.png",
+    "codes": "unlock_fast_travel_-_clovis"
+  },
+  {
+    "name": "Unlock Fast Travel - Gallup",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_gallup.png",
+    "codes": "unlock_fast_travel_-_gallup"
+  },
+  {
+    "name": "Unlock Fast Travel - Socorro",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_socorro.png",
+    "codes": "unlock_fast_travel_-_socorro"
+  },
+  {
+    "name": "Unlock Fast Travel - Tucumcari",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_tucumcari.png",
+    "codes": "unlock_fast_travel_-_tucumcari"
+  },
+  {
+    "name": "Unlock Fast Travel - Farmington",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_farmington.png",
+    "codes": "unlock_fast_travel_-_farmington"
+  },
+  {
+    "name": "Unlock Fast Travel - Raton",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_raton.png",
+    "codes": "unlock_fast_travel_-_raton"
+  },
+  {
+    "name": "Unlock Fast Travel - Santa Fe",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_santa_fe.png",
+    "codes": "unlock_fast_travel_-_santa_fe"
+  },
+  {
+    "name": "Unlock Fast Travel - Alamogordo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_alamogordo.png",
+    "codes": "unlock_fast_travel_-_alamogordo"
+  },
+  {
+    "name": "Unlock Fast Travel - Artesia",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_artesia.png",
+    "codes": "unlock_fast_travel_-_artesia"
+  },
+  {
+    "name": "Unlock Fast Travel - Hobbs",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_hobbs.png",
+    "codes": "unlock_fast_travel_-_hobbs"
+  },
+  {
+    "name": "Unlock Fast Travel - Roswell",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_roswell.png",
+    "codes": "unlock_fast_travel_-_roswell"
+  },
+  {
+    "name": "Unlock Fast Travel - Price",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_price.png",
+    "codes": "unlock_fast_travel_-_price"
+  },
+  {
+    "name": "Unlock Fast Travel - Provo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_provo.png",
+    "codes": "unlock_fast_travel_-_provo"
+  },
+  {
+    "name": "Unlock Fast Travel - Salina",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_salina.png",
+    "codes": "unlock_fast_travel_-_salina"
+  },
+  {
+    "name": "Unlock Fast Travel - Vernal",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_vernal.png",
+    "codes": "unlock_fast_travel_-_vernal"
+  },
+  {
+    "name": "Unlock Fast Travel - Logan",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_logan.png",
+    "codes": "unlock_fast_travel_-_logan"
+  },
+  {
+    "name": "Unlock Fast Travel - Ogden",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_ogden.png",
+    "codes": "unlock_fast_travel_-_ogden"
+  },
+  {
+    "name": "Unlock Fast Travel - Salt Lake City",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_salt_lake_city.png",
+    "codes": "unlock_fast_travel_-_salt_lake_city"
+  },
+  {
+    "name": "Unlock Fast Travel - Moab",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_moab.png",
+    "codes": "unlock_fast_travel_-_moab"
+  },
+  {
+    "name": "Unlock Fast Travel - Cedar City",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_cedar_city.png",
+    "codes": "unlock_fast_travel_-_cedar_city"
+  },
+  {
+    "name": "Unlock Fast Travel - St. George",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_fast_travel_-_st._george.png",
+    "codes": "unlock_fast_travel_-_st._george"
+  },
+  {
+    "name": "Unlock Arizona Desert",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_arizona_desert.png",
+    "codes": "unlock_arizona_desert"
+  },
+  {
+    "name": "Unlock Arizona Mountains",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_arizona_mountains.png",
+    "codes": "unlock_arizona_mountains"
+  },
+  {
+    "name": "Unlock Southeast Arizona",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_southeast_arizona.png",
+    "codes": "unlock_southeast_arizona"
+  },
+  {
+    "name": "Unlock Colorado Plains",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_colorado_plains.png",
+    "codes": "unlock_colorado_plains"
+  },
+  {
+    "name": "Unlock Colorado Rockies",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_colorado_rockies.png",
+    "codes": "unlock_colorado_rockies"
+  },
+  {
+    "name": "Unlock Front Range",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_front_range.png",
+    "codes": "unlock_front_range"
+  },
+  {
+    "name": "Unlock Western Slope",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_western_slope.png",
+    "codes": "unlock_western_slope"
+  },
+  {
+    "name": "Unlock Four Corners",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_four_corners.png",
+    "codes": "unlock_four_corners"
+  },
+  {
+    "name": "Unlock Central New Mexico",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_central_new_mexico.png",
+    "codes": "unlock_central_new_mexico"
+  },
+  {
+    "name": "Unlock New Mexico Highlands",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_new_mexico_highlands.png",
+    "codes": "unlock_new_mexico_highlands"
+  },
+  {
+    "name": "Unlock Southern New Mexico",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_southern_new_mexico.png",
+    "codes": "unlock_southern_new_mexico"
+  },
+  {
+    "name": "Unlock Central Utah",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_central_utah.png",
+    "codes": "unlock_central_utah"
+  },
+  {
+    "name": "Unlock Northern Utah",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_northern_utah.png",
+    "codes": "unlock_northern_utah"
+  },
+  {
+    "name": "Unlock Southeast Utah",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_southeast_utah.png",
+    "codes": "unlock_southeast_utah"
+  },
+  {
+    "name": "Unlock St. George Area",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/unlock_st._george_area.png",
+    "codes": "unlock_st._george_area"
+  }
+]

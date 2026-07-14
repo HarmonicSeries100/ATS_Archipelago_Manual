@@ -7,6 +7,7 @@
 # options.json
 
 import csv, json
+import generate_poptracker as gen_pop
 
 START_REGION_CATEGORY = "Start Region"
 FT_UNLOCK_CATEGORY = "Fast Travel Unlock"
@@ -358,3 +359,21 @@ if __name__ == '__main__':
     for file in json_data:
         json.dump(json_data[file], open("./manual_americantrucksimulator_harmonicseries/data/" + file + ".json", "w"),
                   indent=2)
+    poptracker_items = gen_pop.generate_poptracker_items(json_data['items']['data'])
+    poptracker_items = gen_pop.poptracker_item_fix(poptracker_items, GOAL_COLLECT_NAME)
+    json.dump(poptracker_items, open("./ats_harmonic_series-main/items/items.json","w"), indent=2)
+    #TODO: Generate locations.json for poptracker. Every region is a "parent" and every location check has a map location
+    #TODO: Add a section in location_data.csv to group close-together locations, to make use of "sections"
+    #TODO: Generate item_mapping.lua
+    #TODO: Generate location_mapping.lua
+    #TODO: Create custom logic in logic.lua
+    # Logic for location checks. Locations will have in the access rules calling the function with all of their neighbors as parameters
+    # Recursive search function to check for neighbors
+    # Fast travel points have ft_<location name>_##
+    # Write custom function for the "all stamps collected" event. Put function in access rules for state capital locations
+    # Add visibility rules depending on chosen state and DLC owned
+    # Get chosen states from slot data???
+    # Add settings "items" for DLC owned, chosen states, state capital, available stamps, % stamps needed
+    #TODO: Create map PNGs
+    #TODO: Add map coordinates to resources
+    #TODO: Generate layouts?
