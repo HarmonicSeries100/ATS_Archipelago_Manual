@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Number of Stamps Available",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/items/national_park_passport_stamp.png",
+    "codes": "number_of_stamps_available",
+    "min_quantity": 2,
+    "max_quantity": 12
+  },
+  {
+    "name": "Percent Stamps Required",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/items/national_park_passport_stamp_percent.png",
+    "codes": "percent_stamps_required",
+    "min_quantity": 1,
+    "max_quantity": 100
+  },
+  {
+    "name": "Arizona Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/arizona_flag.png",
+        "codes": "own_arizona"
+      },
+      {
+        "img": "images/flags/arizona_flag.png",
+        "img_mods": "overlay|images/overlay/check_overlay.png",
+        "codes": "arizona_chosen"
+      },
+      {
+        "img": "images/flags/arizona_flag.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "arizona_victory"
+      }
+    ]
+  },
+  {
+    "name": "Colorado Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/colorado_flag.png",
+        "codes": "own_colorado"
+      },
+      {
+        "img": "images/flags/colorado_flag.png",
+        "img_mods": "overlay|images/overlay/check_overlay.png",
+        "codes": "colorado_chosen"
+      },
+      {
+        "img": "images/flags/colorado_flag.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "colorado_victory"
+      }
+    ]
+  },
+  {
+    "name": "New Mexico Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/new_mexico_flag.png",
+        "codes": "own_new_mexico"
+      },
+      {
+        "img": "images/flags/new_mexico_flag.png",
+        "img_mods": "overlay|images/overlay/check_overlay.png",
+        "codes": "new_mexico_chosen"
+      },
+      {
+        "img": "images/flags/new_mexico_flag.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "new_mexico_victory"
+      }
+    ]
+  },
+  {
+    "name": "Utah Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/utah_flag.png",
+        "codes": "own_utah"
+      },
+      {
+        "img": "images/flags/utah_flag.png",
+        "img_mods": "overlay|images/overlay/check_overlay.png",
+        "codes": "utah_chosen"
+      },
+      {
+        "img": "images/flags/utah_flag.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "utah_victory"
+      }
+    ]
+  }
+]
