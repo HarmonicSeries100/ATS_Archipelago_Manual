@@ -126,8 +126,8 @@ def get_poptracker_fast_travel_unlock_item(location):
         "name": const.UNLOCK_FT_ITEM_PREFIX + location["Location_Name"],
         "type": "toggle",
         "loop": "true",
-        "codes": const.POPTRACKER_UNLOCK_FAST_TRAVEL_ITEM_PREFIX + to_snake_case(location["Location_Name"])+", "\
-            +const.POPTRACKER_UNLOCK_FAST_TRAVEL_ITEM_PREFIX + to_snake_case(location["Region"]),
+        "codes": const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX + to_snake_case(location["Location_Name"])+", "\
+            +const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX + to_snake_case(location["Region"]),
         "img": "images/items/fast_travel_unlock.png",
         "disabled_img": "images/items/fast_travel_lock.png"
     }
@@ -142,25 +142,44 @@ def get_poptracker_region_location(region, poptracker_location_data, region_dlc_
     region_state = to_snake_case(region["State"])
     region_dlc = to_snake_case(region["State_DLC"])
     region_dlc_index[region_code] = region_dlc
+    is_multistate = region["Multistate"] == "Y"
 
-    if region_dlc not in poptracker_location_data:
-        poptracker_location_data[region_dlc]=[]
-    _, region_node = get_child_node_by_name(poptracker_location_data[region_dlc], region_code)
-    if not region_node:
-        required_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, {region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}, {const.POPTRACKER_UNLOCK_ITEM_PREFIX+region_code}"
-        region_rules = [f"{required_rules}, @{conn}" for conn in connections]
-        region_rules.append(f"{required_rules}, {const.POPTRACKER_UNLOCK_FAST_TRAVEL_ITEM_PREFIX+region_code}")
-        region_node = {
-            "name": region_code,
-            "access_rules": region_rules,
-            "visibility_rules": [
-                f"{const.DLC_OPTION_PREFIX+region_dlc}, {region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}"
-            ],
-            "children": []
-        }
-        poptracker_location_data[region_dlc].append(region_node)
+    if is_multistate:
+        poptracker_location_data = get_poptracker_multistate_region(poptracker_location_data, region_name, region_code, region_state, region_dlc, connections)
+        return poptracker_location_data, region_dlc_index
+
+    region_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, "+\
+        f"{region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}, "+\
+        f"$is_region_connected|{const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX}|{"|".join([conn for conn in connections])}"
+    
+    region_node = {
+        "name": region_code,
+        "access_rules": region_rules,
+        "visibility_rules": [
+            f"{const.DLC_OPTION_PREFIX+region_dlc}, {region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}"
+        ],
+        "children": []
+    }
+    poptracker_location_data[region_dlc].append(region_node)
     return poptracker_location_data, region_dlc_index
 
+
+def get_poptracker_multistate_region(poptracker_location_data, region_name, region_code, region_state, region_dlc, connections):
+    state_list = "|".join([to_snake_case(state) for state in region_state.split(";_")])
+    region_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, $is_in_chosen_state|{state_list}, "+\
+        f"$is_region_connected|{const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX}|{"|".join([conn for conn in connections])}"
+    
+    region_node = {
+        "name": region_code,
+        "access_rules": region_rules,
+        "visibility_rules": [
+            f"{const.DLC_OPTION_PREFIX+region_dlc}"
+        ],
+        "children": []
+    }
+
+    poptracker_location_data[region_dlc].append(region_node)
+    return poptracker_location_data
 
 def get_poptracker_location(location, poptracker_location_data, region_dlc_index):
     loc_name = location["Location_Name"]
@@ -172,21 +191,16 @@ def get_poptracker_location(location, poptracker_location_data, region_dlc_index
     loc_dlc = to_snake_case(location["State_DLC"])
     loc_capital = location["State_Capital"]
     loc_group = location["Location_Group"]
-    loc_x = int(location["Pop_X"])
-    loc_y = int(location["Pop_Y"])
+    loc_x = location["Pop_X"]
+    loc_y = location["Pop_Y"]
+    is_multistate = location["Multistate"] == "Y"
 
     if not loc_group:
         loc_node = {
             "name": loc_name,
             "chest_unopened_img": f"images/items/{loc_type}_lock.png",
             "chest_opened_img": f"images/items/{loc_type}_unlock.png",
-            "map_locations": [
-                {
-                    "map": f"{loc_state}_map",
-                    "x": loc_x,
-                    "y": loc_y
-                }
-            ],
+            "map_locations": [get_map_node(s, int(x), int(y), is_multistate) for s, x, y in zip(loc_state.split(";_"),loc_x.split("; "),loc_y.split("; "))],
             "sections":[
                 {
                     "name": "",
@@ -207,16 +221,10 @@ def get_poptracker_location(location, poptracker_location_data, region_dlc_index
     else:
         loc_region_index, _ = get_child_node_by_name(poptracker_location_data[loc_region_dlc], loc_region_code)
         loc_index, loc_node = get_child_node_by_name(poptracker_location_data[loc_region_dlc][loc_region_index]["children"], loc_group)
-        if not loc_node:
+        if loc_node is None:
             loc_node = {
                 "name": loc_group,
-                "map_locations": [
-                    {
-                        "map": f"{loc_state}_map",
-                        "x": loc_x,
-                        "y": loc_y
-                    }
-                ],
+                "map_locations": [get_map_node(s, int(x), int(y), is_multistate) for s, x, y in zip(loc_state.split(";_"),loc_x.split("; "),loc_y.split("; "))],
                 "sections": [
                     {
                         "name": loc_name,
@@ -242,12 +250,25 @@ def get_poptracker_location(location, poptracker_location_data, region_dlc_index
             loc_node["sections"][-1]["visibility_rules"] = [
                 const.DLC_OPTION_PREFIX + loc_dlc
             ]
-        if not loc_index:
+        if loc_index is None:
             poptracker_location_data[loc_region_dlc][loc_region_index]["children"].append(loc_node)
         else:
             poptracker_location_data[loc_region_dlc][loc_region_index]["children"][loc_index] = loc_node
 
     return poptracker_location_data
+
+
+def get_map_node(state, x, y, is_multistate):
+    map_node = {
+        "map": f"{state}_map",
+        "x": x,
+        "y": y
+    }
+    if is_multistate:
+        map_node["restrict_visibility_rules"] = [
+            state + const.POPTRACKER_STATE_CHOSEN_SUFFIX
+        ]
+    return map_node
 
 
 def get_poptracker_map(state):

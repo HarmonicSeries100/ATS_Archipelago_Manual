@@ -13,3 +13,43 @@ function has_more_then_n_consumable(n)
     end
     return 0 -- 0 => no access
 end
+
+function is_in_chosen_state(...)
+    local states = {...}
+    if ENABLE_DEBUG_LOG then
+        print(string.format("called is_in_chosen_state"))
+        print(dump_table(states))
+    end
+    for _, state in ipairs(states) do
+        if ENABLE_DEBUG_LOG then
+            print(state)
+            print(Tracker:ProviderCountForCode(state .. "_chosen"))
+        end
+        if Tracker:ProviderCountForCode(state .. "_chosen")>0 then
+            if ENABLE_DEBUG_LOG then
+                print("Found chosen state: " .. state)
+                return 1
+            end
+        end
+    end
+    return 0
+end
+
+function is_region_connected(unlock_prefix, ...)
+    local regions = {...}
+    if ENABLE_DEBUG_LOG then
+        print(string.format("called is_region_connected"))
+        print(unlock_prefix)
+        print(dump_table(regions))
+    end
+    for _, region in ipairs(regions) do
+        if Tracker:ProviderCountForCode("@" .. region)>0 then
+            return 1
+        end
+    end
+    if Tracker:ProviderCountForCode(unlock_prefix .. region) then
+        return 1
+    else
+        return 0
+    end
+end
