@@ -167,45 +167,88 @@ def get_poptracker_location(location, poptracker_location_data, region_dlc_index
     loc_code = to_snake_case(loc_name)
     loc_region_code = to_snake_case(location["Region"])
     loc_region_dlc = region_dlc_index[loc_region_code]
-    loc_type = location["Loc_Type"]
+    loc_type = to_snake_case(location["Loc_Type"])
     loc_state = to_snake_case(location["State"])
     loc_dlc = to_snake_case(location["State_DLC"])
     loc_capital = location["State_Capital"]
+    loc_group = location["Location_Group"]
     loc_x = int(location["Pop_X"])
     loc_y = int(location["Pop_Y"])
 
-    location_node = {
-        "name": loc_name,
-        "chest_unopened_img": f"images/items/{to_snake_case(loc_type)}_lock.png",
-        "chest_opened_img": f"images/items/{to_snake_case(loc_type)}_unlock.png",
-        "map_locations": [
-            {
-                "map": f"{loc_state}_map",
-                "x": loc_x,
-                "y": loc_y
-            }
-        ],
-        "sections":[
-            {
-                "name": loc_name,
-                "item_count": 1
-            }
-        ]
-    }
+    if not loc_group:
+        loc_node = {
+            "name": loc_name,
+            "chest_unopened_img": f"images/items/{loc_type}_lock.png",
+            "chest_opened_img": f"images/items/{loc_type}_unlock.png",
+            "map_locations": [
+                {
+                    "map": f"{loc_state}_map",
+                    "x": loc_x,
+                    "y": loc_y
+                }
+            ],
+            "sections":[
+                {
+                    "name": "",
+                    "item_count": 1
+                }
+            ]
+        }
+        if loc_dlc != loc_region_dlc:
+            loc_node["access_rules"] = [
+                const.DLC_OPTION_PREFIX + loc_dlc
+            ]
+            loc_node["visibility_rules"] = [
+                const.DLC_OPTION_PREFIX + loc_dlc
+            ]
+        index, _ = get_child_node_by_name(poptracker_location_data[loc_region_dlc], loc_region_code)
+        poptracker_location_data[loc_region_dlc][index]["children"].append(loc_node)
 
-    
-    if loc_dlc != loc_region_dlc:
-        location_node["access_rules"] = [
-            const.DLC_OPTION_PREFIX + loc_dlc
-        ]
-        location_node["visibility_rules"] = [
-            const.DLC_OPTION_PREFIX + loc_dlc
-        ]
+    else:
+        loc_region_index, _ = get_child_node_by_name(poptracker_location_data[loc_region_dlc], loc_region_code)
+        loc_index, loc_node = get_child_node_by_name(poptracker_location_data[loc_region_dlc][loc_region_index]["children"], loc_group)
+        if not loc_node:
+            loc_node = {
+                "name": loc_group,
+                "map_locations": [
+                    {
+                        "map": f"{loc_state}_map",
+                        "x": loc_x,
+                        "y": loc_y
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": loc_name,
+                        "item_count": 1,
+                        "chest_unopened_img": f"images/items/{loc_type}_lock.png",
+                        "chest_opened_img": f"images/items/{loc_type}_unlock.png"
+                    }
+                ]
+            }
+        else:
+            loc_node["sections"].append(
+                {
+                    "name": loc_name,
+                    "item_count": 1,
+                    "chest_unopened_img": f"images/items/{loc_type}_lock.png",
+                    "chest_opened_img": f"images/items/{loc_type}_unlock.png"
+                }
+            )
+        if loc_dlc != loc_region_dlc: #Use -1 index since relevant node will always be last one added
+            loc_node["sections"][-1]["access_rules"] = [
+                const.DLC_OPTION_PREFIX + loc_dlc
+            ]
+            loc_node["sections"][-1]["visibility_rules"] = [
+                const.DLC_OPTION_PREFIX + loc_dlc
+            ]
+        if not loc_index:
+            poptracker_location_data[loc_region_dlc][loc_region_index]["children"].append(loc_node)
+        else:
+            poptracker_location_data[loc_region_dlc][loc_region_index]["children"][loc_index] = loc_node
 
-    index, _ = get_child_node_by_name(poptracker_location_data[loc_region_dlc], loc_region_code)
-    poptracker_location_data[loc_region_dlc][index]["children"].append(location_node)
-        
     return poptracker_location_data
+
 
 def get_poptracker_map(state):
     poptracker_map_obj = {

@@ -25,7 +25,7 @@
         ],
         "sections": [
           {
-            "name": "Price",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -43,7 +43,7 @@
         ],
         "sections": [
           {
-            "name": "Provo",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -61,7 +61,7 @@
         ],
         "sections": [
           {
-            "name": "Salina",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -79,7 +79,7 @@
         ],
         "sections": [
           {
-            "name": "Vernal",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -97,7 +97,7 @@
         ],
         "sections": [
           {
-            "name": "Provo City Center Temple",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -115,7 +115,7 @@
         ],
         "sections": [
           {
-            "name": "Oil Fields of Utah",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -145,7 +145,7 @@
         ],
         "sections": [
           {
-            "name": "Logan",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -163,15 +163,13 @@
         ],
         "sections": [
           {
-            "name": "Ogden",
+            "name": "",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Salt Lake City",
-        "chest_unopened_img": "images/items/city_lock.png",
-        "chest_opened_img": "images/items/city_unlock.png",
         "map_locations": [
           {
             "map": "utah_map",
@@ -182,25 +180,15 @@
         "sections": [
           {
             "name": "Salt Lake City",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Salt Lake City Downtown",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
-        "map_locations": [
-          {
-            "map": "utah_map",
-            "x": 360,
-            "y": 360
-          }
-        ],
-        "sections": [
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
           {
             "name": "Salt Lake City Downtown",
-            "item_count": 1
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
           }
         ]
       },
@@ -217,7 +205,7 @@
         ],
         "sections": [
           {
-            "name": "Tree of Life",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -235,7 +223,7 @@
         ],
         "sections": [
           {
-            "name": "Bingham Canyon Mine",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -253,7 +241,7 @@
         ],
         "sections": [
           {
-            "name": "Bonneville Salt Flats",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -286,7 +274,7 @@
         ],
         "sections": [
           {
-            "name": "Moab",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -304,7 +292,7 @@
         ],
         "sections": [
           {
-            "name": "Moab Giants",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -322,7 +310,7 @@
         ],
         "sections": [
           {
-            "name": "Monument Valley - Photo",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -340,7 +328,7 @@
         ],
         "sections": [
           {
-            "name": "San Rafael Swell Top View Area",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -358,7 +346,7 @@
         ],
         "sections": [
           {
-            "name": "Hole N The Rock",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -376,7 +364,7 @@
         ],
         "sections": [
           {
-            "name": "Monument Valley",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -394,7 +382,7 @@
         ],
         "sections": [
           {
-            "name": "San Rafael Swell Area",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -425,15 +413,13 @@
         ],
         "sections": [
           {
-            "name": "Cedar City",
+            "name": "",
             "item_count": 1
           }
         ]
       },
       {
         "name": "St. George",
-        "chest_unopened_img": "images/items/city_lock.png",
-        "chest_opened_img": "images/items/city_unlock.png",
         "map_locations": [
           {
             "map": "utah_map",
@@ -444,7 +430,15 @@
         "sections": [
           {
             "name": "St. George",
-            "item_count": 1
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "City of St. George",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       },
@@ -461,25 +455,7 @@
         ],
         "sections": [
           {
-            "name": "Kanab",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "City of St. George",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
-          {
-            "map": "utah_map",
-            "x": 120,
-            "y": 440
-          }
-        ],
-        "sections": [
-          {
-            "name": "City of St. George",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -497,7 +473,7 @@
         ],
         "sections": [
           {
-            "name": "Hoover Rest Area",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -515,7 +491,7 @@
         ],
         "sections": [
           {
-            "name": "Moqui Cave",
+            "name": "",
             "item_count": 1
           }
         ]

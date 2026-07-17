@@ -25,7 +25,7 @@
         ],
         "sections": [
           {
-            "name": "Albuquerque",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -43,7 +43,7 @@
         ],
         "sections": [
           {
-            "name": "Clovis",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -61,7 +61,7 @@
         ],
         "sections": [
           {
-            "name": "Gallup",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -79,7 +79,7 @@
         ],
         "sections": [
           {
-            "name": "Socorro",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -97,7 +97,7 @@
         ],
         "sections": [
           {
-            "name": "Tucumcari",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -115,7 +115,7 @@
         ],
         "sections": [
           {
-            "name": "Big I",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -133,7 +133,7 @@
         ],
         "sections": [
           {
-            "name": "Clovis Memorial Park",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -151,7 +151,7 @@
         ],
         "sections": [
           {
-            "name": "Albuquerque - Viewpoint",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -169,7 +169,7 @@
         ],
         "sections": [
           {
-            "name": "City of Vaughn",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -187,7 +187,7 @@
         ],
         "sections": [
           {
-            "name": "Route 66W Rest Stop",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -221,7 +221,7 @@
         ],
         "sections": [
           {
-            "name": "Farmington",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -239,15 +239,13 @@
         ],
         "sections": [
           {
-            "name": "Raton",
+            "name": "",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Santa Fe",
-        "chest_unopened_img": "images/items/city_lock.png",
-        "chest_opened_img": "images/items/city_unlock.png",
         "map_locations": [
           {
             "map": "new_mexico_map",
@@ -258,25 +256,15 @@
         "sections": [
           {
             "name": "Santa Fe",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "City of Santa Fe",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
-          {
-            "map": "new_mexico_map",
-            "x": 240,
-            "y": 280
-          }
-        ],
-        "sections": [
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
           {
             "name": "City of Santa Fe",
-            "item_count": 1
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       },
@@ -293,7 +281,7 @@
         ],
         "sections": [
           {
-            "name": "US-64 Rest Area",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -311,7 +299,7 @@
         ],
         "sections": [
           {
-            "name": "US-84 Rest Area",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -342,7 +330,7 @@
         ],
         "sections": [
           {
-            "name": "Alamogordo",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -360,7 +348,7 @@
         ],
         "sections": [
           {
-            "name": "Artesia",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -378,7 +366,7 @@
         ],
         "sections": [
           {
-            "name": "Carlsbad",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -396,7 +384,7 @@
         ],
         "sections": [
           {
-            "name": "Hobbs",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -414,15 +402,13 @@
         ],
         "sections": [
           {
-            "name": "Las Cruces",
+            "name": "",
             "item_count": 1
           }
         ]
       },
       {
         "name": "Roswell",
-        "chest_unopened_img": "images/items/city_lock.png",
-        "chest_opened_img": "images/items/city_unlock.png",
         "map_locations": [
           {
             "map": "new_mexico_map",
@@ -433,43 +419,21 @@
         "sections": [
           {
             "name": "Roswell",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "UFO Center in Roswell",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
-        "map_locations": [
-          {
-            "map": "new_mexico_map",
-            "x": 200,
-            "y": 320
-          }
-        ],
-        "sections": [
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
           {
             "name": "UFO Center in Roswell",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "City of Roswell",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
-          {
-            "map": "new_mexico_map",
-            "x": 240,
-            "y": 320
-          }
-        ],
-        "sections": [
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
           {
             "name": "City of Roswell",
-            "item_count": 1
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       },
@@ -486,7 +450,7 @@
         ],
         "sections": [
           {
-            "name": "The Historic Monument of Lincoln",
+            "name": "",
             "item_count": 1
           }
         ]
@@ -504,7 +468,7 @@
         ],
         "sections": [
           {
-            "name": "US-82 Rest Area",
+            "name": "",
             "item_count": 1
           }
         ]
