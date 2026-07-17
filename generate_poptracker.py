@@ -23,7 +23,7 @@ def initialize_poptracker_items():
             "img": "images/items/national_park_passport_stamp.png",
             "codes": to_snake_case(const.GOAL_COLLECT_NAME),
             "min_quantity": 0,
-            "max_quantity": 1
+            "max_quantity": 12
         },
         {
             "name": const.GOAL_ITEM_NAME,
@@ -183,7 +183,6 @@ def get_poptracker_multistate_region(poptracker_location_data, region_name, regi
 
 def get_poptracker_location(location, poptracker_location_data, region_dlc_index):
     loc_name = location["Location_Name"]
-    loc_code = to_snake_case(loc_name)
     loc_region_code = to_snake_case(location["Region"])
     loc_region_dlc = region_dlc_index[loc_region_code]
     loc_type = to_snake_case(location["Loc_Type"])
@@ -243,6 +242,7 @@ def get_poptracker_location(location, poptracker_location_data, region_dlc_index
                     "chest_opened_img": f"images/items/{loc_type}_unlock.png"
                 }
             )
+        
         if loc_dlc != loc_region_dlc: #Use -1 index since relevant node will always be last one added
             loc_node["sections"][-1]["access_rules"] = [
                 const.DLC_OPTION_PREFIX + loc_dlc
@@ -250,6 +250,17 @@ def get_poptracker_location(location, poptracker_location_data, region_dlc_index
             loc_node["sections"][-1]["visibility_rules"] = [
                 const.DLC_OPTION_PREFIX + loc_dlc
             ]
+        
+        if loc_capital:
+            loc_node["sections"].append(
+                {
+                    "name": const.STATE_CAPITAL_LOC_PREFIX + loc_name,
+                    "item_count": 1,
+                    "chest_unopened_img": f"images/items/{loc_type}_lock.png",
+                    "chest_opened_img": f"images/items/{loc_type}_unlock.png",
+                    "access_rules": ["$has_enough_stamps"]
+                }
+            )
         if loc_index is None:
             poptracker_location_data[loc_region_dlc][loc_region_index]["children"].append(loc_node)
         else:

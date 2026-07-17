@@ -2,18 +2,6 @@
 -- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
 -- to see how this function gets called, check: locations/locations.json
 -- example:
-function has_more_then_n_consumable(n)
-    local count = Tracker:ProviderCountForCode('consumable')
-    local val = (count > tonumber(n))
-    if ENABLE_DEBUG_LOG then
-        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
-    end
-    if val then
-        return 1 -- 1 => access is in logic
-    end
-    return 0 -- 0 => no access
-end
-
 function is_in_chosen_state(...)
     local states = {...}
     if ENABLE_DEBUG_LOG then
@@ -52,4 +40,25 @@ function is_region_connected(unlock_prefix, ...)
     else
         return 0
     end
+end
+
+function has_enough_stamps()
+    local current_stamp_count = Tracker:ProviderCountForCode("national_park_passport_stamp")
+    local stamps_needed = Tracker:ProviderCountForCode("number_of_stamps_required")
+    if current_stamp_count >= stamps_needed then
+        return 1
+    else
+        return 0
+    end
+end
+
+function set_required_stamps()
+    local total_stamps = Tracker:ProviderCountForCode("number_of_stamps_available")
+    local percent_needed = Tracker:ProviderCountForCode("percent_stamps_required")
+    local stamps_needed = math.floor(total_stamps*percent_needed)
+    if ENABLE_DEBUG_LOG then
+        print("Calculated number of stamps needed: " .. stamps_needed)
+    end
+    local stamps_item = Tracker:FindObjectForCode("number_of_stamps_required")
+    stamps_item.AcquiredCount = stamps_needed
 end

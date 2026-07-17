@@ -6,7 +6,7 @@
     "img": "images/items/national_park_passport_stamp.png",
     "codes": "national_park_passport_stamp",
     "min_quantity": 0,
-    "max_quantity": 1
+    "max_quantity": 12
   },
   {
     "name": "Validated Passport",

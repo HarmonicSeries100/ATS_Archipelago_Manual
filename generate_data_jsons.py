@@ -221,7 +221,7 @@ def get_starting_item(region, city_list):
 
 def get_state_capital_location(location):
     state_capital_obj = {
-        "name": f"Passport Validation Center - {location['Location_Name']}",
+        "name": const.STATE_CAPITAL_LOC_PREFIX + location['Location_Name'],
         "region": location["Region"],
         "category": [
             const.STATE_CAPITAL_CATEGORY,

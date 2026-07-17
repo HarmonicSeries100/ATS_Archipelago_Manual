@@ -291,6 +291,15 @@
             "item_count": 1,
             "chest_unopened_img": "images/items/city_lock.png",
             "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Passport Validation Center - Denver",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png",
+            "access_rules": [
+              "$has_enough_stamps"
+            ]
           }
         ]
       },
