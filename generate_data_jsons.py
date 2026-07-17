@@ -9,6 +9,7 @@
 import csv, json
 import constants as const
 import generate_poptracker as gen_pop
+from util import to_snake_case
 
 def initialize_lists():
     # Note, meta.json, options.json is not generated
@@ -263,46 +264,14 @@ def get_state_preference_option(state_name):
     return state_pref_obj
 
 
-def process_location_csv(json_data, poptracker_item_data):
-    garage_cities = {}
-    with (open('./resources/ats_manual_location_data.csv', 'r') as f):
-        reader = csv.DictReader(f)
-        for location in reader:
-            # Handle locations and items
-            json_data['locations']['data'].append(get_location_object(location))
-            if location['Has_Garage'] == 'Y':
-                json_data['items']['data'].append(get_fast_travel_item_from_location(location))
-                try:
-                    garage_cities[location['Region']].append(location['Location_Name'])
-                except KeyError:
-                    garage_cities[location['Region']] = [location['Location_Name']]
-
-            poptracker_item_data["items"].append(get_fast_travel_item_from_location(location))
-                
-            if location['State_Capital'] == 'Y':
-                json_data['locations']['data'].append(get_state_capital_location(location))
-    return json_data, garage_cities, poptracker_item_data
-
-
-def process_region_csv(json_data, poptracker_item_data):
-    with open('./resources/ats_manual_region_data.csv', 'r') as f:
-        reader = csv.DictReader(f)
-        for region in reader:
-            json_data['regions'][region["Region_Name"]] = get_region_object(region)
-            json_data['items']['data'].append(get_region_unlock_item_from_region(region))
-
-            poptracker_item_data['items'].append(gen_pop.get_poptracker_region_unlock_item(region))
-
-
-    return json_data, poptracker_item_data
-
-def process_state_csv(json_data,poptracker_item_data):
+def process_state_csv(json_data,poptracker_item_data,poptracker_map_data):
     with open('./resources/ats_manual_state_data.csv', 'r') as f:
         reader = csv.DictReader(f)
         for state in reader:
+            dlc_id = state["DLC_id"]
             dlc_name = state["DLC"]
             dlc_category = const.DLC_CATEGORY_PREFIX + dlc_name
-            dlc_option = const.DLC_OPTION_PREFIX + state["DLC_id"]
+            dlc_option = const.DLC_OPTION_PREFIX + dlc_id
 
             if dlc_category not in json_data['categories']:
                 json_data['categories'][dlc_category] = {
@@ -319,9 +288,50 @@ def process_state_csv(json_data,poptracker_item_data):
             state_pref_option = state_id + const.STATE_PREFERENCE_SUFFIX
             json_data['options']['user'][state_pref_option] = get_state_preference_option(state_name)
             
+            poptracker_item_data["options"].append(gen_pop.get_poptracker_dlc_owned_item(dlc_id, dlc_name))
             poptracker_item_data["options"].append(gen_pop.get_poptracker_state_option_item(state_id, state_name))
 
-    return json_data, poptracker_item_data
+            poptracker_map_data.append(gen_pop.get_poptracker_map(state_id))
+
+    return json_data, poptracker_item_data, poptracker_map_data
+
+
+def process_region_csv(json_data, poptracker_item_data, poptracker_location_data):
+    region_dlc_index = {}
+    with open('./resources/ats_manual_region_data.csv', 'r') as f:
+        reader = csv.DictReader(f)
+        for region in reader:
+            json_data['regions'][region["Region_Name"]] = get_region_object(region)
+            json_data['items']['data'].append(get_region_unlock_item_from_region(region))
+
+            poptracker_item_data['items'].append(gen_pop.get_poptracker_region_unlock_item(region))
+
+            poptracker_location_data, region_dlc_index = gen_pop.get_poptracker_region_location(region, poptracker_location_data, region_dlc_index)
+
+    return json_data, poptracker_item_data, poptracker_location_data, region_dlc_index
+
+
+def process_location_csv(json_data, poptracker_item_data, poptracker_location_data, region_dlc_index):
+    garage_cities = {}
+    with (open('./resources/ats_manual_location_data.csv', 'r') as f):
+        reader = csv.DictReader(f)
+        for location in reader:
+            # Handle locations and items
+            json_data['locations']['data'].append(get_location_object(location))
+            if location['Has_Garage'] == 'Y':
+                json_data['items']['data'].append(get_fast_travel_item_from_location(location))
+                try:
+                    garage_cities[location['Region']].append(location['Location_Name'])
+                except KeyError:
+                    garage_cities[location['Region']] = [location['Location_Name']]
+                
+            if location['State_Capital'] == 'Y':
+                json_data['locations']['data'].append(get_state_capital_location(location))
+
+            poptracker_item_data["items"].append(gen_pop.get_poptracker_fast_travel_unlock_item(location))
+
+            poptracker_location_data = gen_pop.get_poptracker_location(location, poptracker_location_data, region_dlc_index)
+    return json_data, garage_cities, poptracker_item_data, poptracker_location_data
 
 
 def generate_fast_travel_regions(json_data, garage_city_index):
@@ -353,32 +363,41 @@ def generate_starting_items(json_data, garage_city_index):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     json_data = initialize_lists()
-    poptracker_item_data = gen_pop.initialize_poptracker_items()
-    json_data, poptracker_item_data = process_state_csv(json_data, poptracker_item_data)
-    json_data, poptracker_item_data = process_region_csv(json_data, poptracker_item_data)
-    json_data, garage_city_index, poptracker_item_data = process_location_csv(json_data, poptracker_item_data)
+    pop_item_data = gen_pop.initialize_poptracker_items()
+    pop_location_data = gen_pop.initialize_poptracker_locations()
+    pop_map_data = gen_pop.initialize_poptracker_maps()
+    json_data, pop_item_data, pop_map_data = process_state_csv(json_data, pop_item_data, pop_map_data)
+    json_data, pop_item_data, pop_location_data, region_dlc_index = process_region_csv(json_data, pop_item_data, pop_location_data)
+    json_data, garage_city_index, pop_item_data, pop_location_data = process_location_csv(json_data, pop_item_data, pop_location_data, region_dlc_index)
     json_data = generate_fast_travel_regions(json_data, garage_city_index)
     json_data = generate_starting_items(json_data, garage_city_index)
     for file in json_data:
         json.dump(json_data[file], open("./manual_americantrucksimulator_harmonicseries/data/" + file + ".json", "w"),
                   indent=2)
     
-    for file in poptracker_item_data:
-        json.dump(poptracker_item_data[file], open(f"./ats_harmonic_series-main/items/{file}.json","w"), indent=2)
-    #TODO: Generate locations.json for poptracker. Every region is a "parent" and every location check has a map location
-    #TODO: Add a section in location_data.csv to group close-together locations, to make use of "sections"
+    for file in pop_item_data:
+        json.dump(pop_item_data[file], open(f"./ats_harmonic_series-main/items/{file}.json","w"), indent=2)
+
+    for file in pop_location_data:
+        json.dump(pop_location_data[file], open(f"./ats_harmonic_series-main/locations/{file}.json","w"), indent=2)
+
+    json.dump(pop_map_data, open(f"./ats_harmonic_series-main/maps/ats_maps.json","w"), indent=2)
+    #TODO: Fix issues in archipelago.lua
     #TODO: Generate item_mapping.lua
     #TODO: Generate location_mapping.lua
     #TODO: Create custom logic in logic.lua
-    # Logic for location checks. Locations will have in the access rules calling the function with all of their neighbors as parameters
-    # Recursive search function to check for neighbors
-    # Fast travel points have ft_<location name>_##
     # Write custom function for the "all stamps collected" event. Put function in access rules for state capital locations
-    # Add visibility rules depending on chosen state and DLC owned
     # Get chosen states from slot data - Possible!
-    #TODO: Create map PNGs
-    #TODO: Add map coordinates to resources
+    #TODO: Generate init.lua
+
+    #TODO: Create better pngs for cities, viewpoints, photo trophies locked/unlocked
+
     #TODO: Generate layouts?
-    # Have a "progressive" item for each state. Level 0: DLC Unowned, Level 1: DLC Owned, Level 2: Chosen in Randomizer, Level 3: Victory State
     # Settings page will have a grid for all the states
-    # Also have item for number of stamps available, number required, change min count of stamp item to the number required
+    # Also have item for number of stamps available, number required
+
+    #TODO: Add support for multi-state locations (Four Corners)
+    
+    #TODO: Add a section in location_data.csv to group close-together locations, to make use of "sections"
+    #TODO: Generates maps json
+    #TODO: Add columns in location CSV with x,y coordinates for maps

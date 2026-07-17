@@ -1,0 +1,497 @@
+[
+  {
+    "name": "arizona_desert",
+    "access_rules": [
+      "own_base, arizona_chosen, unlock_arizona_desert, @arizona_mountains",
+      "own_base, arizona_chosen, unlock_arizona_desert, @southeast_arizona",
+      "own_base, arizona_chosen, unlock_arizona_desert, unlock_ft_arizona_desert"
+    ],
+    "visibility_rules": [
+      "own_base, arizona_chosen"
+    ],
+    "children": [
+      {
+        "name": "Camp Verde",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 40,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Camp Verde",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Kingman",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 80,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Kingman",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lake Havasu City",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 120,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lake Havasu City",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Phoenix",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 160,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phoenix",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Yuma",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 200,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Yuma",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Phoenix Skyline",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 240,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phoenix Skyline",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "arizona_mountains",
+    "access_rules": [
+      "own_base, arizona_chosen, unlock_arizona_mountains, @st._george_area",
+      "own_base, arizona_chosen, unlock_arizona_mountains, @southeast_utah",
+      "own_base, arizona_chosen, unlock_arizona_mountains, @arizona_desert",
+      "own_base, arizona_chosen, unlock_arizona_mountains, @southeast_arizona",
+      "own_base, arizona_chosen, unlock_arizona_mountains, @four_corners",
+      "own_base, arizona_chosen, unlock_arizona_mountains, @central_new_mexico",
+      "own_base, arizona_chosen, unlock_arizona_mountains, unlock_ft_arizona_mountains"
+    ],
+    "visibility_rules": [
+      "own_base, arizona_chosen"
+    ],
+    "children": [
+      {
+        "name": "Flagstaff",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 280,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Flagstaff",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Grand Canyon Village",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 320,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grand Canyon Village",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Kayenta",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 360,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Kayenta",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Page",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 400,
+            "y": 40
+          }
+        ],
+        "sections": [
+          {
+            "name": "Page",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Winslow",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 40,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Winslow",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Grand Canyon - Photo",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 80,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grand Canyon - Photo",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Winslow - Viewpoint",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 120,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Winslow - Viewpoint",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Grand Canyon - Viewpoint",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 160,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grand Canyon - Viewpoint",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lupton",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 40,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lupton",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "own_new_mexico"
+        ],
+        "visibility_rules": [
+          "own_new_mexico"
+        ]
+      },
+      {
+        "name": "Arizona Welcome Center Rest Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 80,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Arizona Welcome Center Rest Area",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "own_new_mexico"
+        ],
+        "visibility_rules": [
+          "own_new_mexico"
+        ]
+      },
+      {
+        "name": "Glen Canyon Dam Bridge",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 360,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "Glen Canyon Dam Bridge",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "own_utah"
+        ],
+        "visibility_rules": [
+          "own_utah"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "southeast_arizona",
+    "access_rules": [
+      "own_base, arizona_chosen, unlock_southeast_arizona, @arizona_mountains",
+      "own_base, arizona_chosen, unlock_southeast_arizona, @arizona_desert",
+      "own_base, arizona_chosen, unlock_southeast_arizona, @central_new_mexico",
+      "own_base, arizona_chosen, unlock_southeast_arizona, @southern_new_mexico",
+      "own_base, arizona_chosen, unlock_southeast_arizona, unlock_ft_southeast_arizona"
+    ],
+    "visibility_rules": [
+      "own_base, arizona_chosen"
+    ],
+    "children": [
+      {
+        "name": "Clifton",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 200,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Clifton",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Nogales",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 240,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nogales",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "San Simon",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 280,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "San Simon",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Show Low",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 320,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Show Low",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sierra Vista",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 360,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sierra Vista",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tucson",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 400,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tucson",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Salt River",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "arizona_map",
+            "x": 40,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Salt River",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

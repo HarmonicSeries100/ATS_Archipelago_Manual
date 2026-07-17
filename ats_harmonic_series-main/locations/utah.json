@@ -1,0 +1,525 @@
+[
+  {
+    "name": "central_utah",
+    "access_rules": [
+      "own_utah, utah_chosen, unlock_central_utah, @northern_utah",
+      "own_utah, utah_chosen, unlock_central_utah, @st._george_area",
+      "own_utah, utah_chosen, unlock_central_utah, @southeast_utah",
+      "own_utah, utah_chosen, unlock_central_utah, @western_slope",
+      "own_utah, utah_chosen, unlock_central_utah, unlock_ft_central_utah"
+    ],
+    "visibility_rules": [
+      "own_utah, utah_chosen"
+    ],
+    "children": [
+      {
+        "name": "Price",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 400,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "Price",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Provo",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 40,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Provo",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Salina",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 80,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Salina",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Vernal",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 120,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Vernal",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Provo City Center Temple",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 160,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Provo City Center Temple",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Oil Fields of Utah",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 200,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Oil Fields of Utah",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "northern_utah",
+    "access_rules": [
+      "own_utah, utah_chosen, unlock_northern_utah, @central_utah",
+      "own_utah, utah_chosen, unlock_northern_utah, unlock_ft_northern_utah"
+    ],
+    "visibility_rules": [
+      "own_utah, utah_chosen"
+    ],
+    "children": [
+      {
+        "name": "Logan",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 240,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Logan",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ogden",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 280,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ogden",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Salt Lake City",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 320,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Salt Lake City",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Salt Lake City Downtown",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 360,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Salt Lake City Downtown",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tree of Life",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 400,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tree of Life",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bingham Canyon Mine",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 40,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bingham Canyon Mine",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bonneville Salt Flats",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 80,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bonneville Salt Flats",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "southeast_utah",
+    "access_rules": [
+      "own_utah, utah_chosen, unlock_southeast_utah, @central_utah",
+      "own_utah, utah_chosen, unlock_southeast_utah, @four_corners",
+      "own_utah, utah_chosen, unlock_southeast_utah, @western_slope",
+      "own_utah, utah_chosen, unlock_southeast_utah, @arizona_mountains",
+      "own_utah, utah_chosen, unlock_southeast_utah, unlock_ft_southeast_utah"
+    ],
+    "visibility_rules": [
+      "own_utah, utah_chosen"
+    ],
+    "children": [
+      {
+        "name": "Moab",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 120,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Moab",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Moab Giants",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 160,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Moab Giants",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Monument Valley - Photo",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 200,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Monument Valley - Photo",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "San Rafael Swell Top View Area",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 240,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "San Rafael Swell Top View Area",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole N The Rock",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 280,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hole N The Rock",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Monument Valley",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 320,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Monument Valley",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "San Rafael Swell Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 360,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "San Rafael Swell Area",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "st._george_area",
+    "access_rules": [
+      "own_utah, utah_chosen, unlock_st._george_area, @central_utah",
+      "own_utah, utah_chosen, unlock_st._george_area, @arizona_mountains",
+      "own_utah, utah_chosen, unlock_st._george_area, unlock_ft_st._george_area"
+    ],
+    "visibility_rules": [
+      "own_utah, utah_chosen"
+    ],
+    "children": [
+      {
+        "name": "Cedar City",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 400,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cedar City",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "St. George",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 40,
+            "y": 440
+          }
+        ],
+        "sections": [
+          {
+            "name": "St. George",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Kanab",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 80,
+            "y": 440
+          }
+        ],
+        "sections": [
+          {
+            "name": "Kanab",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "City of St. George",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 120,
+            "y": 440
+          }
+        ],
+        "sections": [
+          {
+            "name": "City of St. George",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hoover Rest Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 160,
+            "y": 440
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hoover Rest Area",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Moqui Cave",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 200,
+            "y": 440
+          }
+        ],
+        "sections": [
+          {
+            "name": "Moqui Cave",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

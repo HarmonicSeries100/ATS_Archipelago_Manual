@@ -1,0 +1,595 @@
+[
+  {
+    "name": "colorado_plains",
+    "access_rules": [
+      "own_colorado, colorado_chosen, unlock_colorado_plains, @front_range",
+      "own_colorado, colorado_chosen, unlock_colorado_plains, unlock_ft_colorado_plains"
+    ],
+    "visibility_rules": [
+      "own_colorado, colorado_chosen"
+    ],
+    "children": [
+      {
+        "name": "Burlington",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 80,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Burlington",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lamar",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 120,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lamar",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sterling",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 160,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sterling",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "colorado_rockies",
+    "access_rules": [
+      "own_colorado, colorado_chosen, unlock_colorado_rockies, @western_slope",
+      "own_colorado, colorado_chosen, unlock_colorado_rockies, @front_range",
+      "own_colorado, colorado_chosen, unlock_colorado_rockies, @new_mexico_highlands",
+      "own_colorado, colorado_chosen, unlock_colorado_rockies, unlock_ft_colorado_rockies"
+    ],
+    "visibility_rules": [
+      "own_colorado, colorado_chosen"
+    ],
+    "children": [
+      {
+        "name": "Alamosa",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 200,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alamosa",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Steamboat Springs",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 240,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Steamboat Springs",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Alpine Visitor Center in Rocky Mountain National Park",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 280,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alpine Visitor Center in Rocky Mountain National Park",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Eisenhower-Johnson Tunnels",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 320,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Eisenhower-Johnson Tunnels",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hanging Lake Tunnel",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 360,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hanging Lake Tunnel",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Eisenhower Tunnel",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 400,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Eisenhower Tunnel",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Glenwood Canyon",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 40,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Glenwood Canyon",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Red Cliff Bridge",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 80,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Red Cliff Bridge",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Rocky Mountain Road",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 120,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Rocky Mountain Road",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Wolf Creek Pass",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 160,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Wolf Creek Pass",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "front_range",
+    "access_rules": [
+      "own_colorado, colorado_chosen, unlock_front_range, @colorado_rockies",
+      "own_colorado, colorado_chosen, unlock_front_range, @colorado_plains",
+      "own_colorado, colorado_chosen, unlock_front_range, @new_mexico_highlands",
+      "own_colorado, colorado_chosen, unlock_front_range, unlock_ft_front_range"
+    ],
+    "visibility_rules": [
+      "own_colorado, colorado_chosen"
+    ],
+    "children": [
+      {
+        "name": "Colorado Springs",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 200,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Colorado Springs",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Denver",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 240,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Denver",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fort Collins",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 280,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fort Collins",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Pueblo",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 320,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Pueblo",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cripple Creek & Victor Gold Mine - Photo",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 360,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cripple Creek & Victor Gold Mine - Photo",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Colorado Springs - Viewpoint",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 400,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Colorado Springs - Viewpoint",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cripple Creek & Victor Gold Mine - Viewpoint",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 40,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cripple Creek & Victor Gold Mine - Viewpoint",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Denver Airport",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 80,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Denver Airport",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "western_slope",
+    "access_rules": [
+      "own_colorado, colorado_chosen, unlock_western_slope, @central_utah",
+      "own_colorado, colorado_chosen, unlock_western_slope, @southeast_utah",
+      "own_colorado, colorado_chosen, unlock_western_slope, @four_corners",
+      "own_colorado, colorado_chosen, unlock_western_slope, @colorado_rockies",
+      "own_colorado, colorado_chosen, unlock_western_slope, @new_mexico_highlands",
+      "own_colorado, colorado_chosen, unlock_western_slope, unlock_ft_western_slope"
+    ],
+    "visibility_rules": [
+      "own_colorado, colorado_chosen"
+    ],
+    "children": [
+      {
+        "name": "Durango",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 120,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Durango",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Grand Junction",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 160,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grand Junction",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Montrose",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 200,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Montrose",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Rangely",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 240,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Rangely",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Million Dollar Highway - Photo",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 280,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Million Dollar Highway - Photo",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Million Dollar Highway - Viewpoint",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 320,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Million Dollar Highway - Viewpoint",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "four_corners",
+    "access_rules": [
+      "own_colorado, colorado;_utah;_arizona;_new_mexico_chosen, unlock_four_corners, @southeast_utah",
+      "own_colorado, colorado;_utah;_arizona;_new_mexico_chosen, unlock_four_corners, @western_slope",
+      "own_colorado, colorado;_utah;_arizona;_new_mexico_chosen, unlock_four_corners, @arizona_mountains",
+      "own_colorado, colorado;_utah;_arizona;_new_mexico_chosen, unlock_four_corners, @new_mexico_highlands",
+      "own_colorado, colorado;_utah;_arizona;_new_mexico_chosen, unlock_four_corners, unlock_ft_four_corners"
+    ],
+    "visibility_rules": [
+      "own_colorado, colorado;_utah;_arizona;_new_mexico_chosen"
+    ],
+    "children": [
+      {
+        "name": "Four Corners Monument - Photo",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado;_utah;_arizona;_new_mexico_map",
+            "x": 360,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Four Corners Monument - Photo",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Four Corners Monument - Viewpoint",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "colorado;_utah;_arizona;_new_mexico_map",
+            "x": 400,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Four Corners Monument - Viewpoint",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

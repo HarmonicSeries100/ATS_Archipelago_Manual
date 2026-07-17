@@ -1,0 +1,40 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "orientation": "horizontal",
+        "v_alignment": "top",
+        "min_width": 190,
+        "min_height": 190,
+        "max_width": 800,
+        "max_height": 600,
+        "content": {
+            "type": "itemgrid",
+            "item_width": 40,
+            "item_height": 40,
+            "v_alignment": "center",
+            "h_alignment": "center",
+            "dropshadow": false,
+            "margin": 10,
+            "rows": [
+                [
+                    "colorado_chosen",
+                    "arizona_chosen",
+                    "new_mexico_chosen",
+                    "utah_chosen"
+                ],
+                [
+                    "number_of_stamps_available",
+                    "percent_stamps_required",
+                    "own_colorado",
+                    "own_base"
+                ],
+                [
+                    "own_utah",
+                    "own_new_mexico",
+                    "",
+                    ""
+                ]
+            ]
+        }
+    }
+}

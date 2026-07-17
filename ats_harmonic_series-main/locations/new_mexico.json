@@ -1,0 +1,514 @@
+[
+  {
+    "name": "central_new_mexico",
+    "access_rules": [
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @new_mexico_highlands",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @southern_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @arizona_mountains",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @southeast_arizona",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, unlock_ft_central_new_mexico"
+    ],
+    "visibility_rules": [
+      "own_new_mexico, new_mexico_chosen"
+    ],
+    "children": [
+      {
+        "name": "Albuquerque",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 120,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Albuquerque",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Clovis",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 160,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Clovis",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Gallup",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 200,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gallup",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Socorro",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 240,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Socorro",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tucumcari",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 280,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tucumcari",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Big I",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 320,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Big I",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Clovis Memorial Park",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 360,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Clovis Memorial Park",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Albuquerque - Viewpoint",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 400,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Albuquerque - Viewpoint",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "City of Vaughn",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 40,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "City of Vaughn",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Route 66W Rest Stop",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 80,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Route 66W Rest Stop",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "new_mexico_highlands",
+    "access_rules": [
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @four_corners",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @western_slope",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @colorado_rockies",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @front_range",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @central_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, unlock_ft_new_mexico_highlands"
+    ],
+    "visibility_rules": [
+      "own_new_mexico, new_mexico_chosen"
+    ],
+    "children": [
+      {
+        "name": "Farmington",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 120,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Farmington",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raton",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 160,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Raton",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Santa Fe",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 200,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Santa Fe",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "City of Santa Fe",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 240,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "City of Santa Fe",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "US-64 Rest Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 280,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "US-64 Rest Area",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "US-84 Rest Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 320,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "US-84 Rest Area",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "southern_new_mexico",
+    "access_rules": [
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, @central_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, @southeast_arizona",
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, unlock_ft_southern_new_mexico"
+    ],
+    "visibility_rules": [
+      "own_new_mexico, new_mexico_chosen"
+    ],
+    "children": [
+      {
+        "name": "Alamogordo",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 360,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alamogordo",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Artesia",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 400,
+            "y": 280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Artesia",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Carlsbad",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 40,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "Carlsbad",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hobbs",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 80,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hobbs",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Las Cruces",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 120,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "Las Cruces",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Roswell",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 160,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "Roswell",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "UFO Center in Roswell",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 200,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "UFO Center in Roswell",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "City of Roswell",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 240,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "City of Roswell",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The Historic Monument of Lincoln",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 280,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Historic Monument of Lincoln",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "US-82 Rest Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 320,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "US-82 Rest Area",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

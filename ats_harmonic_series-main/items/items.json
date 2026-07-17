@@ -136,1059 +136,843 @@
     "disabled_img": "images/items/region_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Camp Verde",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_camp_verde, unlock_ft_arizona_desert",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Kingman",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_kingman, unlock_ft_arizona_desert",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Lake Havasu City",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_lake_havasu_city, unlock_ft_arizona_desert",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Phoenix",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_phoenix, unlock_ft_arizona_desert",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Yuma",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_yuma, unlock_ft_arizona_desert",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Phoenix Skyline",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_phoenix_skyline, unlock_ft_arizona_desert",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Flagstaff",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_flagstaff, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Grand Canyon Village",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_grand_canyon_village, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Kayenta",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_kayenta, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Page",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_page, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Winslow",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_winslow, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Grand Canyon - Photo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_grand_canyon_-_photo, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Winslow - Viewpoint",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_winslow_-_viewpoint, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Grand Canyon - Viewpoint",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_grand_canyon_-_viewpoint, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Clifton",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_clifton, unlock_ft_southeast_arizona",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Nogales",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_nogales, unlock_ft_southeast_arizona",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - San Simon",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_san_simon, unlock_ft_southeast_arizona",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Show Low",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_show_low, unlock_ft_southeast_arizona",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Sierra Vista",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_sierra_vista, unlock_ft_southeast_arizona",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Tucson",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_tucson, unlock_ft_southeast_arizona",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Salt River",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Base",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_salt_river, unlock_ft_southeast_arizona",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Burlington",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_burlington, unlock_ft_colorado_plains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Lamar",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_lamar, unlock_ft_colorado_plains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Sterling",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_sterling, unlock_ft_colorado_plains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Alamosa",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_alamosa, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Steamboat Springs",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_steamboat_springs, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
-    "name": "Unlock Fast Travel - Alpine Visitor Center in Rocky Mountain National Park ",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "name": "Unlock Fast Travel - Alpine Visitor Center in Rocky Mountain National Park",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_alpine_visitor_center_in_rocky_mountain_national_park, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
-    "name": "Unlock Fast Travel - Eisenhower-Johnson Tunnels ",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "name": "Unlock Fast Travel - Eisenhower-Johnson Tunnels",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_eisenhower-johnson_tunnels, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
-    "name": "Unlock Fast Travel - Hanging Lake Tunnel ",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "name": "Unlock Fast Travel - Hanging Lake Tunnel",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_hanging_lake_tunnel, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Eisenhower Tunnel",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_eisenhower_tunnel, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Glenwood Canyon",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_glenwood_canyon, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Red Cliff Bridge",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_red_cliff_bridge, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Rocky Mountain Road",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_rocky_mountain_road, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Wolf Creek Pass",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_wolf_creek_pass, unlock_ft_colorado_rockies",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Colorado Springs",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_colorado_springs, unlock_ft_front_range",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Denver",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_denver, unlock_ft_front_range",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Fort Collins",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_fort_collins, unlock_ft_front_range",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Pueblo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_pueblo, unlock_ft_front_range",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Cripple Creek & Victor Gold Mine - Photo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_cripple_creek_&_victor_gold_mine_-_photo, unlock_ft_front_range",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Colorado Springs - Viewpoint",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_colorado_springs_-_viewpoint, unlock_ft_front_range",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Cripple Creek & Victor Gold Mine - Viewpoint",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_cripple_creek_&_victor_gold_mine_-_viewpoint, unlock_ft_front_range",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Denver Airport",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_denver_airport, unlock_ft_front_range",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Durango",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_durango, unlock_ft_western_slope",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Grand Junction",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_grand_junction, unlock_ft_western_slope",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Montrose",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_montrose, unlock_ft_western_slope",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Rangely",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_rangely, unlock_ft_western_slope",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Million Dollar Highway - Photo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_million_dollar_highway_-_photo, unlock_ft_western_slope",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Million Dollar Highway - Viewpoint",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_million_dollar_highway_-_viewpoint, unlock_ft_western_slope",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Four Corners Monument - Photo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado",
-      "Utah",
-      "Arizona",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_four_corners_monument_-_photo, unlock_ft_four_corners",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Four Corners Monument - Viewpoint",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Colorado",
-      "Colorado",
-      "Utah",
-      "Arizona",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_four_corners_monument_-_viewpoint, unlock_ft_four_corners",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Lupton",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_lupton, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Arizona Welcome Center Rest Area",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_arizona_welcome_center_rest_area, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Albuquerque",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_albuquerque, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Clovis",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_clovis, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Gallup",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_gallup, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Socorro",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_socorro, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Tucumcari",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_tucumcari, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Big I",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_big_i, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Clovis Memorial Park",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_clovis_memorial_park, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Albuquerque - Viewpoint",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_albuquerque_-_viewpoint, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - City of Vaughn",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_city_of_vaughn, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Route 66W Rest Stop",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_route_66w_rest_stop, unlock_ft_central_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Farmington",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_farmington, unlock_ft_new_mexico_highlands",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Raton",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_raton, unlock_ft_new_mexico_highlands",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Santa Fe",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_santa_fe, unlock_ft_new_mexico_highlands",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - City of Santa Fe",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_city_of_santa_fe, unlock_ft_new_mexico_highlands",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - US-64 Rest Area",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_us-64_rest_area, unlock_ft_new_mexico_highlands",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - US-84 Rest Area",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_us-84_rest_area, unlock_ft_new_mexico_highlands",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Alamogordo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_alamogordo, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Artesia",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_artesia, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Carlsbad",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_carlsbad, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Hobbs",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_hobbs, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Las Cruces",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_las_cruces, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Roswell",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_roswell, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - UFO Center in Roswell",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_ufo_center_in_roswell, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - City of Roswell",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_city_of_roswell, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - The Historic Monument of Lincoln",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_the_historic_monument_of_lincoln, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - US-82 Rest Area",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - New Mexico",
-      "New Mexico"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_us-82_rest_area, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Glen Canyon Dam Bridge",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Arizona"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_glen_canyon_dam_bridge, unlock_ft_arizona_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Price",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_price, unlock_ft_central_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Provo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_provo, unlock_ft_central_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Salina",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_salina, unlock_ft_central_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Vernal",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_vernal, unlock_ft_central_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Provo City Center Temple",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_provo_city_center_temple, unlock_ft_central_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Oil Fields of Utah",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_oil_fields_of_utah, unlock_ft_central_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Logan",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_logan, unlock_ft_northern_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Ogden",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_ogden, unlock_ft_northern_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Salt Lake City",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_salt_lake_city, unlock_ft_northern_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Salt Lake City Downtown",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_salt_lake_city_downtown, unlock_ft_northern_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Tree of Life",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_tree_of_life, unlock_ft_northern_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Bingham Canyon Mine",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_bingham_canyon_mine, unlock_ft_northern_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Bonneville Salt Flats",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_bonneville_salt_flats, unlock_ft_northern_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Moab",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_moab, unlock_ft_southeast_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Moab Giants",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_moab_giants, unlock_ft_southeast_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Monument Valley - Photo",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_monument_valley_-_photo, unlock_ft_southeast_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - San Rafael Swell Top View Area",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_san_rafael_swell_top_view_area, unlock_ft_southeast_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Hole N The Rock",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_hole_n_the_rock, unlock_ft_southeast_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Monument Valley",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_monument_valley, unlock_ft_southeast_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - San Rafael Swell Area",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_san_rafael_swell_area, unlock_ft_southeast_utah",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Cedar City",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_cedar_city, unlock_ft_st._george_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - St. George",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_st._george, unlock_ft_st._george_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Kanab",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_kanab, unlock_ft_st._george_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - City of St. George",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_city_of_st._george, unlock_ft_st._george_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Hoover Rest Area",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_hoover_rest_area, unlock_ft_st._george_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
-    "count": 1,
     "name": "Unlock Fast Travel - Moqui Cave",
-    "category": [
-      "Fast Travel Unlock",
-      "DLC - Utah",
-      "Utah"
-    ],
-    "progression": true
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_moqui_cave, unlock_ft_st._george_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
   }
 ]

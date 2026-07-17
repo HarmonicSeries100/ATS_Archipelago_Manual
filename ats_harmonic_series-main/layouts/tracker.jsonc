@@ -28,20 +28,38 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Arizona",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
+                  "arizona_map"
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "Colorado",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map2"
+                  "colorado_map"
+                ]
+              }
+            },
+                        {
+              "title": "New Mexico",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "new_mexico_map"
+                ]
+              }
+            },
+                        {
+              "title": "Arizona",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "utah_map"
                 ]
               }
             }
@@ -79,20 +97,38 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Arizona",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
+                  "arizona_map"
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "Colorado",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map2"
+                  "colorado_map"
+                ]
+              }
+            },
+                        {
+              "title": "New Mexico",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "new_mexico_map"
+                ]
+              }
+            },
+                        {
+              "title": "Arizona",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "utah_map"
                 ]
               }
             }
