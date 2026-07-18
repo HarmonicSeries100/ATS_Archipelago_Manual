@@ -150,11 +150,13 @@ def get_poptracker_region_location(region, poptracker_location_data, region_dlc_
 
     region_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, "+\
         f"{region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}, "+\
-        f"$is_region_connected|{const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX}|{"|".join([conn for conn in connections])}"
+        f"$is_region_connected|{const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX + region_code}|{"|".join([conn for conn in connections])}"
     
     region_node = {
         "name": region_code,
-        "access_rules": region_rules,
+        "access_rules": [
+            region_rules
+        ],
         "visibility_rules": [
             f"{const.DLC_OPTION_PREFIX+region_dlc}, {region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}"
         ],
@@ -167,11 +169,13 @@ def get_poptracker_region_location(region, poptracker_location_data, region_dlc_
 def get_poptracker_multistate_region(poptracker_location_data, region_name, region_code, region_state, region_dlc, connections):
     state_list = "|".join([to_snake_case(state) for state in region_state.split(";_")])
     region_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, $is_in_chosen_state|{state_list}, "+\
-        f"$is_region_connected|{const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX}|{"|".join([conn for conn in connections])}"
+        f"$is_region_connected|{const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX + region_code}|{"|".join([conn for conn in connections])}"
     
     region_node = {
         "name": region_code,
-        "access_rules": region_rules,
+        "access_rules": [
+            region_rules
+        ],
         "visibility_rules": [
             f"{const.DLC_OPTION_PREFIX+region_dlc}"
         ],

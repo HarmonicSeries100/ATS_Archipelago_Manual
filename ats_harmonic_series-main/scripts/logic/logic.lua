@@ -16,39 +16,49 @@ function is_in_chosen_state(...)
         if Tracker:ProviderCountForCode(state .. "_chosen")>0 then
             if ENABLE_DEBUG_LOG then
                 print("Found chosen state: " .. state)
-                return 1
+                return true
             end
         end
     end
-    return 0
+    return false
 end
 
-function is_region_connected(unlock_prefix, ...)
+function is_region_connected(ft_unlock_item, ...)
     local regions = {...}
     if ENABLE_DEBUG_LOG then
         print(string.format("called is_region_connected"))
         print(unlock_prefix)
         print(dump_table(regions))
     end
+    if Tracker:ProviderCountForCode(ft_unlock_item)>0 then
+        if ENABLE_DEBUG_LOG then
+            print(string.format("Found fast travel unlock"))
+            print(ft_unlock_item)
+        end
+        return true
+    end
     for _, region in ipairs(regions) do
         if Tracker:ProviderCountForCode("@" .. region)>0 then
-            return 1
+            if ENABLE_DEBUG_LOG then
+                print(string.format("Found connected region"))
+                print(region)
+            end
+            return true
         end
     end
-    if Tracker:ProviderCountForCode(unlock_prefix .. region) then
-        return 1
-    else
-        return 0
+    if ENABLE_DEBUG_LOG then
+        print(string.format("Could not find any access"))
     end
+    return false
 end
 
 function has_enough_stamps()
     local current_stamp_count = Tracker:ProviderCountForCode("national_park_passport_stamp")
     local stamps_needed = Tracker:ProviderCountForCode("number_of_stamps_required")
     if current_stamp_count >= stamps_needed then
-        return 1
+        return true
     else
-        return 0
+        return false
     end
 end
 

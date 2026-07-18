@@ -1,7 +1,9 @@
 [
   {
     "name": "arizona_desert",
-    "access_rules": "own_base, arizona_chosen, $is_region_connected|unlock_ft_|arizona_mountains|southeast_arizona",
+    "access_rules": [
+      "own_base, arizona_chosen, $is_region_connected|unlock_ft_arizona_desert|arizona_mountains|southeast_arizona"
+    ],
     "visibility_rules": [
       "own_base, arizona_chosen"
     ],
@@ -115,7 +117,9 @@
   },
   {
     "name": "arizona_mountains",
-    "access_rules": "own_base, arizona_chosen, $is_region_connected|unlock_ft_|st._george_area|southeast_utah|arizona_desert|southeast_arizona|four_corners|central_new_mexico",
+    "access_rules": [
+      "own_base, arizona_chosen, $is_region_connected|unlock_ft_arizona_mountains|st._george_area|southeast_utah|arizona_desert|southeast_arizona|four_corners|central_new_mexico"
+    ],
     "visibility_rules": [
       "own_base, arizona_chosen"
     ],
@@ -316,7 +320,9 @@
   },
   {
     "name": "southeast_arizona",
-    "access_rules": "own_base, arizona_chosen, $is_region_connected|unlock_ft_|arizona_mountains|arizona_desert|central_new_mexico|southern_new_mexico",
+    "access_rules": [
+      "own_base, arizona_chosen, $is_region_connected|unlock_ft_southeast_arizona|arizona_mountains|arizona_desert|central_new_mexico|southern_new_mexico"
+    ],
     "visibility_rules": [
       "own_base, arizona_chosen"
     ],

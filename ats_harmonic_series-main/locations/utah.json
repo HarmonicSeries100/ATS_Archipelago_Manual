@@ -1,7 +1,9 @@
 [
   {
     "name": "central_utah",
-    "access_rules": "own_utah, utah_chosen, $is_region_connected|unlock_ft_|northern_utah|st._george_area|southeast_utah|western_slope",
+    "access_rules": [
+      "own_utah, utah_chosen, $is_region_connected|unlock_ft_central_utah|northern_utah|st._george_area|southeast_utah|western_slope"
+    ],
     "visibility_rules": [
       "own_utah, utah_chosen"
     ],
@@ -118,7 +120,9 @@
   },
   {
     "name": "northern_utah",
-    "access_rules": "own_utah, utah_chosen, $is_region_connected|unlock_ft_|central_utah",
+    "access_rules": [
+      "own_utah, utah_chosen, $is_region_connected|unlock_ft_northern_utah|central_utah"
+    ],
     "visibility_rules": [
       "own_utah, utah_chosen"
     ],
@@ -250,7 +254,9 @@
   },
   {
     "name": "southeast_utah",
-    "access_rules": "own_utah, utah_chosen, $is_region_connected|unlock_ft_|central_utah|four_corners|western_slope|arizona_mountains",
+    "access_rules": [
+      "own_utah, utah_chosen, $is_region_connected|unlock_ft_southeast_utah|central_utah|four_corners|western_slope|arizona_mountains"
+    ],
     "visibility_rules": [
       "own_utah, utah_chosen"
     ],
@@ -385,7 +391,9 @@
   },
   {
     "name": "st._george_area",
-    "access_rules": "own_utah, utah_chosen, $is_region_connected|unlock_ft_|central_utah|arizona_mountains",
+    "access_rules": [
+      "own_utah, utah_chosen, $is_region_connected|unlock_ft_st._george_area|central_utah|arizona_mountains"
+    ],
     "visibility_rules": [
       "own_utah, utah_chosen"
     ],

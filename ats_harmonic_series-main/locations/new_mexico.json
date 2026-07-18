@@ -1,7 +1,9 @@
 [
   {
     "name": "central_new_mexico",
-    "access_rules": "own_new_mexico, new_mexico_chosen, $is_region_connected|unlock_ft_|new_mexico_highlands|southern_new_mexico|arizona_mountains|southeast_arizona",
+    "access_rules": [
+      "own_new_mexico, new_mexico_chosen, $is_region_connected|unlock_ft_central_new_mexico|new_mexico_highlands|southern_new_mexico|arizona_mountains|southeast_arizona"
+    ],
     "visibility_rules": [
       "own_new_mexico, new_mexico_chosen"
     ],
@@ -190,7 +192,9 @@
   },
   {
     "name": "new_mexico_highlands",
-    "access_rules": "own_new_mexico, new_mexico_chosen, $is_region_connected|unlock_ft_|four_corners|western_slope|colorado_rockies|front_range|central_new_mexico",
+    "access_rules": [
+      "own_new_mexico, new_mexico_chosen, $is_region_connected|unlock_ft_new_mexico_highlands|four_corners|western_slope|colorado_rockies|front_range|central_new_mexico"
+    ],
     "visibility_rules": [
       "own_new_mexico, new_mexico_chosen"
     ],
@@ -304,7 +308,9 @@
   },
   {
     "name": "southern_new_mexico",
-    "access_rules": "own_new_mexico, new_mexico_chosen, $is_region_connected|unlock_ft_|central_new_mexico|southeast_arizona",
+    "access_rules": [
+      "own_new_mexico, new_mexico_chosen, $is_region_connected|unlock_ft_southern_new_mexico|central_new_mexico|southeast_arizona"
+    ],
     "visibility_rules": [
       "own_new_mexico, new_mexico_chosen"
     ],
