@@ -74,11 +74,11 @@ def process_location_csv(json_data, poptracker_item_data, poptracker_location_da
                     garage_cities[location['Region']].append(location['Location_Name'])
                 except KeyError:
                     garage_cities[location['Region']] = [location['Location_Name']]
+
+                poptracker_item_data["items"].append(gen_pop.get_poptracker_fast_travel_unlock_item(location))
                 
             if location['State_Capital'] == 'Y':
                 json_data['locations']['data'].append(gen_man.get_state_capital_location(location))
-
-            poptracker_item_data["items"].append(gen_pop.get_poptracker_fast_travel_unlock_item(location))
 
             poptracker_location_data = gen_pop.get_poptracker_location(location, poptracker_location_data, region_dlc_index)
     return json_data, garage_cities, poptracker_item_data, poptracker_location_data
