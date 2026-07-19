@@ -102,8 +102,13 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
+
 	if slot_data ~= nil then
         for key, value in pairs(slot_data) do
+			if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+				print("Parsing slot data")
+				print("Key: " .. key)
+			end
             local flag_obj = Tracker:FindObjectForCode(key)
             if flag_obj ~= nil then
                 if flag_obj.Type == "toggle" then
@@ -111,14 +116,44 @@ function apply_slot_data(slot_data)
                 elseif flag_obj.Type == "consumable" then
                     flag_obj.AcquiredCount = value
                 elseif flag_obj.Type == "progressive" then
-                    flag_obj.CurrentStage = STAGE_MAPPINGS[key][value]
+                    flag_obj.CurrentStage = value
                 end
             end
-			if key == "number_of_stamps_available" then
-				local stamp_obj = Tracker:FindObjectForCode("national_park_passport_stamp")
-				stamp_obj.MaxCount = value
+
+			if key == "chosen_states" then
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("Parsing chosen states")
+					dump_table(value)
+				end
+				for _, state in ipairs(value) do
+					local state_code = string.lower(state:gsub(" ", "_")) .. "_chosen"
+					if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+						print("Chosen State Code: " .. state_code)
+					end
+					local state_option = Tracker:FindObjectForCode(state_code)
+					--TODO: Fix this so it finds the correct "option" item
+					if state_option.CurrentStage < 1 then
+						state_option.CurrentStage = 1
+						if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+							print("Updated Chosen State Option: " .. state_code)
+						end
+					end
+				end
 			end
-        end
+			if key == "victory_state" then
+				local state_code = string.lower(value:gsub(" ", "_")) .. "_victory"
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("Victory State Code: " .. state_code)
+				end
+				local state_option = Tracker:FindObjectForCode(state_code)
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("Updated Victory State Option: " .. state_code)
+				end
+				state_option.CurrentStage = 2
+				--TODO: Fix this so it finds the correct "option" item
+			end
+		end
+		set_required_stamps()
     end
 end
 
@@ -241,10 +276,10 @@ function onItem(index, item_id, item_name, player_number)
 					end
 				end
 			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-				print(string.format("onClear: skipping item_table with no item_code"))
+				print(string.format("onItem: skipping item_table with no item_code"))
 			end
 		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-			print(string.format("onClear: skipping empty item_table"))
+			print(string.format("onItem: skipping empty item_table"))
 		end
 	end
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -405,6 +440,25 @@ function updateHint(hint, sections_to_update)
 		end
 	end
 end
+
+function onLocationSectionChanged(section)
+    local sectionID = section.FullID
+	if (section.AvailableChestCount == 0) then
+        local apID = LOCATION_TO_ID_MAP[sectionID]
+        if apID ~= nil then
+            local res = Archipelago:LocationChecks({apID})
+            if res then
+                print("Sent " .. tostring(apID) .. " for " .. tostring(sectionID))
+            else
+                print("Error sending " .. tostring(apID) .. " for " .. tostring(sectionID))
+            end
+        else
+            print(tostring(sectionID) .. " is not an AP location")
+        end
+    end
+end
+
+ScriptHost:AddOnLocationSectionChangedHandler("manual", onLocationSectionChanged)
 
 -- add AP callbacks
 -- un-/comment as needed

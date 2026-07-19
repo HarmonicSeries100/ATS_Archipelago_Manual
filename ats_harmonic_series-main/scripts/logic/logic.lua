@@ -36,10 +36,12 @@ end
 function set_required_stamps()
     local total_stamps = Tracker:ProviderCountForCode("number_of_stamps_available")
     local percent_needed = Tracker:ProviderCountForCode("percent_stamps_required")
-    local stamps_needed = math.floor(total_stamps*percent_needed)
+    local stamps_needed = math.floor(total_stamps*percent_needed/100)
     if ENABLE_DEBUG_LOG then
         print("Calculated number of stamps needed: " .. stamps_needed)
     end
     local stamps_item = Tracker:FindObjectForCode("number_of_stamps_required")
     stamps_item.AcquiredCount = stamps_needed
+    local stamp_collect_item = Tracker:FindObjectForCode("national_park_passport_stamp")
+    stamp_collect_item.MaxCount = total_stamps
 end

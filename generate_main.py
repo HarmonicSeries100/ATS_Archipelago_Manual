@@ -80,7 +80,7 @@ def process_region_csv(json_data, pop_item_data, pop_loc_data, pop_layout_data):
 def process_location_csv(json_data, pop_item_data, pop_loc_data, region_dlc_index, pop_layout_data):
     garage_cities = {}
     location_map = {
-        "Victory": "@Victory Island"
+        "Victory": "Victory Island/"
     }
     with (open('./resources/ats_manual_location_data.csv', 'r') as f):
         reader = csv.DictReader(f)
@@ -102,9 +102,9 @@ def process_location_csv(json_data, pop_item_data, pop_loc_data, region_dlc_inde
                 pop_layout_data = gen_pop_layout.add_ft_item_to_layout(location, pop_layout_data)
                 
             if location["Location_Group"]:
-                location_map[location_name] = f"@{to_snake_case(location["Region"])}/{location["Location_Group"]}/{location_name}"
+                location_map[location_name] = f"{to_snake_case(location["Region"])}/{location["Location_Group"]}/{location_name}"
             else:
-                location_map[location_name] = f"@{to_snake_case(location["Region"])}/{location_name}"
+                location_map[location_name] = f"{to_snake_case(location["Region"])}/{location_name}/"
 
             if location['State_Capital'] == 'Y':
                 json_data['locations']['data'].append(gen_man.get_state_capital_location(location))

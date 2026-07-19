@@ -47,7 +47,7 @@ Tracker:AddLayouts("layouts/colorado.json")
 Tracker:AddLayouts("layouts/new_mexico.json")
 Tracker:AddLayouts("layouts/utah.json")
 
--- AutoTracking for Poptracker
---if PopVersion and PopVersion >= "0.18.0" then
---    ScriptHost:LoadScript("scripts/autotracking.lua")
---end
+--AutoTracking for Poptracker
+if PopVersion and PopVersion >= "0.18.0" then
+   ScriptHost:LoadScript("scripts/autotracking.lua")
+end
