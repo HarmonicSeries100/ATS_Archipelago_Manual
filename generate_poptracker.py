@@ -55,12 +55,42 @@ def initialize_poptracker_items():
 
 
 def initialize_poptracker_locations():
-    poptracker_locations = {}
+    poptracker_locations = {
+        "base": [
+            {
+                "name": "Victory Island",
+                "access_rules": [to_snake_case(const.GOAL_ITEM_NAME)],
+                "chest_unopened_img": "images/items/validated_passport.png",
+                "chest_opened_img": "images/items/trophy.png",
+                "map_locations": [
+                    {
+                        "map": "victory_island_map",
+                        "x": 136,
+                        "y": 109
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
     return poptracker_locations
 
 
 def initialize_poptracker_maps():
-    poptracker_maps = []
+    poptracker_maps = [
+        {
+            "name": "victory_island_map",
+            "location_size": 18,
+            "location_border_thickness": 2,
+            "location_shape": "rect",
+            "img": "images/maps/victory_island_map.png"
+        },
+    ]
     return poptracker_maps
 
 

@@ -1,0 +1,24 @@
+{
+  "victory_island_layout": {
+    "type": "dock",
+    "content": [
+      {
+        "type": "map",
+        "maps": [
+          "victory_island_map"
+        ]
+      },
+      {
+        "type": "array",
+        "dock": "left",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          }
+        ]
+      }
+    ]
+  }
+}

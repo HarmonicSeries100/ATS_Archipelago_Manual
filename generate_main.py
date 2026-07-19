@@ -11,6 +11,7 @@ import constants as const
 import generate_manual as gen_man
 import generate_poptracker as gen_pop
 import generate_pop_layouts as gen_pop_layout
+import generate_lua_scripts as gen_lua
 from util import to_snake_case
 
 def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop_layout_data):
@@ -46,7 +47,7 @@ def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop
 
             pop_map_data.append(gen_pop.get_poptracker_map(state_code))
 
-            pop_location_data[dlc_id] = []
+            pop_location_data[dlc_id] = [] if dlc_id != "base" else pop_location_data[dlc_id]
 
             pop_layout_data["tracker"]["tracker_default"]["content"]["tabs"].append(gen_pop_layout.get_tracker_tab_layout_node(state_name, state_code))
             pop_layout_data[state_code] = gen_pop_layout.get_state_layout(state_name, state_code)
@@ -78,26 +79,39 @@ def process_region_csv(json_data, pop_item_data, pop_loc_data, pop_layout_data):
 
 def process_location_csv(json_data, pop_item_data, pop_loc_data, region_dlc_index, pop_layout_data):
     garage_cities = {}
+    location_map = {
+        "Victory": "@Victory Island"
+    }
     with (open('./resources/ats_manual_location_data.csv', 'r') as f):
         reader = csv.DictReader(f)
         for location in reader:
+            location_name = location["Location_Name"]
             # Handle locations and items
             json_data['locations']['data'].append(gen_man.get_location_object(location))
+
+            pop_loc_data = gen_pop.get_poptracker_location(location, pop_loc_data, region_dlc_index)
+
             if location['Has_Garage'] == 'Y':
                 json_data['items']['data'].append(gen_man.get_fast_travel_item_from_location(location))
                 try:
-                    garage_cities[location['Region']].append(location['Location_Name'])
+                    garage_cities[location['Region']].append(location_name)
                 except KeyError:
-                    garage_cities[location['Region']] = [location['Location_Name']]
+                    garage_cities[location['Region']] = [location_name]
 
                 pop_item_data["items"].append(gen_pop.get_poptracker_fast_travel_unlock_item(location))
                 pop_layout_data = gen_pop_layout.add_ft_item_to_layout(location, pop_layout_data)
                 
+            if location["Location_Group"]:
+                location_map[location_name] = f"@{to_snake_case(location["Region"])}/{location["Location_Group"]}/{location_name}"
+            else:
+                location_map[location_name] = f"@{to_snake_case(location["Region"])}/{location_name}"
+
             if location['State_Capital'] == 'Y':
                 json_data['locations']['data'].append(gen_man.get_state_capital_location(location))
 
-            pop_loc_data = gen_pop.get_poptracker_location(location, pop_loc_data, region_dlc_index)
-    return json_data, garage_cities, pop_item_data, pop_loc_data, pop_layout_data
+                location_map[const.STATE_CAPITAL_LOC_PREFIX+location_name] = f"@{to_snake_case(location["Region"])}/{location["Location_Group"]}/{const.STATE_CAPITAL_LOC_PREFIX+location_name}"
+    
+    return json_data, garage_cities, pop_item_data, pop_loc_data, pop_layout_data, location_map
 
 
 if __name__ == '__main__':
@@ -109,7 +123,7 @@ if __name__ == '__main__':
 
     json_data, pop_item_data, pop_map_data, pop_loc_data, pop_layout_data = process_state_csv(json_data, pop_item_data, pop_map_data, pop_loc_data, pop_layout_data)
     json_data, pop_item_data, pop_loc_data, region_dlc_index, pop_layout_data = process_region_csv(json_data, pop_item_data, pop_loc_data, pop_layout_data)
-    json_data, garage_city_index, pop_item_data, pop_loc_data, pop_layout_data = process_location_csv(json_data, pop_item_data, pop_loc_data, region_dlc_index, pop_layout_data)
+    json_data, garage_city_index, pop_item_data, pop_loc_data, pop_layout_data, location_map = process_location_csv(json_data, pop_item_data, pop_loc_data, region_dlc_index, pop_layout_data)
     json_data = gen_man.generate_fast_travel_regions(json_data, garage_city_index)
     json_data = gen_man.generate_starting_items(json_data, garage_city_index)
     
@@ -127,13 +141,9 @@ if __name__ == '__main__':
 
     for file in pop_layout_data:
         json.dump(pop_layout_data[file], open(f"./ats_harmonic_series-main/layouts/{file}.json","w"), indent=2)
+
+    gen_lua.generate_item_mapping_script(json_data["items"]["data"])
+    gen_lua.generate_location_mapping_script(json_data["locations"]["data"], location_map)
+    
     #TODO: Fix issues in archipelago.lua
-    #TODO: Generate item_mapping.lua
-    #TODO: Generate location_mapping.lua
-    #TODO: Generate init.lua
-
     #TODO: Create better pngs for cities, viewpoints, photo trophies locked/unlocked
-
-    #TODO: Generate layouts?
-    # Settings page will have a grid for all the states
-    # Also have item for number of stamps available, number required

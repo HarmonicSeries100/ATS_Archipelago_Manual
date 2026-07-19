@@ -1,5 +1,26 @@
 [
   {
+    "name": "Victory Island",
+    "access_rules": [
+      "validated_passport"
+    ],
+    "chest_unopened_img": "images/items/validated_passport.png",
+    "chest_opened_img": "images/items/trophy.png",
+    "map_locations": [
+      {
+        "map": "victory_island_map",
+        "x": 136,
+        "y": 109
+      }
+    ],
+    "sections": [
+      {
+        "name": "",
+        "item_count": 1
+      }
+    ]
+  },
+  {
     "name": "arizona_desert",
     "access_rules": [
       "own_base, arizona_chosen, unlock_arizona_desert, @arizona_mountains",

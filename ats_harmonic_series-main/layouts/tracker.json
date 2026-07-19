@@ -6,6 +6,13 @@
       "type": "tabbed",
       "tabs": [
         {
+          "title": "Victory",
+          "content": {
+            "type": "layout",
+            "key": "victory_island_layout"
+          }
+        },
+        {
           "title": "Arizona",
           "content": {
             "type": "layout",

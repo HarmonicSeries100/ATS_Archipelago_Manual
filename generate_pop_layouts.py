@@ -26,7 +26,15 @@ def initialize_poptracker_layout_data():
             "background": "#222222",
             "content": {
                 "type": "tabbed",
-                "tabs": []
+                "tabs": [
+                    {
+                        "title": "Victory",
+                        "content": {
+                            "type": "layout",
+                            "key": "victory_island_layout"
+                        }  
+                    }
+                ]
             }
         }
     }
@@ -75,6 +83,30 @@ def initialize_poptracker_layout_data():
                             []
                         ]
                     }
+                }
+            ]
+        }
+    }
+    poptracker_layout_data["victory_island"] = {
+       f"victory_island_layout": {
+            "type": "dock",
+            "content": [
+                {
+                    "type": "map",
+                    "maps": [
+                        "victory_island_map"
+                    ]
+                },
+                {
+                    "type": "array",
+                    "dock": "left",
+                    "orientation": "vertical",
+                    "content": [
+                        {
+                            "type": "layout",
+                            "key": "shared_item_grid"
+                        }
+                    ]
                 }
             ]
         }
