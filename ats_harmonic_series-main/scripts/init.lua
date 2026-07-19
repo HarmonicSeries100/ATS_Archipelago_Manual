@@ -37,10 +37,14 @@ Tracker:AddLocations("locations/utah.json")
 
 
 -- Layout
-Tracker:AddLayouts("layouts/items.jsonc")
-Tracker:AddLayouts("layouts/tracker.jsonc")
+Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
 Tracker:AddLayouts("layouts/options_layout.json")
+Tracker:AddLayouts("layouts/arizona.json")
+Tracker:AddLayouts("layouts/colorado.json")
+Tracker:AddLayouts("layouts/new_mexico.json")
+Tracker:AddLayouts("layouts/utah.json")
 
 -- AutoTracking for Poptracker
 --if PopVersion and PopVersion >= "0.18.0" then

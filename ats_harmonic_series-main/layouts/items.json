@@ -1,0 +1,16 @@
+{
+  "shared_item_grid": {
+    "type": "group",
+    "header": "Passport Items",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "left",
+      "rows": [
+        [
+          "national_park_passport_stamp",
+          "validated_passport"
+        ]
+      ]
+    }
+  }
+}

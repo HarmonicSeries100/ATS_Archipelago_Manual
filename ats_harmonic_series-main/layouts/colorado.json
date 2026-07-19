@@ -1,0 +1,109 @@
+{
+  "colorado_layout": {
+    "type": "dock",
+    "content": [
+      {
+        "type": "map",
+        "maps": [
+          "colorado_map"
+        ]
+      },
+      {
+        "type": "array",
+        "dock": "left",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          },
+          {
+            "type": "group",
+            "header": "Colorado Items",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Colorado Plains",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "unlock_colorado_plains",
+                        "unlock_ft_burlington"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Colorado Rockies",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "unlock_colorado_rockies",
+                        "unlock_ft_alamosa",
+                        "unlock_ft_steamboat_springs"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Front Range",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "unlock_front_range",
+                        "unlock_ft_colorado_springs",
+                        "unlock_ft_denver",
+                        "unlock_ft_fort_collins",
+                        "unlock_ft_pueblo"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Western Slope",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "unlock_western_slope",
+                        "unlock_ft_durango",
+                        "unlock_ft_grand_junction",
+                        "unlock_ft_montrose"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Four Corners",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "rows": [
+                      [
+                        "unlock_four_corners"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

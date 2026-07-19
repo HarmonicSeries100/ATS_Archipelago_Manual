@@ -1,0 +1,39 @@
+{
+  "tracker_default": {
+    "type": "container",
+    "background": "#222222",
+    "content": {
+      "type": "tabbed",
+      "tabs": [
+        {
+          "title": "Arizona",
+          "content": {
+            "type": "layout",
+            "key": "arizona_layout"
+          }
+        },
+        {
+          "title": "Colorado",
+          "content": {
+            "type": "layout",
+            "key": "colorado_layout"
+          }
+        },
+        {
+          "title": "New Mexico",
+          "content": {
+            "type": "layout",
+            "key": "new_mexico_layout"
+          }
+        },
+        {
+          "title": "Utah",
+          "content": {
+            "type": "layout",
+            "key": "utah_layout"
+          }
+        }
+      ]
+    }
+  }
+}
