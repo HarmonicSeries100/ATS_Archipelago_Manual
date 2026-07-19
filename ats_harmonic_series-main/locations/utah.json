@@ -178,7 +178,11 @@
             "chest_unopened_img": "images/items/city_lock.png",
             "chest_opened_img": "images/items/city_unlock.png",
             "access_rules": [
-              "$has_enough_stamps"
+              "$has_enough_stamps",
+              "utah_victory"
+            ],
+            "visibility_rules": [
+              "utah_victory"
             ]
           },
           {
