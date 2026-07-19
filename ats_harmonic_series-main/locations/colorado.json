@@ -2,7 +2,8 @@
   {
     "name": "colorado_plains",
     "access_rules": [
-      "own_colorado, colorado_chosen, $is_region_connected|unlock_ft_colorado_plains|front_range"
+      "own_colorado, colorado_chosen, unlock_colorado_plains, @front_range",
+      "own_colorado, colorado_chosen, unlock_colorado_plains, unlock_ft_colorado_plains"
     ],
     "visibility_rules": [
       "own_colorado, colorado_chosen"
@@ -67,7 +68,10 @@
   {
     "name": "colorado_rockies",
     "access_rules": [
-      "own_colorado, colorado_chosen, $is_region_connected|unlock_ft_colorado_rockies|western_slope|front_range|new_mexico_highlands"
+      "own_colorado, colorado_chosen, unlock_colorado_rockies, @western_slope",
+      "own_colorado, colorado_chosen, unlock_colorado_rockies, @front_range",
+      "own_colorado, colorado_chosen, unlock_colorado_rockies, @new_mexico_highlands",
+      "own_colorado, colorado_chosen, unlock_colorado_rockies, unlock_ft_colorado_rockies"
     ],
     "visibility_rules": [
       "own_colorado, colorado_chosen"
@@ -258,7 +262,10 @@
   {
     "name": "front_range",
     "access_rules": [
-      "own_colorado, colorado_chosen, $is_region_connected|unlock_ft_front_range|colorado_rockies|colorado_plains|new_mexico_highlands"
+      "own_colorado, colorado_chosen, unlock_front_range, @colorado_rockies",
+      "own_colorado, colorado_chosen, unlock_front_range, @colorado_plains",
+      "own_colorado, colorado_chosen, unlock_front_range, @new_mexico_highlands",
+      "own_colorado, colorado_chosen, unlock_front_range, unlock_ft_front_range"
     ],
     "visibility_rules": [
       "own_colorado, colorado_chosen"
@@ -422,7 +429,12 @@
   {
     "name": "western_slope",
     "access_rules": [
-      "own_colorado, colorado_chosen, $is_region_connected|unlock_ft_western_slope|central_utah|southeast_utah|four_corners|colorado_rockies|new_mexico_highlands"
+      "own_colorado, colorado_chosen, unlock_western_slope, @central_utah",
+      "own_colorado, colorado_chosen, unlock_western_slope, @southeast_utah",
+      "own_colorado, colorado_chosen, unlock_western_slope, @four_corners",
+      "own_colorado, colorado_chosen, unlock_western_slope, @colorado_rockies",
+      "own_colorado, colorado_chosen, unlock_western_slope, @new_mexico_highlands",
+      "own_colorado, colorado_chosen, unlock_western_slope, unlock_ft_western_slope"
     ],
     "visibility_rules": [
       "own_colorado, colorado_chosen"
@@ -541,7 +553,11 @@
   {
     "name": "four_corners",
     "access_rules": [
-      "own_colorado, $is_in_chosen_state|colorado|utah|arizona|new_mexico, $is_region_connected|unlock_ft_four_corners|southeast_utah|western_slope|arizona_mountains|new_mexico_highlands"
+      "own_colorado, $is_in_chosen_state|colorado|utah|arizona|new_mexico, unlock_four_corners, @southeast_utah",
+      "own_colorado, $is_in_chosen_state|colorado|utah|arizona|new_mexico, unlock_four_corners, @western_slope",
+      "own_colorado, $is_in_chosen_state|colorado|utah|arizona|new_mexico, unlock_four_corners, @arizona_mountains",
+      "own_colorado, $is_in_chosen_state|colorado|utah|arizona|new_mexico, unlock_four_corners, @new_mexico_highlands",
+      "own_colorado, $is_in_chosen_state|colorado|utah|arizona|new_mexico, unlock_four_corners, unlock_ft_four_corners"
     ],
     "visibility_rules": [
       "own_colorado"

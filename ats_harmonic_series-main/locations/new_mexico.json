@@ -2,7 +2,11 @@
   {
     "name": "central_new_mexico",
     "access_rules": [
-      "own_new_mexico, new_mexico_chosen, $is_region_connected|unlock_ft_central_new_mexico|new_mexico_highlands|southern_new_mexico|arizona_mountains|southeast_arizona"
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @new_mexico_highlands",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @southern_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @arizona_mountains",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @southeast_arizona",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, unlock_ft_central_new_mexico"
     ],
     "visibility_rules": [
       "own_new_mexico, new_mexico_chosen"
@@ -193,7 +197,12 @@
   {
     "name": "new_mexico_highlands",
     "access_rules": [
-      "own_new_mexico, new_mexico_chosen, $is_region_connected|unlock_ft_new_mexico_highlands|four_corners|western_slope|colorado_rockies|front_range|central_new_mexico"
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @four_corners",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @western_slope",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @colorado_rockies",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @front_range",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @central_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, unlock_ft_new_mexico_highlands"
     ],
     "visibility_rules": [
       "own_new_mexico, new_mexico_chosen"
@@ -309,7 +318,9 @@
   {
     "name": "southern_new_mexico",
     "access_rules": [
-      "own_new_mexico, new_mexico_chosen, $is_region_connected|unlock_ft_southern_new_mexico|central_new_mexico|southeast_arizona"
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, @central_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, @southeast_arizona",
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, unlock_ft_southern_new_mexico"
     ],
     "visibility_rules": [
       "own_new_mexico, new_mexico_chosen"

@@ -1,16 +1,5 @@
-import json
 import constants as const
-from util import to_snake_case
-
-
-def get_child_node_by_name(data_list, name):
-    match_index = None
-    match_node = None
-    for index, node in enumerate(data_list):
-        if node.get("name") == name:
-            match_index = index
-            match_node = node
-    return match_index, match_node
+from util import get_child_node_by_name, to_snake_case
 
 
 def initialize_poptracker_items():
@@ -148,15 +137,13 @@ def get_poptracker_region_location(region, poptracker_location_data, region_dlc_
         poptracker_location_data = get_poptracker_multistate_region(poptracker_location_data, region_name, region_code, region_state, region_dlc, connections)
         return poptracker_location_data, region_dlc_index
 
-    region_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, "+\
-        f"{region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}, "+\
-        f"$is_region_connected|{const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX + region_code}|{"|".join([conn for conn in connections])}"
-    
+    required_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, {region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}, {const.POPTRACKER_UNLOCK_ITEM_PREFIX+region_code}"
+    region_rules = [f"{required_rules}, @{conn}" for conn in connections]
+    region_rules.append(f"{required_rules}, {const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX+region_code}")
+
     region_node = {
         "name": region_code,
-        "access_rules": [
-            region_rules
-        ],
+        "access_rules": region_rules,
         "visibility_rules": [
             f"{const.DLC_OPTION_PREFIX+region_dlc}, {region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}"
         ],
@@ -168,14 +155,13 @@ def get_poptracker_region_location(region, poptracker_location_data, region_dlc_
 
 def get_poptracker_multistate_region(poptracker_location_data, region_name, region_code, region_state, region_dlc, connections):
     state_list = "|".join([to_snake_case(state) for state in region_state.split(";_")])
-    region_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, $is_in_chosen_state|{state_list}, "+\
-        f"$is_region_connected|{const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX + region_code}|{"|".join([conn for conn in connections])}"
+    required_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, $is_in_chosen_state|{state_list}, {const.POPTRACKER_UNLOCK_ITEM_PREFIX+region_code}"
+    region_rules = [f"{required_rules}, @{conn}" for conn in connections]
+    region_rules.append(f"{required_rules}, {const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX+region_code}")
     
     region_node = {
         "name": region_code,
-        "access_rules": [
-            region_rules
-        ],
+        "access_rules": region_rules,
         "visibility_rules": [
             f"{const.DLC_OPTION_PREFIX+region_dlc}"
         ],
