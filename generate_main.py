@@ -29,6 +29,10 @@ def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop
                 if dlc_name != 'Base':
                     json_data['categories'][dlc_category]['yaml_option'] = [dlc_option]
 
+                layout_row = pop_layout_data["options_layout"]["settings_popup"]["content"][1]["content"]["rows"]
+                layout_row = gen_pop_layout.add_item_to_row(layout_row, const.DLC_OPTION_PREFIX+dlc_id, const.NUMBER_OF_OPTION_COLUMNS)
+                pop_layout_data["options_layout"]["settings_popup"]["content"][1]["content"]["rows"]=layout_row
+
             if dlc_option not in json_data['options']['user'] and dlc_name != 'Base':
                 json_data['options']['user'][dlc_option] = gen_man.get_own_dlc_option(dlc_name)
 
@@ -46,6 +50,9 @@ def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop
 
             pop_layout_data["tracker"]["tracker_default"]["content"]["tabs"].append(gen_pop_layout.get_tracker_tab_layout_node(state_name, state_code))
             pop_layout_data[state_code] = gen_pop_layout.get_state_layout(state_name, state_code)
+            layout_row = pop_layout_data["options_layout"]["settings_popup"]["content"][2]["content"]["rows"]
+            layout_row = gen_pop_layout.add_item_to_row(layout_row, state_code+const.POPTRACKER_STATE_CHOSEN_SUFFIX, const.NUMBER_OF_OPTION_COLUMNS)
+            pop_layout_data["options_layout"]["settings_popup"]["content"][2]["content"]["rows"]=layout_row
 
     return json_data, pop_item_data, pop_map_data, pop_location_data, pop_layout_data
 

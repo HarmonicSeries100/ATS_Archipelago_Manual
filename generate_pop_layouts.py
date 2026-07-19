@@ -13,6 +13,7 @@ def initialize_poptracker_layout_data():
                 "rows": [
                     [
                         "national_park_passport_stamp",
+                        "number_of_stamps_required",
                         "validated_passport"
                     ]
                 ]
@@ -27,6 +28,55 @@ def initialize_poptracker_layout_data():
                 "type": "tabbed",
                 "tabs": []
             }
+        }
+    }
+    poptracker_layout_data["options_layout"] = {
+        "settings_popup": {
+            "type": "array",
+            "orientation": "horizontal",
+            "v_alignment": "top",
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Game Options",
+                    "content": {
+                        "type": "itemgrid",
+                        "item_width": 40,
+                        "item_height": 40,
+                        "rows": [
+                            [
+                                "number_of_stamps_available",
+                                "percent_stamps_required",
+                                "number_of_stamps_required"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "DLC Owned",
+                    "content": {
+                        "type": "itemgrid",
+                        "item_width": 40,
+                        "item_height": 40,
+                        "rows": [
+                            []
+                        ]
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "State Options",
+                    "content": {
+                        "type": "itemgrid",
+                        "item_width": 40,
+                        "item_height": 40,
+                        "rows": [
+                            []
+                        ]
+                    }
+                }
+            ]
         }
     }
     return poptracker_layout_data
@@ -102,10 +152,14 @@ def add_ft_item_to_layout(location, pop_layout_data):
     regions_node = pop_layout_data[state_code][f"{state_code}_layout"]["content"][1]["content"][1]["content"]["content"]
     region_index, region_node = get_child_node_by_name(regions_node, region_name, key="header")
     rows_node = region_node["content"]["rows"]
-    last_row_length = len(rows_node[-1])
-    if last_row_length == const.NUMBER_OF_ITEM_COLUMNS:
-        rows_node.append([const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX+location_code])
-    else:
-        rows_node[-1].append(const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX+location_code)
+    rows_node = add_item_to_row(rows_node, const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX+location_code, const.NUMBER_OF_ITEM_COLUMNS)
     pop_layout_data[state_code][f"{state_code}_layout"]["content"][1]["content"][1]["content"]["content"][region_index]["content"]["rows"]=rows_node
     return pop_layout_data
+
+def add_item_to_row(rows_node, item_text, row_width):
+    last_row_length = len(rows_node[-1])
+    if last_row_length == row_width:
+        rows_node.append([item_text])
+    else:
+        rows_node[-1].append(item_text)
+    return rows_node

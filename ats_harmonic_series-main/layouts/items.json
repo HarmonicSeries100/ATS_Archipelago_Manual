@@ -8,6 +8,7 @@
       "rows": [
         [
           "national_park_passport_stamp",
+          "number_of_stamps_required",
           "validated_passport"
         ]
       ]
