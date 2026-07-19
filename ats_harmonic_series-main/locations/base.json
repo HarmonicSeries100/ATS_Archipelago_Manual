@@ -17,8 +17,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 40,
-            "y": 40
+            "x": 549,
+            "y": 539
           }
         ],
         "sections": [
@@ -35,8 +35,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 80,
-            "y": 40
+            "x": 262,
+            "y": 355
           }
         ],
         "sections": [
@@ -53,8 +53,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 120,
-            "y": 40
+            "x": 253,
+            "y": 509
           }
         ],
         "sections": [
@@ -69,8 +69,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 160,
-            "y": 40
+            "x": 465,
+            "y": 689
           }
         ],
         "sections": [
@@ -104,8 +104,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 200,
-            "y": 40
+            "x": 76,
+            "y": 769
           }
         ],
         "sections": [
@@ -139,8 +139,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 280,
-            "y": 40
+            "x": 623,
+            "y": 384
           }
         ],
         "sections": [
@@ -155,8 +155,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 320,
-            "y": 40
+            "x": 541,
+            "y": 256
           }
         ],
         "sections": [
@@ -187,8 +187,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 360,
-            "y": 40
+            "x": 828,
+            "y": 179
           }
         ],
         "sections": [
@@ -205,8 +205,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 400,
-            "y": 40
+            "x": 663,
+            "y": 115
           }
         ],
         "sections": [
@@ -218,86 +218,62 @@
       },
       {
         "name": "Winslow",
-        "chest_unopened_img": "images/items/city_lock.png",
-        "chest_opened_img": "images/items/city_unlock.png",
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 40,
-            "y": 80
+            "x": 748,
+            "y": 457
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Winslow - Viewpoint",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
+            "name": "Winslow",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
           {
-            "map": "arizona_map",
-            "x": 120,
-            "y": 80
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
+            "name": "Winslow - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       },
       {
         "name": "Lupton",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 40,
-            "y": 240
+            "x": 963,
+            "y": 440
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "own_new_mexico"
-        ],
-        "visibility_rules": [
-          "own_new_mexico"
-        ]
-      },
-      {
-        "name": "Arizona Welcome Center Rest Area",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
+            "name": "Lupton",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "own_new_mexico"
+            ],
+            "visibility_rules": [
+              "own_new_mexico"
+            ]
+          },
           {
-            "map": "arizona_map",
-            "x": 80,
-            "y": 240
+            "name": "Arizona Welcome Center Rest Area",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png",
+            "access_rules": [
+              "own_new_mexico"
+            ],
+            "visibility_rules": [
+              "own_new_mexico"
+            ]
           }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
-          }
-        ],
-        "access_rules": [
-          "own_new_mexico"
-        ],
-        "visibility_rules": [
-          "own_new_mexico"
         ]
       },
       {
@@ -307,8 +283,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 360,
-            "y": 320
+            "x": 663,
+            "y": 93
           }
         ],
         "sections": [
@@ -346,8 +322,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 200,
-            "y": 80
+            "x": 874,
+            "y": 817
           }
         ],
         "sections": [
@@ -364,8 +340,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 240,
-            "y": 80
+            "x": 587,
+            "y": 1088
           }
         ],
         "sections": [
@@ -382,8 +358,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 280,
-            "y": 80
+            "x": 862,
+            "y": 975
           }
         ],
         "sections": [
@@ -400,8 +376,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 320,
-            "y": 80
+            "x": 798,
+            "y": 606
           }
         ],
         "sections": [
@@ -418,8 +394,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 360,
-            "y": 80
+            "x": 690,
+            "y": 1084
           }
         ],
         "sections": [
@@ -436,8 +412,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 400,
-            "y": 80
+            "x": 597,
+            "y": 931
           }
         ],
         "sections": [
@@ -454,8 +430,8 @@
         "map_locations": [
           {
             "map": "arizona_map",
-            "x": 40,
-            "y": 120
+            "x": 670,
+            "y": 720
           }
         ],
         "sections": [

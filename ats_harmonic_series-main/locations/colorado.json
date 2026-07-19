@@ -16,8 +16,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 80,
-            "y": 120
+            "x": 1406,
+            "y": 565
           }
         ],
         "sections": [
@@ -34,8 +34,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 120,
-            "y": 120
+            "x": 1314,
+            "y": 844
           }
         ],
         "sections": [
@@ -52,8 +52,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 160,
-            "y": 120
+            "x": 1219,
+            "y": 263
           }
         ],
         "sections": [
@@ -84,8 +84,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 200,
-            "y": 120
+            "x": 666,
+            "y": 962
           }
         ],
         "sections": [
@@ -102,8 +102,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 240,
-            "y": 120
+            "x": 577,
+            "y": 221
           }
         ],
         "sections": [
@@ -114,92 +114,86 @@
         ]
       },
       {
-        "name": "Alpine Visitor Center in Rocky Mountain National Park",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "name": "Alpine Visitor Center",
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 280,
-            "y": 120
+            "x": 744,
+            "y": 236
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
+            "name": "Alpine Visitor Center in Rocky Mountain National Park",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
+          {
+            "name": "Rocky Mountain Road",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       },
       {
-        "name": "Eisenhower-Johnson Tunnels",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "name": "Eisenhower Tunnel East",
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 320,
-            "y": 120
+            "x": 727,
+            "y": 460
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Hanging Lake Tunnel",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
-        "map_locations": [
-          {
-            "map": "colorado_map",
-            "x": 360,
-            "y": 120
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Eisenhower Tunnel",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
-          {
-            "map": "colorado_map",
-            "x": 400,
-            "y": 120
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
+            "name": "Eisenhower-Johnson Tunnels",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
           }
         ]
       },
       {
         "name": "Glenwood Canyon",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 40,
-            "y": 160
+            "x": 503,
+            "y": 419
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
+            "name": "Hanging Lake Tunnel",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
+          {
+            "name": "Glenwood Canyon",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Eisenhower Tunnel West",
+        "map_locations": [
+          {
+            "map": "colorado_map",
+            "x": 689,
+            "y": 473
+          }
+        ],
+        "sections": [
+          {
+            "name": "Eisenhower Tunnel",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       },
@@ -210,26 +204,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 80,
-            "y": 160
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Rocky Mountain Road",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
-          {
-            "map": "colorado_map",
-            "x": 120,
-            "y": 160
+            "x": 588,
+            "y": 529
           }
         ],
         "sections": [
@@ -246,8 +222,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 160,
-            "y": 160
+            "x": 444,
+            "y": 909
           }
         ],
         "sections": [
@@ -273,19 +249,25 @@
     "children": [
       {
         "name": "Colorado Springs",
-        "chest_unopened_img": "images/items/city_lock.png",
-        "chest_opened_img": "images/items/city_unlock.png",
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 200,
-            "y": 160
+            "x": 904,
+            "y": 632
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
+            "name": "Colorado Springs",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Colorado Springs - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       },
@@ -294,8 +276,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 240,
-            "y": 160
+            "x": 932,
+            "y": 433
           }
         ],
         "sections": [
@@ -323,8 +305,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 280,
-            "y": 160
+            "x": 898,
+            "y": 205
           }
         ],
         "sections": [
@@ -341,8 +323,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 320,
-            "y": 160
+            "x": 903,
+            "y": 760
           }
         ],
         "sections": [
@@ -353,56 +335,26 @@
         ]
       },
       {
-        "name": "Cripple Creek & Victor Gold Mine - Photo",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "name": "Cripple Creek & Victor Gold Mine",
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 360,
-            "y": 160
+            "x": 767,
+            "y": 640
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Colorado Springs - Viewpoint",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
+            "name": "Cripple Creek & Victor Gold Mine - Photo",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
           {
-            "map": "colorado_map",
-            "x": 400,
-            "y": 160
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Cripple Creek & Victor Gold Mine - Viewpoint",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
-          {
-            "map": "colorado_map",
-            "x": 40,
-            "y": 200
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
+            "name": "Cripple Creek & Victor Gold Mine - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       },
@@ -413,8 +365,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 80,
-            "y": 200
+            "x": 1060,
+            "y": 406
           }
         ],
         "sections": [
@@ -447,8 +399,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 120,
-            "y": 200
+            "x": 278,
+            "y": 968
           }
         ],
         "sections": [
@@ -465,8 +417,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 160,
-            "y": 200
+            "x": 206,
+            "y": 505
           }
         ],
         "sections": [
@@ -483,8 +435,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 200,
-            "y": 200
+            "x": 318,
+            "y": 659
           }
         ],
         "sections": [
@@ -501,8 +453,8 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 240,
-            "y": 200
+            "x": 190,
+            "y": 241
           }
         ],
         "sections": [
@@ -513,38 +465,26 @@
         ]
       },
       {
-        "name": "Million Dollar Highway - Photo",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "name": "Million Dollar Highway",
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 280,
-            "y": 200
+            "x": 336,
+            "y": 796
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Million Dollar Highway - Viewpoint",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
+            "name": "Million Dollar Highway - Photo",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
           {
-            "map": "colorado_map",
-            "x": 320,
-            "y": 200
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
+            "name": "Million Dollar Highway - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       }
@@ -568,32 +508,32 @@
         "map_locations": [
           {
             "map": "colorado_map",
-            "x": 360,
-            "y": 200,
+            "x": 35,
+            "y": 955,
             "restrict_visibility_rules": [
               "colorado_chosen"
             ]
           },
           {
             "map": "utah_map",
-            "x": 365,
-            "y": 200,
+            "x": 813,
+            "y": 1095,
             "restrict_visibility_rules": [
               "utah_chosen"
             ]
           },
           {
             "map": "arizona_map",
-            "x": 370,
-            "y": 200,
+            "x": 996,
+            "y": 126,
             "restrict_visibility_rules": [
               "arizona_chosen"
             ]
           },
           {
             "map": "new_mexico_map",
-            "x": 375,
-            "y": 200,
+            "x": 223,
+            "y": 7,
             "restrict_visibility_rules": [
               "new_mexico_chosen"
             ]

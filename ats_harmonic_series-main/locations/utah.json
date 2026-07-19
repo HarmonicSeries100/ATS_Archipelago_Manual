@@ -19,8 +19,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 400,
-            "y": 320
+            "x": 651,
+            "y": 570
           }
         ],
         "sections": [
@@ -32,19 +32,25 @@
       },
       {
         "name": "Provo",
-        "chest_unopened_img": "images/items/city_lock.png",
-        "chest_opened_img": "images/items/city_unlock.png",
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 40,
-            "y": 360
+            "x": 539,
+            "y": 432
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
+            "name": "Provo",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Provo City Center Temple",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
           }
         ]
       },
@@ -55,8 +61,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 80,
-            "y": 360
+            "x": 457,
+            "y": 644
           }
         ],
         "sections": [
@@ -73,26 +79,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 120,
-            "y": 360
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Provo City Center Temple",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
-        "map_locations": [
-          {
-            "map": "utah_map",
-            "x": 160,
-            "y": 360
+            "x": 859,
+            "y": 421
           }
         ],
         "sections": [
@@ -109,8 +97,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 200,
-            "y": 360
+            "x": 796,
+            "y": 470
           }
         ],
         "sections": [
@@ -139,8 +127,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 240,
-            "y": 360
+            "x": 570,
+            "y": 122
           }
         ],
         "sections": [
@@ -157,8 +145,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 280,
-            "y": 360
+            "x": 513,
+            "y": 210
           }
         ],
         "sections": [
@@ -173,8 +161,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 320,
-            "y": 360
+            "x": 499,
+            "y": 296
           }
         ],
         "sections": [
@@ -208,8 +196,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 400,
-            "y": 360
+            "x": 319,
+            "y": 287
           }
         ],
         "sections": [
@@ -226,8 +214,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 40,
-            "y": 400
+            "x": 411,
+            "y": 359
           }
         ],
         "sections": [
@@ -244,8 +232,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 80,
-            "y": 400
+            "x": 273,
+            "y": 275
           }
         ],
         "sections": [
@@ -277,8 +265,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 120,
-            "y": 400
+            "x": 803,
+            "y": 799
           }
         ],
         "sections": [
@@ -295,62 +283,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 160,
-            "y": 400
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Monument Valley - Photo",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
-        "map_locations": [
-          {
-            "map": "utah_map",
-            "x": 200,
-            "y": 400
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "San Rafael Swell Top View Area",
-        "chest_unopened_img": "images/items/photo_trophy_lock.png",
-        "chest_opened_img": "images/items/photo_trophy_unlock.png",
-        "map_locations": [
-          {
-            "map": "utah_map",
-            "x": 240,
-            "y": 400
-          }
-        ],
-        "sections": [
-          {
-            "name": "",
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Hole N The Rock",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
-        "map_locations": [
-          {
-            "map": "utah_map",
-            "x": 280,
-            "y": 400
+            "x": 778,
+            "y": 757
           }
         ],
         "sections": [
@@ -362,31 +296,61 @@
       },
       {
         "name": "Monument Valley",
-        "chest_unopened_img": "images/items/viewpoint_lock.png",
-        "chest_opened_img": "images/items/viewpoint_unlock.png",
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 320,
-            "y": 400
+            "x": 652,
+            "y": 1103
           }
         ],
         "sections": [
           {
-            "name": "",
-            "item_count": 1
+            "name": "Monument Valley - Photo",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
+          {
+            "name": "Monument Valley",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       },
       {
-        "name": "San Rafael Swell Area",
+        "name": "San Rafael Swell",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 643,
+            "y": 710
+          }
+        ],
+        "sections": [
+          {
+            "name": "San Rafael Swell Top View Area",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
+          {
+            "name": "San Rafael Swell Area",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Hole N The Rock",
         "chest_unopened_img": "images/items/viewpoint_lock.png",
         "chest_opened_img": "images/items/viewpoint_unlock.png",
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 360,
-            "y": 400
+            "x": 815,
+            "y": 846
           }
         ],
         "sections": [
@@ -416,8 +380,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 400,
-            "y": 400
+            "x": 268,
+            "y": 835
           }
         ],
         "sections": [
@@ -432,8 +396,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 40,
-            "y": 440
+            "x": 118,
+            "y": 961
           }
         ],
         "sections": [
@@ -458,8 +422,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 80,
-            "y": 440
+            "x": 308,
+            "y": 1040
           }
         ],
         "sections": [
@@ -476,8 +440,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 160,
-            "y": 440
+            "x": 380,
+            "y": 810
           }
         ],
         "sections": [
@@ -494,8 +458,8 @@
         "map_locations": [
           {
             "map": "utah_map",
-            "x": 200,
-            "y": 440
+            "x": 273,
+            "y": 987
           }
         ],
         "sections": [
