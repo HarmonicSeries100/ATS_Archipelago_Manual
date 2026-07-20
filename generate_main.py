@@ -109,7 +109,7 @@ def process_location_csv(json_data, pop_item_data, pop_loc_data, region_dlc_inde
             if location['State_Capital'] == 'Y':
                 json_data['locations']['data'].append(gen_man.get_state_capital_location(location))
 
-                location_map[const.STATE_CAPITAL_LOC_PREFIX+location_name] = f"@{to_snake_case(location["Region"])}/{location["Location_Group"]}/{const.STATE_CAPITAL_LOC_PREFIX+location_name}"
+                location_map[const.STATE_CAPITAL_LOC_PREFIX+location_name] = f"{to_snake_case(location["Region"])}/{location["Location_Group"]}/{const.STATE_CAPITAL_LOC_PREFIX+location_name}"
     
     return json_data, garage_cities, pop_item_data, pop_loc_data, pop_layout_data, location_map
 
