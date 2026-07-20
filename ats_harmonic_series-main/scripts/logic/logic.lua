@@ -24,8 +24,14 @@ function is_in_chosen_state(...)
 end
 
 function has_enough_stamps()
+    if ENABLE_DEBUG_LOG then
+        print("Called has_enough_stamps")
+    end
     local current_stamp_count = Tracker:ProviderCountForCode("national_park_passport_stamp")
     local stamps_needed = Tracker:ProviderCountForCode("number_of_stamps_required")
+    if ENABLE_DEBUG_LOG then
+        print(string.format("Current stamps: %s Needed stamps: %s",current_stamp_count,stamps_needed))
+    end
     if current_stamp_count >= stamps_needed then
         return true
     else

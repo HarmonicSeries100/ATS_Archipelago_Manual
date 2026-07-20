@@ -278,7 +278,7 @@ def get_poptracker_location(location, poptracker_location_data, region_dlc_index
                     "item_count": 1,
                     "chest_unopened_img": f"images/items/{loc_type}_lock.png",
                     "chest_opened_img": f"images/items/{loc_type}_unlock.png",
-                    "access_rules": ["$has_enough_stamps", loc_state+const.POPTRACKER_VICTORY_STATE_SUFFIX],
+                    "access_rules": [f"$has_enough_stamps, {loc_state+const.POPTRACKER_VICTORY_STATE_SUFFIX}"],
                     "visibility_rules": [loc_state+const.POPTRACKER_VICTORY_STATE_SUFFIX]
                 }
             )

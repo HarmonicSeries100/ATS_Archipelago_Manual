@@ -107,8 +107,7 @@
             "chest_unopened_img": "images/items/city_lock.png",
             "chest_opened_img": "images/items/city_unlock.png",
             "access_rules": [
-              "$has_enough_stamps",
-              "arizona_victory"
+              "$has_enough_stamps, arizona_victory"
             ],
             "visibility_rules": [
               "arizona_victory"

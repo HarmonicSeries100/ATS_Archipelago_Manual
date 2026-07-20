@@ -443,6 +443,15 @@ end
 
 function onLocationSectionChanged(section)
     local sectionID = section.FullID
+	if (sectionID == "Victory Island/") then
+		local res = Archipelago:StatusUpdate(Archipelago.ClientStatus.GOAL)
+		if res then
+			print("Sent victory!")
+		else
+			print("Error sending victory")
+		end
+		return
+	end
 	if (section.AvailableChestCount == 0) then
         local apID = LOCATION_TO_ID_MAP[sectionID]
         if apID ~= nil then
