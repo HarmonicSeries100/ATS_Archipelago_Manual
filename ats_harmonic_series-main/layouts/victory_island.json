@@ -1,6 +1,7 @@
 {
   "victory_island_layout": {
     "type": "dock",
+    "background": "#222228",
     "content": [
       {
         "type": "map",

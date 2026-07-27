@@ -1,7 +1,7 @@
 {
   "tracker_default": {
     "type": "container",
-    "background": "#222222",
+    "background": "#111111",
     "content": {
       "type": "tabbed",
       "tabs": [

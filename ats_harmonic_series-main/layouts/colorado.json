@@ -1,6 +1,7 @@
 {
   "colorado_layout": {
     "type": "dock",
+    "background": "#222228",
     "content": [
       {
         "type": "map",
@@ -23,6 +24,7 @@
             "content": {
               "type": "array",
               "orientation": "vertical",
+              "margin": "10,5,5,5",
               "content": [
                 {
                   "type": "group",
@@ -30,6 +32,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_colorado_plains",
@@ -44,6 +47,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_colorado_rockies",
@@ -59,6 +63,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_front_range",
@@ -76,6 +81,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_western_slope",
@@ -92,6 +98,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_four_corners"

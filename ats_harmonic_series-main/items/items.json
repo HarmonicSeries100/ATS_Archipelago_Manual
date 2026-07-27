@@ -6,13 +6,17 @@
     "img": "images/items/national_park_passport_stamp.png",
     "codes": "national_park_passport_stamp",
     "min_quantity": 0,
-    "max_quantity": 12
+    "max_quantity": 12,
+    "overlay_font_size": 12,
+    "overlay_align": "left"
   },
   {
     "name": "Validated Passport",
     "type": "toggle",
     "loop": "true",
     "img": "images/items/validated_passport.png",
+    "img_mods": "overlay|images/overlay/check_overlay.png",
+    "disabled_img_mods": "@disabled",
     "codes": "validated_passport"
   },
   {

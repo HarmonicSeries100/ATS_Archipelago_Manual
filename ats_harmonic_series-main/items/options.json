@@ -6,7 +6,9 @@
     "img": "images/items/national_park_passport_stamp.png",
     "codes": "number_of_stamps_available",
     "min_quantity": 2,
-    "max_quantity": 12
+    "max_quantity": 12,
+    "overlay_font_size": 12,
+    "overlay_align": "left"
   },
   {
     "name": "Percent Stamps Required",
@@ -15,7 +17,9 @@
     "img": "images/items/national_park_passport_stamp_percent.png",
     "codes": "percent_stamps_required",
     "min_quantity": 1,
-    "max_quantity": 100
+    "max_quantity": 100,
+    "overlay_font_size": 12,
+    "overlay_align": "left"
   },
   {
     "name": "Number of Stamps Required",
@@ -24,7 +28,9 @@
     "img": "images/items/national_park_passport_stamp.png",
     "codes": "number_of_stamps_required",
     "min_quantity": 2,
-    "max_quantity": 12
+    "max_quantity": 12,
+    "overlay_font_size": 12,
+    "overlay_align": "left"
   },
   {
     "name": "Owns Base",

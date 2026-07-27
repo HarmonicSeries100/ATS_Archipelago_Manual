@@ -1,6 +1,7 @@
 {
   "utah_layout": {
     "type": "dock",
+    "background": "#222228",
     "content": [
       {
         "type": "map",
@@ -23,6 +24,7 @@
             "content": {
               "type": "array",
               "orientation": "vertical",
+              "margin": "10,5,5,5",
               "content": [
                 {
                   "type": "group",
@@ -30,6 +32,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_four_corners"
@@ -43,6 +46,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_central_utah",
@@ -60,6 +64,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_northern_utah",
@@ -76,6 +81,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_southeast_utah",
@@ -90,6 +96,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_st._george_area",

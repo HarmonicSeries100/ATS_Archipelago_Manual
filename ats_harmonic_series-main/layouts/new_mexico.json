@@ -1,6 +1,7 @@
 {
   "new_mexico_layout": {
     "type": "dock",
+    "background": "#222228",
     "content": [
       {
         "type": "map",
@@ -23,6 +24,7 @@
             "content": {
               "type": "array",
               "orientation": "vertical",
+              "margin": "10,5,5,5",
               "content": [
                 {
                   "type": "group",
@@ -30,6 +32,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_four_corners"
@@ -43,6 +46,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_central_new_mexico",
@@ -63,6 +67,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_new_mexico_highlands",
@@ -79,6 +84,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_southern_new_mexico",

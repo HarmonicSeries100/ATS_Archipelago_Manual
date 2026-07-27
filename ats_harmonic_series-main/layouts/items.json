@@ -5,6 +5,8 @@
     "content": {
       "type": "itemgrid",
       "h_alignment": "left",
+      "item_width": 48,
+      "item_height": 48,
       "rows": [
         [
           "national_park_passport_stamp",

@@ -10,6 +10,8 @@ def initialize_poptracker_layout_data():
             "content": {
                 "type": "itemgrid",
                 "h_alignment": "left",
+                "item_width": 48,
+                "item_height": 48,
                 "rows": [
                     [
                         "national_park_passport_stamp",
@@ -23,7 +25,7 @@ def initialize_poptracker_layout_data():
     poptracker_layout_data["tracker"] = {
         "tracker_default": {
             "type": "container",
-            "background": "#222222",
+            "background": "#111111",
             "content": {
                 "type": "tabbed",
                 "tabs": [
@@ -49,8 +51,9 @@ def initialize_poptracker_layout_data():
                     "header": "Game Options",
                     "content": {
                         "type": "itemgrid",
-                        "item_width": 40,
-                        "item_height": 40,
+                        "item_width": 48,
+                        "item_height": 48,
+                        "item_v_alignment": "center",
                         "rows": [
                             [
                                 "number_of_stamps_available",
@@ -65,8 +68,9 @@ def initialize_poptracker_layout_data():
                     "header": "DLC Owned",
                     "content": {
                         "type": "itemgrid",
-                        "item_width": 40,
-                        "item_height": 40,
+                        "item_width": 64,
+                        "item_height": 64,
+                        "item_v_alignment": "center",
                         "rows": [
                             []
                         ]
@@ -77,8 +81,9 @@ def initialize_poptracker_layout_data():
                     "header": "State Options",
                     "content": {
                         "type": "itemgrid",
-                        "item_width": 40,
-                        "item_height": 40,
+                        "item_width": 64,
+                        "item_height": 64,
+                        "item_v_alignment": "center",                 
                         "rows": [
                             []
                         ]
@@ -90,6 +95,7 @@ def initialize_poptracker_layout_data():
     poptracker_layout_data["victory_island"] = {
        f"victory_island_layout": {
             "type": "dock",
+            "background": "#222228",
             "content": [
                 {
                     "type": "map",
@@ -127,6 +133,7 @@ def get_state_layout(state_name, state_code):
     state_layout_node = {
         f"{state_code}_layout": {
             "type": "dock",
+            "background": "#222228",
             "content": [
                 {
                     "type": "map",
@@ -149,6 +156,7 @@ def get_state_layout(state_name, state_code):
                             "content": {
                                 "type": "array",
                                 "orientation": "vertical",
+                                "margin": "10,5,5,5",
                                 "content": []
                             }
                         }
@@ -168,6 +176,7 @@ def get_region_layout_node(region):
         "content": {
             "type": "itemgrid",
             "item_size": 32,
+            "h_alignment": "left",
             "rows": [
                 [const.POPTRACKER_UNLOCK_ITEM_PREFIX + region_code]
             ]

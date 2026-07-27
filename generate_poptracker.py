@@ -12,13 +12,17 @@ def initialize_poptracker_items():
             "img": "images/items/national_park_passport_stamp.png",
             "codes": to_snake_case(const.GOAL_COLLECT_NAME),
             "min_quantity": 0,
-            "max_quantity": 12
+            "max_quantity": 12,
+            "overlay_font_size": 12,
+            "overlay_align": "left"
         },
         {
             "name": const.GOAL_ITEM_NAME,
             "type": "toggle",
             "loop": "true",
             "img": "images/items/validated_passport.png",
+            "img_mods": "overlay|images/overlay/check_overlay.png",
+            "disabled_img_mods": "@disabled",
             "codes": to_snake_case(const.GOAL_ITEM_NAME)
         }
     ]
@@ -30,7 +34,9 @@ def initialize_poptracker_items():
             "img": "images/items/national_park_passport_stamp.png",
             "codes": "number_of_stamps_available",
             "min_quantity": 2,
-            "max_quantity": 12
+            "max_quantity": 12,
+            "overlay_font_size": 12,
+            "overlay_align": "left"
         },
         {
             "name": "Percent Stamps Required",
@@ -39,7 +45,9 @@ def initialize_poptracker_items():
             "img": "images/items/national_park_passport_stamp_percent.png",
             "codes": "percent_stamps_required",
             "min_quantity": 1,
-            "max_quantity": 100
+            "max_quantity": 100,
+            "overlay_font_size": 12,
+            "overlay_align": "left"
         },
         {
             "name": "Number of Stamps Required",
@@ -48,7 +56,9 @@ def initialize_poptracker_items():
             "img": "images/items/national_park_passport_stamp.png",
             "codes": "number_of_stamps_required",
             "min_quantity": 2,
-            "max_quantity": 12
+            "max_quantity": 12,
+            "overlay_font_size": 12,
+            "overlay_align": "left"
         }
     ]
     return poptracker_items

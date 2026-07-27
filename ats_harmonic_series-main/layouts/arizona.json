@@ -1,6 +1,7 @@
 {
   "arizona_layout": {
     "type": "dock",
+    "background": "#222228",
     "content": [
       {
         "type": "map",
@@ -23,6 +24,7 @@
             "content": {
               "type": "array",
               "orientation": "vertical",
+              "margin": "10,5,5,5",
               "content": [
                 {
                   "type": "group",
@@ -30,6 +32,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_arizona_desert",
@@ -46,6 +49,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_arizona_mountains",
@@ -62,6 +66,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_southeast_arizona",
@@ -77,6 +82,7 @@
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
+                    "h_alignment": "left",
                     "rows": [
                       [
                         "unlock_four_corners"

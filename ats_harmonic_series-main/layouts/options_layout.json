@@ -9,8 +9,9 @@
         "header": "Game Options",
         "content": {
           "type": "itemgrid",
-          "item_width": 40,
-          "item_height": 40,
+          "item_width": 48,
+          "item_height": 48,
+          "item_v_alignment": "center",
           "rows": [
             [
               "number_of_stamps_available",
@@ -25,8 +26,9 @@
         "header": "DLC Owned",
         "content": {
           "type": "itemgrid",
-          "item_width": 40,
-          "item_height": 40,
+          "item_width": 64,
+          "item_height": 64,
+          "item_v_alignment": "center",
           "rows": [
             [
               "own_base",
@@ -42,8 +44,9 @@
         "header": "State Options",
         "content": {
           "type": "itemgrid",
-          "item_width": 40,
-          "item_height": 40,
+          "item_width": 64,
+          "item_height": 64,
+          "item_v_alignment": "center",
           "rows": [
             [
               "arizona_chosen",
