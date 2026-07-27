@@ -1,0 +1,106 @@
+{
+  "new_mexico_layout": {
+    "type": "dock",
+    "background": "#222228",
+    "content": [
+      {
+        "type": "map",
+        "maps": [
+          "new_mexico_map"
+        ]
+      },
+      {
+        "type": "array",
+        "dock": "left",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          },
+          {
+            "type": "group",
+            "header": "New Mexico Items",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "margin": "10,5,5,5",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Four Corners",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_four_corners"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Central New Mexico",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_central_new_mexico",
+                        "unlock_ft_albuquerque",
+                        "unlock_ft_clovis",
+                        "unlock_ft_gallup",
+                        "unlock_ft_socorro"
+                      ],
+                      [
+                        "unlock_ft_tucumcari"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "New Mexico Highlands",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_new_mexico_highlands",
+                        "unlock_ft_farmington",
+                        "unlock_ft_raton",
+                        "unlock_ft_santa_fe"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Southern New Mexico",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_southern_new_mexico",
+                        "unlock_ft_alamogordo",
+                        "unlock_ft_artesia",
+                        "unlock_ft_hobbs",
+                        "unlock_ft_roswell"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

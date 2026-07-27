@@ -1,0 +1,37 @@
+[
+  {
+    "name": "victory_island_map",
+    "location_size": 18,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/victory_island_map.png"
+  },
+  {
+    "name": "arizona_map",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/arizona_map.png"
+  },
+  {
+    "name": "colorado_map",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/colorado_map.png"
+  },
+  {
+    "name": "new_mexico_map",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/new_mexico_map.png"
+  },
+  {
+    "name": "utah_map",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/utah_map.png"
+  }
+]

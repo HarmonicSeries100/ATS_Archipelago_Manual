@@ -11,7 +11,7 @@ playthroughs:
 * States are further divided into regions, so that playing only a couple of states won't have half your checks in
 Sphere 1.
 * Quick Travel is enabled to reduce the amount of back-and-forth driving
-* No hauling jobs necessary, drive without cargo (or in a car when Road Trip comes out)
+* No hauling jobs necessary, drive without cargo (or in a car with mods or the Road Trip DLC when it comes out)
 
 ## Goal
 
@@ -30,8 +30,8 @@ proceed to the Passport Validation Center in the designated state capital to com
 * National Park Passport Stamps
 * Regional Unlock Key
   * To smooth out progression, every state is divided into several regions, with each region having its own unlock key
-  * Maps are provided to visually distinguish the regions
-  * UT is recommended to know what is in logic
+  * A Poptracker pack is provided to visually distinguish the regions
+  * UT/Poptracker is recommended to know what is in logic
 * Quick Travel Unlock Key
   * These keys enable you to teleport to the given city using the Quick Travel feature available in-game
 * Vehicle Unlocks
@@ -40,13 +40,15 @@ proceed to the Passport Validation Center in the designated state capital to com
 danger and eye-strain of driving at night without your headlights
 
 ## Quick Travel Rules
+
 * Quick Travel teleporting is included in logic, so you may encounter a situation where the next region to check can
 only be accessible by teleporting to it.
 * To Quick Travel to a city, you must have the Quick Travel Unlock for that city _and_ the Regional Unlock for the region
 that city is in.
-* The game will not let you Quick Travel if your vehicle is damaged enough. If you need to use QT while damaged, use
-the "Emergency Towing Service" to tow your truck to the nearest service station. Then teleport to your intended destination
-after repairing.
+* The game will not let you Quick Travel if your vehicle is damaged enough. If you need to use QT while damaged, make
+your way to the nearest service area before teleporting. If your truck is overturned, use the "Tow to Road" feature introduced
+in ATS 1.59. If your truck is completely disabled, use the "Emergency Towing Service" to tow your truck to the nearest 
+service station. This service station may be out-of-logic, so remember to get back in bounds before continuing.
 
 
 ## Other Notes
@@ -55,14 +57,14 @@ after repairing.
 fuel/repair costs.
 * Driving like a maniac and making frequent use of teleporting is **HIGHLY RECOMMENDED FOR SYNCS** to keep the play time
 reasonable.
-* Some locations are in logic for one state but require the DLC of a different state. This is called out in the maps.
+* Some locations are in logic for one state but require the DLC of a different state.
 * The Four Corners Monument is in logic for Utah, Colorado, Arizona, and New Mexico and will appear if any of those states
 are chosen.
+* This manual is up-to-date as of ATS 1.59.
 
 ## Still to Do
 
 * Add all the states. Currently only the Four Corners states (UT, AZ, CO, NM) are implemented.
 * Vehiclesanity? (different trucks as items)
 * Integrate with the Road Trip DLC after it comes out
-* Make a PopTracker pack to better visualize the regions/logic
 * Better filler items and traps

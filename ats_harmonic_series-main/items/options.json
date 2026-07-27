@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Number of Stamps Available",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/items/national_park_passport_stamp.png",
+    "codes": "number_of_stamps_available",
+    "min_quantity": 2,
+    "max_quantity": 12,
+    "overlay_font_size": 12,
+    "overlay_align": "left"
+  },
+  {
+    "name": "Percent Stamps Required",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/items/national_park_passport_stamp_percent.png",
+    "codes": "percent_stamps_required",
+    "min_quantity": 1,
+    "max_quantity": 100,
+    "overlay_font_size": 12,
+    "overlay_align": "left"
+  },
+  {
+    "name": "Number of Stamps Required",
+    "type": "consumable",
+    "loop": "true",
+    "img": "images/items/national_park_passport_stamp.png",
+    "codes": "number_of_stamps_required",
+    "min_quantity": 2,
+    "max_quantity": 12,
+    "overlay_font_size": 12,
+    "overlay_align": "left"
+  },
+  {
+    "name": "Owns Base",
+    "type": "static",
+    "loop": "true",
+    "codes": "own_base",
+    "img": "images/flags/base.png"
+  },
+  {
+    "name": "Arizona Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/arizona.png",
+        "codes": "arizona_chosen"
+      },
+      {
+        "img": "images/flags/arizona.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "arizona_victory"
+      }
+    ]
+  },
+  {
+    "name": "Owns Colorado",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "own_colorado",
+    "img": "images/flags/colorado.png"
+  },
+  {
+    "name": "Colorado Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/colorado.png",
+        "codes": "colorado_chosen"
+      },
+      {
+        "img": "images/flags/colorado.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "colorado_victory"
+      }
+    ]
+  },
+  {
+    "name": "Owns New Mexico",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "own_new_mexico",
+    "img": "images/flags/new_mexico.png"
+  },
+  {
+    "name": "New Mexico Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/new_mexico.png",
+        "codes": "new_mexico_chosen"
+      },
+      {
+        "img": "images/flags/new_mexico.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "new_mexico_victory"
+      }
+    ]
+  },
+  {
+    "name": "Owns Utah",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "own_utah",
+    "img": "images/flags/utah.png"
+  },
+  {
+    "name": "Utah Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/utah.png",
+        "codes": "utah_chosen"
+      },
+      {
+        "img": "images/flags/utah.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "utah_victory"
+      }
+    ]
+  }
+]

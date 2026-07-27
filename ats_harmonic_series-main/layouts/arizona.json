@@ -1,0 +1,100 @@
+{
+  "arizona_layout": {
+    "type": "dock",
+    "background": "#222228",
+    "content": [
+      {
+        "type": "map",
+        "maps": [
+          "arizona_map"
+        ]
+      },
+      {
+        "type": "array",
+        "dock": "left",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          },
+          {
+            "type": "group",
+            "header": "Arizona Items",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "margin": "10,5,5,5",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Arizona Desert",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_arizona_desert",
+                        "unlock_ft_kingman",
+                        "unlock_ft_phoenix",
+                        "unlock_ft_yuma"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Arizona Mountains",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_arizona_mountains",
+                        "unlock_ft_flagstaff",
+                        "unlock_ft_page",
+                        "unlock_ft_winslow"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Southeast Arizona",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_southeast_arizona",
+                        "unlock_ft_clifton",
+                        "unlock_ft_tucson"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Four Corners",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_four_corners"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

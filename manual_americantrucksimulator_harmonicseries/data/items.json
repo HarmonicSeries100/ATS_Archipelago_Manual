@@ -36,6 +36,173 @@
     },
     {
       "count": 1,
+      "name": "Unlock Arizona Desert",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "Arizona",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Arizona Mountains",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "Arizona",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southeast Arizona",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "Arizona",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Colorado Plains",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Colorado Rockies",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Front Range",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Western Slope",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Four Corners",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Utah",
+        "Arizona",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central New Mexico",
+      "category": [
+        "Region Unlock",
+        "DLC - New Mexico",
+        "New Mexico",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock New Mexico Highlands",
+      "category": [
+        "Region Unlock",
+        "DLC - New Mexico",
+        "New Mexico",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southern New Mexico",
+      "category": [
+        "Region Unlock",
+        "DLC - New Mexico",
+        "New Mexico",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central Utah",
+      "category": [
+        "Region Unlock",
+        "DLC - Utah",
+        "Utah",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Northern Utah",
+      "category": [
+        "Region Unlock",
+        "DLC - Utah",
+        "Utah",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southeast Utah",
+      "category": [
+        "Region Unlock",
+        "DLC - Utah",
+        "Utah",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock St. George Area",
+      "category": [
+        "Region Unlock",
+        "DLC - Utah",
+        "Utah",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Kingman",
       "category": [
         "Fast Travel Unlock",
@@ -431,173 +598,6 @@
         "Fast Travel Unlock",
         "DLC - Utah",
         "Utah"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Arizona Desert",
-      "category": [
-        "Region Unlock",
-        "DLC - Base",
-        "Arizona",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Arizona Mountains",
-      "category": [
-        "Region Unlock",
-        "DLC - Base",
-        "Arizona",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Southeast Arizona",
-      "category": [
-        "Region Unlock",
-        "DLC - Base",
-        "Arizona",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Colorado Plains",
-      "category": [
-        "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Colorado Rockies",
-      "category": [
-        "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Front Range",
-      "category": [
-        "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Western Slope",
-      "category": [
-        "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Four Corners",
-      "category": [
-        "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Utah",
-        "Arizona",
-        "New Mexico"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Central New Mexico",
-      "category": [
-        "Region Unlock",
-        "DLC - New Mexico",
-        "New Mexico",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock New Mexico Highlands",
-      "category": [
-        "Region Unlock",
-        "DLC - New Mexico",
-        "New Mexico",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Southern New Mexico",
-      "category": [
-        "Region Unlock",
-        "DLC - New Mexico",
-        "New Mexico",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Central Utah",
-      "category": [
-        "Region Unlock",
-        "DLC - Utah",
-        "Utah",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Northern Utah",
-      "category": [
-        "Region Unlock",
-        "DLC - Utah",
-        "Utah",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Southeast Utah",
-      "category": [
-        "Region Unlock",
-        "DLC - Utah",
-        "Utah",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock St. George Area",
-      "category": [
-        "Region Unlock",
-        "DLC - Utah",
-        "Utah",
-        "Start Region"
       ],
       "progression": true
     }

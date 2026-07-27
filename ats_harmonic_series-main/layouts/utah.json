@@ -1,0 +1,116 @@
+{
+  "utah_layout": {
+    "type": "dock",
+    "background": "#222228",
+    "content": [
+      {
+        "type": "map",
+        "maps": [
+          "utah_map"
+        ]
+      },
+      {
+        "type": "array",
+        "dock": "left",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          },
+          {
+            "type": "group",
+            "header": "Utah Items",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "margin": "10,5,5,5",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Four Corners",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_four_corners"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Central Utah",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_central_utah",
+                        "unlock_ft_price",
+                        "unlock_ft_provo",
+                        "unlock_ft_salina",
+                        "unlock_ft_vernal"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Northern Utah",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_northern_utah",
+                        "unlock_ft_logan",
+                        "unlock_ft_ogden",
+                        "unlock_ft_salt_lake_city"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Southeast Utah",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_southeast_utah",
+                        "unlock_ft_moab"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "St. George Area",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_st._george_area",
+                        "unlock_ft_cedar_city",
+                        "unlock_ft_st._george"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

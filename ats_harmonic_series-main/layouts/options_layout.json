@@ -1,0 +1,62 @@
+{
+  "settings_popup": {
+    "type": "array",
+    "orientation": "horizontal",
+    "v_alignment": "top",
+    "content": [
+      {
+        "type": "group",
+        "header": "Game Options",
+        "content": {
+          "type": "itemgrid",
+          "item_width": 48,
+          "item_height": 48,
+          "item_v_alignment": "center",
+          "rows": [
+            [
+              "number_of_stamps_available",
+              "percent_stamps_required",
+              "number_of_stamps_required"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "DLC Owned",
+        "content": {
+          "type": "itemgrid",
+          "item_width": 64,
+          "item_height": 64,
+          "item_v_alignment": "center",
+          "rows": [
+            [
+              "own_base",
+              "own_colorado",
+              "own_new_mexico",
+              "own_utah"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "State Options",
+        "content": {
+          "type": "itemgrid",
+          "item_width": 64,
+          "item_height": 64,
+          "item_v_alignment": "center",
+          "rows": [
+            [
+              "arizona_chosen",
+              "colorado_chosen",
+              "new_mexico_chosen",
+              "utah_chosen"
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

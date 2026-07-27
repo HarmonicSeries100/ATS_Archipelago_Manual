@@ -1,0 +1,466 @@
+[
+  {
+    "name": "central_new_mexico",
+    "access_rules": [
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @new_mexico_highlands",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @southern_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @arizona_mountains",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @southeast_arizona",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, unlock_ft_central_new_mexico"
+    ],
+    "visibility_rules": [
+      "own_new_mexico, new_mexico_chosen"
+    ],
+    "children": [
+      {
+        "name": "Albuquerque",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 541,
+            "y": 467
+          }
+        ],
+        "sections": [
+          {
+            "name": "Albuquerque",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Albuquerque - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Clovis",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 1094,
+            "y": 639
+          }
+        ],
+        "sections": [
+          {
+            "name": "Clovis",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Clovis Memorial Park",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Gallup",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 247,
+            "y": 327
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Socorro",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 503,
+            "y": 632
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tucumcari",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 1021,
+            "y": 487
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Big I",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 574,
+            "y": 434
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "City of Vaughn",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 793,
+            "y": 585
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Route 66W Rest Stop",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 794,
+            "y": 493
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "new_mexico_highlands",
+    "access_rules": [
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @four_corners",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @western_slope",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @colorado_rockies",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @front_range",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @central_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, unlock_ft_new_mexico_highlands"
+    ],
+    "visibility_rules": [
+      "own_new_mexico, new_mexico_chosen"
+    ],
+    "children": [
+      {
+        "name": "Farmington",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 361,
+            "y": 93
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Raton",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 939,
+            "y": 146
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Santa Fe",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 709,
+            "y": 334
+          }
+        ],
+        "sections": [
+          {
+            "name": "Santa Fe",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Passport Validation Center - Santa Fe",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png",
+            "access_rules": [
+              "$has_enough_stamps, new_mexico_victory"
+            ],
+            "visibility_rules": [
+              "new_mexico_victory"
+            ]
+          },
+          {
+            "name": "City of Santa Fe",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "US-64 Rest Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 858,
+            "y": 202
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "US-84 Rest Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 671,
+            "y": 274
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "southern_new_mexico",
+    "access_rules": [
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, @central_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, @southeast_arizona",
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, unlock_ft_southern_new_mexico"
+    ],
+    "visibility_rules": [
+      "own_new_mexico, new_mexico_chosen"
+    ],
+    "children": [
+      {
+        "name": "Alamogordo",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 628,
+            "y": 866
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Artesia",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 885,
+            "y": 932
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Carlsbad",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 927,
+            "y": 1023
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hobbs",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 1084,
+            "y": 986
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Las Cruces",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 486,
+            "y": 977
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Roswell",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 882,
+            "y": 816
+          }
+        ],
+        "sections": [
+          {
+            "name": "Roswell",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "UFO Center in Roswell",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
+          {
+            "name": "City of Roswell",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "The Historic Monument of Lincoln",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 750,
+            "y": 807
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "US-82 Rest Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "new_mexico_map",
+            "x": 723,
+            "y": 870
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]
