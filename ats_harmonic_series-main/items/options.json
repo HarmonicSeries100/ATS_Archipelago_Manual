@@ -40,6 +40,29 @@
     "img": "images/flags/base.png"
   },
   {
+    "name": "Nevada Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/nevada.png",
+        "codes": "nevada_chosen"
+      },
+      {
+        "img": "images/flags/nevada.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "nevada_victory"
+      }
+    ]
+  },
+  {
+    "name": "Owns Base",
+    "type": "static",
+    "loop": "true",
+    "codes": "own_base",
+    "img": "images/flags/base.png"
+  },
+  {
     "name": "Arizona Option",
     "type": "progressive",
     "loop": "true",
@@ -52,29 +75,6 @@
         "img": "images/flags/arizona.png",
         "img_mods": "overlay|images/overlay/trophy_overlay.png",
         "codes": "arizona_victory"
-      }
-    ]
-  },
-  {
-    "name": "Owns Colorado",
-    "type": "toggle",
-    "loop": "true",
-    "codes": "own_colorado",
-    "img": "images/flags/colorado.png"
-  },
-  {
-    "name": "Colorado Option",
-    "type": "progressive",
-    "loop": "true",
-    "stages": [
-      {
-        "img": "images/flags/colorado.png",
-        "codes": "colorado_chosen"
-      },
-      {
-        "img": "images/flags/colorado.png",
-        "img_mods": "overlay|images/overlay/trophy_overlay.png",
-        "codes": "colorado_victory"
       }
     ]
   },
@@ -121,6 +121,29 @@
         "img": "images/flags/utah.png",
         "img_mods": "overlay|images/overlay/trophy_overlay.png",
         "codes": "utah_victory"
+      }
+    ]
+  },
+  {
+    "name": "Owns Colorado",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "own_colorado",
+    "img": "images/flags/colorado.png"
+  },
+  {
+    "name": "Colorado Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/colorado.png",
+        "codes": "colorado_chosen"
+      },
+      {
+        "img": "images/flags/colorado.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "colorado_victory"
       }
     ]
   }

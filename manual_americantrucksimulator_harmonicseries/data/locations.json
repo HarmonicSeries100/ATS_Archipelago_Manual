@@ -1121,6 +1121,162 @@
         "Utah"
       ],
       "requires": ""
+    },
+    {
+      "name": "Las Vegas",
+      "region": "Las Vegas Area",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Las Vegas Downtown",
+      "region": "Las Vegas Area",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Primm",
+      "region": "Las Vegas Area",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Hoover Dam - Photo",
+      "region": "Hoover Dam",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "Nevada",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Hoover Dam - Viewpoint",
+      "region": "Hoover Dam",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "Nevada",
+        "Arizona"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Reno",
+      "region": "Great Basin",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Reno Skyline",
+      "region": "Great Basin",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Carson City",
+      "region": "Great Basin",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Passport Validation Center - Carson City",
+      "region": "Great Basin",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
+    },
+    {
+      "name": "Winnemucca",
+      "region": "Great Basin",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Elko",
+      "region": "Great Basin",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Jackpot",
+      "region": "Great Basin",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Ely",
+      "region": "Great Basin",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Tonopah",
+      "region": "Great Basin",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Pioche",
+      "region": "Great Basin",
+      "category": [
+        "City",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "requires": ""
     }
   ]
 }

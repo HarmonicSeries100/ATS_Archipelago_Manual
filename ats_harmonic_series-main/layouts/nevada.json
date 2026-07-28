@@ -1,12 +1,12 @@
 {
-  "new_mexico_layout": {
+  "nevada_layout": {
     "type": "dock",
     "background": "#222228",
     "content": [
       {
         "type": "map",
         "maps": [
-          "new_mexico_map"
+          "nevada_map"
         ]
       },
       {
@@ -20,7 +20,7 @@
           },
           {
             "type": "group",
-            "header": "New Mexico Items",
+            "header": "Nevada Items",
             "content": {
               "type": "array",
               "orientation": "vertical",
@@ -28,70 +28,47 @@
               "content": [
                 {
                   "type": "group",
-                  "header": "Central New Mexico",
+                  "header": "Great Basin",
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
                     "h_alignment": "left",
                     "rows": [
                       [
-                        "unlock_central_new_mexico",
-                        "unlock_ft_albuquerque",
-                        "unlock_ft_clovis",
-                        "unlock_ft_gallup",
-                        "unlock_ft_socorro"
-                      ],
-                      [
-                        "unlock_ft_tucumcari"
+                        "unlock_great_basin",
+                        "unlock_ft_reno",
+                        "unlock_ft_carson_city",
+                        "unlock_ft_elko",
+                        "unlock_ft_tonopah"
                       ]
                     ]
                   }
                 },
                 {
                   "type": "group",
-                  "header": "New Mexico Highlands",
+                  "header": "Las Vegas Area",
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
                     "h_alignment": "left",
                     "rows": [
                       [
-                        "unlock_new_mexico_highlands",
-                        "unlock_ft_farmington",
-                        "unlock_ft_raton",
-                        "unlock_ft_santa_fe"
+                        "unlock_las_vegas_area",
+                        "unlock_ft_las_vegas"
                       ]
                     ]
                   }
                 },
                 {
                   "type": "group",
-                  "header": "Southern New Mexico",
+                  "header": "Hoover Dam",
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
                     "h_alignment": "left",
                     "rows": [
                       [
-                        "unlock_southern_new_mexico",
-                        "unlock_ft_alamogordo",
-                        "unlock_ft_artesia",
-                        "unlock_ft_hobbs",
-                        "unlock_ft_roswell"
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "type": "group",
-                  "header": "Four Corners",
-                  "content": {
-                    "type": "itemgrid",
-                    "item_size": 32,
-                    "h_alignment": "left",
-                    "rows": [
-                      [
-                        "unlock_four_corners"
+                        "unlock_hoover_dam"
                       ]
                     ]
                   }

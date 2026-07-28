@@ -78,6 +78,20 @@
                 },
                 {
                   "type": "group",
+                  "header": "Hoover Dam",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_hoover_dam"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
                   "header": "Four Corners",
                   "content": {
                     "type": "itemgrid",

@@ -36,6 +36,28 @@
     },
     {
       "count": 1,
+      "name": "Unlock Great Basin",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "Nevada",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Las Vegas Area",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "Nevada",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Arizona Desert",
       "category": [
         "Region Unlock",
@@ -69,58 +91,12 @@
     },
     {
       "count": 1,
-      "name": "Unlock Colorado Plains",
+      "name": "Unlock Hoover Dam",
       "category": [
         "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Colorado Rockies",
-      "category": [
-        "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Front Range",
-      "category": [
-        "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Western Slope",
-      "category": [
-        "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Start Region"
-      ],
-      "progression": true
-    },
-    {
-      "count": 1,
-      "name": "Unlock Four Corners",
-      "category": [
-        "Region Unlock",
-        "DLC - Colorado",
-        "Colorado",
-        "Utah",
-        "Arizona",
-        "New Mexico"
+        "DLC - Base",
+        "Nevada",
+        "Arizona"
       ],
       "progression": true
     },
@@ -198,6 +174,63 @@
         "DLC - Utah",
         "Utah",
         "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Colorado Plains",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Colorado Rockies",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Front Range",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Western Slope",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Four Corners",
+      "category": [
+        "Region Unlock",
+        "DLC - Colorado",
+        "Colorado",
+        "Utah",
+        "Arizona",
+        "New Mexico"
       ],
       "progression": true
     },
@@ -598,6 +631,56 @@
         "Fast Travel Unlock",
         "DLC - Utah",
         "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Las Vegas",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Reno",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Carson City",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Elko",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Nevada"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Tonopah",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "Nevada"
       ],
       "progression": true
     }

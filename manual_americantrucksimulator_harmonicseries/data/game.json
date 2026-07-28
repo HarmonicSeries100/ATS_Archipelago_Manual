@@ -161,6 +161,27 @@
         "Unlock Fast Travel - St. George"
       ],
       "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Las Vegas Area"
+      ],
+      "items": [
+        "Unlock Fast Travel - Las Vegas"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Great Basin"
+      ],
+      "items": [
+        "Unlock Fast Travel - Reno",
+        "Unlock Fast Travel - Carson City",
+        "Unlock Fast Travel - Elko",
+        "Unlock Fast Travel - Tonopah"
+      ],
+      "random": 1
     }
   ]
 }

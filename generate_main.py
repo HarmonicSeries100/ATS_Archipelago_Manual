@@ -144,6 +144,8 @@ if __name__ == '__main__':
 
     gen_lua.generate_item_mapping_script(json_data["items"]["data"])
     gen_lua.generate_location_mapping_script(json_data["locations"]["data"], location_map)
-    
-    #TODO: Fix issues in archipelago.lua
-    #TODO: Create better pngs for cities, viewpoints, photo trophies locked/unlocked
+
+    #TODO: Fix multiple "own_base" items in poptracker items
+    #TODO: Generate init.lua
+    #TODO: Generate World.py?
+    #TODO: Fix state options in poptracker not resetting with onClear

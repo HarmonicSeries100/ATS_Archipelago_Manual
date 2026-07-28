@@ -41,6 +41,7 @@ Tracker:AddLayouts("layouts/arizona.json")
 Tracker:AddLayouts("layouts/colorado.json")
 Tracker:AddLayouts("layouts/new_mexico.json")
 Tracker:AddLayouts("layouts/utah.json")
+Tracker:AddLayouts("layouts/nevada.json")
 
 --AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then
