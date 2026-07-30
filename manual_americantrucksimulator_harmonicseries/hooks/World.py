@@ -51,7 +51,8 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         "Arizona",
         "Colorado",
         "New Mexico",
-        "Utah"
+        "Utah",
+        "Nevada"
     ]
     allowed_states = []
     include_states = []

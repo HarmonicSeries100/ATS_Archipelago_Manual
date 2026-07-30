@@ -50,11 +50,11 @@
       "default": 80,
       "range_end": 100
     },
-    "arizona_preference": {
+    "nevada_preference": {
       "type": "Range",
-      "display_name": "Arizona Preference",
+      "display_name": "Nevada Preference",
       "description": [
-        "Preference setting for Arizona. Choose a weighting between 0 and 100",
+        "Preference setting for Nevada. Choose a weighting between 0 and 100",
         "0 will always exclude the state from being picked",
         "100 will always include the state",
         "If there are more '100' states than the number_of_states option, randomly choose between them with equal weighting"
@@ -64,18 +64,11 @@
       "range_end": 100,
       "group": "State_Preferences"
     },
-    "own_colorado": {
-      "type": "Toggle",
-      "display_name": "Own Colorado DLC",
-      "description": "Do you own the Colorado DLC?",
-      "default": true,
-      "group": "DLC"
-    },
-    "colorado_preference": {
+    "arizona_preference": {
       "type": "Range",
-      "display_name": "Colorado Preference",
+      "display_name": "Arizona Preference",
       "description": [
-        "Preference setting for Colorado. Choose a weighting between 0 and 100",
+        "Preference setting for Arizona. Choose a weighting between 0 and 100",
         "0 will always exclude the state from being picked",
         "100 will always include the state",
         "If there are more '100' states than the number_of_states option, randomly choose between them with equal weighting"
@@ -118,6 +111,27 @@
       "display_name": "Utah Preference",
       "description": [
         "Preference setting for Utah. Choose a weighting between 0 and 100",
+        "0 will always exclude the state from being picked",
+        "100 will always include the state",
+        "If there are more '100' states than the number_of_states option, randomly choose between them with equal weighting"
+      ],
+      "default": 50,
+      "range_start": 0,
+      "range_end": 100,
+      "group": "State_Preferences"
+    },
+    "own_colorado": {
+      "type": "Toggle",
+      "display_name": "Own Colorado DLC",
+      "description": "Do you own the Colorado DLC?",
+      "default": true,
+      "group": "DLC"
+    },
+    "colorado_preference": {
+      "type": "Range",
+      "display_name": "Colorado Preference",
+      "description": [
+        "Preference setting for Colorado. Choose a weighting between 0 and 100",
         "0 will always exclude the state from being picked",
         "100 will always include the state",
         "If there are more '100' states than the number_of_states option, randomly choose between them with equal weighting"

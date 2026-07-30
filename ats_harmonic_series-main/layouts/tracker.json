@@ -13,17 +13,17 @@
           }
         },
         {
+          "title": "Nevada",
+          "content": {
+            "type": "layout",
+            "key": "nevada_layout"
+          }
+        },
+        {
           "title": "Arizona",
           "content": {
             "type": "layout",
             "key": "arizona_layout"
-          }
-        },
-        {
-          "title": "Colorado",
-          "content": {
-            "type": "layout",
-            "key": "colorado_layout"
           }
         },
         {
@@ -38,6 +38,13 @@
           "content": {
             "type": "layout",
             "key": "utah_layout"
+          }
+        },
+        {
+          "title": "Colorado",
+          "content": {
+            "type": "layout",
+            "key": "colorado_layout"
           }
         }
       ]

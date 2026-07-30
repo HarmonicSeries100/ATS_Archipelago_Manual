@@ -21,10 +21,246 @@
     ]
   },
   {
+    "name": "great_basin",
+    "access_rules": [
+      "own_base, nevada_chosen, unlock_great_basin, @northern_utah",
+      "own_base, nevada_chosen, unlock_great_basin, @central_utah",
+      "own_base, nevada_chosen, unlock_great_basin, @st._george_area",
+      "own_base, nevada_chosen, unlock_great_basin, @las_vegas_area",
+      "own_base, nevada_chosen, unlock_great_basin, unlock_ft_great_basin"
+    ],
+    "visibility_rules": [
+      "own_base, nevada_chosen"
+    ],
+    "children": [
+      {
+        "name": "Reno",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 110,
+            "y": 417
+          }
+        ],
+        "sections": [
+          {
+            "name": "Reno",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Reno Skyline",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Carson City",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 104,
+            "y": 588
+          }
+        ],
+        "sections": [
+          {
+            "name": "Carson City",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Passport Validation Center - Carson City",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png",
+            "access_rules": [
+              "$has_enough_stamps, nevada_victory"
+            ],
+            "visibility_rules": [
+              "nevada_victory"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Winnemucca",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 433,
+            "y": 255
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Elko",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 678,
+            "y": 328
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Jackpot",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 843,
+            "y": 176
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ely",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 722,
+            "y": 630
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Tonopah",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 361,
+            "y": 764
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Pioche",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 748,
+            "y": 794
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "las_vegas_area",
+    "access_rules": [
+      "own_base, nevada_chosen, unlock_las_vegas_area, @great_basin",
+      "own_base, nevada_chosen, unlock_las_vegas_area, @st._george_area",
+      "own_base, nevada_chosen, unlock_las_vegas_area, @arizona_desert",
+      "own_base, nevada_chosen, unlock_las_vegas_area, @hoover_dam",
+      "own_base, nevada_chosen, unlock_las_vegas_area, unlock_ft_las_vegas_area"
+    ],
+    "visibility_rules": [
+      "own_base, nevada_chosen"
+    ],
+    "children": [
+      {
+        "name": "Las Vegas",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 625,
+            "y": 1137
+          }
+        ],
+        "sections": [
+          {
+            "name": "Las Vegas",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Las Vegas Downtown",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Primm",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 555,
+            "y": 1231
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "arizona_desert",
     "access_rules": [
       "own_base, arizona_chosen, unlock_arizona_desert, @arizona_mountains",
       "own_base, arizona_chosen, unlock_arizona_desert, @southeast_arizona",
+      "own_base, arizona_chosen, unlock_arizona_desert, @las_vegas_area",
+      "own_base, arizona_chosen, unlock_arizona_desert, @hoover_dam",
       "own_base, arizona_chosen, unlock_arizona_desert, unlock_ft_arizona_desert"
     ],
     "visibility_rules": [
@@ -462,6 +698,54 @@
           {
             "name": "",
             "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hoover_dam",
+    "access_rules": [
+      "own_base, $is_in_chosen_state|nevada|arizona, unlock_hoover_dam, @las_vegas_area",
+      "own_base, $is_in_chosen_state|nevada|arizona, unlock_hoover_dam, @arizona_desert",
+      "own_base, $is_in_chosen_state|nevada|arizona, unlock_hoover_dam, unlock_ft_hoover_dam"
+    ],
+    "visibility_rules": [
+      "own_base"
+    ],
+    "children": [
+      {
+        "name": "Hoover Dam",
+        "map_locations": [
+          {
+            "map": "nevada_map",
+            "x": 729,
+            "y": 1173,
+            "restrict_visibility_rules": [
+              "nevada_chosen"
+            ]
+          },
+          {
+            "map": "arizona_map",
+            "x": 281,
+            "y": 179,
+            "restrict_visibility_rules": [
+              "arizona_chosen"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hoover Dam - Photo",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
+          {
+            "name": "Hoover Dam - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
           }
         ]
       }

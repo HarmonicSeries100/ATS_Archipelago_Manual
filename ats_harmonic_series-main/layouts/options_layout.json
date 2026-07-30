@@ -32,9 +32,9 @@
           "rows": [
             [
               "own_base",
-              "own_colorado",
               "own_new_mexico",
-              "own_utah"
+              "own_utah",
+              "own_colorado"
             ]
           ]
         }
@@ -49,10 +49,11 @@
           "item_v_alignment": "center",
           "rows": [
             [
+              "nevada_chosen",
               "arizona_chosen",
-              "colorado_chosen",
               "new_mexico_chosen",
-              "utah_chosen"
+              "utah_chosen",
+              "colorado_chosen"
             ]
           ]
         }

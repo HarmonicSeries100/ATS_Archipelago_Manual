@@ -19,6 +19,10 @@ The goal is to travel to cities, viewpoints, and photo trophy locations to colle
 Passport](https://americasnationalparks.org/passport-to-your-national-parks/) (no affiliation with the actual National Park Service). Once you collect the required amount of stamps,
 proceed to the Passport Validation Center in the designated state capital to complete your run.
 
+### What is Victory Island?
+
+Victory Island is where the goal location is. The only goal available currently is completing and validating your passport. Once the passport is validated, the goal location on the island becomes accessible. Checking the location completes the goal and releases the slot.
+
 ## Locations
 
 * Cities
@@ -59,12 +63,12 @@ fuel/repair costs.
 reasonable.
 * Some locations are in logic for one state but require the DLC of a different state.
 * The Four Corners Monument is in logic for Utah, Colorado, Arizona, and New Mexico and will appear if any of those states
-are chosen.
-* This manual is up-to-date as of ATS 1.59.
+are chosen. The Hoover Dam is in logic for Nevada and Arizona.
+* This manual is up-to-date as of ATS 1.60.
 
 ## Still to Do
 
-* Add all the states. Currently only the Four Corners states (UT, AZ, CO, NM) are implemented.
+* Add all the states
 * Vehiclesanity? (different trucks as items)
 * Integrate with the Road Trip DLC after it comes out
 * Better filler items and traps

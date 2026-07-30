@@ -1,9 +1,29 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+  "Great Basin": {
+    "connects_to": [
+      "Northern Utah",
+      "Central Utah",
+      "St. George Area",
+      "Las Vegas Area"
+    ],
+    "requires": "|Unlock Great Basin|"
+  },
+  "Las Vegas Area": {
+    "connects_to": [
+      "Great Basin",
+      "St. George Area",
+      "Arizona Desert",
+      "Hoover Dam"
+    ],
+    "requires": "|Unlock Las Vegas Area|"
+  },
   "Arizona Desert": {
     "connects_to": [
       "Arizona Mountains",
-      "Southeast Arizona"
+      "Southeast Arizona",
+      "Las Vegas Area",
+      "Hoover Dam"
     ],
     "requires": "|Unlock Arizona Desert|"
   },
@@ -26,6 +46,74 @@
       "Southern New Mexico"
     ],
     "requires": "|Unlock Southeast Arizona|"
+  },
+  "Hoover Dam": {
+    "connects_to": [
+      "Las Vegas Area",
+      "Arizona Desert"
+    ],
+    "requires": "|Unlock Hoover Dam|"
+  },
+  "Central New Mexico": {
+    "connects_to": [
+      "New Mexico Highlands",
+      "Southern New Mexico",
+      "Arizona Mountains",
+      "Southeast Arizona"
+    ],
+    "requires": "|Unlock Central New Mexico|"
+  },
+  "New Mexico Highlands": {
+    "connects_to": [
+      "Four Corners",
+      "Western Slope",
+      "Colorado Rockies",
+      "Front Range",
+      "Central New Mexico"
+    ],
+    "requires": "|Unlock New Mexico Highlands|"
+  },
+  "Southern New Mexico": {
+    "connects_to": [
+      "Central New Mexico",
+      "Southeast Arizona"
+    ],
+    "requires": "|Unlock Southern New Mexico|"
+  },
+  "Central Utah": {
+    "connects_to": [
+      "Northern Utah",
+      "St. George Area",
+      "Southeast Utah",
+      "Western Slope",
+      "Great Basin"
+    ],
+    "requires": "|Unlock Central Utah|"
+  },
+  "Northern Utah": {
+    "connects_to": [
+      "Central Utah",
+      "Great Basin"
+    ],
+    "requires": "|Unlock Northern Utah|"
+  },
+  "Southeast Utah": {
+    "connects_to": [
+      "Central Utah",
+      "Four Corners",
+      "Western Slope",
+      "Arizona Mountains"
+    ],
+    "requires": "|Unlock Southeast Utah|"
+  },
+  "St. George Area": {
+    "connects_to": [
+      "Central Utah",
+      "Arizona Mountains",
+      "Great Basin",
+      "Las Vegas Area"
+    ],
+    "requires": "|Unlock St. George Area|"
   },
   "Colorado Plains": {
     "connects_to": [
@@ -68,63 +156,6 @@
     ],
     "requires": "|Unlock Four Corners|"
   },
-  "Central New Mexico": {
-    "connects_to": [
-      "New Mexico Highlands",
-      "Southern New Mexico",
-      "Arizona Mountains",
-      "Southeast Arizona"
-    ],
-    "requires": "|Unlock Central New Mexico|"
-  },
-  "New Mexico Highlands": {
-    "connects_to": [
-      "Four Corners",
-      "Western Slope",
-      "Colorado Rockies",
-      "Front Range",
-      "Central New Mexico"
-    ],
-    "requires": "|Unlock New Mexico Highlands|"
-  },
-  "Southern New Mexico": {
-    "connects_to": [
-      "Central New Mexico",
-      "Southeast Arizona"
-    ],
-    "requires": "|Unlock Southern New Mexico|"
-  },
-  "Central Utah": {
-    "connects_to": [
-      "Northern Utah",
-      "St. George Area",
-      "Southeast Utah",
-      "Western Slope"
-    ],
-    "requires": "|Unlock Central Utah|"
-  },
-  "Northern Utah": {
-    "connects_to": [
-      "Central Utah"
-    ],
-    "requires": "|Unlock Northern Utah|"
-  },
-  "Southeast Utah": {
-    "connects_to": [
-      "Central Utah",
-      "Four Corners",
-      "Western Slope",
-      "Arizona Mountains"
-    ],
-    "requires": "|Unlock Southeast Utah|"
-  },
-  "St. George Area": {
-    "connects_to": [
-      "Central Utah",
-      "Arizona Mountains"
-    ],
-    "requires": "|Unlock St. George Area|"
-  },
   "FT Hub": {
     "starting": true,
     "connects_to": [
@@ -141,7 +172,9 @@
       "FT - Central Utah",
       "FT - Northern Utah",
       "FT - Southeast Utah",
-      "FT - St. George Area"
+      "FT - St. George Area",
+      "FT - Las Vegas Area",
+      "FT - Great Basin"
     ]
   },
   "FT - Arizona Desert": {
@@ -241,5 +274,19 @@
       "St. George Area"
     ],
     "requires": "|Unlock St. George Area| AND (|Unlock Fast Travel - Cedar City| OR |Unlock Fast Travel - St. George|)"
+  },
+  "FT - Las Vegas Area": {
+    "connects_to": [
+      "FT Hub",
+      "Las Vegas Area"
+    ],
+    "requires": "|Unlock Las Vegas Area| AND (|Unlock Fast Travel - Las Vegas|)"
+  },
+  "FT - Great Basin": {
+    "connects_to": [
+      "FT Hub",
+      "Great Basin"
+    ],
+    "requires": "|Unlock Great Basin| AND (|Unlock Fast Travel - Reno| OR |Unlock Fast Travel - Carson City| OR |Unlock Fast Travel - Elko| OR |Unlock Fast Travel - Tonopah|)"
   }
 }

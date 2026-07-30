@@ -20,6 +20,22 @@
     "codes": "validated_passport"
   },
   {
+    "name": "Unlock Great Basin",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_great_basin",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Las Vegas Area",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_las_vegas_area",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
     "name": "Unlock Arizona Desert",
     "type": "toggle",
     "loop": "true",
@@ -44,42 +60,10 @@
     "disabled_img": "images/items/region_lock.png"
   },
   {
-    "name": "Unlock Colorado Plains",
+    "name": "Unlock Hoover Dam",
     "type": "toggle",
     "loop": "true",
-    "codes": "unlock_colorado_plains",
-    "img": "images/items/region_unlock.png",
-    "disabled_img": "images/items/region_lock.png"
-  },
-  {
-    "name": "Unlock Colorado Rockies",
-    "type": "toggle",
-    "loop": "true",
-    "codes": "unlock_colorado_rockies",
-    "img": "images/items/region_unlock.png",
-    "disabled_img": "images/items/region_lock.png"
-  },
-  {
-    "name": "Unlock Front Range",
-    "type": "toggle",
-    "loop": "true",
-    "codes": "unlock_front_range",
-    "img": "images/items/region_unlock.png",
-    "disabled_img": "images/items/region_lock.png"
-  },
-  {
-    "name": "Unlock Western Slope",
-    "type": "toggle",
-    "loop": "true",
-    "codes": "unlock_western_slope",
-    "img": "images/items/region_unlock.png",
-    "disabled_img": "images/items/region_lock.png"
-  },
-  {
-    "name": "Unlock Four Corners",
-    "type": "toggle",
-    "loop": "true",
-    "codes": "unlock_four_corners",
+    "codes": "unlock_hoover_dam",
     "img": "images/items/region_unlock.png",
     "disabled_img": "images/items/region_lock.png"
   },
@@ -136,6 +120,46 @@
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_st._george_area",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Colorado Plains",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_colorado_plains",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Colorado Rockies",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_colorado_rockies",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Front Range",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_front_range",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Western Slope",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_western_slope",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Four Corners",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_four_corners",
     "img": "images/items/region_unlock.png",
     "disabled_img": "images/items/region_lock.png"
   },
@@ -456,6 +480,46 @@
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_st._george, unlock_ft_st._george_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Las Vegas",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_las_vegas, unlock_ft_las_vegas_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Reno",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_reno, unlock_ft_great_basin",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Carson City",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_carson_city, unlock_ft_great_basin",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Elko",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_elko, unlock_ft_great_basin",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Tonopah",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_tonopah, unlock_ft_great_basin",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
   }

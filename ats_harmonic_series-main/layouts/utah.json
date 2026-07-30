@@ -28,20 +28,6 @@
               "content": [
                 {
                   "type": "group",
-                  "header": "Four Corners",
-                  "content": {
-                    "type": "itemgrid",
-                    "item_size": 32,
-                    "h_alignment": "left",
-                    "rows": [
-                      [
-                        "unlock_four_corners"
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "type": "group",
                   "header": "Central Utah",
                   "content": {
                     "type": "itemgrid",
@@ -102,6 +88,20 @@
                         "unlock_st._george_area",
                         "unlock_ft_cedar_city",
                         "unlock_ft_st._george"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Four Corners",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_four_corners"
                       ]
                     ]
                   }
