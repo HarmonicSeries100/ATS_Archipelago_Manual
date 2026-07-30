@@ -15,6 +15,7 @@ import generate_lua_scripts as gen_lua
 from util import to_snake_case
 
 def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop_layout_data):
+    lua_state_options = {}
     with open('./resources/ats_manual_state_data.csv', 'r') as f:
         reader = csv.DictReader(f)
         for state in reader:
@@ -33,6 +34,7 @@ def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop
                 layout_row = pop_layout_data["options_layout"]["settings_popup"]["content"][1]["content"]["rows"]
                 layout_row = gen_pop_layout.add_item_to_row(layout_row, const.DLC_OPTION_PREFIX+dlc_id, const.NUMBER_OF_OPTION_COLUMNS)
                 pop_layout_data["options_layout"]["settings_popup"]["content"][1]["content"]["rows"]=layout_row
+                pop_item_data["options"].append(gen_pop.get_poptracker_dlc_owned_item(dlc_id, dlc_name))
 
             if dlc_option not in json_data['options']['user'] and dlc_name != 'Base':
                 json_data['options']['user'][dlc_option] = gen_man.get_own_dlc_option(dlc_name)
@@ -42,7 +44,6 @@ def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop
             state_pref_option = state_code + const.STATE_PREFERENCE_SUFFIX
             json_data['options']['user'][state_pref_option] = gen_man.get_state_preference_option(state_name)
             
-            pop_item_data["options"].append(gen_pop.get_poptracker_dlc_owned_item(dlc_id, dlc_name))
             pop_item_data["options"].append(gen_pop.get_poptracker_state_option_item(state_code, state_name))
 
             pop_map_data.append(gen_pop.get_poptracker_map(state_code))
@@ -55,7 +56,9 @@ def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop
             layout_row = gen_pop_layout.add_item_to_row(layout_row, state_code+const.POPTRACKER_STATE_CHOSEN_SUFFIX, const.NUMBER_OF_OPTION_COLUMNS)
             pop_layout_data["options_layout"]["settings_popup"]["content"][2]["content"]["rows"]=layout_row
 
-    return json_data, pop_item_data, pop_map_data, pop_location_data, pop_layout_data
+            lua_state_options[state_code+const.POPTRACKER_STATE_CHOSEN_SUFFIX] = state_name
+
+    return json_data, pop_item_data, pop_map_data, pop_location_data, pop_layout_data, lua_state_options
 
 
 def process_region_csv(json_data, pop_item_data, pop_loc_data, pop_layout_data):
@@ -121,7 +124,7 @@ if __name__ == '__main__':
     pop_map_data = gen_pop.initialize_poptracker_maps()
     pop_layout_data = gen_pop_layout.initialize_poptracker_layout_data()
 
-    json_data, pop_item_data, pop_map_data, pop_loc_data, pop_layout_data = process_state_csv(json_data, pop_item_data, pop_map_data, pop_loc_data, pop_layout_data)
+    json_data, pop_item_data, pop_map_data, pop_loc_data, pop_layout_data, lua_state_options = process_state_csv(json_data, pop_item_data, pop_map_data, pop_loc_data, pop_layout_data)
     json_data, pop_item_data, pop_loc_data, region_dlc_index, pop_layout_data = process_region_csv(json_data, pop_item_data, pop_loc_data, pop_layout_data)
     json_data, garage_city_index, pop_item_data, pop_loc_data, pop_layout_data, location_map = process_location_csv(json_data, pop_item_data, pop_loc_data, region_dlc_index, pop_layout_data)
     json_data = gen_man.generate_fast_travel_regions(json_data, garage_city_index)
@@ -142,10 +145,5 @@ if __name__ == '__main__':
     for file in pop_layout_data:
         json.dump(pop_layout_data[file], open(f"./ats_harmonic_series-main/layouts/{file}.json","w"), indent=2)
 
-    gen_lua.generate_item_mapping_script(json_data["items"]["data"])
+    gen_lua.generate_item_mapping_script(json_data["items"]["data"], lua_state_options)
     gen_lua.generate_location_mapping_script(json_data["locations"]["data"], location_map)
-
-    #TODO: Fix multiple "own_base" items in poptracker items
-    #TODO: Generate init.lua
-    #TODO: Generate World.py?
-    #TODO: Fix state options in poptracker not resetting with onClear

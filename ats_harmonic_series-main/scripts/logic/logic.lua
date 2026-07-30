@@ -51,3 +51,19 @@ function set_required_stamps()
     local stamp_collect_item = Tracker:FindObjectForCode("national_park_passport_stamp")
     stamp_collect_item.MaxCount = total_stamps
 end
+
+function set_chosen_states(chosen_states, victory_state)
+    for state_item_key, state_name in pairs(STATE_OPTIONS) do
+        state_item_object = Tracker:FindObjectForCode(state_item_key)
+        state_item_object.CurrentStage = 0
+        for _, value in ipairs(chosen_states) do
+            if value == state_name then
+                state_item_object.CurrentStage = 1
+                break
+            end
+        end
+        if victory_state == state_name then
+            state_item_object.CurrentStage = 2
+        end
+    end
+end

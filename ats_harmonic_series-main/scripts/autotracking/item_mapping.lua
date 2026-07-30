@@ -65,3 +65,10 @@ ITEM_MAPPING = {
     [66] = {{"unlock_ft_elko", "toggle"}},
     [67] = {{"unlock_ft_tonopah", "toggle"}},
 }
+STATE_OPTIONS = {
+["nevada_chosen"] = "Nevada",
+["arizona_chosen"] = "Arizona",
+["new_mexico_chosen"] = "New Mexico",
+["utah_chosen"] = "Utah",
+["colorado_chosen"] = "Colorado",
+}

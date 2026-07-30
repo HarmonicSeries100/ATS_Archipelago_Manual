@@ -1,7 +1,7 @@
 import constants as const
 from util import to_snake_case
 
-def generate_item_mapping_script(item_data):
+def generate_item_mapping_script(item_data, state_options):
     starting_index = 1
     file_content = "ITEM_MAPPING = {\n"
     item_id = starting_index
@@ -18,7 +18,13 @@ def generate_item_mapping_script(item_data):
                 item_name = to_snake_case(item["name"])
             file_content += f"    [{item_id}] = {{{{\"{item_name}\", \"{item_type}\"}}}},\n"
         item_id += 1
+    file_content += "}\n"
+
+    file_content += "STATE_OPTIONS = {\n"
+    for state,state_name in state_options.items():
+        file_content += f"[\"{state}\"] = \"{state_name}\",\n"
     file_content += "}"
+    
     with open('./ats_harmonic_series-main/scripts/autotracking/item_mapping.lua', 'w', encoding="utf_8") as file:
         file.write(file_content)
 
@@ -37,4 +43,3 @@ def generate_location_mapping_script(location_data, location_map):
     all_content = file_content + file_content_reverse_map
     with open('./ats_harmonic_series-main/scripts/autotracking/location_mapping.lua', 'w', encoding="utf_8") as file:
         file.write(all_content)
-            

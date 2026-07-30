@@ -56,13 +56,6 @@
     ]
   },
   {
-    "name": "Owns Base",
-    "type": "static",
-    "loop": "true",
-    "codes": "own_base",
-    "img": "images/flags/base.png"
-  },
-  {
     "name": "Arizona Option",
     "type": "progressive",
     "loop": "true",

@@ -101,9 +101,9 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	-- put any code here that slot_data should affect (toggling setting items for example)
-
 	if slot_data ~= nil then
+		local chosen_state_list = {}
+		local victory_state
         for key, value in pairs(slot_data) do
 			if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 				print("Parsing slot data")
@@ -123,36 +123,18 @@ function apply_slot_data(slot_data)
 			if key == "chosen_states" then
 				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 					print("Parsing chosen states")
-					dump_table(value)
+					print(dump_table(value))
 				end
-				for _, state in ipairs(value) do
-					local state_code = string.lower(state:gsub(" ", "_")) .. "_chosen"
-					if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-						print("Chosen State Code: " .. state_code)
-					end
-					local state_option = Tracker:FindObjectForCode(state_code)
-					--TODO: Fix this so it finds the correct "option" item
-					if state_option.CurrentStage < 1 then
-						state_option.CurrentStage = 1
-						if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-							print("Updated Chosen State Option: " .. state_code)
-						end
-					end
-				end
+				chosen_state_list = value
 			end
 			if key == "victory_state" then
-				local state_code = string.lower(value:gsub(" ", "_")) .. "_victory"
 				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-					print("Victory State Code: " .. state_code)
+					print("Victory State: " .. value)
 				end
-				local state_option = Tracker:FindObjectForCode(state_code)
-				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-					print("Updated Victory State Option: " .. state_code)
-				end
-				state_option.CurrentStage = 2
-				--TODO: Fix this so it finds the correct "option" item
+				victory_state = value
 			end
 		end
+		set_chosen_states(chosen_state_list, victory_state)
 		set_required_stamps()
     end
 end
