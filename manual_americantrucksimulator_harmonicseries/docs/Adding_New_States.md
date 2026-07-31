@@ -9,6 +9,5 @@ Poptracker
 
 1) Add a flag to ats_harmonic_series-main/images/flags. It should be named <state_code>.png
 2) Add a map to ats_harmonic_series-main/images/maps. It should be named <state_code>_map.png
-3) Add a line to ats_harmonic_series-main/scripts/init.lua: Tracker:AddLayouts("layouts/<state_code>.json")
 
 Run generate_main.py to generate the rest of the files
