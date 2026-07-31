@@ -82,7 +82,7 @@ Tracker:AddLayouts("layouts/options_layout.json")
 Tracker:AddLayouts("layouts/victory_island.json")
 """
     for state in state_list:
-        file_content += f"Tracker:AddLayouts(\"layouts/{state}.json\")\n"
+        file_content += f"Tracker:AddLayouts(\"layouts/{state[0]}.json\")\n"
 
     file_content += "\n-- Locations\n"
 
