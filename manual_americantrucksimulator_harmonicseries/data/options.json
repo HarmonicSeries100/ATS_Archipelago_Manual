@@ -50,6 +50,20 @@
       "default": 80,
       "range_end": 100
     },
+    "california_preference": {
+      "type": "Range",
+      "display_name": "California Preference",
+      "description": [
+        "Preference setting for California. Choose a weighting between 0 and 100",
+        "0 will always exclude the state from being picked",
+        "100 will always include the state",
+        "If there are more '100' states than the number_of_states option, randomly choose between them with equal weighting"
+      ],
+      "default": 50,
+      "range_start": 0,
+      "range_end": 100,
+      "group": "State_Preferences"
+    },
     "nevada_preference": {
       "type": "Range",
       "display_name": "Nevada Preference",

@@ -21,12 +21,807 @@
     ]
   },
   {
+    "name": "northern_california",
+    "access_rules": [
+      "own_base, california_chosen, unlock_northern_california, @bay_area",
+      "own_base, california_chosen, unlock_northern_california, @central_valley",
+      "own_base, california_chosen, unlock_northern_california, @great_basin",
+      "own_base, california_chosen, unlock_northern_california, unlock_ft_northern_california"
+    ],
+    "visibility_rules": [
+      "own_base, california_chosen"
+    ],
+    "children": [
+      {
+        "name": "Hilt",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 353,
+            "y": 104
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Eureka",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 93,
+            "y": 239
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Redding",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 334,
+            "y": 309
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ukiah",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 138,
+            "y": 507
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Truckee",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 465,
+            "y": 586
+          }
+        ],
+        "sections": [
+          {
+            "name": "Truckee",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Donner Lake",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Burney Vista Point",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 156,
+            "y": 233
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bigfoot Shop in Sequoia National Forest",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 97,
+            "y": 339
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bay_area",
+    "access_rules": [
+      "own_base, california_chosen, unlock_bay_area, @northern_california",
+      "own_base, california_chosen, unlock_bay_area, @central_valley",
+      "own_base, california_chosen, unlock_bay_area, @central_coast",
+      "own_base, california_chosen, unlock_bay_area, unlock_ft_bay_area"
+    ],
+    "visibility_rules": [
+      "own_base, california_chosen"
+    ],
+    "children": [
+      {
+        "name": "San Francisco",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 195,
+            "y": 789
+          }
+        ],
+        "sections": [
+          {
+            "name": "San Francisco",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "San Francisco - Pier 39",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Oakland",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 273,
+            "y": 830
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "San Jose",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 225,
+            "y": 907
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Richmond Bridge",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 211,
+            "y": 745
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Golden Gate Bridge",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 148,
+            "y": 750
+          }
+        ],
+        "sections": [
+          {
+            "name": "Golden Gate Bridge - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Golden Gate Bridge - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "central_valley",
+    "access_rules": [
+      "own_base, california_chosen, unlock_central_valley, @northern_california",
+      "own_base, california_chosen, unlock_central_valley, @bay_area",
+      "own_base, california_chosen, unlock_central_valley, @central_coast",
+      "own_base, california_chosen, unlock_central_valley, @sierras",
+      "own_base, california_chosen, unlock_central_valley, @socal",
+      "own_base, california_chosen, unlock_central_valley, @california_deserts",
+      "own_base, california_chosen, unlock_central_valley, unlock_ft_central_valley"
+    ],
+    "visibility_rules": [
+      "own_base, california_chosen"
+    ],
+    "children": [
+      {
+        "name": "Sacramento",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 304,
+            "y": 653
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sacramento",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Passport Validation Center - Sacramento",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png",
+            "access_rules": [
+              "$has_enough_stamps, california_victory"
+            ],
+            "visibility_rules": [
+              "california_victory"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Stockton",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 374,
+            "y": 792
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Modesto",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 393,
+            "y": 911
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fresno",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 475,
+            "y": 1111
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fresno",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Fresno - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Huron",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 405,
+            "y": 1145
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Bakersfield",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 511,
+            "y": 1310
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sierras",
+    "access_rules": [
+      "own_base, california_chosen, unlock_sierras, @central_valley",
+      "own_base, california_chosen, unlock_sierras, @california_deserts",
+      "own_base, california_chosen, unlock_sierras, @great_basin",
+      "own_base, california_chosen, unlock_sierras, unlock_ft_sierras"
+    ],
+    "visibility_rules": [
+      "own_base, california_chosen"
+    ],
+    "children": [
+      {
+        "name": "Yosemite",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 520,
+            "y": 892
+          }
+        ],
+        "sections": [
+          {
+            "name": "Yosemite - Olmsted Point",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Yosemite National Park",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "central_coast",
+    "access_rules": [
+      "own_base, california_chosen, unlock_central_coast, @bay_area",
+      "own_base, california_chosen, unlock_central_coast, @central_valley",
+      "own_base, california_chosen, unlock_central_coast, @socal",
+      "own_base, california_chosen, unlock_central_coast, unlock_ft_central_coast"
+    ],
+    "visibility_rules": [
+      "own_base, california_chosen"
+    ],
+    "children": [
+      {
+        "name": "Santa Cruz",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 193,
+            "y": 991
+          }
+        ],
+        "sections": [
+          {
+            "name": "Santa Cruz",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Santa Cruz - Lighthouse",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Santa Cruz - Lighthouse Point",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Santa Maria",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 301,
+            "y": 1352
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CA-1 - Rocky Creek",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 226,
+            "y": 1153
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "socal",
+    "access_rules": [
+      "own_base, california_chosen, unlock_socal, @central_valley",
+      "own_base, california_chosen, unlock_socal, @central_coast",
+      "own_base, california_chosen, unlock_socal, @california_deserts",
+      "own_base, california_chosen, unlock_socal, unlock_ft_socal"
+    ],
+    "visibility_rules": [
+      "own_base, california_chosen"
+    ],
+    "children": [
+      {
+        "name": "Oxnard",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 452,
+            "y": 1515
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Los Angeles",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 568,
+            "y": 1597
+          }
+        ],
+        "sections": [
+          {
+            "name": "Los Angeles",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Los Angeles Skyline",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "San Diego",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 668,
+            "y": 1818
+          }
+        ],
+        "sections": [
+          {
+            "name": "San Diego",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Coronado Island",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "San Diego Skyline",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          },
+          {
+            "name": "Coronado Bridge",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Long Beach",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 523,
+            "y": 1683
+          }
+        ],
+        "sections": [
+          {
+            "name": "Port of Long Beach",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Vincent Thomas Bridge",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Santa Monica",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 509,
+            "y": 1580
+          }
+        ],
+        "sections": [
+          {
+            "name": "Santa Monica",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Santa Monica Pier",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "california_deserts",
+    "access_rules": [
+      "own_base, california_chosen, unlock_california_deserts, @central_valley",
+      "own_base, california_chosen, unlock_california_deserts, @sierras",
+      "own_base, california_chosen, unlock_california_deserts, @socal",
+      "own_base, california_chosen, unlock_california_deserts, @las_vegas_area",
+      "own_base, california_chosen, unlock_california_deserts, @arizona_desert",
+      "own_base, california_chosen, unlock_california_deserts, unlock_ft_california_deserts"
+    ],
+    "visibility_rules": [
+      "own_base, california_chosen"
+    ],
+    "children": [
+      {
+        "name": "Mojave",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 610,
+            "y": 1415
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Barstow",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 786,
+            "y": 1479
+          }
+        ],
+        "sections": [
+          {
+            "name": "Barstow",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Barstow Station",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Indio",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 847,
+            "y": 1700
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "El Centro",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 915,
+            "y": 1841
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Blythe",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 1042,
+            "y": 1729
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Borax",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "california_map",
+            "x": 724,
+            "y": 1406
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "great_basin",
     "access_rules": [
       "own_base, nevada_chosen, unlock_great_basin, @northern_utah",
       "own_base, nevada_chosen, unlock_great_basin, @central_utah",
       "own_base, nevada_chosen, unlock_great_basin, @st._george_area",
       "own_base, nevada_chosen, unlock_great_basin, @las_vegas_area",
+      "own_base, nevada_chosen, unlock_great_basin, @northern_california",
+      "own_base, nevada_chosen, unlock_great_basin, @sierras",
       "own_base, nevada_chosen, unlock_great_basin, unlock_ft_great_basin"
     ],
     "visibility_rules": [
@@ -204,6 +999,7 @@
       "own_base, nevada_chosen, unlock_las_vegas_area, @st._george_area",
       "own_base, nevada_chosen, unlock_las_vegas_area, @arizona_desert",
       "own_base, nevada_chosen, unlock_las_vegas_area, @hoover_dam",
+      "own_base, nevada_chosen, unlock_las_vegas_area, @california_deserts",
       "own_base, nevada_chosen, unlock_las_vegas_area, unlock_ft_las_vegas_area"
     ],
     "visibility_rules": [
@@ -261,6 +1057,7 @@
       "own_base, arizona_chosen, unlock_arizona_desert, @southeast_arizona",
       "own_base, arizona_chosen, unlock_arizona_desert, @las_vegas_area",
       "own_base, arizona_chosen, unlock_arizona_desert, @hoover_dam",
+      "own_base, arizona_chosen, unlock_arizona_desert, @california_deserts",
       "own_base, arizona_chosen, unlock_arizona_desert, unlock_ft_arizona_desert"
     ],
     "visibility_rules": [

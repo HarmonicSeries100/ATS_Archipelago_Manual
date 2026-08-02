@@ -182,6 +182,72 @@
         "Unlock Fast Travel - Tonopah"
       ],
       "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Northern California"
+      ],
+      "items": [
+        "Unlock Fast Travel - Eureka",
+        "Unlock Fast Travel - Redding",
+        "Unlock Fast Travel - Truckee"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Bay Area"
+      ],
+      "items": [
+        "Unlock Fast Travel - San Francisco",
+        "Unlock Fast Travel - Oakland",
+        "Unlock Fast Travel - San Jose"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Central Valley"
+      ],
+      "items": [
+        "Unlock Fast Travel - Sacramento",
+        "Unlock Fast Travel - Stockton",
+        "Unlock Fast Travel - Modesto",
+        "Unlock Fast Travel - Fresno",
+        "Unlock Fast Travel - Bakersfield"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock Central Coast"
+      ],
+      "items": [
+        "Unlock Fast Travel - Santa Cruz"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock SoCal"
+      ],
+      "items": [
+        "Unlock Fast Travel - Oxnard",
+        "Unlock Fast Travel - Los Angeles",
+        "Unlock Fast Travel - San Diego"
+      ],
+      "random": 1
+    },
+    {
+      "if_previous_item": [
+        "Unlock California Deserts"
+      ],
+      "items": [
+        "Unlock Fast Travel - Barstow",
+        "Unlock Fast Travel - Indio",
+        "Unlock Fast Travel - Blythe"
+      ],
+      "random": 1
     }
   ]
 }

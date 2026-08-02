@@ -20,6 +20,62 @@
     "codes": "validated_passport"
   },
   {
+    "name": "Unlock Northern California",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_northern_california",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Bay Area",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_bay_area",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Central Valley",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_central_valley",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Sierras",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_sierras",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Central Coast",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_central_coast",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock SoCal",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_socal",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock California Deserts",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_california_deserts",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
     "name": "Unlock Great Basin",
     "type": "toggle",
     "loop": "true",
@@ -520,6 +576,150 @@
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_tonopah, unlock_ft_great_basin",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Eureka",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_eureka, unlock_ft_northern_california",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Redding",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_redding, unlock_ft_northern_california",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Truckee",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_truckee, unlock_ft_northern_california",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - San Francisco",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_san_francisco, unlock_ft_bay_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Oakland",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_oakland, unlock_ft_bay_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - San Jose",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_san_jose, unlock_ft_bay_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Sacramento",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_sacramento, unlock_ft_central_valley",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Stockton",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_stockton, unlock_ft_central_valley",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Modesto",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_modesto, unlock_ft_central_valley",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Fresno",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_fresno, unlock_ft_central_valley",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Bakersfield",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_bakersfield, unlock_ft_central_valley",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Santa Cruz",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_santa_cruz, unlock_ft_central_coast",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Oxnard",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_oxnard, unlock_ft_socal",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Los Angeles",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_los_angeles, unlock_ft_socal",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - San Diego",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_san_diego, unlock_ft_socal",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Barstow",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_barstow, unlock_ft_california_deserts",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Indio",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_indio, unlock_ft_california_deserts",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Unlock Fast Travel - Blythe",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_blythe, unlock_ft_california_deserts",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
   }

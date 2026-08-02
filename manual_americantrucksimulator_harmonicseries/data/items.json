@@ -36,6 +36,82 @@
     },
     {
       "count": 1,
+      "name": "Unlock Northern California",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "California",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Bay Area",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "California",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central Valley",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "California",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Sierras",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central Coast",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "California",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock SoCal",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "California",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock California Deserts",
+      "category": [
+        "Region Unlock",
+        "DLC - Base",
+        "California",
+        "Start Region"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Great Basin",
       "category": [
         "Region Unlock",
@@ -681,6 +757,186 @@
         "Fast Travel Unlock",
         "DLC - Base",
         "Nevada"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Eureka",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Redding",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Truckee",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - San Francisco",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Oakland",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - San Jose",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Sacramento",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Stockton",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Modesto",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Fresno",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Bakersfield",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Santa Cruz",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Oxnard",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Los Angeles",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - San Diego",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Barstow",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Indio",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Blythe",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Base",
+        "California"
       ],
       "progression": true
     }

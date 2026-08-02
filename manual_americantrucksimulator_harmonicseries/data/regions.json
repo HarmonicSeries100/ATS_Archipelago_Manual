@@ -1,11 +1,74 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+  "Northern California": {
+    "connects_to": [
+      "Bay Area",
+      "Central Valley",
+      "Great Basin"
+    ],
+    "requires": "|Unlock Northern California|"
+  },
+  "Bay Area": {
+    "connects_to": [
+      "Northern California",
+      "Central Valley",
+      "Central Coast"
+    ],
+    "requires": "|Unlock Bay Area|"
+  },
+  "Central Valley": {
+    "connects_to": [
+      "Northern California",
+      "Bay Area",
+      "Central Coast",
+      "Sierras",
+      "SoCal",
+      "California Deserts"
+    ],
+    "requires": "|Unlock Central Valley|"
+  },
+  "Sierras": {
+    "connects_to": [
+      "Central Valley",
+      "California Deserts",
+      "Great Basin"
+    ],
+    "requires": "|Unlock Sierras|"
+  },
+  "Central Coast": {
+    "connects_to": [
+      "Bay Area",
+      "Central Valley",
+      "SoCal"
+    ],
+    "requires": "|Unlock Central Coast|"
+  },
+  "SoCal": {
+    "connects_to": [
+      "Central Valley",
+      "Central Coast",
+      "California Deserts"
+    ],
+    "requires": "|Unlock SoCal|"
+  },
+  "California Deserts": {
+    "connects_to": [
+      "Central Valley",
+      "Sierras",
+      "SoCal",
+      "Las Vegas Area",
+      "Arizona Desert"
+    ],
+    "requires": "|Unlock California Deserts|"
+  },
   "Great Basin": {
     "connects_to": [
       "Northern Utah",
       "Central Utah",
       "St. George Area",
-      "Las Vegas Area"
+      "Las Vegas Area",
+      "Northern California",
+      "Sierras"
     ],
     "requires": "|Unlock Great Basin|"
   },
@@ -14,7 +77,8 @@
       "Great Basin",
       "St. George Area",
       "Arizona Desert",
-      "Hoover Dam"
+      "Hoover Dam",
+      "California Deserts"
     ],
     "requires": "|Unlock Las Vegas Area|"
   },
@@ -23,7 +87,8 @@
       "Arizona Mountains",
       "Southeast Arizona",
       "Las Vegas Area",
-      "Hoover Dam"
+      "Hoover Dam",
+      "California Deserts"
     ],
     "requires": "|Unlock Arizona Desert|"
   },
@@ -174,7 +239,13 @@
       "FT - Southeast Utah",
       "FT - St. George Area",
       "FT - Las Vegas Area",
-      "FT - Great Basin"
+      "FT - Great Basin",
+      "FT - Northern California",
+      "FT - Bay Area",
+      "FT - Central Valley",
+      "FT - Central Coast",
+      "FT - SoCal",
+      "FT - California Deserts"
     ]
   },
   "FT - Arizona Desert": {
@@ -288,5 +359,47 @@
       "Great Basin"
     ],
     "requires": "|Unlock Great Basin| AND (|Unlock Fast Travel - Reno| OR |Unlock Fast Travel - Carson City| OR |Unlock Fast Travel - Elko| OR |Unlock Fast Travel - Tonopah|)"
+  },
+  "FT - Northern California": {
+    "connects_to": [
+      "FT Hub",
+      "Northern California"
+    ],
+    "requires": "|Unlock Northern California| AND (|Unlock Fast Travel - Eureka| OR |Unlock Fast Travel - Redding| OR |Unlock Fast Travel - Truckee|)"
+  },
+  "FT - Bay Area": {
+    "connects_to": [
+      "FT Hub",
+      "Bay Area"
+    ],
+    "requires": "|Unlock Bay Area| AND (|Unlock Fast Travel - San Francisco| OR |Unlock Fast Travel - Oakland| OR |Unlock Fast Travel - San Jose|)"
+  },
+  "FT - Central Valley": {
+    "connects_to": [
+      "FT Hub",
+      "Central Valley"
+    ],
+    "requires": "|Unlock Central Valley| AND (|Unlock Fast Travel - Sacramento| OR |Unlock Fast Travel - Stockton| OR |Unlock Fast Travel - Modesto| OR |Unlock Fast Travel - Fresno| OR |Unlock Fast Travel - Bakersfield|)"
+  },
+  "FT - Central Coast": {
+    "connects_to": [
+      "FT Hub",
+      "Central Coast"
+    ],
+    "requires": "|Unlock Central Coast| AND (|Unlock Fast Travel - Santa Cruz|)"
+  },
+  "FT - SoCal": {
+    "connects_to": [
+      "FT Hub",
+      "SoCal"
+    ],
+    "requires": "|Unlock SoCal| AND (|Unlock Fast Travel - Oxnard| OR |Unlock Fast Travel - Los Angeles| OR |Unlock Fast Travel - San Diego|)"
+  },
+  "FT - California Deserts": {
+    "connects_to": [
+      "FT Hub",
+      "California Deserts"
+    ],
+    "requires": "|Unlock California Deserts| AND (|Unlock Fast Travel - Barstow| OR |Unlock Fast Travel - Indio| OR |Unlock Fast Travel - Blythe|)"
   }
 }

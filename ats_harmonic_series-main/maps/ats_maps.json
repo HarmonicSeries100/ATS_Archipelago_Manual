@@ -7,6 +7,13 @@
     "img": "images/maps/victory_island_map.png"
   },
   {
+    "name": "california_map",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/california_map.png"
+  },
+  {
     "name": "nevada_map",
     "location_size": 24,
     "location_border_thickness": 2,
