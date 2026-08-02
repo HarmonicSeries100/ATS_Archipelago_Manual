@@ -1,0 +1,154 @@
+{
+  "california_layout": {
+    "type": "dock",
+    "background": "#222228",
+    "content": [
+      {
+        "type": "map",
+        "maps": [
+          "california_map"
+        ]
+      },
+      {
+        "type": "array",
+        "dock": "left",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          },
+          {
+            "type": "group",
+            "header": "California Items",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "margin": "10,5,5,5",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Northern California",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_northern_california",
+                        "unlock_ft_eureka",
+                        "unlock_ft_redding",
+                        "unlock_ft_truckee"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Bay Area",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_bay_area",
+                        "unlock_ft_san_francisco",
+                        "unlock_ft_oakland",
+                        "unlock_ft_san_jose"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Central Valley",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_central_valley",
+                        "unlock_ft_sacramento",
+                        "unlock_ft_stockton",
+                        "unlock_ft_modesto",
+                        "unlock_ft_fresno"
+                      ],
+                      [
+                        "unlock_ft_bakersfield"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Sierras",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_sierras"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Central Coast",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_central_coast",
+                        "unlock_ft_santa_cruz"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "SoCal",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_socal",
+                        "unlock_ft_oxnard",
+                        "unlock_ft_los_angeles",
+                        "unlock_ft_san_diego"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "California Deserts",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_california_deserts",
+                        "unlock_ft_barstow",
+                        "unlock_ft_indio",
+                        "unlock_ft_blythe"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

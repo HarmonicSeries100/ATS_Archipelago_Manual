@@ -14,8 +14,18 @@ import generate_pop_layouts as gen_pop_layout
 import generate_lua_scripts as gen_lua
 from util import to_snake_case
 
+def generate_hook_util(state_list):
+    file_content = "STATE_LIST = [\n"
+    for state in state_list:
+        file_content += f"\"{state[1]}\",\n"
+    file_content += "]"
+    with open("./manual_americantrucksimulator_harmonicseries/hooks/util.py","w") as file:
+        file.write(file_content)
+
 def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop_layout_data):
     lua_state_options = {}
+    dlc_list = []
+    state_list = []
     with open('./resources/ats_manual_state_data.csv', 'r') as f:
         reader = csv.DictReader(f)
         for state in reader:
@@ -35,6 +45,7 @@ def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop
                 layout_row = gen_pop_layout.add_item_to_row(layout_row, const.DLC_OPTION_PREFIX+dlc_id, const.NUMBER_OF_OPTION_COLUMNS)
                 pop_layout_data["options_layout"]["settings_popup"]["content"][1]["content"]["rows"]=layout_row
                 pop_item_data["options"].append(gen_pop.get_poptracker_dlc_owned_item(dlc_id, dlc_name))
+                dlc_list.append(dlc_id)
 
             if dlc_option not in json_data['options']['user'] and dlc_name != 'Base':
                 json_data['options']['user'][dlc_option] = gen_man.get_own_dlc_option(dlc_name)
@@ -42,6 +53,9 @@ def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop
             state_code = state["state_id"]
             state_name = state["state_display_name"]
             state_pref_option = state_code + const.STATE_PREFERENCE_SUFFIX
+
+            state_list.append((state_code,state_name))
+
             json_data['options']['user'][state_pref_option] = gen_man.get_state_preference_option(state_name)
             
             pop_item_data["options"].append(gen_pop.get_poptracker_state_option_item(state_code, state_name))
@@ -58,6 +72,8 @@ def process_state_csv(json_data,pop_item_data,pop_map_data,pop_location_data,pop
 
             lua_state_options[state_code+const.POPTRACKER_STATE_CHOSEN_SUFFIX] = state_name
 
+    gen_lua.generate_init_lua_script(dlc_list, state_list)
+    generate_hook_util(state_list)
     return json_data, pop_item_data, pop_map_data, pop_location_data, pop_layout_data, lua_state_options
 
 

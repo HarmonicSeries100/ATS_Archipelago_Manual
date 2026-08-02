@@ -40,6 +40,22 @@
     "img": "images/flags/base.png"
   },
   {
+    "name": "California Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/california.png",
+        "codes": "california_chosen"
+      },
+      {
+        "img": "images/flags/california.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "california_victory"
+      }
+    ]
+  },
+  {
     "name": "Nevada Option",
     "type": "progressive",
     "loop": "true",

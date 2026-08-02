@@ -20,6 +20,8 @@ import logging
 
 from Options import OptionError
 
+from .util import STATE_LIST
+
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -47,13 +49,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         world.chosen_states = slot_data["chosen_states"]
         world.victory_state = slot_data["victory_state"]
         return
-    available_states = [
-        "Arizona",
-        "Colorado",
-        "New Mexico",
-        "Utah",
-        "Nevada"
-    ]
+    available_states = STATE_LIST
     allowed_states = []
     include_states = []
     random_states = []

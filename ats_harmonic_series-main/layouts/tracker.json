@@ -13,6 +13,13 @@
           }
         },
         {
+          "title": "California",
+          "content": {
+            "type": "layout",
+            "key": "california_layout"
+          }
+        },
+        {
           "title": "Nevada",
           "content": {
             "type": "layout",

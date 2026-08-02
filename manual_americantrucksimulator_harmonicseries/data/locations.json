@@ -1277,6 +1277,490 @@
         "Nevada"
       ],
       "requires": ""
+    },
+    {
+      "name": "Hilt",
+      "region": "Northern California",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Eureka",
+      "region": "Northern California",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Redding",
+      "region": "Northern California",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Ukiah",
+      "region": "Northern California",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Truckee",
+      "region": "Northern California",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "San Francisco",
+      "region": "Bay Area",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Oakland",
+      "region": "Bay Area",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "San Jose",
+      "region": "Bay Area",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Sacramento",
+      "region": "Central Valley",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Passport Validation Center - Sacramento",
+      "region": "Central Valley",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
+    },
+    {
+      "name": "Stockton",
+      "region": "Central Valley",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Modesto",
+      "region": "Central Valley",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Fresno",
+      "region": "Central Valley",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Huron",
+      "region": "Central Valley",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bakersfield",
+      "region": "Central Valley",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Santa Cruz",
+      "region": "Central Coast",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Santa Maria",
+      "region": "Central Coast",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Oxnard",
+      "region": "SoCal",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Los Angeles",
+      "region": "SoCal",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "San Diego",
+      "region": "SoCal",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Mojave",
+      "region": "California Deserts",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Barstow",
+      "region": "California Deserts",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Indio",
+      "region": "California Deserts",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "El Centro",
+      "region": "California Deserts",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Blythe",
+      "region": "California Deserts",
+      "category": [
+        "City",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Burney Vista Point",
+      "region": "Northern California",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Richmond Bridge",
+      "region": "Bay Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Golden Gate Bridge - Viewpoint",
+      "region": "Bay Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Santa Cruz - Lighthouse",
+      "region": "Central Coast",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Fresno - Viewpoint",
+      "region": "Central Valley",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "CA-1 - Rocky Creek",
+      "region": "Central Coast",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Yosemite - Olmsted Point",
+      "region": "Sierras",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Borax",
+      "region": "California Deserts",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Coronado Island",
+      "region": "SoCal",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Port of Long Beach",
+      "region": "SoCal",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Santa Monica",
+      "region": "SoCal",
+      "category": [
+        "Viewpoint",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Golden Gate Bridge - Photo Trophy",
+      "region": "Bay Area",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bigfoot Shop in Sequoia National Forest",
+      "region": "Northern California",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Donner Lake",
+      "region": "Northern California",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "San Francisco - Pier 39",
+      "region": "Bay Area",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Yosemite National Park",
+      "region": "Sierras",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Santa Cruz - Lighthouse Point",
+      "region": "Central Coast",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "San Diego Skyline",
+      "region": "SoCal",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Coronado Bridge",
+      "region": "SoCal",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Santa Monica Pier",
+      "region": "SoCal",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Vincent Thomas Bridge",
+      "region": "SoCal",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Los Angeles Skyline",
+      "region": "SoCal",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Barstow Station",
+      "region": "California Deserts",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Base",
+        "California"
+      ],
+      "requires": ""
     }
   ]
 }

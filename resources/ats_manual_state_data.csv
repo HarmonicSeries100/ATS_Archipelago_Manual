@@ -1,4 +1,5 @@
 state_id,state_display_name,state_abbr,DLC,DLC_id
+california,California,CA,Base,base
 nevada,Nevada,NV,Base,base
 arizona,Arizona,AZ,Base,base
 new_mexico,New Mexico,NM,New Mexico,new_mexico

@@ -49,10 +49,13 @@
           "item_v_alignment": "center",
           "rows": [
             [
+              "california_chosen",
               "nevada_chosen",
               "arizona_chosen",
               "new_mexico_chosen",
-              "utah_chosen",
+              "utah_chosen"
+            ],
+            [
               "colorado_chosen"
             ]
           ]
