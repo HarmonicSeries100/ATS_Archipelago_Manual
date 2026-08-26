@@ -106,7 +106,8 @@ def initialize_lists():
                         "category": [
                             const.GOAL_CATEGORY
                         ],
-                        "progression": True
+                        "progression": True,
+                        "progression_skip_balancing": True
                     },
                     {
                         "count": 1,
