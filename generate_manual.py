@@ -52,11 +52,24 @@ def get_region_unlock_item_from_region(region):
     return region_unlock_item_obj
 
 
+def get_start_item_from_location(location):
+    start_item_obj = {
+        "count": 1,
+        "name": const.START_ITEM_PREFIX + location["Location_Name"],
+        "category": [
+            const.START_ITEM_CATEGORY
+        ],
+        "progression": True
+    }
+    start_item_obj["category"].append(const.DLC_CATEGORY_PREFIX + location["State_DLC"])
+    start_item_obj["category"].extend([item for item in location["State"].split('; ')])
+    return start_item_obj
+
+
 def get_starting_item(region, city_list):
     starting_item_obj = {
-        "if_previous_item": [f"{const.UNLOCK_REGION_ITEM_PREFIX}{region}"],
-        "items": [f"{const.UNLOCK_FT_ITEM_PREFIX}{city}" for city in city_list],
-        "random": 1
+        "if_previous_item": [f"{const.START_ITEM_PREFIX}{city}" for city in city_list],
+        "items": [f"{const.UNLOCK_REGION_ITEM_PREFIX}{region}"]
     }
     return starting_item_obj
 
@@ -66,7 +79,7 @@ def initialize_lists():
     json_data = {
         'categories': {
             "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-            const.START_REGION_CATEGORY: {
+            const.START_ITEM_CATEGORY: {
                 'hidden': True
             },
             const.STATE_CAPITAL_CATEGORY: {
@@ -80,7 +93,7 @@ def initialize_lists():
             "filler_item_name": const.FILLER_ITEM_NAME,
             "starting_items": [
                 {
-                    "item_categories": [const.START_REGION_CATEGORY],
+                    "item_categories": [const.START_ITEM_CATEGORY],
                     "random": 1
                 }
             ]
@@ -142,7 +155,7 @@ def initialize_lists():
                 [
                     {
                         "name": "Victory",
-                        "region": const.FT_HUB_NAME,
+                        "region": "Victory Region",
                         "victory": True,
                         "category": [
                             const.VICTORY_CATEGORY
@@ -152,7 +165,11 @@ def initialize_lists():
                 ],
         },
         'regions': {
-            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json"
+            "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+            "Victory Region": {
+                "starting": True,
+                "requires": ""
+            }
         },
         'options': {
             "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
@@ -260,8 +277,8 @@ def get_state_preference_option(state_name):
 def generate_fast_travel_regions(json_data, garage_city_index):
     unlock_item_list = []
     json_data['regions'][const.FT_HUB_NAME] = {
-        "starting": True,
-        "connects_to": []
+        "connects_to": [],
+        "requires": ""
     }
     for region_name, city_list in garage_city_index.items():
         unlock_item_list.append(f"{const.UNLOCK_REGION_ITEM_PREFIX}{region_name}")
@@ -271,9 +288,7 @@ def generate_fast_travel_regions(json_data, garage_city_index):
             "connects_to": [const.FT_HUB_NAME, region_name],
             "requires": f"|{const.UNLOCK_REGION_ITEM_PREFIX}{region_name}| AND ({" OR ".join([f"|{const.UNLOCK_FT_ITEM_PREFIX}{city}|" for city in city_list])})"
         }
-    for index, item in enumerate(json_data['items']['data']):
-        if item['name'] in unlock_item_list:
-            json_data['items']['data'][index]["category"].append(const.START_REGION_CATEGORY)
+        json_data['regions'][region_name]["connects_to"].append(ft_region_name)
     return json_data
 
 

@@ -3,7 +3,7 @@
   "data": [
     {
       "name": "Victory",
-      "region": "FT Hub",
+      "region": "Victory Region",
       "victory": true,
       "category": [
         "Victory"

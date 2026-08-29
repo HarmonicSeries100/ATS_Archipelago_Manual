@@ -85,11 +85,13 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
     for _ in range(remaining_state_count):
         state_choice = world.random.choices(random_states, weights=random_state_weights)[0]
+        print(state_choice)
         world.chosen_states.append(state_choice)
         index = random_states.index(state_choice)
         random_states.pop(index)
         random_state_weights.pop(index)
     world.victory_state = world.random.choice(world.chosen_states)
+    return
 
 
 # Called before regions and locations are created. Not clear why you'd want this, but it's here. Victory location is included, but Victory event is not placed yet.
@@ -129,18 +131,13 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     # Use this hook to remove items from the item pool
-    itemNamesToRemove: list[str] = [] # List of item names
-
-    # Add your code here to calculate which items to remove.
-    #
-    # Because multiple copies of an item can exist, you need to add an item name
-    # to the list multiple times if you want to remove multiple copies of it.
-
-    for itemName in itemNamesToRemove:
-        item = next(i for i in item_pool if i.name == itemName)
-        remove_specific_item(item_pool, item)
-
-    return item_pool
+    print(list(multiworld.precollected_items[player]))
+    filtered_item_pool = []
+    for item in item_pool:
+        if item.name.startswith("Starting City - "):
+            continue
+        filtered_item_pool.append(item)
+    return filtered_item_pool
 
     # Some other useful hook options:
 
