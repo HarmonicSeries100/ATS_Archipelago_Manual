@@ -41,8 +41,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "California",
-        "Start Region"
+        "California"
       ],
       "progression": true
     },
@@ -52,8 +51,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "California",
-        "Start Region"
+        "California"
       ],
       "progression": true
     },
@@ -63,8 +61,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "California",
-        "Start Region"
+        "California"
       ],
       "progression": true
     },
@@ -84,8 +81,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "California",
-        "Start Region"
+        "California"
       ],
       "progression": true
     },
@@ -95,8 +91,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "California",
-        "Start Region"
+        "California"
       ],
       "progression": true
     },
@@ -106,8 +101,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "California",
-        "Start Region"
+        "California"
       ],
       "progression": true
     },
@@ -117,8 +111,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "Nevada",
-        "Start Region"
+        "Nevada"
       ],
       "progression": true
     },
@@ -128,8 +121,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "Nevada",
-        "Start Region"
+        "Nevada"
       ],
       "progression": true
     },
@@ -139,8 +131,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "Arizona",
-        "Start Region"
+        "Arizona"
       ],
       "progression": true
     },
@@ -150,8 +141,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "Arizona",
-        "Start Region"
+        "Arizona"
       ],
       "progression": true
     },
@@ -161,8 +151,7 @@
       "category": [
         "Region Unlock",
         "DLC - Base",
-        "Arizona",
-        "Start Region"
+        "Arizona"
       ],
       "progression": true
     },
@@ -183,8 +172,7 @@
       "category": [
         "Region Unlock",
         "DLC - New Mexico",
-        "New Mexico",
-        "Start Region"
+        "New Mexico"
       ],
       "progression": true
     },
@@ -194,8 +182,7 @@
       "category": [
         "Region Unlock",
         "DLC - New Mexico",
-        "New Mexico",
-        "Start Region"
+        "New Mexico"
       ],
       "progression": true
     },
@@ -205,8 +192,7 @@
       "category": [
         "Region Unlock",
         "DLC - New Mexico",
-        "New Mexico",
-        "Start Region"
+        "New Mexico"
       ],
       "progression": true
     },
@@ -216,8 +202,7 @@
       "category": [
         "Region Unlock",
         "DLC - Utah",
-        "Utah",
-        "Start Region"
+        "Utah"
       ],
       "progression": true
     },
@@ -227,8 +212,7 @@
       "category": [
         "Region Unlock",
         "DLC - Utah",
-        "Utah",
-        "Start Region"
+        "Utah"
       ],
       "progression": true
     },
@@ -238,8 +222,7 @@
       "category": [
         "Region Unlock",
         "DLC - Utah",
-        "Utah",
-        "Start Region"
+        "Utah"
       ],
       "progression": true
     },
@@ -249,8 +232,7 @@
       "category": [
         "Region Unlock",
         "DLC - Utah",
-        "Utah",
-        "Start Region"
+        "Utah"
       ],
       "progression": true
     },
@@ -260,8 +242,7 @@
       "category": [
         "Region Unlock",
         "DLC - Colorado",
-        "Colorado",
-        "Start Region"
+        "Colorado"
       ],
       "progression": true
     },
@@ -271,8 +252,7 @@
       "category": [
         "Region Unlock",
         "DLC - Colorado",
-        "Colorado",
-        "Start Region"
+        "Colorado"
       ],
       "progression": true
     },
@@ -282,8 +262,7 @@
       "category": [
         "Region Unlock",
         "DLC - Colorado",
-        "Colorado",
-        "Start Region"
+        "Colorado"
       ],
       "progression": true
     },
@@ -293,8 +272,7 @@
       "category": [
         "Region Unlock",
         "DLC - Colorado",
-        "Colorado",
-        "Start Region"
+        "Colorado"
       ],
       "progression": true
     },
@@ -323,11 +301,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Kingman",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Phoenix",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Phoenix",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -343,11 +337,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Yuma",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Flagstaff",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Flagstaff",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -363,11 +373,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Page",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Winslow",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Winslow",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -383,11 +409,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Clifton",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Tucson",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "Arizona"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Tucson",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -403,11 +445,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Burlington",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Alamosa",
       "category": [
         "Fast Travel Unlock",
         "DLC - Colorado",
         "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Alamosa",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -423,11 +481,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Steamboat Springs",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Colorado Springs",
       "category": [
         "Fast Travel Unlock",
         "DLC - Colorado",
         "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Colorado Springs",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -443,11 +517,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Denver",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Fort Collins",
       "category": [
         "Fast Travel Unlock",
         "DLC - Colorado",
         "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Fort Collins",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -463,11 +553,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Pueblo",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Durango",
       "category": [
         "Fast Travel Unlock",
         "DLC - Colorado",
         "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Durango",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -483,11 +589,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Grand Junction",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Montrose",
       "category": [
         "Fast Travel Unlock",
         "DLC - Colorado",
         "Colorado"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Montrose",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -503,11 +625,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Albuquerque",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Clovis",
       "category": [
         "Fast Travel Unlock",
         "DLC - New Mexico",
         "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Clovis",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -523,11 +661,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Gallup",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Socorro",
       "category": [
         "Fast Travel Unlock",
         "DLC - New Mexico",
         "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Socorro",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -543,11 +697,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Tucumcari",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Farmington",
       "category": [
         "Fast Travel Unlock",
         "DLC - New Mexico",
         "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Farmington",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -563,11 +733,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Raton",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Santa Fe",
       "category": [
         "Fast Travel Unlock",
         "DLC - New Mexico",
         "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Santa Fe",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -583,11 +769,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Alamogordo",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Artesia",
       "category": [
         "Fast Travel Unlock",
         "DLC - New Mexico",
         "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Artesia",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -603,11 +805,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Hobbs",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Roswell",
       "category": [
         "Fast Travel Unlock",
         "DLC - New Mexico",
         "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Roswell",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -623,11 +841,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Price",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Provo",
       "category": [
         "Fast Travel Unlock",
         "DLC - Utah",
         "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Provo",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -643,11 +877,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Salina",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Vernal",
       "category": [
         "Fast Travel Unlock",
         "DLC - Utah",
         "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Vernal",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -663,11 +913,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Logan",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Ogden",
       "category": [
         "Fast Travel Unlock",
         "DLC - Utah",
         "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Ogden",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -683,11 +949,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Salt Lake City",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Moab",
       "category": [
         "Fast Travel Unlock",
         "DLC - Utah",
         "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Moab",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -703,11 +985,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Cedar City",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - St. George",
       "category": [
         "Fast Travel Unlock",
         "DLC - Utah",
         "Utah"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - St. George",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -723,11 +1021,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Las Vegas",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Reno",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "Nevada"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Reno",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -743,11 +1057,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Carson City",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Elko",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "Nevada"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Elko",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -763,11 +1093,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Tonopah",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Eureka",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Eureka",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -783,11 +1129,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Redding",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Truckee",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Truckee",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -803,11 +1165,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - San Francisco",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Oakland",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Oakland",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -823,11 +1201,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - San Jose",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Sacramento",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Sacramento",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -843,11 +1237,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Stockton",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Modesto",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Modesto",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -863,11 +1273,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Fresno",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Bakersfield",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Bakersfield",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -883,11 +1309,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Santa Cruz",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Oxnard",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Oxnard",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -903,11 +1345,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Los Angeles",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - San Diego",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - San Diego",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     },
@@ -923,6 +1381,14 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Barstow",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Indio",
       "category": [
         "Fast Travel Unlock",
@@ -933,11 +1399,27 @@
     },
     {
       "count": 1,
+      "name": "Starting City - Indio",
+      "category": [
+        "Start Item"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Blythe",
       "category": [
         "Fast Travel Unlock",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Blythe",
+      "category": [
+        "Start Item"
       ],
       "progression": true
     }

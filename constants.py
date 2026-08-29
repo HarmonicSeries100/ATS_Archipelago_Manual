@@ -1,4 +1,5 @@
-START_REGION_CATEGORY = "Start Region"
+START_ITEM_CATEGORY = "Start Item"
+START_ITEM_PREFIX = "Starting City - "
 FT_UNLOCK_CATEGORY = "Fast Travel Unlock"
 REGION_UNLOCK_CATEGORY = "Region Unlock"
 UNLOCK_REGION_ITEM_PREFIX = "Unlock "

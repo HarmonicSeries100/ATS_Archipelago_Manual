@@ -112,6 +112,14 @@ def process_location_csv(json_data, pop_item_data, pop_loc_data, region_dlc_inde
 
             if location['Has_Garage'] == 'Y':
                 json_data['items']['data'].append(gen_man.get_fast_travel_item_from_location(location))
+                starting_item = gen_man.get_start_item_from_location(location)
+                json_data['items']['data'].append(starting_item)
+                json_data['regions'][location['Region']]["starting"] = True
+                try:
+                    json_data['regions'][location['Region']]["entrance_requires"]["Manual"] += f" OR |{starting_item["name"]}|"
+                except KeyError:
+                    json_data['regions'][location['Region']]["entrance_requires"]={}
+                    json_data['regions'][location['Region']]["entrance_requires"]["Manual"] = f"|{starting_item["name"]}|"
                 try:
                     garage_cities[location['Region']].append(location_name)
                 except KeyError:
