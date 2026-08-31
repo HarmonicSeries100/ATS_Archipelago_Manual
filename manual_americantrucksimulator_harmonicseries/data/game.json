@@ -6,248 +6,226 @@
   "starting_items": [
     {
       "item_categories": [
-        "Start Region"
+        "Start Item"
       ],
       "random": 1
     },
     {
       "if_previous_item": [
+        "Starting City - Kingman",
+        "Starting City - Phoenix",
+        "Starting City - Yuma"
+      ],
+      "items": [
         "Unlock Arizona Desert"
-      ],
-      "items": [
-        "Unlock Fast Travel - Kingman",
-        "Unlock Fast Travel - Phoenix",
-        "Unlock Fast Travel - Yuma"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Flagstaff",
+        "Starting City - Page",
+        "Starting City - Winslow"
+      ],
+      "items": [
         "Unlock Arizona Mountains"
-      ],
-      "items": [
-        "Unlock Fast Travel - Flagstaff",
-        "Unlock Fast Travel - Page",
-        "Unlock Fast Travel - Winslow"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Clifton",
+        "Starting City - Tucson"
+      ],
+      "items": [
         "Unlock Southeast Arizona"
-      ],
-      "items": [
-        "Unlock Fast Travel - Clifton",
-        "Unlock Fast Travel - Tucson"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Burlington"
+      ],
+      "items": [
         "Unlock Colorado Plains"
-      ],
-      "items": [
-        "Unlock Fast Travel - Burlington"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Alamosa",
+        "Starting City - Steamboat Springs"
+      ],
+      "items": [
         "Unlock Colorado Rockies"
-      ],
-      "items": [
-        "Unlock Fast Travel - Alamosa",
-        "Unlock Fast Travel - Steamboat Springs"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Colorado Springs",
+        "Starting City - Denver",
+        "Starting City - Fort Collins",
+        "Starting City - Pueblo"
+      ],
+      "items": [
         "Unlock Front Range"
-      ],
-      "items": [
-        "Unlock Fast Travel - Colorado Springs",
-        "Unlock Fast Travel - Denver",
-        "Unlock Fast Travel - Fort Collins",
-        "Unlock Fast Travel - Pueblo"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Durango",
+        "Starting City - Grand Junction",
+        "Starting City - Montrose"
+      ],
+      "items": [
         "Unlock Western Slope"
-      ],
-      "items": [
-        "Unlock Fast Travel - Durango",
-        "Unlock Fast Travel - Grand Junction",
-        "Unlock Fast Travel - Montrose"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Albuquerque",
+        "Starting City - Clovis",
+        "Starting City - Gallup",
+        "Starting City - Socorro",
+        "Starting City - Tucumcari"
+      ],
+      "items": [
         "Unlock Central New Mexico"
-      ],
-      "items": [
-        "Unlock Fast Travel - Albuquerque",
-        "Unlock Fast Travel - Clovis",
-        "Unlock Fast Travel - Gallup",
-        "Unlock Fast Travel - Socorro",
-        "Unlock Fast Travel - Tucumcari"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Farmington",
+        "Starting City - Raton",
+        "Starting City - Santa Fe"
+      ],
+      "items": [
         "Unlock New Mexico Highlands"
-      ],
-      "items": [
-        "Unlock Fast Travel - Farmington",
-        "Unlock Fast Travel - Raton",
-        "Unlock Fast Travel - Santa Fe"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Alamogordo",
+        "Starting City - Artesia",
+        "Starting City - Hobbs",
+        "Starting City - Roswell"
+      ],
+      "items": [
         "Unlock Southern New Mexico"
-      ],
-      "items": [
-        "Unlock Fast Travel - Alamogordo",
-        "Unlock Fast Travel - Artesia",
-        "Unlock Fast Travel - Hobbs",
-        "Unlock Fast Travel - Roswell"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Price",
+        "Starting City - Provo",
+        "Starting City - Salina",
+        "Starting City - Vernal"
+      ],
+      "items": [
         "Unlock Central Utah"
-      ],
-      "items": [
-        "Unlock Fast Travel - Price",
-        "Unlock Fast Travel - Provo",
-        "Unlock Fast Travel - Salina",
-        "Unlock Fast Travel - Vernal"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Logan",
+        "Starting City - Ogden",
+        "Starting City - Salt Lake City"
+      ],
+      "items": [
         "Unlock Northern Utah"
-      ],
-      "items": [
-        "Unlock Fast Travel - Logan",
-        "Unlock Fast Travel - Ogden",
-        "Unlock Fast Travel - Salt Lake City"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Moab"
+      ],
+      "items": [
         "Unlock Southeast Utah"
-      ],
-      "items": [
-        "Unlock Fast Travel - Moab"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Cedar City",
+        "Starting City - St. George"
+      ],
+      "items": [
         "Unlock St. George Area"
-      ],
-      "items": [
-        "Unlock Fast Travel - Cedar City",
-        "Unlock Fast Travel - St. George"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Las Vegas"
+      ],
+      "items": [
         "Unlock Las Vegas Area"
-      ],
-      "items": [
-        "Unlock Fast Travel - Las Vegas"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Reno",
+        "Starting City - Carson City",
+        "Starting City - Elko",
+        "Starting City - Tonopah"
+      ],
+      "items": [
         "Unlock Great Basin"
-      ],
-      "items": [
-        "Unlock Fast Travel - Reno",
-        "Unlock Fast Travel - Carson City",
-        "Unlock Fast Travel - Elko",
-        "Unlock Fast Travel - Tonopah"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Eureka",
+        "Starting City - Redding",
+        "Starting City - Truckee"
+      ],
+      "items": [
         "Unlock Northern California"
-      ],
-      "items": [
-        "Unlock Fast Travel - Eureka",
-        "Unlock Fast Travel - Redding",
-        "Unlock Fast Travel - Truckee"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - San Francisco",
+        "Starting City - Oakland",
+        "Starting City - San Jose"
+      ],
+      "items": [
         "Unlock Bay Area"
-      ],
-      "items": [
-        "Unlock Fast Travel - San Francisco",
-        "Unlock Fast Travel - Oakland",
-        "Unlock Fast Travel - San Jose"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Sacramento",
+        "Starting City - Stockton",
+        "Starting City - Modesto",
+        "Starting City - Fresno",
+        "Starting City - Bakersfield"
+      ],
+      "items": [
         "Unlock Central Valley"
-      ],
-      "items": [
-        "Unlock Fast Travel - Sacramento",
-        "Unlock Fast Travel - Stockton",
-        "Unlock Fast Travel - Modesto",
-        "Unlock Fast Travel - Fresno",
-        "Unlock Fast Travel - Bakersfield"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Santa Cruz"
+      ],
+      "items": [
         "Unlock Central Coast"
-      ],
-      "items": [
-        "Unlock Fast Travel - Santa Cruz"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
+        "Starting City - Oxnard",
+        "Starting City - Los Angeles",
+        "Starting City - San Diego"
+      ],
+      "items": [
         "Unlock SoCal"
-      ],
-      "items": [
-        "Unlock Fast Travel - Oxnard",
-        "Unlock Fast Travel - Los Angeles",
-        "Unlock Fast Travel - San Diego"
-      ],
-      "random": 1
+      ]
     },
     {
       "if_previous_item": [
-        "Unlock California Deserts"
+        "Starting City - Barstow",
+        "Starting City - Indio",
+        "Starting City - Blythe"
       ],
       "items": [
-        "Unlock Fast Travel - Barstow",
-        "Unlock Fast Travel - Indio",
-        "Unlock Fast Travel - Blythe"
-      ],
-      "random": 1
+        "Unlock California Deserts"
+      ]
     }
   ]
 }

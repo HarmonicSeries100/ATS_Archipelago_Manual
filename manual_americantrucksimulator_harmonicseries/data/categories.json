@@ -1,6 +1,6 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
-  "Start Region": {
+  "Start Item": {
     "hidden": true
   },
   "State Capital": {

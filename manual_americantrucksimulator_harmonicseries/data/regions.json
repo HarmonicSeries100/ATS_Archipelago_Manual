@@ -1,20 +1,34 @@
 {
   "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.regions.schema.json",
+  "Victory Region": {
+    "starting": true,
+    "requires": ""
+  },
   "Northern California": {
     "connects_to": [
       "Bay Area",
       "Central Valley",
-      "Great Basin"
+      "Great Basin",
+      "FT - Northern California"
     ],
-    "requires": "|Unlock Northern California|"
+    "requires": "|Unlock Northern California|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Eureka| OR |Starting City - Redding| OR |Starting City - Truckee|"
+    }
   },
   "Bay Area": {
     "connects_to": [
       "Northern California",
       "Central Valley",
-      "Central Coast"
+      "Central Coast",
+      "FT - Bay Area"
     ],
-    "requires": "|Unlock Bay Area|"
+    "requires": "|Unlock Bay Area|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - San Francisco| OR |Starting City - Oakland| OR |Starting City - San Jose|"
+    }
   },
   "Central Valley": {
     "connects_to": [
@@ -23,9 +37,14 @@
       "Central Coast",
       "Sierras",
       "SoCal",
-      "California Deserts"
+      "California Deserts",
+      "FT - Central Valley"
     ],
-    "requires": "|Unlock Central Valley|"
+    "requires": "|Unlock Central Valley|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Sacramento| OR |Starting City - Stockton| OR |Starting City - Modesto| OR |Starting City - Fresno| OR |Starting City - Bakersfield|"
+    }
   },
   "Sierras": {
     "connects_to": [
@@ -39,17 +58,27 @@
     "connects_to": [
       "Bay Area",
       "Central Valley",
-      "SoCal"
+      "SoCal",
+      "FT - Central Coast"
     ],
-    "requires": "|Unlock Central Coast|"
+    "requires": "|Unlock Central Coast|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Santa Cruz|"
+    }
   },
   "SoCal": {
     "connects_to": [
       "Central Valley",
       "Central Coast",
-      "California Deserts"
+      "California Deserts",
+      "FT - SoCal"
     ],
-    "requires": "|Unlock SoCal|"
+    "requires": "|Unlock SoCal|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Oxnard| OR |Starting City - Los Angeles| OR |Starting City - San Diego|"
+    }
   },
   "California Deserts": {
     "connects_to": [
@@ -57,9 +86,14 @@
       "Sierras",
       "SoCal",
       "Las Vegas Area",
-      "Arizona Desert"
+      "Arizona Desert",
+      "FT - California Deserts"
     ],
-    "requires": "|Unlock California Deserts|"
+    "requires": "|Unlock California Deserts|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Barstow| OR |Starting City - Indio| OR |Starting City - Blythe|"
+    }
   },
   "Great Basin": {
     "connects_to": [
@@ -68,9 +102,14 @@
       "St. George Area",
       "Las Vegas Area",
       "Northern California",
-      "Sierras"
+      "Sierras",
+      "FT - Great Basin"
     ],
-    "requires": "|Unlock Great Basin|"
+    "requires": "|Unlock Great Basin|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Reno| OR |Starting City - Carson City| OR |Starting City - Elko| OR |Starting City - Tonopah|"
+    }
   },
   "Las Vegas Area": {
     "connects_to": [
@@ -78,9 +117,14 @@
       "St. George Area",
       "Arizona Desert",
       "Hoover Dam",
-      "California Deserts"
+      "California Deserts",
+      "FT - Las Vegas Area"
     ],
-    "requires": "|Unlock Las Vegas Area|"
+    "requires": "|Unlock Las Vegas Area|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Las Vegas|"
+    }
   },
   "Arizona Desert": {
     "connects_to": [
@@ -88,9 +132,14 @@
       "Southeast Arizona",
       "Las Vegas Area",
       "Hoover Dam",
-      "California Deserts"
+      "California Deserts",
+      "FT - Arizona Desert"
     ],
-    "requires": "|Unlock Arizona Desert|"
+    "requires": "|Unlock Arizona Desert|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Kingman| OR |Starting City - Phoenix| OR |Starting City - Yuma|"
+    }
   },
   "Arizona Mountains": {
     "connects_to": [
@@ -99,18 +148,28 @@
       "Arizona Desert",
       "Southeast Arizona",
       "Four Corners",
-      "Central New Mexico"
+      "Central New Mexico",
+      "FT - Arizona Mountains"
     ],
-    "requires": "|Unlock Arizona Mountains|"
+    "requires": "|Unlock Arizona Mountains|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Flagstaff| OR |Starting City - Page| OR |Starting City - Winslow|"
+    }
   },
   "Southeast Arizona": {
     "connects_to": [
       "Arizona Mountains",
       "Arizona Desert",
       "Central New Mexico",
-      "Southern New Mexico"
+      "Southern New Mexico",
+      "FT - Southeast Arizona"
     ],
-    "requires": "|Unlock Southeast Arizona|"
+    "requires": "|Unlock Southeast Arizona|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Clifton| OR |Starting City - Tucson|"
+    }
   },
   "Hoover Dam": {
     "connects_to": [
@@ -124,9 +183,14 @@
       "New Mexico Highlands",
       "Southern New Mexico",
       "Arizona Mountains",
-      "Southeast Arizona"
+      "Southeast Arizona",
+      "FT - Central New Mexico"
     ],
-    "requires": "|Unlock Central New Mexico|"
+    "requires": "|Unlock Central New Mexico|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Albuquerque| OR |Starting City - Clovis| OR |Starting City - Gallup| OR |Starting City - Socorro| OR |Starting City - Tucumcari|"
+    }
   },
   "New Mexico Highlands": {
     "connects_to": [
@@ -134,16 +198,26 @@
       "Western Slope",
       "Colorado Rockies",
       "Front Range",
-      "Central New Mexico"
+      "Central New Mexico",
+      "FT - New Mexico Highlands"
     ],
-    "requires": "|Unlock New Mexico Highlands|"
+    "requires": "|Unlock New Mexico Highlands|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Farmington| OR |Starting City - Raton| OR |Starting City - Santa Fe|"
+    }
   },
   "Southern New Mexico": {
     "connects_to": [
       "Central New Mexico",
-      "Southeast Arizona"
+      "Southeast Arizona",
+      "FT - Southern New Mexico"
     ],
-    "requires": "|Unlock Southern New Mexico|"
+    "requires": "|Unlock Southern New Mexico|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Alamogordo| OR |Starting City - Artesia| OR |Starting City - Hobbs| OR |Starting City - Roswell|"
+    }
   },
   "Central Utah": {
     "connects_to": [
@@ -151,56 +225,91 @@
       "St. George Area",
       "Southeast Utah",
       "Western Slope",
-      "Great Basin"
+      "Great Basin",
+      "FT - Central Utah"
     ],
-    "requires": "|Unlock Central Utah|"
+    "requires": "|Unlock Central Utah|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Price| OR |Starting City - Provo| OR |Starting City - Salina| OR |Starting City - Vernal|"
+    }
   },
   "Northern Utah": {
     "connects_to": [
       "Central Utah",
-      "Great Basin"
+      "Great Basin",
+      "FT - Northern Utah"
     ],
-    "requires": "|Unlock Northern Utah|"
+    "requires": "|Unlock Northern Utah|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Logan| OR |Starting City - Ogden| OR |Starting City - Salt Lake City|"
+    }
   },
   "Southeast Utah": {
     "connects_to": [
       "Central Utah",
       "Four Corners",
       "Western Slope",
-      "Arizona Mountains"
+      "Arizona Mountains",
+      "FT - Southeast Utah"
     ],
-    "requires": "|Unlock Southeast Utah|"
+    "requires": "|Unlock Southeast Utah|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Moab|"
+    }
   },
   "St. George Area": {
     "connects_to": [
       "Central Utah",
       "Arizona Mountains",
       "Great Basin",
-      "Las Vegas Area"
+      "Las Vegas Area",
+      "FT - St. George Area"
     ],
-    "requires": "|Unlock St. George Area|"
+    "requires": "|Unlock St. George Area|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Cedar City| OR |Starting City - St. George|"
+    }
   },
   "Colorado Plains": {
     "connects_to": [
-      "Front Range"
+      "Front Range",
+      "FT - Colorado Plains"
     ],
-    "requires": "|Unlock Colorado Plains|"
+    "requires": "|Unlock Colorado Plains|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Burlington|"
+    }
   },
   "Colorado Rockies": {
     "connects_to": [
       "Western Slope",
       "Front Range",
-      "New Mexico Highlands"
+      "New Mexico Highlands",
+      "FT - Colorado Rockies"
     ],
-    "requires": "|Unlock Colorado Rockies|"
+    "requires": "|Unlock Colorado Rockies|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Alamosa| OR |Starting City - Steamboat Springs|"
+    }
   },
   "Front Range": {
     "connects_to": [
       "Colorado Rockies",
       "Colorado Plains",
-      "New Mexico Highlands"
+      "New Mexico Highlands",
+      "FT - Front Range"
     ],
-    "requires": "|Unlock Front Range|"
+    "requires": "|Unlock Front Range|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Colorado Springs| OR |Starting City - Denver| OR |Starting City - Fort Collins| OR |Starting City - Pueblo|"
+    }
   },
   "Western Slope": {
     "connects_to": [
@@ -208,9 +317,14 @@
       "Southeast Utah",
       "Four Corners",
       "Colorado Rockies",
-      "New Mexico Highlands"
+      "New Mexico Highlands",
+      "FT - Western Slope"
     ],
-    "requires": "|Unlock Western Slope|"
+    "requires": "|Unlock Western Slope|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Durango| OR |Starting City - Grand Junction| OR |Starting City - Montrose|"
+    }
   },
   "Four Corners": {
     "connects_to": [
@@ -222,7 +336,6 @@
     "requires": "|Unlock Four Corners|"
   },
   "FT Hub": {
-    "starting": true,
     "connects_to": [
       "FT - Arizona Desert",
       "FT - Arizona Mountains",
@@ -246,7 +359,8 @@
       "FT - Central Coast",
       "FT - SoCal",
       "FT - California Deserts"
-    ]
+    ],
+    "requires": ""
   },
   "FT - Arizona Desert": {
     "connects_to": [
