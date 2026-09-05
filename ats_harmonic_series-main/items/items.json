@@ -220,6 +220,46 @@
     "disabled_img": "images/items/region_lock.png"
   },
   {
+    "name": "Unlock Portland Area",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_portland_area",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Willamette Valley",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_willamette_valley",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Oregon Coast",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_oregon_coast",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Central Oregon",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_central_oregon",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Eastern Oregon",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_eastern_oregon",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
     "name": "Unlock Fast Travel - Kingman",
     "type": "toggle",
     "loop": "true",
@@ -1037,5 +1077,135 @@
     "name": "Starting City - Blythe",
     "type": "toggle",
     "codes": "start_blythe, start_california_deserts"
+  },
+  {
+    "name": "Unlock Fast Travel - Portland",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_portland, unlock_ft_portland_area",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Portland",
+    "type": "toggle",
+    "codes": "start_portland, start_portland_area"
+  },
+  {
+    "name": "Unlock Fast Travel - Salem",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_salem, unlock_ft_willamette_valley",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Salem",
+    "type": "toggle",
+    "codes": "start_salem, start_willamette_valley"
+  },
+  {
+    "name": "Unlock Fast Travel - Newport",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_newport, unlock_ft_oregon_coast",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Newport",
+    "type": "toggle",
+    "codes": "start_newport, start_oregon_coast"
+  },
+  {
+    "name": "Unlock Fast Travel - Eugene",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_eugene, unlock_ft_willamette_valley",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Eugene",
+    "type": "toggle",
+    "codes": "start_eugene, start_willamette_valley"
+  },
+  {
+    "name": "Unlock Fast Travel - Coos Bay",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_coos_bay, unlock_ft_oregon_coast",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Coos Bay",
+    "type": "toggle",
+    "codes": "start_coos_bay, start_oregon_coast"
+  },
+  {
+    "name": "Unlock Fast Travel - Medford",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_medford, unlock_ft_central_oregon",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Medford",
+    "type": "toggle",
+    "codes": "start_medford, start_central_oregon"
+  },
+  {
+    "name": "Unlock Fast Travel - Pendelton",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_pendelton, unlock_ft_eastern_oregon",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Pendelton",
+    "type": "toggle",
+    "codes": "start_pendelton, start_eastern_oregon"
+  },
+  {
+    "name": "Unlock Fast Travel - Ontario",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_ontario, unlock_ft_eastern_oregon",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Ontario",
+    "type": "toggle",
+    "codes": "start_ontario, start_eastern_oregon"
+  },
+  {
+    "name": "Unlock Fast Travel - Burns",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_burns, unlock_ft_eastern_oregon",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Burns",
+    "type": "toggle",
+    "codes": "start_burns, start_eastern_oregon"
+  },
+  {
+    "name": "Unlock Fast Travel - Lakeview",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_lakeview, unlock_ft_central_oregon",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Lakeview",
+    "type": "toggle",
+    "codes": "start_lakeview, start_central_oregon"
   }
 ]

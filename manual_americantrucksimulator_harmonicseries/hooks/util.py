@@ -5,4 +5,5 @@ STATE_LIST = [
 "New Mexico",
 "Utah",
 "Colorado",
+"Oregon",
 ]

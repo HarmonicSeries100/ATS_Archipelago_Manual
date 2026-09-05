@@ -161,5 +161,28 @@
         "codes": "colorado_victory"
       }
     ]
+  },
+  {
+    "name": "Owns Oregon",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "own_oregon",
+    "img": "images/flags/oregon.png"
+  },
+  {
+    "name": "Oregon Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/oregon.png",
+        "codes": "oregon_chosen"
+      },
+      {
+        "img": "images/flags/oregon.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "oregon_victory"
+      }
+    ]
   }
 ]

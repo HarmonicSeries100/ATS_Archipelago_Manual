@@ -37,7 +37,8 @@
               "own_base",
               "own_new_mexico",
               "own_utah",
-              "own_colorado"
+              "own_colorado",
+              "own_oregon"
             ]
           ]
         }
@@ -59,7 +60,8 @@
               "utah_chosen"
             ],
             [
-              "colorado_chosen"
+              "colorado_chosen",
+              "oregon_chosen"
             ]
           ]
         }

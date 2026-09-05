@@ -47,5 +47,12 @@
     "location_border_thickness": 2,
     "location_shape": "rect",
     "img": "images/maps/colorado_map.png"
+  },
+  {
+    "name": "oregon_map",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/oregon_map.png"
   }
 ]

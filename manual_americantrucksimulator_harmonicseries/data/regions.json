@@ -9,6 +9,8 @@
       "Bay Area",
       "Central Valley",
       "Great Basin",
+      "Oregon Coast",
+      "Central Oregon",
       "FT - Northern California"
     ],
     "requires": "|Unlock Northern California|",
@@ -103,6 +105,8 @@
       "Las Vegas Area",
       "Northern California",
       "Sierras",
+      "Central Oregon",
+      "Eastern Oregon",
       "FT - Great Basin"
     ],
     "requires": "|Unlock Great Basin|",
@@ -335,6 +339,72 @@
     ],
     "requires": "|Unlock Four Corners|"
   },
+  "Portland Area": {
+    "connects_to": [
+      "Oregon Coast",
+      "Willamette Valley",
+      "Central Oregon",
+      "FT - Portland Area"
+    ],
+    "requires": "|Unlock Portland Area|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Portland|"
+    }
+  },
+  "Willamette Valley": {
+    "connects_to": [
+      "Portland Area",
+      "Oregon Coast",
+      "Central Oregon",
+      "FT - Willamette Valley"
+    ],
+    "requires": "|Unlock Willamette Valley|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Salem| OR |Starting City - Eugene|"
+    }
+  },
+  "Oregon Coast": {
+    "connects_to": [
+      "Portland Area",
+      "Willamette Valley",
+      "Northern California",
+      "FT - Oregon Coast"
+    ],
+    "requires": "|Unlock Oregon Coast|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Newport| OR |Starting City - Coos Bay|"
+    }
+  },
+  "Central Oregon": {
+    "connects_to": [
+      "Portland Area",
+      "Willamette Valley",
+      "Northern California",
+      "Great Basin",
+      "Eastern Oregon",
+      "FT - Central Oregon"
+    ],
+    "requires": "|Unlock Central Oregon|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Medford| OR |Starting City - Lakeview|"
+    }
+  },
+  "Eastern Oregon": {
+    "connects_to": [
+      "Central Oregon",
+      "Great Basin",
+      "FT - Eastern Oregon"
+    ],
+    "requires": "|Unlock Eastern Oregon|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Pendelton| OR |Starting City - Ontario| OR |Starting City - Burns|"
+    }
+  },
   "FT Hub": {
     "connects_to": [
       "FT - Arizona Desert",
@@ -358,7 +428,12 @@
       "FT - Central Valley",
       "FT - Central Coast",
       "FT - SoCal",
-      "FT - California Deserts"
+      "FT - California Deserts",
+      "FT - Portland Area",
+      "FT - Willamette Valley",
+      "FT - Oregon Coast",
+      "FT - Central Oregon",
+      "FT - Eastern Oregon"
     ],
     "requires": ""
   },
@@ -515,5 +590,40 @@
       "California Deserts"
     ],
     "requires": "|Unlock California Deserts| AND (|Unlock Fast Travel - Barstow| OR |Unlock Fast Travel - Indio| OR |Unlock Fast Travel - Blythe|)"
+  },
+  "FT - Portland Area": {
+    "connects_to": [
+      "FT Hub",
+      "Portland Area"
+    ],
+    "requires": "|Unlock Portland Area| AND (|Unlock Fast Travel - Portland|)"
+  },
+  "FT - Willamette Valley": {
+    "connects_to": [
+      "FT Hub",
+      "Willamette Valley"
+    ],
+    "requires": "|Unlock Willamette Valley| AND (|Unlock Fast Travel - Salem| OR |Unlock Fast Travel - Eugene|)"
+  },
+  "FT - Oregon Coast": {
+    "connects_to": [
+      "FT Hub",
+      "Oregon Coast"
+    ],
+    "requires": "|Unlock Oregon Coast| AND (|Unlock Fast Travel - Newport| OR |Unlock Fast Travel - Coos Bay|)"
+  },
+  "FT - Central Oregon": {
+    "connects_to": [
+      "FT Hub",
+      "Central Oregon"
+    ],
+    "requires": "|Unlock Central Oregon| AND (|Unlock Fast Travel - Medford| OR |Unlock Fast Travel - Lakeview|)"
+  },
+  "FT - Eastern Oregon": {
+    "connects_to": [
+      "FT Hub",
+      "Eastern Oregon"
+    ],
+    "requires": "|Unlock Eastern Oregon| AND (|Unlock Fast Travel - Pendelton| OR |Unlock Fast Travel - Ontario| OR |Unlock Fast Travel - Burns|)"
   }
 }

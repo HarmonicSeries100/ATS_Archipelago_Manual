@@ -1761,6 +1761,320 @@
         "California"
       ],
       "requires": ""
+    },
+    {
+      "name": "Portland",
+      "region": "Portland Area",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Astoria",
+      "region": "Portland Area",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Salem",
+      "region": "Willamette Valley",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Passport Validation Center - Salem",
+      "region": "Willamette Valley",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
+    },
+    {
+      "name": "Newport",
+      "region": "Oregon Coast",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Eugene",
+      "region": "Willamette Valley",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Coos Bay",
+      "region": "Oregon Coast",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "The Dalles",
+      "region": "Central Oregon",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bend",
+      "region": "Central Oregon",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Medford",
+      "region": "Central Oregon",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Klamath Falls",
+      "region": "Central Oregon",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Pendelton",
+      "region": "Eastern Oregon",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Ontario",
+      "region": "Eastern Oregon",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Burns",
+      "region": "Eastern Oregon",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Lakeview",
+      "region": "Central Oregon",
+      "category": [
+        "City",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "US-199 Sequoia Forest",
+      "region": "Northern California",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "California"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Oregon Paper Mill",
+      "region": "Willamette Valley",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Thor's Well",
+      "region": "Oregon Coast",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "US-395 Vista",
+      "region": "Eastern Oregon",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Newport Yaquina Bay Bridge",
+      "region": "Oregon Coast",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Yaquina Head Lighthouse",
+      "region": "Oregon Coast",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "The Dalles City",
+      "region": "Central Oregon",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "The Biggs Junction",
+      "region": "Central Oregon",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Portland Shipyard",
+      "region": "Portland Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Astoria-Megler Bridge - Viewpoint",
+      "region": "Portland Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Fremont Bridge",
+      "region": "Portland Area",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Yaquina Bay Bridge",
+      "region": "Oregon Coast",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Astoria-Megler Bridge - Photo Trophy",
+      "region": "Portland Area",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "City of The Dalles",
+      "region": "Central Oregon",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Mount Hood",
+      "region": "Central Oregon",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Deadman Pass Lookout Area",
+      "region": "Eastern Oregon",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "requires": ""
     }
   ]
 }

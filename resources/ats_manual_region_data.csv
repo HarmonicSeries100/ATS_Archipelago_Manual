@@ -1,12 +1,12 @@
 Region_Name,Connections,State,State_DLC,Multistate
-Northern California,Bay Area; Central Valley; Great Basin,California,Base,
+Northern California,Bay Area; Central Valley; Great Basin; Oregon Coast; Central Oregon,California,Base,
 Bay Area,Northern California; Central Valley; Central Coast,California,Base,
 Central Valley,Northern California; Bay Area; Central Coast; Sierras; SoCal; California Deserts,California,Base,
 Sierras,Central Valley; California Deserts; Great Basin,California,Base,
 Central Coast,Bay Area; Central Valley; SoCal,California,Base,
 SoCal,Central Valley; Central Coast; California Deserts,California,Base,
 California Deserts,Central Valley; Sierras; SoCal; Las Vegas Area; Arizona Desert,California,Base,
-Great Basin,Northern Utah; Central Utah; St. George Area; Las Vegas Area; Northern California; Sierras,Nevada,Base,
+Great Basin,Northern Utah; Central Utah; St. George Area; Las Vegas Area; Northern California; Sierras; Central Oregon; Eastern Oregon,Nevada,Base,
 Las Vegas Area,Great Basin; St. George Area; Arizona Desert; Hoover Dam; California Deserts,Nevada,Base,
 Arizona Desert,Arizona Mountains; Southeast Arizona; Las Vegas Area; Hoover Dam; California Deserts,Arizona,Base,
 Arizona Mountains,St. George Area; Southeast Utah; Arizona Desert; Southeast Arizona; Four Corners; Central New Mexico,Arizona,Base,
@@ -24,3 +24,8 @@ Colorado Rockies,Western Slope; Front Range; New Mexico Highlands,Colorado,Color
 Front Range,Colorado Rockies; Colorado Plains; New Mexico Highlands,Colorado,Colorado,
 Western Slope,Central Utah; Southeast Utah; Four Corners; Colorado Rockies; New Mexico Highlands,Colorado,Colorado,
 Four Corners,Southeast Utah; Western Slope; Arizona Mountains; New Mexico Highlands,Colorado; Utah; Arizona; New Mexico,Colorado,Y
+Portland Area,Oregon Coast; Willamette Valley; Central Oregon,Oregon,Oregon,
+Willamette Valley,Portland Area; Oregon Coast; Central Oregon,Oregon,Oregon,
+Oregon Coast,Portland Area; Willamette Valley; Northern California,Oregon,Oregon,
+Central Oregon,Portland Area; Willamette Valley; Northern California; Great Basin; Eastern Oregon,Oregon,Oregon,
+Eastern Oregon,Central Oregon; Great Basin,Oregon,Oregon,

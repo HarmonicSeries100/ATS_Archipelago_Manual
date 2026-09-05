@@ -226,6 +226,51 @@
       "items": [
         "Unlock California Deserts"
       ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Portland"
+      ],
+      "items": [
+        "Unlock Portland Area"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Salem",
+        "Starting City - Eugene"
+      ],
+      "items": [
+        "Unlock Willamette Valley"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Newport",
+        "Starting City - Coos Bay"
+      ],
+      "items": [
+        "Unlock Oregon Coast"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Medford",
+        "Starting City - Lakeview"
+      ],
+      "items": [
+        "Unlock Central Oregon"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Pendelton",
+        "Starting City - Ontario",
+        "Starting City - Burns"
+      ],
+      "items": [
+        "Unlock Eastern Oregon"
+      ]
     }
   ]
 }
