@@ -1,0 +1,516 @@
+[
+  {
+    "name": "portland_area",
+    "access_rules": [
+      "own_oregon, oregon_chosen, unlock_portland_area, @oregon_coast",
+      "own_oregon, oregon_chosen, unlock_portland_area, @willamette_valley",
+      "own_oregon, oregon_chosen, unlock_portland_area, @central_oregon",
+      "own_oregon, oregon_chosen, unlock_portland_area, unlock_ft_portland_area",
+      "own_oregon, oregon_chosen, unlock_portland_area, start_portland_area"
+    ],
+    "visibility_rules": [
+      "own_oregon, oregon_chosen"
+    ],
+    "children": [
+      {
+        "name": "Portland",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 565,
+            "y": 277
+          }
+        ],
+        "sections": [
+          {
+            "name": "Portland",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Portland Shipyard",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Fremont Bridge",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Astoria",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 478,
+            "y": 43
+          }
+        ],
+        "sections": [
+          {
+            "name": "Astoria",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Astoria-Megler Bridge - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Astoria-Megler Bridge - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "willamette_valley",
+    "access_rules": [
+      "own_oregon, oregon_chosen, unlock_willamette_valley, @portland_area",
+      "own_oregon, oregon_chosen, unlock_willamette_valley, @oregon_coast",
+      "own_oregon, oregon_chosen, unlock_willamette_valley, @central_oregon",
+      "own_oregon, oregon_chosen, unlock_willamette_valley, unlock_ft_willamette_valley",
+      "own_oregon, oregon_chosen, unlock_willamette_valley, start_willamette_valley"
+    ],
+    "visibility_rules": [
+      "own_oregon, oregon_chosen"
+    ],
+    "children": [
+      {
+        "name": "Salem",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 508,
+            "y": 396
+          }
+        ],
+        "sections": [
+          {
+            "name": "Salem",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Passport Validation Center - Salem",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png",
+            "access_rules": [
+              "$has_enough_stamps, oregon_victory"
+            ],
+            "visibility_rules": [
+              "oregon_victory"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Eugene",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 465,
+            "y": 579
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Oregon Paper Mill",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 515,
+            "y": 659
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "oregon_coast",
+    "access_rules": [
+      "own_oregon, oregon_chosen, unlock_oregon_coast, @portland_area",
+      "own_oregon, oregon_chosen, unlock_oregon_coast, @willamette_valley",
+      "own_oregon, oregon_chosen, unlock_oregon_coast, @northern_california",
+      "own_oregon, oregon_chosen, unlock_oregon_coast, unlock_ft_oregon_coast",
+      "own_oregon, oregon_chosen, unlock_oregon_coast, start_oregon_coast"
+    ],
+    "visibility_rules": [
+      "own_oregon, oregon_chosen"
+    ],
+    "children": [
+      {
+        "name": "Newport",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 283,
+            "y": 427
+          }
+        ],
+        "sections": [
+          {
+            "name": "Newport",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Newport Yaquina Bay Bridge",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Yaquina Bay Bridge",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Coos Bay",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 168,
+            "y": 713
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Thor's Well",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 234,
+            "y": 567
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Yaquina Head Lighthouse",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 299,
+            "y": 340
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "central_oregon",
+    "access_rules": [
+      "own_oregon, oregon_chosen, unlock_central_oregon, @portland_area",
+      "own_oregon, oregon_chosen, unlock_central_oregon, @willamette_valley",
+      "own_oregon, oregon_chosen, unlock_central_oregon, @northern_california",
+      "own_oregon, oregon_chosen, unlock_central_oregon, @great_basin",
+      "own_oregon, oregon_chosen, unlock_central_oregon, @eastern_oregon",
+      "own_oregon, oregon_chosen, unlock_central_oregon, unlock_ft_central_oregon",
+      "own_oregon, oregon_chosen, unlock_central_oregon, start_central_oregon"
+    ],
+    "visibility_rules": [
+      "own_oregon, oregon_chosen"
+    ],
+    "children": [
+      {
+        "name": "The Dalles",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 866,
+            "y": 338
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Dalles",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "The Dalles City",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "City of The Dalles",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Bend",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 754,
+            "y": 699
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Medford",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 329,
+            "y": 1032
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Klamath Falls",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 526,
+            "y": 1093
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lakeview",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 783,
+            "y": 1217
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The Biggs Junction",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 997,
+            "y": 342
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mount Hood",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 810,
+            "y": 434
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "eastern_oregon",
+    "access_rules": [
+      "own_oregon, oregon_chosen, unlock_eastern_oregon, @central_oregon",
+      "own_oregon, oregon_chosen, unlock_eastern_oregon, @great_basin",
+      "own_oregon, oregon_chosen, unlock_eastern_oregon, unlock_ft_eastern_oregon",
+      "own_oregon, oregon_chosen, unlock_eastern_oregon, start_eastern_oregon"
+    ],
+    "visibility_rules": [
+      "own_oregon, oregon_chosen"
+    ],
+    "children": [
+      {
+        "name": "Pendelton",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 1273,
+            "y": 396
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ontario",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 1493,
+            "y": 921
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Burns",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 1127,
+            "y": 925
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "US-395 Vista",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 1189,
+            "y": 581
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Deadman Pass Lookout Area",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "oregon_map",
+            "x": 1334,
+            "y": 491
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

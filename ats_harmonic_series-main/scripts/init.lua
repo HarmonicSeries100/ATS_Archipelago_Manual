@@ -39,9 +39,11 @@ Tracker:AddLayouts("layouts/arizona.json")
 Tracker:AddLayouts("layouts/new_mexico.json")
 Tracker:AddLayouts("layouts/utah.json")
 Tracker:AddLayouts("layouts/colorado.json")
+Tracker:AddLayouts("layouts/oregon.json")
 
 -- Locations
 Tracker:AddLocations("locations/base.json")
 Tracker:AddLocations("locations/new_mexico.json")
 Tracker:AddLocations("locations/utah.json")
 Tracker:AddLocations("locations/colorado.json")
+Tracker:AddLocations("locations/oregon.json")

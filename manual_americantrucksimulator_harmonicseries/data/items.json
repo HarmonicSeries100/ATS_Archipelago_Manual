@@ -291,6 +291,56 @@
     },
     {
       "count": 1,
+      "name": "Unlock Portland Area",
+      "category": [
+        "Region Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Willamette Valley",
+      "category": [
+        "Region Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Oregon Coast",
+      "category": [
+        "Region Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central Oregon",
+      "category": [
+        "Region Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Eastern Oregon",
+      "category": [
+        "Region Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Kingman",
       "category": [
         "Fast Travel Unlock",
@@ -1546,6 +1596,206 @@
         "Start Item",
         "DLC - Base",
         "California"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Portland",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Portland",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Salem",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Salem",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Newport",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Newport",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Eugene",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Eugene",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Coos Bay",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Coos Bay",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Medford",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Medford",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Pendelton",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Pendelton",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Ontario",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Ontario",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Burns",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Burns",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Lakeview",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Oregon",
+        "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Lakeview",
+      "category": [
+        "Start Item",
+        "DLC - Oregon",
+        "Oregon"
       ],
       "progression": true
     }

@@ -26,5 +26,11 @@
     "yaml_option": [
       "own_colorado"
     ]
+  },
+  "DLC - Oregon": {
+    "hidden": true,
+    "yaml_option": [
+      "own_oregon"
+    ]
   }
 }
