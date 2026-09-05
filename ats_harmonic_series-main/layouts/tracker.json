@@ -60,6 +60,13 @@
             "type": "layout",
             "key": "oregon_layout"
           }
+        },
+        {
+          "title": "Washington",
+          "content": {
+            "type": "layout",
+            "key": "washington_layout"
+          }
         }
       ]
     }

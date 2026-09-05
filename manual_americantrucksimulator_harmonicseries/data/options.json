@@ -175,6 +175,27 @@
       "range_start": 0,
       "range_end": 100,
       "group": "State_Preferences"
+    },
+    "own_washington": {
+      "type": "Toggle",
+      "display_name": "Own Washington DLC",
+      "description": "Do you own the Washington DLC?",
+      "default": true,
+      "group": "DLC"
+    },
+    "washington_preference": {
+      "type": "Range",
+      "display_name": "Washington Preference",
+      "description": [
+        "Preference setting for Washington. Choose a weighting between 0 and 100",
+        "0 will always exclude the state from being picked",
+        "100 will always include the state",
+        "If there are more '100' states than the number_of_states option, randomly choose between them with equal weighting"
+      ],
+      "default": 50,
+      "range_start": 0,
+      "range_end": 100,
+      "group": "State_Preferences"
     }
   }
 }

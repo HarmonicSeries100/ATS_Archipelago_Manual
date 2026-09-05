@@ -2075,6 +2075,350 @@
         "Oregon"
       ],
       "requires": ""
+    },
+    {
+      "name": "Seattle",
+      "region": "Puget Sound",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Tacoma",
+      "region": "Puget Sound",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Everett",
+      "region": "Puget Sound",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Olympia",
+      "region": "Puget Sound",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Passport Validation Center - Olympia",
+      "region": "Puget Sound",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
+    },
+    {
+      "name": "Port Angeles",
+      "region": "Washington Mountains",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Aberdeen",
+      "region": "Washington Mountains",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Longview",
+      "region": "Washington Mountains",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Vancouver WA",
+      "region": "Washington Mountains",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bellingham",
+      "region": "Northern Washington",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Omak",
+      "region": "Northern Washington",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Colville",
+      "region": "Northern Washington",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Yakima",
+      "region": "Columbia Basin",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Wenatchee",
+      "region": "Columbia Basin",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Kennewick",
+      "region": "Columbia Basin",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grand Coulee",
+      "region": "Columbia Basin",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Spokane",
+      "region": "Columbia Basin",
+      "category": [
+        "City",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Mount Saint Helens National Volcanic Monument",
+      "region": "Washington Mountains",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Vantage Bridge",
+      "region": "Columbia Basin",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Kenworth Factory",
+      "region": "Puget Sound",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Seattle Port",
+      "region": "Puget Sound",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Seattle Downtown",
+      "region": "Puget Sound",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grand Coulee Dam - Viewpoint",
+      "region": "Columbia Basin",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Aircraft Factory - Viewpoint",
+      "region": "Puget Sound",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Everett Swing Bridge",
+      "region": "Puget Sound",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Deception Pass - Viewpoint",
+      "region": "Northern Washington",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Washington Timber Harvest Site",
+      "region": "Northern Washington",
+      "category": [
+        "Viewpoint",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Mount Saint Helens",
+      "region": "Washington Mountains",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Steam Slough Bridge",
+      "region": "Puget Sound",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Space Needle",
+      "region": "Puget Sound",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Homer M. Hadley Memorial Bridge",
+      "region": "Puget Sound",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grand Coulee Dam - Photo Trophy",
+      "region": "Columbia Basin",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Deception Pass - Photo Trophy",
+      "region": "Northern Washington",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Aircraft Factory - Photo Trophy",
+      "region": "Puget Sound",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "requires": ""
     }
   ]
 }

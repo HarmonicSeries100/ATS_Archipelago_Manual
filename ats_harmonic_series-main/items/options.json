@@ -184,5 +184,28 @@
         "codes": "oregon_victory"
       }
     ]
+  },
+  {
+    "name": "Owns Washington",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "own_washington",
+    "img": "images/flags/washington.png"
+  },
+  {
+    "name": "Washington Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/washington.png",
+        "codes": "washington_chosen"
+      },
+      {
+        "img": "images/flags/washington.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "washington_victory"
+      }
+    ]
   }
 ]

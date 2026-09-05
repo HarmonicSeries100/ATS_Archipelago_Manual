@@ -341,6 +341,46 @@
     },
     {
       "count": 1,
+      "name": "Unlock Washington Mountains",
+      "category": [
+        "Region Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Puget Sound",
+      "category": [
+        "Region Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Northern Washington",
+      "category": [
+        "Region Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Columbia Basin",
+      "category": [
+        "Region Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Kingman",
       "category": [
         "Fast Travel Unlock",
@@ -1796,6 +1836,186 @@
         "Start Item",
         "DLC - Oregon",
         "Oregon"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Seattle",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Seattle",
+      "category": [
+        "Start Item",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Tacoma",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Tacoma",
+      "category": [
+        "Start Item",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Olympia",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Olympia",
+      "category": [
+        "Start Item",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Port Angeles",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Port Angeles",
+      "category": [
+        "Start Item",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Longview",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Longview",
+      "category": [
+        "Start Item",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Bellingham",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Bellingham",
+      "category": [
+        "Start Item",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Yakima",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Yakima",
+      "category": [
+        "Start Item",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Wenatchee",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Wenatchee",
+      "category": [
+        "Start Item",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Spokane",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Washington",
+        "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Spokane",
+      "category": [
+        "Start Item",
+        "DLC - Washington",
+        "Washington"
       ],
       "progression": true
     }

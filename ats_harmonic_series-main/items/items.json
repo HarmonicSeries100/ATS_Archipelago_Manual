@@ -260,6 +260,38 @@
     "disabled_img": "images/items/region_lock.png"
   },
   {
+    "name": "Unlock Washington Mountains",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_washington_mountains",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Puget Sound",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_puget_sound",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Northern Washington",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_northern_washington",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Columbia Basin",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_columbia_basin",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
     "name": "Unlock Fast Travel - Kingman",
     "type": "toggle",
     "loop": "true",
@@ -1207,5 +1239,122 @@
     "name": "Starting City - Lakeview",
     "type": "toggle",
     "codes": "start_lakeview, start_central_oregon"
+  },
+  {
+    "name": "Unlock Fast Travel - Seattle",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_seattle, unlock_ft_puget_sound",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Seattle",
+    "type": "toggle",
+    "codes": "start_seattle, start_puget_sound"
+  },
+  {
+    "name": "Unlock Fast Travel - Tacoma",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_tacoma, unlock_ft_puget_sound",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Tacoma",
+    "type": "toggle",
+    "codes": "start_tacoma, start_puget_sound"
+  },
+  {
+    "name": "Unlock Fast Travel - Olympia",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_olympia, unlock_ft_puget_sound",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Olympia",
+    "type": "toggle",
+    "codes": "start_olympia, start_puget_sound"
+  },
+  {
+    "name": "Unlock Fast Travel - Port Angeles",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_port_angeles, unlock_ft_washington_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Port Angeles",
+    "type": "toggle",
+    "codes": "start_port_angeles, start_washington_mountains"
+  },
+  {
+    "name": "Unlock Fast Travel - Longview",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_longview, unlock_ft_washington_mountains",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Longview",
+    "type": "toggle",
+    "codes": "start_longview, start_washington_mountains"
+  },
+  {
+    "name": "Unlock Fast Travel - Bellingham",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_bellingham, unlock_ft_northern_washington",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Bellingham",
+    "type": "toggle",
+    "codes": "start_bellingham, start_northern_washington"
+  },
+  {
+    "name": "Unlock Fast Travel - Yakima",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_yakima, unlock_ft_columbia_basin",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Yakima",
+    "type": "toggle",
+    "codes": "start_yakima, start_columbia_basin"
+  },
+  {
+    "name": "Unlock Fast Travel - Wenatchee",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_wenatchee, unlock_ft_columbia_basin",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Wenatchee",
+    "type": "toggle",
+    "codes": "start_wenatchee, start_columbia_basin"
+  },
+  {
+    "name": "Unlock Fast Travel - Spokane",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_spokane, unlock_ft_columbia_basin",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Spokane",
+    "type": "toggle",
+    "codes": "start_spokane, start_columbia_basin"
   }
 ]

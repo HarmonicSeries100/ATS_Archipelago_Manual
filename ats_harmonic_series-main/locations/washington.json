@@ -1,0 +1,561 @@
+[
+  {
+    "name": "washington_mountains",
+    "access_rules": [
+      "own_washington, washington_chosen, unlock_washington_mountains, @portland_area",
+      "own_washington, washington_chosen, unlock_washington_mountains, @puget_sound",
+      "own_washington, washington_chosen, unlock_washington_mountains, @columbia_basin",
+      "own_washington, washington_chosen, unlock_washington_mountains, unlock_ft_washington_mountains",
+      "own_washington, washington_chosen, unlock_washington_mountains, start_washington_mountains"
+    ],
+    "visibility_rules": [
+      "own_washington, washington_chosen"
+    ],
+    "children": [
+      {
+        "name": "Port Angeles",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 265,
+            "y": 241
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Aberdeen",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 134,
+            "y": 492
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Longview",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 217,
+            "y": 697
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Vancouver WA",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 321,
+            "y": 762
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mount Saint Helens",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 440,
+            "y": 744
+          }
+        ],
+        "sections": [
+          {
+            "name": "Mount Saint Helens National Volcanic Monument",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Mount Saint Helens",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "puget_sound",
+    "access_rules": [
+      "own_washington, washington_chosen, unlock_puget_sound, @northern_washington",
+      "own_washington, washington_chosen, unlock_puget_sound, @columbia_basin",
+      "own_washington, washington_chosen, unlock_puget_sound, @washington_mountains",
+      "own_washington, washington_chosen, unlock_puget_sound, unlock_ft_puget_sound",
+      "own_washington, washington_chosen, unlock_puget_sound, start_puget_sound"
+    ],
+    "visibility_rules": [
+      "own_washington, washington_chosen"
+    ],
+    "children": [
+      {
+        "name": "Seattle",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 390,
+            "y": 447
+          }
+        ],
+        "sections": [
+          {
+            "name": "Seattle",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Seattle Port",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Seattle Downtown",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Tacoma",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 386,
+            "y": 535
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Everett",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 460,
+            "y": 296
+          }
+        ],
+        "sections": [
+          {
+            "name": "Everett",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Everett Swing Bridge",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Steam Slough Bridge",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Olympia",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 282,
+            "y": 508
+          }
+        ],
+        "sections": [
+          {
+            "name": "Olympia",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Passport Validation Center - Olympia",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png",
+            "access_rules": [
+              "$has_enough_stamps, washington_victory"
+            ],
+            "visibility_rules": [
+              "washington_victory"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kenworth Factory",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 453,
+            "y": 481
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Aircraft Factory",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 417,
+            "y": 326
+          }
+        ],
+        "sections": [
+          {
+            "name": "Aircraft Factory - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Aircraft Factory - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Space Needle",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 390,
+            "y": 377
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Homer M. Hadley Memorial Bridge",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 472,
+            "y": 435
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "northern_washington",
+    "access_rules": [
+      "own_washington, washington_chosen, unlock_northern_washington, @puget_sound",
+      "own_washington, washington_chosen, unlock_northern_washington, @columbia_basin",
+      "own_washington, washington_chosen, unlock_northern_washington, unlock_ft_northern_washington",
+      "own_washington, washington_chosen, unlock_northern_washington, start_northern_washington"
+    ],
+    "visibility_rules": [
+      "own_washington, washington_chosen"
+    ],
+    "children": [
+      {
+        "name": "Bellingham",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 479,
+            "y": 79
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Omak",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 911,
+            "y": 344
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Colville",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 1197,
+            "y": 373
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Deception Pass",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 448,
+            "y": 216
+          }
+        ],
+        "sections": [
+          {
+            "name": "Deception Pass - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Deception Pass - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Washington Timber Harvest Site",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 588,
+            "y": 161
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "columbia_basin",
+    "access_rules": [
+      "own_washington, washington_chosen, unlock_columbia_basin, @washington_mountains",
+      "own_washington, washington_chosen, unlock_columbia_basin, @puget_sound",
+      "own_washington, washington_chosen, unlock_columbia_basin, @northern_washington",
+      "own_washington, washington_chosen, unlock_columbia_basin, @central_oregon",
+      "own_washington, washington_chosen, unlock_columbia_basin, @eastern_oregon",
+      "own_washington, washington_chosen, unlock_columbia_basin, unlock_ft_columbia_basin",
+      "own_washington, washington_chosen, unlock_columbia_basin, start_columbia_basin"
+    ],
+    "visibility_rules": [
+      "own_washington, washington_chosen"
+    ],
+    "children": [
+      {
+        "name": "Yakima",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 654,
+            "y": 747
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Wenatchee",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 724,
+            "y": 560
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Kennewick",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 847,
+            "y": 856
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Grand Coulee",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 983,
+            "y": 444
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grand Coulee",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Grand Coulee Dam - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Grand Coulee Dam - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Spokane",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 1249,
+            "y": 591
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Vantage Bridge",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "washington_map",
+            "x": 782,
+            "y": 655
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]
