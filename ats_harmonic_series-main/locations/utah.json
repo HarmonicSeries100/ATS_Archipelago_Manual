@@ -7,7 +7,8 @@
       "own_utah, utah_chosen, unlock_central_utah, @southeast_utah",
       "own_utah, utah_chosen, unlock_central_utah, @western_slope",
       "own_utah, utah_chosen, unlock_central_utah, @great_basin",
-      "own_utah, utah_chosen, unlock_central_utah, unlock_ft_central_utah"
+      "own_utah, utah_chosen, unlock_central_utah, unlock_ft_central_utah",
+      "own_utah, utah_chosen, unlock_central_utah, start_central_utah"
     ],
     "visibility_rules": [
       "own_utah, utah_chosen"
@@ -116,7 +117,8 @@
     "access_rules": [
       "own_utah, utah_chosen, unlock_northern_utah, @central_utah",
       "own_utah, utah_chosen, unlock_northern_utah, @great_basin",
-      "own_utah, utah_chosen, unlock_northern_utah, unlock_ft_northern_utah"
+      "own_utah, utah_chosen, unlock_northern_utah, unlock_ft_northern_utah",
+      "own_utah, utah_chosen, unlock_northern_utah, start_northern_utah"
     ],
     "visibility_rules": [
       "own_utah, utah_chosen"
@@ -257,7 +259,8 @@
       "own_utah, utah_chosen, unlock_southeast_utah, @four_corners",
       "own_utah, utah_chosen, unlock_southeast_utah, @western_slope",
       "own_utah, utah_chosen, unlock_southeast_utah, @arizona_mountains",
-      "own_utah, utah_chosen, unlock_southeast_utah, unlock_ft_southeast_utah"
+      "own_utah, utah_chosen, unlock_southeast_utah, unlock_ft_southeast_utah",
+      "own_utah, utah_chosen, unlock_southeast_utah, start_southeast_utah"
     ],
     "visibility_rules": [
       "own_utah, utah_chosen"
@@ -374,7 +377,8 @@
       "own_utah, utah_chosen, unlock_st._george_area, @arizona_mountains",
       "own_utah, utah_chosen, unlock_st._george_area, @great_basin",
       "own_utah, utah_chosen, unlock_st._george_area, @las_vegas_area",
-      "own_utah, utah_chosen, unlock_st._george_area, unlock_ft_st._george_area"
+      "own_utah, utah_chosen, unlock_st._george_area, unlock_ft_st._george_area",
+      "own_utah, utah_chosen, unlock_st._george_area, start_st._george_area"
     ],
     "visibility_rules": [
       "own_utah, utah_chosen"

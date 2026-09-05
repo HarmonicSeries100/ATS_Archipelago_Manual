@@ -26,7 +26,8 @@
       "own_base, california_chosen, unlock_northern_california, @bay_area",
       "own_base, california_chosen, unlock_northern_california, @central_valley",
       "own_base, california_chosen, unlock_northern_california, @great_basin",
-      "own_base, california_chosen, unlock_northern_california, unlock_ft_northern_california"
+      "own_base, california_chosen, unlock_northern_california, unlock_ft_northern_california",
+      "own_base, california_chosen, unlock_northern_california, start_northern_california"
     ],
     "visibility_rules": [
       "own_base, california_chosen"
@@ -172,7 +173,8 @@
       "own_base, california_chosen, unlock_bay_area, @northern_california",
       "own_base, california_chosen, unlock_bay_area, @central_valley",
       "own_base, california_chosen, unlock_bay_area, @central_coast",
-      "own_base, california_chosen, unlock_bay_area, unlock_ft_bay_area"
+      "own_base, california_chosen, unlock_bay_area, unlock_ft_bay_area",
+      "own_base, california_chosen, unlock_bay_area, start_bay_area"
     ],
     "visibility_rules": [
       "own_base, california_chosen"
@@ -291,7 +293,8 @@
       "own_base, california_chosen, unlock_central_valley, @sierras",
       "own_base, california_chosen, unlock_central_valley, @socal",
       "own_base, california_chosen, unlock_central_valley, @california_deserts",
-      "own_base, california_chosen, unlock_central_valley, unlock_ft_central_valley"
+      "own_base, california_chosen, unlock_central_valley, unlock_ft_central_valley",
+      "own_base, california_chosen, unlock_central_valley, start_central_valley"
     ],
     "visibility_rules": [
       "own_base, california_chosen"
@@ -431,7 +434,8 @@
       "own_base, california_chosen, unlock_sierras, @central_valley",
       "own_base, california_chosen, unlock_sierras, @california_deserts",
       "own_base, california_chosen, unlock_sierras, @great_basin",
-      "own_base, california_chosen, unlock_sierras, unlock_ft_sierras"
+      "own_base, california_chosen, unlock_sierras, unlock_ft_sierras",
+      "own_base, california_chosen, unlock_sierras, start_sierras"
     ],
     "visibility_rules": [
       "own_base, california_chosen"
@@ -469,7 +473,8 @@
       "own_base, california_chosen, unlock_central_coast, @bay_area",
       "own_base, california_chosen, unlock_central_coast, @central_valley",
       "own_base, california_chosen, unlock_central_coast, @socal",
-      "own_base, california_chosen, unlock_central_coast, unlock_ft_central_coast"
+      "own_base, california_chosen, unlock_central_coast, unlock_ft_central_coast",
+      "own_base, california_chosen, unlock_central_coast, start_central_coast"
     ],
     "visibility_rules": [
       "own_base, california_chosen"
@@ -549,7 +554,8 @@
       "own_base, california_chosen, unlock_socal, @central_valley",
       "own_base, california_chosen, unlock_socal, @central_coast",
       "own_base, california_chosen, unlock_socal, @california_deserts",
-      "own_base, california_chosen, unlock_socal, unlock_ft_socal"
+      "own_base, california_chosen, unlock_socal, unlock_ft_socal",
+      "own_base, california_chosen, unlock_socal, start_socal"
     ],
     "visibility_rules": [
       "own_base, california_chosen"
@@ -691,7 +697,8 @@
       "own_base, california_chosen, unlock_california_deserts, @socal",
       "own_base, california_chosen, unlock_california_deserts, @las_vegas_area",
       "own_base, california_chosen, unlock_california_deserts, @arizona_desert",
-      "own_base, california_chosen, unlock_california_deserts, unlock_ft_california_deserts"
+      "own_base, california_chosen, unlock_california_deserts, unlock_ft_california_deserts",
+      "own_base, california_chosen, unlock_california_deserts, start_california_deserts"
     ],
     "visibility_rules": [
       "own_base, california_chosen"
@@ -822,7 +829,8 @@
       "own_base, nevada_chosen, unlock_great_basin, @las_vegas_area",
       "own_base, nevada_chosen, unlock_great_basin, @northern_california",
       "own_base, nevada_chosen, unlock_great_basin, @sierras",
-      "own_base, nevada_chosen, unlock_great_basin, unlock_ft_great_basin"
+      "own_base, nevada_chosen, unlock_great_basin, unlock_ft_great_basin",
+      "own_base, nevada_chosen, unlock_great_basin, start_great_basin"
     ],
     "visibility_rules": [
       "own_base, nevada_chosen"
@@ -1000,7 +1008,8 @@
       "own_base, nevada_chosen, unlock_las_vegas_area, @arizona_desert",
       "own_base, nevada_chosen, unlock_las_vegas_area, @hoover_dam",
       "own_base, nevada_chosen, unlock_las_vegas_area, @california_deserts",
-      "own_base, nevada_chosen, unlock_las_vegas_area, unlock_ft_las_vegas_area"
+      "own_base, nevada_chosen, unlock_las_vegas_area, unlock_ft_las_vegas_area",
+      "own_base, nevada_chosen, unlock_las_vegas_area, start_las_vegas_area"
     ],
     "visibility_rules": [
       "own_base, nevada_chosen"
@@ -1058,7 +1067,8 @@
       "own_base, arizona_chosen, unlock_arizona_desert, @las_vegas_area",
       "own_base, arizona_chosen, unlock_arizona_desert, @hoover_dam",
       "own_base, arizona_chosen, unlock_arizona_desert, @california_deserts",
-      "own_base, arizona_chosen, unlock_arizona_desert, unlock_ft_arizona_desert"
+      "own_base, arizona_chosen, unlock_arizona_desert, unlock_ft_arizona_desert",
+      "own_base, arizona_chosen, unlock_arizona_desert, start_arizona_desert"
     ],
     "visibility_rules": [
       "own_base, arizona_chosen"
@@ -1183,7 +1193,8 @@
       "own_base, arizona_chosen, unlock_arizona_mountains, @southeast_arizona",
       "own_base, arizona_chosen, unlock_arizona_mountains, @four_corners",
       "own_base, arizona_chosen, unlock_arizona_mountains, @central_new_mexico",
-      "own_base, arizona_chosen, unlock_arizona_mountains, unlock_ft_arizona_mountains"
+      "own_base, arizona_chosen, unlock_arizona_mountains, unlock_ft_arizona_mountains",
+      "own_base, arizona_chosen, unlock_arizona_mountains, start_arizona_mountains"
     ],
     "visibility_rules": [
       "own_base, arizona_chosen"
@@ -1366,7 +1377,8 @@
       "own_base, arizona_chosen, unlock_southeast_arizona, @arizona_desert",
       "own_base, arizona_chosen, unlock_southeast_arizona, @central_new_mexico",
       "own_base, arizona_chosen, unlock_southeast_arizona, @southern_new_mexico",
-      "own_base, arizona_chosen, unlock_southeast_arizona, unlock_ft_southeast_arizona"
+      "own_base, arizona_chosen, unlock_southeast_arizona, unlock_ft_southeast_arizona",
+      "own_base, arizona_chosen, unlock_southeast_arizona, start_southeast_arizona"
     ],
     "visibility_rules": [
       "own_base, arizona_chosen"
@@ -1505,7 +1517,8 @@
     "access_rules": [
       "own_base, $is_in_chosen_state|nevada|arizona, unlock_hoover_dam, @las_vegas_area",
       "own_base, $is_in_chosen_state|nevada|arizona, unlock_hoover_dam, @arizona_desert",
-      "own_base, $is_in_chosen_state|nevada|arizona, unlock_hoover_dam, unlock_ft_hoover_dam"
+      "own_base, $is_in_chosen_state|nevada|arizona, unlock_hoover_dam, unlock_ft_hoover_dam",
+      "own_base, $is_in_chosen_state|nevada|arizona, unlock_hoover_dam, start_hoover_dam"
     ],
     "visibility_rules": [
       "own_base"

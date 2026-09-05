@@ -6,13 +6,8 @@ function is_in_chosen_state(...)
     local states = {...}
     if ENABLE_DEBUG_LOG then
         print(string.format("called is_in_chosen_state"))
-        print(dump_table(states))
     end
     for _, state in ipairs(states) do
-        if ENABLE_DEBUG_LOG then
-            print(state)
-            print(Tracker:ProviderCountForCode(state .. "_chosen"))
-        end
         if Tracker:ProviderCountForCode(state .. "_chosen")>0 then
             if ENABLE_DEBUG_LOG then
                 print("Found chosen state: " .. state)

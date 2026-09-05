@@ -14,6 +14,8 @@ def generate_item_mapping_script(item_data, state_options):
                 item_type = "toggle"
             if item["name"].startswith(const.UNLOCK_FT_ITEM_PREFIX):
                 item_name = to_snake_case(const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX+item["name"][len(const.UNLOCK_FT_ITEM_PREFIX):])
+            elif item["name"].startswith(const.START_ITEM_PREFIX):
+                item_name = to_snake_case(const.POPTRACKER_START_CITY_ITEM_PREFIX+item["name"][len(const.START_ITEM_PREFIX):])
             else:
                 item_name = to_snake_case(item["name"])
             file_content += f"    [{item_id}] = {{{{\"{item_name}\", \"{item_type}\"}}}},\n"

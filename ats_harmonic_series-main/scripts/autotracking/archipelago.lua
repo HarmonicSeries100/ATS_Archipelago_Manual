@@ -257,6 +257,16 @@ function onItem(index, item_id, item_name, player_number)
 						GLOBAL_ITEMS[item_code] = 1
 					end
 				end
+				-- special handling for starting city items
+				if string.sub(item_code, 1, 6) == 'start_' then
+					local starting_city_item = Tracker:FindObjectForCode("starting_city")
+					local starting_city_name_str = string.upper(string.sub(item_code, 7, 7)) .. string.sub(item_code, 8)
+					if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+						print(string.format("Changing starting city item name to %s", starting_city_name_str))
+					end
+					starting_city_item:SetOverlay(starting_city_name_str)
+					starting_city_item:SetOverlayAlign("center")
+				end
 			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 				print(string.format("onItem: skipping item_table with no item_code"))
 			end
