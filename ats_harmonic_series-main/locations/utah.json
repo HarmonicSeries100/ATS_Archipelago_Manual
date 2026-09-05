@@ -52,7 +52,10 @@
             "name": "Provo City Center Temple",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -192,7 +195,10 @@
             "name": "Salt Lake City Downtown",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -212,6 +218,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       },
       {
@@ -300,6 +309,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       },
       {
@@ -316,7 +328,10 @@
             "name": "Monument Valley - Photo",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "Monument Valley",
@@ -340,7 +355,10 @@
             "name": "San Rafael Swell Top View Area",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "San Rafael Swell Area",
@@ -442,6 +460,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       },
       {

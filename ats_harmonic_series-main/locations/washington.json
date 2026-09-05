@@ -104,7 +104,10 @@
             "name": "Mount Saint Helens",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       }
@@ -197,7 +200,10 @@
             "name": "Steam Slough Bridge",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -269,7 +275,10 @@
             "name": "Aircraft Factory - Photo Trophy",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -289,6 +298,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       },
       {
@@ -307,6 +319,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       }
     ]
@@ -397,7 +412,10 @@
             "name": "Deception Pass - Photo Trophy",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -516,7 +534,10 @@
             "name": "Grand Coulee Dam - Photo Trophy",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },

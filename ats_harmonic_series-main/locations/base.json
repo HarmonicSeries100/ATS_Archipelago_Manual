@@ -127,7 +127,10 @@
             "name": "Donner Lake",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -165,6 +168,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       },
       {
@@ -226,7 +232,10 @@
             "name": "San Francisco - Pier 39",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -304,7 +313,10 @@
             "name": "Golden Gate Bridge - Photo Trophy",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       }
@@ -487,7 +499,10 @@
             "name": "Yosemite National Park",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       }
@@ -532,7 +547,10 @@
             "name": "Santa Cruz - Lighthouse Point",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -625,7 +643,10 @@
             "name": "Los Angeles Skyline",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -655,13 +676,19 @@
             "name": "San Diego Skyline",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "Coronado Bridge",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -685,7 +712,10 @@
             "name": "Vincent Thomas Bridge",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -709,7 +739,10 @@
             "name": "Santa Monica Pier",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       }
@@ -768,7 +801,10 @@
             "name": "Barstow Station",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -884,7 +920,10 @@
             "name": "Reno Skyline",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -1063,7 +1102,10 @@
             "name": "Las Vegas Downtown",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -1188,7 +1230,10 @@
             "name": "Phoenix Skyline",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -1266,7 +1311,10 @@
             "name": "Grand Canyon - Photo",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "Grand Canyon - Viewpoint",
@@ -1352,7 +1400,7 @@
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
             "chest_opened_img": "images/items/photo_trophy_unlock.png",
             "access_rules": [
-              "own_new_mexico"
+              "own_new_mexico,$camera_check"
             ],
             "visibility_rules": [
               "own_new_mexico"
@@ -1536,6 +1584,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       }
     ]
@@ -1577,7 +1628,10 @@
             "name": "Hoover Dam - Photo",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "Hoover Dam - Viewpoint",

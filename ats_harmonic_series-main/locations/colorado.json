@@ -129,7 +129,10 @@
             "name": "Alpine Visitor Center in Rocky Mountain National Park",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "Rocky Mountain Road",
@@ -153,7 +156,10 @@
             "name": "Eisenhower-Johnson Tunnels",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -171,7 +177,10 @@
             "name": "Hanging Lake Tunnel",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "Glenwood Canyon",
@@ -354,7 +363,10 @@
             "name": "Cripple Creek & Victor Gold Mine - Photo",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "Cripple Creek & Victor Gold Mine - Viewpoint",
@@ -485,7 +497,10 @@
             "name": "Million Dollar Highway - Photo",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "Million Dollar Highway - Viewpoint",
@@ -552,7 +567,10 @@
             "name": "Four Corners Monument - Photo",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "Four Corners Monument - Viewpoint",

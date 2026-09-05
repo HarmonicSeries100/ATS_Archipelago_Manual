@@ -57,7 +57,10 @@
             "name": "Clovis Memorial Park",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -131,6 +134,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       },
       {
@@ -418,7 +424,10 @@
             "name": "UFO Center in Roswell",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           },
           {
             "name": "City of Roswell",

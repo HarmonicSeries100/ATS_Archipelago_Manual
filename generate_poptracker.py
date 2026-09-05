@@ -24,6 +24,13 @@ def initialize_poptracker_items():
             "img_mods": "overlay|images/overlay/check_overlay.png",
             "disabled_img_mods": "@disabled",
             "codes": to_snake_case(const.GOAL_ITEM_NAME)
+        },
+        {
+            "name": "Camera",
+            "type": "toggle",
+            "loop": "true",
+            "img": "images/items/camera.png",
+            "codes": "camera"
         }
     ]
     poptracker_items["options"] = [
@@ -65,6 +72,12 @@ def initialize_poptracker_items():
             "type": "static",
             "img": "images/items/starting_city.png",
             "codes": "starting_city"
+        },
+        {
+            "name": "Enable Camera",
+            "type": "toggle",
+            "img": "images/items/camera.png",
+            "codes": "enable_camera"
         }
     ]
     return poptracker_items
@@ -260,6 +273,12 @@ def get_poptracker_location(location, poptracker_location_data, region_dlc_index
             loc_node["visibility_rules"] = [
                 const.DLC_OPTION_PREFIX + loc_dlc
             ]
+        if loc_type == "photo_trophy":
+            try:
+                for index, rules in enumerate(loc_node["access_rules"]):
+                    loc_node["access_rules"][index] = rules + ",$camera_check"
+            except KeyError:
+                loc_node["access_rules"] = ["$camera_check"]    
         index, _ = get_child_node_by_name(poptracker_location_data[loc_region_dlc], loc_region_code)
         poptracker_location_data[loc_region_dlc][index]["children"].append(loc_node)
 
@@ -296,7 +315,12 @@ def get_poptracker_location(location, poptracker_location_data, region_dlc_index
             loc_node["sections"][-1]["visibility_rules"] = [
                 const.DLC_OPTION_PREFIX + loc_dlc
             ]
-        
+        if loc_type == "photo_trophy":
+            try:
+                for index, rules in enumerate(loc_node["sections"][-1]["access_rules"]):
+                    loc_node["sections"][-1]["access_rules"][index] = rules + ",$camera_check"
+            except KeyError:
+                loc_node["sections"][-1]["access_rules"] = ["$camera_check"]      
         if loc_capital:
             loc_node["sections"].append(
                 {
