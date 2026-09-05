@@ -344,6 +344,7 @@
       "Oregon Coast",
       "Willamette Valley",
       "Central Oregon",
+      "Washington Mountains",
       "FT - Portland Area"
     ],
     "requires": "|Unlock Portland Area|",
@@ -385,6 +386,7 @@
       "Northern California",
       "Great Basin",
       "Eastern Oregon",
+      "Columbia Basin",
       "FT - Central Oregon"
     ],
     "requires": "|Unlock Central Oregon|",
@@ -397,12 +399,66 @@
     "connects_to": [
       "Central Oregon",
       "Great Basin",
+      "Columbia Basin",
       "FT - Eastern Oregon"
     ],
     "requires": "|Unlock Eastern Oregon|",
     "starting": true,
     "entrance_requires": {
       "Manual": "|Starting City - Pendelton| OR |Starting City - Ontario| OR |Starting City - Burns|"
+    }
+  },
+  "Washington Mountains": {
+    "connects_to": [
+      "Portland Area",
+      "Puget Sound",
+      "Columbia Basin",
+      "FT - Washington Mountains"
+    ],
+    "requires": "|Unlock Washington Mountains|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Port Angeles| OR |Starting City - Longview|"
+    }
+  },
+  "Puget Sound": {
+    "connects_to": [
+      "Northern Washington",
+      "Columbia Basin",
+      "Washington Mountains",
+      "FT - Puget Sound"
+    ],
+    "requires": "|Unlock Puget Sound|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Seattle| OR |Starting City - Tacoma| OR |Starting City - Olympia|"
+    }
+  },
+  "Northern Washington": {
+    "connects_to": [
+      "Puget Sound",
+      "Columbia Basin",
+      "FT - Northern Washington"
+    ],
+    "requires": "|Unlock Northern Washington|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Bellingham|"
+    }
+  },
+  "Columbia Basin": {
+    "connects_to": [
+      "Washington Mountains",
+      "Puget Sound",
+      "Northern Washington",
+      "Central Oregon",
+      "Eastern Oregon",
+      "FT - Columbia Basin"
+    ],
+    "requires": "|Unlock Columbia Basin|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Yakima| OR |Starting City - Wenatchee| OR |Starting City - Spokane|"
     }
   },
   "FT Hub": {
@@ -433,7 +489,11 @@
       "FT - Willamette Valley",
       "FT - Oregon Coast",
       "FT - Central Oregon",
-      "FT - Eastern Oregon"
+      "FT - Eastern Oregon",
+      "FT - Puget Sound",
+      "FT - Washington Mountains",
+      "FT - Northern Washington",
+      "FT - Columbia Basin"
     ],
     "requires": ""
   },
@@ -625,5 +685,33 @@
       "Eastern Oregon"
     ],
     "requires": "|Unlock Eastern Oregon| AND (|Unlock Fast Travel - Pendelton| OR |Unlock Fast Travel - Ontario| OR |Unlock Fast Travel - Burns|)"
+  },
+  "FT - Puget Sound": {
+    "connects_to": [
+      "FT Hub",
+      "Puget Sound"
+    ],
+    "requires": "|Unlock Puget Sound| AND (|Unlock Fast Travel - Seattle| OR |Unlock Fast Travel - Tacoma| OR |Unlock Fast Travel - Olympia|)"
+  },
+  "FT - Washington Mountains": {
+    "connects_to": [
+      "FT Hub",
+      "Washington Mountains"
+    ],
+    "requires": "|Unlock Washington Mountains| AND (|Unlock Fast Travel - Port Angeles| OR |Unlock Fast Travel - Longview|)"
+  },
+  "FT - Northern Washington": {
+    "connects_to": [
+      "FT Hub",
+      "Northern Washington"
+    ],
+    "requires": "|Unlock Northern Washington| AND (|Unlock Fast Travel - Bellingham|)"
+  },
+  "FT - Columbia Basin": {
+    "connects_to": [
+      "FT Hub",
+      "Columbia Basin"
+    ],
+    "requires": "|Unlock Columbia Basin| AND (|Unlock Fast Travel - Yakima| OR |Unlock Fast Travel - Wenatchee| OR |Unlock Fast Travel - Spokane|)"
   }
 }

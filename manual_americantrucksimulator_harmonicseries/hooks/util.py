@@ -6,4 +6,5 @@ STATE_LIST = [
 "Utah",
 "Colorado",
 "Oregon",
+"Washington",
 ]

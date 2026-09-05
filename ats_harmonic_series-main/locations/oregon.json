@@ -5,6 +5,7 @@
       "own_oregon, oregon_chosen, unlock_portland_area, @oregon_coast",
       "own_oregon, oregon_chosen, unlock_portland_area, @willamette_valley",
       "own_oregon, oregon_chosen, unlock_portland_area, @central_oregon",
+      "own_oregon, oregon_chosen, unlock_portland_area, @washington_mountains",
       "own_oregon, oregon_chosen, unlock_portland_area, unlock_ft_portland_area",
       "own_oregon, oregon_chosen, unlock_portland_area, start_portland_area"
     ],
@@ -262,6 +263,7 @@
       "own_oregon, oregon_chosen, unlock_central_oregon, @northern_california",
       "own_oregon, oregon_chosen, unlock_central_oregon, @great_basin",
       "own_oregon, oregon_chosen, unlock_central_oregon, @eastern_oregon",
+      "own_oregon, oregon_chosen, unlock_central_oregon, @columbia_basin",
       "own_oregon, oregon_chosen, unlock_central_oregon, unlock_ft_central_oregon",
       "own_oregon, oregon_chosen, unlock_central_oregon, start_central_oregon"
     ],
@@ -414,6 +416,7 @@
     "access_rules": [
       "own_oregon, oregon_chosen, unlock_eastern_oregon, @central_oregon",
       "own_oregon, oregon_chosen, unlock_eastern_oregon, @great_basin",
+      "own_oregon, oregon_chosen, unlock_eastern_oregon, @columbia_basin",
       "own_oregon, oregon_chosen, unlock_eastern_oregon, unlock_ft_eastern_oregon",
       "own_oregon, oregon_chosen, unlock_eastern_oregon, start_eastern_oregon"
     ],

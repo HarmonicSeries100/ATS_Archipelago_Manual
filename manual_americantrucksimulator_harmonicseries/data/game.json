@@ -271,6 +271,43 @@
       "items": [
         "Unlock Eastern Oregon"
       ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Seattle",
+        "Starting City - Tacoma",
+        "Starting City - Olympia"
+      ],
+      "items": [
+        "Unlock Puget Sound"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Port Angeles",
+        "Starting City - Longview"
+      ],
+      "items": [
+        "Unlock Washington Mountains"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Bellingham"
+      ],
+      "items": [
+        "Unlock Northern Washington"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Yakima",
+        "Starting City - Wenatchee",
+        "Starting City - Spokane"
+      ],
+      "items": [
+        "Unlock Columbia Basin"
+      ]
     }
   ]
 }
