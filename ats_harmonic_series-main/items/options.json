@@ -33,6 +33,12 @@
     "overlay_align": "left"
   },
   {
+    "name": "Starting City",
+    "type": "static",
+    "img": "images/items/starting_city.png",
+    "codes": "starting_city"
+  },
+  {
     "name": "Owns Base",
     "type": "static",
     "loop": "true",

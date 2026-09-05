@@ -59,6 +59,9 @@ def initialize_poptracker_layout_data():
                                 "number_of_stamps_available",
                                 "percent_stamps_required",
                                 "number_of_stamps_required"
+                            ],
+                            [
+                                "starting_city"
                             ]
                         ]
                     }

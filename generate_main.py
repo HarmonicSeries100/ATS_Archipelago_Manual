@@ -126,6 +126,7 @@ def process_location_csv(json_data, pop_item_data, pop_loc_data, region_dlc_inde
                     garage_cities[location['Region']] = [location_name]
 
                 pop_item_data["items"].append(gen_pop.get_poptracker_fast_travel_unlock_item(location))
+                pop_item_data["items"].append(gen_pop.get_poptracker_starting_city_item(location))
                 pop_layout_data = gen_pop_layout.add_ft_item_to_layout(location, pop_layout_data)
                 
             if location["Location_Group"]:

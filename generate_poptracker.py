@@ -59,6 +59,12 @@ def initialize_poptracker_items():
             "max_quantity": 12,
             "overlay_font_size": 12,
             "overlay_align": "left"
+        },
+        {
+            "name": "Starting City",
+            "type": "static",
+            "img": "images/items/starting_city.png",
+            "codes": "starting_city"
         }
     ]
     return poptracker_items
@@ -162,6 +168,14 @@ def get_poptracker_fast_travel_unlock_item(location):
     }
     return fast_travel_unlock_item_obj
 
+def get_poptracker_starting_city_item(location):
+    starting_city_item_obj = {
+        "name": const.START_ITEM_PREFIX + location["Location_Name"],
+        "type": "toggle",
+        "codes": const.POPTRACKER_START_CITY_ITEM_PREFIX + to_snake_case(location["Location_Name"])+", "\
+            +const.POPTRACKER_START_CITY_ITEM_PREFIX + to_snake_case(location["Region"])
+    }
+    return starting_city_item_obj
 
 def get_poptracker_region_location(region, poptracker_location_data, region_dlc_index):
     region_node = None
@@ -180,6 +194,7 @@ def get_poptracker_region_location(region, poptracker_location_data, region_dlc_
     required_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, {region_state+const.POPTRACKER_STATE_CHOSEN_SUFFIX}, {const.POPTRACKER_UNLOCK_ITEM_PREFIX+region_code}"
     region_rules = [f"{required_rules}, @{conn}" for conn in connections]
     region_rules.append(f"{required_rules}, {const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX+region_code}")
+    region_rules.append(f"{required_rules}, {const.POPTRACKER_START_CITY_ITEM_PREFIX+region_code}")
 
     region_node = {
         "name": region_code,
@@ -198,6 +213,7 @@ def get_poptracker_multistate_region(poptracker_location_data, region_name, regi
     required_rules = f"{const.DLC_OPTION_PREFIX+region_dlc}, $is_in_chosen_state|{state_list}, {const.POPTRACKER_UNLOCK_ITEM_PREFIX+region_code}"
     region_rules = [f"{required_rules}, @{conn}" for conn in connections]
     region_rules.append(f"{required_rules}, {const.POPTRACKER_UNLOCK_FT_ITEM_PREFIX+region_code}")
+    region_rules.append(f"{required_rules}, {const.POPTRACKER_START_CITY_ITEM_PREFIX+region_code}")
     
     region_node = {
         "name": region_code,

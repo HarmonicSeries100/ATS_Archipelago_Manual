@@ -228,12 +228,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Kingman",
+    "type": "toggle",
+    "codes": "start_kingman, start_arizona_desert"
+  },
+  {
     "name": "Unlock Fast Travel - Phoenix",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_phoenix, unlock_ft_arizona_desert",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Phoenix",
+    "type": "toggle",
+    "codes": "start_phoenix, start_arizona_desert"
   },
   {
     "name": "Unlock Fast Travel - Yuma",
@@ -244,12 +254,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Yuma",
+    "type": "toggle",
+    "codes": "start_yuma, start_arizona_desert"
+  },
+  {
     "name": "Unlock Fast Travel - Flagstaff",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_flagstaff, unlock_ft_arizona_mountains",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Flagstaff",
+    "type": "toggle",
+    "codes": "start_flagstaff, start_arizona_mountains"
   },
   {
     "name": "Unlock Fast Travel - Page",
@@ -260,12 +280,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Page",
+    "type": "toggle",
+    "codes": "start_page, start_arizona_mountains"
+  },
+  {
     "name": "Unlock Fast Travel - Winslow",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_winslow, unlock_ft_arizona_mountains",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Winslow",
+    "type": "toggle",
+    "codes": "start_winslow, start_arizona_mountains"
   },
   {
     "name": "Unlock Fast Travel - Clifton",
@@ -276,12 +306,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Clifton",
+    "type": "toggle",
+    "codes": "start_clifton, start_southeast_arizona"
+  },
+  {
     "name": "Unlock Fast Travel - Tucson",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_tucson, unlock_ft_southeast_arizona",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Tucson",
+    "type": "toggle",
+    "codes": "start_tucson, start_southeast_arizona"
   },
   {
     "name": "Unlock Fast Travel - Burlington",
@@ -292,12 +332,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Burlington",
+    "type": "toggle",
+    "codes": "start_burlington, start_colorado_plains"
+  },
+  {
     "name": "Unlock Fast Travel - Alamosa",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_alamosa, unlock_ft_colorado_rockies",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Alamosa",
+    "type": "toggle",
+    "codes": "start_alamosa, start_colorado_rockies"
   },
   {
     "name": "Unlock Fast Travel - Steamboat Springs",
@@ -308,12 +358,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Steamboat Springs",
+    "type": "toggle",
+    "codes": "start_steamboat_springs, start_colorado_rockies"
+  },
+  {
     "name": "Unlock Fast Travel - Colorado Springs",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_colorado_springs, unlock_ft_front_range",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Colorado Springs",
+    "type": "toggle",
+    "codes": "start_colorado_springs, start_front_range"
   },
   {
     "name": "Unlock Fast Travel - Denver",
@@ -324,12 +384,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Denver",
+    "type": "toggle",
+    "codes": "start_denver, start_front_range"
+  },
+  {
     "name": "Unlock Fast Travel - Fort Collins",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_fort_collins, unlock_ft_front_range",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Fort Collins",
+    "type": "toggle",
+    "codes": "start_fort_collins, start_front_range"
   },
   {
     "name": "Unlock Fast Travel - Pueblo",
@@ -340,12 +410,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Pueblo",
+    "type": "toggle",
+    "codes": "start_pueblo, start_front_range"
+  },
+  {
     "name": "Unlock Fast Travel - Durango",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_durango, unlock_ft_western_slope",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Durango",
+    "type": "toggle",
+    "codes": "start_durango, start_western_slope"
   },
   {
     "name": "Unlock Fast Travel - Grand Junction",
@@ -356,12 +436,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Grand Junction",
+    "type": "toggle",
+    "codes": "start_grand_junction, start_western_slope"
+  },
+  {
     "name": "Unlock Fast Travel - Montrose",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_montrose, unlock_ft_western_slope",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Montrose",
+    "type": "toggle",
+    "codes": "start_montrose, start_western_slope"
   },
   {
     "name": "Unlock Fast Travel - Albuquerque",
@@ -372,12 +462,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Albuquerque",
+    "type": "toggle",
+    "codes": "start_albuquerque, start_central_new_mexico"
+  },
+  {
     "name": "Unlock Fast Travel - Clovis",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_clovis, unlock_ft_central_new_mexico",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Clovis",
+    "type": "toggle",
+    "codes": "start_clovis, start_central_new_mexico"
   },
   {
     "name": "Unlock Fast Travel - Gallup",
@@ -388,12 +488,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Gallup",
+    "type": "toggle",
+    "codes": "start_gallup, start_central_new_mexico"
+  },
+  {
     "name": "Unlock Fast Travel - Socorro",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_socorro, unlock_ft_central_new_mexico",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Socorro",
+    "type": "toggle",
+    "codes": "start_socorro, start_central_new_mexico"
   },
   {
     "name": "Unlock Fast Travel - Tucumcari",
@@ -404,12 +514,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Tucumcari",
+    "type": "toggle",
+    "codes": "start_tucumcari, start_central_new_mexico"
+  },
+  {
     "name": "Unlock Fast Travel - Farmington",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_farmington, unlock_ft_new_mexico_highlands",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Farmington",
+    "type": "toggle",
+    "codes": "start_farmington, start_new_mexico_highlands"
   },
   {
     "name": "Unlock Fast Travel - Raton",
@@ -420,12 +540,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Raton",
+    "type": "toggle",
+    "codes": "start_raton, start_new_mexico_highlands"
+  },
+  {
     "name": "Unlock Fast Travel - Santa Fe",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_santa_fe, unlock_ft_new_mexico_highlands",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Santa Fe",
+    "type": "toggle",
+    "codes": "start_santa_fe, start_new_mexico_highlands"
   },
   {
     "name": "Unlock Fast Travel - Alamogordo",
@@ -436,12 +566,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Alamogordo",
+    "type": "toggle",
+    "codes": "start_alamogordo, start_southern_new_mexico"
+  },
+  {
     "name": "Unlock Fast Travel - Artesia",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_artesia, unlock_ft_southern_new_mexico",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Artesia",
+    "type": "toggle",
+    "codes": "start_artesia, start_southern_new_mexico"
   },
   {
     "name": "Unlock Fast Travel - Hobbs",
@@ -452,12 +592,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Hobbs",
+    "type": "toggle",
+    "codes": "start_hobbs, start_southern_new_mexico"
+  },
+  {
     "name": "Unlock Fast Travel - Roswell",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_roswell, unlock_ft_southern_new_mexico",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Roswell",
+    "type": "toggle",
+    "codes": "start_roswell, start_southern_new_mexico"
   },
   {
     "name": "Unlock Fast Travel - Price",
@@ -468,12 +618,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Price",
+    "type": "toggle",
+    "codes": "start_price, start_central_utah"
+  },
+  {
     "name": "Unlock Fast Travel - Provo",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_provo, unlock_ft_central_utah",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Provo",
+    "type": "toggle",
+    "codes": "start_provo, start_central_utah"
   },
   {
     "name": "Unlock Fast Travel - Salina",
@@ -484,12 +644,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Salina",
+    "type": "toggle",
+    "codes": "start_salina, start_central_utah"
+  },
+  {
     "name": "Unlock Fast Travel - Vernal",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_vernal, unlock_ft_central_utah",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Vernal",
+    "type": "toggle",
+    "codes": "start_vernal, start_central_utah"
   },
   {
     "name": "Unlock Fast Travel - Logan",
@@ -500,12 +670,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Logan",
+    "type": "toggle",
+    "codes": "start_logan, start_northern_utah"
+  },
+  {
     "name": "Unlock Fast Travel - Ogden",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_ogden, unlock_ft_northern_utah",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Ogden",
+    "type": "toggle",
+    "codes": "start_ogden, start_northern_utah"
   },
   {
     "name": "Unlock Fast Travel - Salt Lake City",
@@ -516,12 +696,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Salt Lake City",
+    "type": "toggle",
+    "codes": "start_salt_lake_city, start_northern_utah"
+  },
+  {
     "name": "Unlock Fast Travel - Moab",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_moab, unlock_ft_southeast_utah",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Moab",
+    "type": "toggle",
+    "codes": "start_moab, start_southeast_utah"
   },
   {
     "name": "Unlock Fast Travel - Cedar City",
@@ -532,12 +722,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Cedar City",
+    "type": "toggle",
+    "codes": "start_cedar_city, start_st._george_area"
+  },
+  {
     "name": "Unlock Fast Travel - St. George",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_st._george, unlock_ft_st._george_area",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - St. George",
+    "type": "toggle",
+    "codes": "start_st._george, start_st._george_area"
   },
   {
     "name": "Unlock Fast Travel - Las Vegas",
@@ -548,12 +748,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Las Vegas",
+    "type": "toggle",
+    "codes": "start_las_vegas, start_las_vegas_area"
+  },
+  {
     "name": "Unlock Fast Travel - Reno",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_reno, unlock_ft_great_basin",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Reno",
+    "type": "toggle",
+    "codes": "start_reno, start_great_basin"
   },
   {
     "name": "Unlock Fast Travel - Carson City",
@@ -564,12 +774,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Carson City",
+    "type": "toggle",
+    "codes": "start_carson_city, start_great_basin"
+  },
+  {
     "name": "Unlock Fast Travel - Elko",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_elko, unlock_ft_great_basin",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Elko",
+    "type": "toggle",
+    "codes": "start_elko, start_great_basin"
   },
   {
     "name": "Unlock Fast Travel - Tonopah",
@@ -580,12 +800,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Tonopah",
+    "type": "toggle",
+    "codes": "start_tonopah, start_great_basin"
+  },
+  {
     "name": "Unlock Fast Travel - Eureka",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_eureka, unlock_ft_northern_california",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Eureka",
+    "type": "toggle",
+    "codes": "start_eureka, start_northern_california"
   },
   {
     "name": "Unlock Fast Travel - Redding",
@@ -596,12 +826,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Redding",
+    "type": "toggle",
+    "codes": "start_redding, start_northern_california"
+  },
+  {
     "name": "Unlock Fast Travel - Truckee",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_truckee, unlock_ft_northern_california",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Truckee",
+    "type": "toggle",
+    "codes": "start_truckee, start_northern_california"
   },
   {
     "name": "Unlock Fast Travel - San Francisco",
@@ -612,12 +852,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - San Francisco",
+    "type": "toggle",
+    "codes": "start_san_francisco, start_bay_area"
+  },
+  {
     "name": "Unlock Fast Travel - Oakland",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_oakland, unlock_ft_bay_area",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Oakland",
+    "type": "toggle",
+    "codes": "start_oakland, start_bay_area"
   },
   {
     "name": "Unlock Fast Travel - San Jose",
@@ -628,12 +878,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - San Jose",
+    "type": "toggle",
+    "codes": "start_san_jose, start_bay_area"
+  },
+  {
     "name": "Unlock Fast Travel - Sacramento",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_sacramento, unlock_ft_central_valley",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Sacramento",
+    "type": "toggle",
+    "codes": "start_sacramento, start_central_valley"
   },
   {
     "name": "Unlock Fast Travel - Stockton",
@@ -644,12 +904,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Stockton",
+    "type": "toggle",
+    "codes": "start_stockton, start_central_valley"
+  },
+  {
     "name": "Unlock Fast Travel - Modesto",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_modesto, unlock_ft_central_valley",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Modesto",
+    "type": "toggle",
+    "codes": "start_modesto, start_central_valley"
   },
   {
     "name": "Unlock Fast Travel - Fresno",
@@ -660,12 +930,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Fresno",
+    "type": "toggle",
+    "codes": "start_fresno, start_central_valley"
+  },
+  {
     "name": "Unlock Fast Travel - Bakersfield",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_bakersfield, unlock_ft_central_valley",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Bakersfield",
+    "type": "toggle",
+    "codes": "start_bakersfield, start_central_valley"
   },
   {
     "name": "Unlock Fast Travel - Santa Cruz",
@@ -676,12 +956,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Santa Cruz",
+    "type": "toggle",
+    "codes": "start_santa_cruz, start_central_coast"
+  },
+  {
     "name": "Unlock Fast Travel - Oxnard",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_oxnard, unlock_ft_socal",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Oxnard",
+    "type": "toggle",
+    "codes": "start_oxnard, start_socal"
   },
   {
     "name": "Unlock Fast Travel - Los Angeles",
@@ -692,12 +982,22 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Los Angeles",
+    "type": "toggle",
+    "codes": "start_los_angeles, start_socal"
+  },
+  {
     "name": "Unlock Fast Travel - San Diego",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_san_diego, unlock_ft_socal",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - San Diego",
+    "type": "toggle",
+    "codes": "start_san_diego, start_socal"
   },
   {
     "name": "Unlock Fast Travel - Barstow",
@@ -708,6 +1008,11 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Barstow",
+    "type": "toggle",
+    "codes": "start_barstow, start_california_deserts"
+  },
+  {
     "name": "Unlock Fast Travel - Indio",
     "type": "toggle",
     "loop": "true",
@@ -716,11 +1021,21 @@
     "disabled_img": "images/items/fast_travel_lock.png"
   },
   {
+    "name": "Starting City - Indio",
+    "type": "toggle",
+    "codes": "start_indio, start_california_deserts"
+  },
+  {
     "name": "Unlock Fast Travel - Blythe",
     "type": "toggle",
     "loop": "true",
     "codes": "unlock_ft_blythe, unlock_ft_california_deserts",
     "img": "images/items/fast_travel_unlock.png",
     "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Blythe",
+    "type": "toggle",
+    "codes": "start_blythe, start_california_deserts"
   }
 ]

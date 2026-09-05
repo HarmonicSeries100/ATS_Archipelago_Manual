@@ -6,7 +6,8 @@
       "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @southern_new_mexico",
       "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @arizona_mountains",
       "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, @southeast_arizona",
-      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, unlock_ft_central_new_mexico"
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, unlock_ft_central_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_central_new_mexico, start_central_new_mexico"
     ],
     "visibility_rules": [
       "own_new_mexico, new_mexico_chosen"
@@ -178,7 +179,8 @@
       "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @colorado_rockies",
       "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @front_range",
       "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, @central_new_mexico",
-      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, unlock_ft_new_mexico_highlands"
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, unlock_ft_new_mexico_highlands",
+      "own_new_mexico, new_mexico_chosen, unlock_new_mexico_highlands, start_new_mexico_highlands"
     ],
     "visibility_rules": [
       "own_new_mexico, new_mexico_chosen"
@@ -299,7 +301,8 @@
     "access_rules": [
       "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, @central_new_mexico",
       "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, @southeast_arizona",
-      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, unlock_ft_southern_new_mexico"
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, unlock_ft_southern_new_mexico",
+      "own_new_mexico, new_mexico_chosen, unlock_southern_new_mexico, start_southern_new_mexico"
     ],
     "visibility_rules": [
       "own_new_mexico, new_mexico_chosen"
