@@ -1,19 +1,40 @@
 {
   "shared_item_grid": {
-    "type": "group",
-    "header": "Passport Items",
-    "content": {
-      "type": "itemgrid",
-      "h_alignment": "left",
-      "item_width": 48,
-      "item_height": 48,
-      "rows": [
-        [
-          "national_park_passport_stamp",
-          "number_of_stamps_required",
-          "validated_passport"
-        ]
-      ]
-    }
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "group",
+        "header": "Passport Items",
+        "content": {
+          "type": "itemgrid",
+          "h_alignment": "left",
+          "item_width": 48,
+          "item_height": 48,
+          "rows": [
+            [
+              "national_park_passport_stamp",
+              "number_of_stamps_required",
+              "validated_passport"
+            ]
+          ]
+        }
+      },
+      {
+        "type": "group",
+        "header": "Player Items",
+        "content": {
+          "type": "itemgrid",
+          "h_alignment": "left",
+          "item_width": 48,
+          "item_height": 48,
+          "rows": [
+            [
+              "camera"
+            ]
+          ]
+        }
+      }
+    ]
   }
 }
