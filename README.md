@@ -38,6 +38,8 @@ Victory Island is where the goal location is. The only goal available currently 
   * UT/Poptracker is recommended to know what is in logic
 * Quick Travel Unlock Key
   * These keys enable you to teleport to the given city using the Quick Travel feature available in-game
+* Camera
+  * When enabled, the Camera item is required before Photo Trophy locations can be collected.
 * Vehicle Unlocks
   * Windshield Wipers - Do not use your wipers until you have this item
   * Headlights - Do not use your headlights until you have this item. You may sleep through the night to avoid the
