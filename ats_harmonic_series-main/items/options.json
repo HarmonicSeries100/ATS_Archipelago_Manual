@@ -39,6 +39,12 @@
     "codes": "starting_city"
   },
   {
+    "name": "Enable Camera",
+    "type": "toggle",
+    "img": "images/items/camera.png",
+    "codes": "enable_camera"
+  },
+  {
     "name": "Owns Base",
     "type": "static",
     "loop": "true",

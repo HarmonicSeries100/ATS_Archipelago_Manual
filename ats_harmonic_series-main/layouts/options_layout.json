@@ -16,7 +16,8 @@
             [
               "number_of_stamps_available",
               "percent_stamps_required",
-              "number_of_stamps_required"
+              "number_of_stamps_required",
+              "enable_camera"
             ],
             [
               "starting_city"

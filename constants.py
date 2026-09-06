@@ -14,6 +14,7 @@ GOAL_CATEGORY = "Passport Items"
 VICTORY_CATEGORY = "Victory"
 STATE_CAPITAL_CATEGORY = "State Capital"
 STATE_CAPITAL_LOC_PREFIX = "Passport Validation Center - "
+CAMERA_CATEGORY = "Camera"
 
 LOC_CATEGORY_MAPPING = {
     "City": "City",

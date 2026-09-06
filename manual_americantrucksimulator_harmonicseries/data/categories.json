@@ -6,6 +6,12 @@
   "State Capital": {
     "hidden": true
   },
+  "Camera": {
+    "hidden": true,
+    "yaml_option": [
+      "enable_camera"
+    ]
+  },
   "DLC - Base": {
     "hidden": true
   },

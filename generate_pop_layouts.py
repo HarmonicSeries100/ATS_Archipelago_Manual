@@ -5,21 +5,42 @@ def initialize_poptracker_layout_data():
     poptracker_layout_data = {}
     poptracker_layout_data["items"] = {
         "shared_item_grid": {
-            "type": "group",
-            "header": "Passport Items",
-            "content": {
-                "type": "itemgrid",
-                "h_alignment": "left",
-                "item_width": 48,
-                "item_height": 48,
-                "rows": [
-                    [
-                        "national_park_passport_stamp",
-                        "number_of_stamps_required",
-                        "validated_passport"
-                    ]
-                ]
-            }
+            "type": "array",
+            "orientation": "vertical",
+            "content": [
+                {
+                    "type": "group",
+                    "header": "Passport Items",
+                    "content": {
+                        "type": "itemgrid",
+                        "h_alignment": "left",
+                        "item_width": 48,
+                        "item_height": 48,
+                        "rows": [
+                            [
+                                "national_park_passport_stamp",
+                                "number_of_stamps_required",
+                                "validated_passport"
+                            ]
+                        ]
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Player Items",
+                    "content": {
+                        "type": "itemgrid",
+                        "h_alignment": "left",
+                        "item_width": 48,
+                        "item_height": 48,
+                        "rows": [
+                            [
+                                "camera"
+                            ]
+                        ]
+                    }
+                }
+            ]
         }
     }
     poptracker_layout_data["tracker"] = {
@@ -58,7 +79,8 @@ def initialize_poptracker_layout_data():
                             [
                                 "number_of_stamps_available",
                                 "percent_stamps_required",
-                                "number_of_stamps_required"
+                                "number_of_stamps_required",
+                                "enable_camera"
                             ],
                             [
                                 "starting_city"

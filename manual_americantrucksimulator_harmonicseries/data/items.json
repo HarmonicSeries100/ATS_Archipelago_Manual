@@ -37,6 +37,14 @@
     },
     {
       "count": 1,
+      "name": "Camera",
+      "category": [
+        "Camera"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Northern California",
       "category": [
         "Region Unlock",

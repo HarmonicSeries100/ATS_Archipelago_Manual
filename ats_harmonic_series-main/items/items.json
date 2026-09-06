@@ -20,6 +20,13 @@
     "codes": "validated_passport"
   },
   {
+    "name": "Camera",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/camera.png",
+    "codes": "camera"
+  },
+  {
     "name": "Unlock Northern California",
     "type": "toggle",
     "loop": "true",

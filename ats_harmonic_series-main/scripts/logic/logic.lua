@@ -62,3 +62,13 @@ function set_chosen_states(chosen_states, victory_state)
         end
     end
 end
+
+function camera_check()
+    local camera_setting = Tracker:FindObjectForCode("enable_camera")
+    if camera_setting.Active == false then --Photo trophies always available if camera disabled
+        return true
+    else
+        local camera_item = Tracker:FindObjectForCode("camera")
+        return camera_item.Active --Photo trophies only available if camera item is found
+    end
+end

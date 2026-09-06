@@ -82,7 +82,7 @@
         "DLC - Base",
         "Arizona"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Flagstaff",
@@ -142,7 +142,7 @@
         "DLC - Base",
         "Arizona"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Winslow - Viewpoint",
@@ -232,7 +232,7 @@
         "DLC - Base",
         "Arizona"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Burlington",
@@ -292,7 +292,7 @@
         "DLC - Colorado",
         "Colorado"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Eisenhower-Johnson Tunnels",
@@ -302,7 +302,7 @@
         "DLC - Colorado",
         "Colorado"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Hanging Lake Tunnel",
@@ -312,7 +312,7 @@
         "DLC - Colorado",
         "Colorado"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Eisenhower Tunnel",
@@ -426,7 +426,7 @@
         "DLC - Colorado",
         "Colorado"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Colorado Springs - Viewpoint",
@@ -506,7 +506,7 @@
         "DLC - Colorado",
         "Colorado"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Million Dollar Highway - Viewpoint",
@@ -529,7 +529,7 @@
         "Arizona",
         "New Mexico"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Four Corners Monument - Viewpoint",
@@ -552,7 +552,7 @@
         "DLC - New Mexico",
         "Arizona"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Arizona Welcome Center Rest Area",
@@ -622,7 +622,7 @@
         "DLC - New Mexico",
         "New Mexico"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Clovis Memorial Park",
@@ -632,7 +632,7 @@
         "DLC - New Mexico",
         "New Mexico"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Albuquerque - Viewpoint",
@@ -806,7 +806,7 @@
         "DLC - New Mexico",
         "New Mexico"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "City of Roswell",
@@ -896,7 +896,7 @@
         "DLC - Utah",
         "Utah"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Oil Fields of Utah",
@@ -960,7 +960,7 @@
         "DLC - Utah",
         "Utah"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Tree of Life",
@@ -970,7 +970,7 @@
         "DLC - Utah",
         "Utah"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Bingham Canyon Mine",
@@ -1010,7 +1010,7 @@
         "DLC - Utah",
         "Utah"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Monument Valley - Photo",
@@ -1020,7 +1020,7 @@
         "DLC - Utah",
         "Utah"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "San Rafael Swell Top View Area",
@@ -1030,7 +1030,7 @@
         "DLC - Utah",
         "Utah"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Hole N The Rock",
@@ -1090,7 +1090,7 @@
         "DLC - Utah",
         "Utah"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "City of St. George",
@@ -1140,7 +1140,7 @@
         "DLC - Base",
         "Nevada"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Primm",
@@ -1161,7 +1161,7 @@
         "Nevada",
         "Arizona"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Hoover Dam - Viewpoint",
@@ -1192,7 +1192,7 @@
         "DLC - Base",
         "Nevada"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Carson City",
@@ -1650,7 +1650,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Bigfoot Shop in Sequoia National Forest",
@@ -1660,7 +1660,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Donner Lake",
@@ -1670,7 +1670,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "San Francisco - Pier 39",
@@ -1680,7 +1680,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Yosemite National Park",
@@ -1690,7 +1690,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Santa Cruz - Lighthouse Point",
@@ -1700,7 +1700,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "San Diego Skyline",
@@ -1710,7 +1710,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Coronado Bridge",
@@ -1720,7 +1720,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Santa Monica Pier",
@@ -1730,7 +1730,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Vincent Thomas Bridge",
@@ -1740,7 +1740,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Los Angeles Skyline",
@@ -1750,7 +1750,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Barstow Station",
@@ -1760,7 +1760,7 @@
         "DLC - Base",
         "California"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Portland",
@@ -2024,7 +2024,7 @@
         "DLC - Oregon",
         "Oregon"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Yaquina Bay Bridge",
@@ -2034,7 +2034,7 @@
         "DLC - Oregon",
         "Oregon"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Astoria-Megler Bridge - Photo Trophy",
@@ -2044,7 +2044,7 @@
         "DLC - Oregon",
         "Oregon"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "City of The Dalles",
@@ -2054,7 +2054,7 @@
         "DLC - Oregon",
         "Oregon"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Mount Hood",
@@ -2064,7 +2064,7 @@
         "DLC - Oregon",
         "Oregon"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Deadman Pass Lookout Area",
@@ -2074,7 +2074,7 @@
         "DLC - Oregon",
         "Oregon"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Seattle",
@@ -2358,7 +2358,7 @@
         "DLC - Washington",
         "Washington"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Steam Slough Bridge",
@@ -2368,7 +2368,7 @@
         "DLC - Washington",
         "Washington"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Space Needle",
@@ -2378,7 +2378,7 @@
         "DLC - Washington",
         "Washington"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Homer M. Hadley Memorial Bridge",
@@ -2388,7 +2388,7 @@
         "DLC - Washington",
         "Washington"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Grand Coulee Dam - Photo Trophy",
@@ -2398,7 +2398,7 @@
         "DLC - Washington",
         "Washington"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Deception Pass - Photo Trophy",
@@ -2408,7 +2408,7 @@
         "DLC - Washington",
         "Washington"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     },
     {
       "name": "Aircraft Factory - Photo Trophy",
@@ -2418,7 +2418,7 @@
         "DLC - Washington",
         "Washington"
       ],
-      "requires": ""
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     }
   ]
 }

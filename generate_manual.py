@@ -3,13 +3,18 @@ import generate_manual as gen_man
 
 
 def get_location_object(location):
+    if location["Loc_Type"] == "Photo Trophy":
+        require_string = "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    else:
+        require_string = ""
+
     loc_obj = {
         "name": location["Location_Name"],
         "region": location["Region"],
         "category": [
             const.LOC_CATEGORY_MAPPING[location["Loc_Type"]]
         ],
-        "requires": ""
+        "requires": require_string
     }
     loc_obj["category"].append(const.DLC_CATEGORY_PREFIX + location["State_DLC"])
     loc_obj["category"].extend([item for item in location["State"].split('; ')])
@@ -80,10 +85,14 @@ def initialize_lists():
         'categories': {
             "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
             const.START_ITEM_CATEGORY: {
-                'hidden': True
+                "hidden": True
             },
             const.STATE_CAPITAL_CATEGORY: {
-                'hidden': True
+                "hidden": True
+            },
+            const.CAMERA_CATEGORY: {
+                "hidden": True,
+                "yaml_option": ["enable_camera"]
             }
         },
         'game': {
@@ -147,6 +156,14 @@ def initialize_lists():
                         ],
                         "useful": True
                     },
+                    {
+                        "count": 1,
+                        "name": "Camera",
+                        "category": [
+                            const.CAMERA_CATEGORY
+                        ],
+                        "progression": True
+                    }
                 ],
         },
         'locations': {
@@ -222,6 +239,12 @@ def initialize_lists():
                     "range_start": 1,
                     "default": 80,
                     "range_end": 100
+                },
+                "enable_camera": {
+                    "type": "Toggle",
+                    "display_name": "Enable Camera",
+                    "description": "Requires the \"camera\" item to collect Photo Trophy locations",
+                    "default": True
                 }
             }
         }

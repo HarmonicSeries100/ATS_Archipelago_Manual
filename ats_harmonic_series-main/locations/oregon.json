@@ -39,7 +39,10 @@
             "name": "Fremont Bridge",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -69,7 +72,10 @@
             "name": "Astoria-Megler Bridge - Photo Trophy",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       }
@@ -195,7 +201,10 @@
             "name": "Yaquina Bay Bridge",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -297,7 +306,10 @@
             "name": "City of The Dalles",
             "item_count": 1,
             "chest_unopened_img": "images/items/photo_trophy_lock.png",
-            "chest_opened_img": "images/items/photo_trophy_unlock.png"
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
           }
         ]
       },
@@ -407,6 +419,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       }
     ]
@@ -512,6 +527,9 @@
             "name": "",
             "item_count": 1
           }
+        ],
+        "access_rules": [
+          "$camera_check"
         ]
       }
     ]
