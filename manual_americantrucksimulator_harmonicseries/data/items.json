@@ -969,6 +969,26 @@
     },
     {
       "count": 1,
+      "name": "Unlock Fast Travel - Las Cruces",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Las Cruces",
+      "category": [
+        "Start Item",
+        "DLC - New Mexico",
+        "New Mexico"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Roswell",
       "category": [
         "Fast Travel Unlock",

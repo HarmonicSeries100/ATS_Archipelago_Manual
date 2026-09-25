@@ -676,6 +676,19 @@
     "codes": "start_hobbs, start_southern_new_mexico"
   },
   {
+    "name": "Unlock Fast Travel - Las Cruces",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_las_cruces, unlock_ft_southern_new_mexico",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Las Cruces",
+    "type": "toggle",
+    "codes": "start_las_cruces, start_southern_new_mexico"
+  },
+  {
     "name": "Unlock Fast Travel - Roswell",
     "type": "toggle",
     "loop": "true",
