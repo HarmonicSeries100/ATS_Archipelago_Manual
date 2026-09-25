@@ -220,7 +220,7 @@
     "requires": "|Unlock Southern New Mexico|",
     "starting": true,
     "entrance_requires": {
-      "Manual": "|Starting City - Alamogordo| OR |Starting City - Artesia| OR |Starting City - Hobbs| OR |Starting City - Roswell|"
+      "Manual": "|Starting City - Alamogordo| OR |Starting City - Artesia| OR |Starting City - Hobbs| OR |Starting City - Las Cruces| OR |Starting City - Roswell|"
     }
   },
   "Central Utah": {
@@ -565,7 +565,7 @@
       "FT Hub",
       "Southern New Mexico"
     ],
-    "requires": "|Unlock Southern New Mexico| AND (|Unlock Fast Travel - Alamogordo| OR |Unlock Fast Travel - Artesia| OR |Unlock Fast Travel - Hobbs| OR |Unlock Fast Travel - Roswell|)"
+    "requires": "|Unlock Southern New Mexico| AND (|Unlock Fast Travel - Alamogordo| OR |Unlock Fast Travel - Artesia| OR |Unlock Fast Travel - Hobbs| OR |Unlock Fast Travel - Las Cruces| OR |Unlock Fast Travel - Roswell|)"
   },
   "FT - Central Utah": {
     "connects_to": [
