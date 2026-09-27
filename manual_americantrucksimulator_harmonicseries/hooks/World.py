@@ -20,7 +20,7 @@ import logging
 
 from Options import OptionError
 
-from .util import STATE_LIST
+from .util import STATE_DICT
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -49,7 +49,7 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         world.chosen_states = slot_data["chosen_states"]
         world.victory_state = slot_data["victory_state"]
         return
-    available_states = STATE_LIST
+    available_states = list(STATE_DICT)
     allowed_states = []
     include_states = []
     random_states = []
@@ -91,6 +91,17 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         random_states.pop(index)
         random_state_weights.pop(index)
     world.victory_state = world.random.choice(world.chosen_states)
+
+    est_item_count = 0
+    est_loc_count = 0
+    est_item_count += get_option_value(multiworld, player, "number_of_stamps_available")
+    est_item_count += 1 if get_option_value(multiworld, player, "enable_camera") else 0
+    for state in world.chosen_states:
+        est_item_count += STATE_DICT[state]["items"]
+        est_loc_count += STATE_DICT[state]["locations"]
+    if est_item_count > est_loc_count:
+        raise OptionError(f"Too many items ({est_item_count} items for {est_loc_count} locations) for the chosen states: {world.chosen_states}")
+
     return
 
 
