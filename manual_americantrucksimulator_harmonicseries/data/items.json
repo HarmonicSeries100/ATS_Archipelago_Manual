@@ -389,6 +389,46 @@
     },
     {
       "count": 1,
+      "name": "Unlock Idaho Panhandle",
+      "category": [
+        "Region Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southwestern Idaho",
+      "category": [
+        "Region Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central Idaho",
+      "category": [
+        "Region Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Eastern Idaho",
+      "category": [
+        "Region Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Kingman",
       "category": [
         "Fast Travel Unlock",
@@ -2044,6 +2084,126 @@
         "Start Item",
         "DLC - Washington",
         "Washington"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Sandpoint",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Sandpoint",
+      "category": [
+        "Start Item",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Coeur d'Alene",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Coeur d'Alene",
+      "category": [
+        "Start Item",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Lewiston",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Lewiston",
+      "category": [
+        "Start Item",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Boise",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Boise",
+      "category": [
+        "Start Item",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Twin Falls",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Twin Falls",
+      "category": [
+        "Start Item",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Idaho Falls",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Idaho Falls",
+      "category": [
+        "Start Item",
+        "DLC - Idaho",
+        "Idaho"
       ],
       "progression": true
     }

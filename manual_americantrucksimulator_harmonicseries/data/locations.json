@@ -2419,6 +2419,300 @@
         "Washington"
       ],
       "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Sandpoint",
+      "region": "Idaho Panhandle",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Coeur d'Alene",
+      "region": "Idaho Panhandle",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Lewiston",
+      "region": "Idaho Panhandle",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grangeville",
+      "region": "Idaho Panhandle",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Nampa",
+      "region": "Southwestern Idaho",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Boise",
+      "region": "Southwestern Idaho",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Passport Validation Center - Boise",
+      "region": "Southwestern Idaho",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
+    },
+    {
+      "name": "Salmon",
+      "region": "Central Idaho",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Ketchum",
+      "region": "Central Idaho",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Twin Falls",
+      "region": "Central Idaho",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Pocatello",
+      "region": "Eastern Idaho",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Idaho Falls",
+      "region": "Eastern Idaho",
+      "category": [
+        "City",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Twin Falls Potato Farm",
+      "region": "Central Idaho",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Perrine Memorial Bridge - Viewpoint",
+      "region": "Central Idaho",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Craters of the Moon National Monument & Preserve",
+      "region": "Central Idaho",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "The City of Idaho Falls",
+      "region": "Eastern Idaho",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "The City of Boise",
+      "region": "Southwestern Idaho",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Galena Summit",
+      "region": "Central Idaho",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Midvale Hill Rest Area",
+      "region": "Southwestern Idaho",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "The Town of McCall",
+      "region": "Southwestern Idaho",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Timber Harvest Site",
+      "region": "Idaho Panhandle",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "The City of Sandpoint",
+      "region": "Idaho Panhandle",
+      "category": [
+        "Viewpoint",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Perrine Memorial Bridge - Photo Trophy",
+      "region": "Central Idaho",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Craters of the Moon National Monument",
+      "region": "Central Idaho",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "White Bird Battlefield",
+      "region": "Idaho Panhandle",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Downtown Boise",
+      "region": "Southwestern Idaho",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Idaho Falls - Photo Trophy",
+      "region": "Eastern Idaho",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Payette Lake",
+      "region": "Southwestern Idaho",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Mackay Reservoir",
+      "region": "Central Idaho",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Idaho",
+        "Idaho"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     }
   ]
 }

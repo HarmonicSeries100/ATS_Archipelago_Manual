@@ -309,6 +309,40 @@
       "items": [
         "Unlock Columbia Basin"
       ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Sandpoint",
+        "Starting City - Coeur d'Alene",
+        "Starting City - Lewiston"
+      ],
+      "items": [
+        "Unlock Idaho Panhandle"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Boise"
+      ],
+      "items": [
+        "Unlock Southwestern Idaho"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Twin Falls"
+      ],
+      "items": [
+        "Unlock Central Idaho"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Idaho Falls"
+      ],
+      "items": [
+        "Unlock Eastern Idaho"
+      ]
     }
   ]
 }

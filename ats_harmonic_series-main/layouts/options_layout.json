@@ -42,7 +42,8 @@
               "own_oregon"
             ],
             [
-              "own_washington"
+              "own_washington",
+              "own_idaho"
             ]
           ]
         }
@@ -66,7 +67,8 @@
             [
               "colorado_chosen",
               "oregon_chosen",
-              "washington_chosen"
+              "washington_chosen",
+              "idaho_chosen"
             ]
           ]
         }

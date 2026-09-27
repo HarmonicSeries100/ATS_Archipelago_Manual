@@ -1,0 +1,490 @@
+[
+  {
+    "name": "idaho_panhandle",
+    "access_rules": [
+      "own_idaho, idaho_chosen, unlock_idaho_panhandle, @columbia_basin",
+      "own_idaho, idaho_chosen, unlock_idaho_panhandle, @southwestern_idaho",
+      "own_idaho, idaho_chosen, unlock_idaho_panhandle, unlock_ft_idaho_panhandle",
+      "own_idaho, idaho_chosen, unlock_idaho_panhandle, start_idaho_panhandle"
+    ],
+    "visibility_rules": [
+      "own_idaho, idaho_chosen"
+    ],
+    "children": [
+      {
+        "name": "Sandpoint",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 407,
+            "y": 126
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sandpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "The City of Sandpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Coeur d'Alene",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 362,
+            "y": 282
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lewiston",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 276,
+            "y": 524
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Grangeville",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 385,
+            "y": 665
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Timber Harvest Site",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 283,
+            "y": 417
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "White Bird Battlefield",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 317,
+            "y": 744
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "$camera_check"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "southwestern_idaho",
+    "access_rules": [
+      "own_idaho, idaho_chosen, unlock_southwestern_idaho, @idaho_panhandle",
+      "own_idaho, idaho_chosen, unlock_southwestern_idaho, @eastern_oregon",
+      "own_idaho, idaho_chosen, unlock_southwestern_idaho, @great_basin",
+      "own_idaho, idaho_chosen, unlock_southwestern_idaho, @central_idaho",
+      "own_idaho, idaho_chosen, unlock_southwestern_idaho, unlock_ft_southwestern_idaho",
+      "own_idaho, idaho_chosen, unlock_southwestern_idaho, start_southwestern_idaho"
+    ],
+    "visibility_rules": [
+      "own_idaho, idaho_chosen"
+    ],
+    "children": [
+      {
+        "name": "Nampa",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 160,
+            "y": 1138
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Boise",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 291,
+            "y": 1134
+          }
+        ],
+        "sections": [
+          {
+            "name": "Boise",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Passport Validation Center - Boise",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png",
+            "access_rules": [
+              "$has_enough_stamps, idaho_victory"
+            ],
+            "visibility_rules": [
+              "idaho_victory"
+            ]
+          },
+          {
+            "name": "The City of Boise",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Downtown Boise",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Midvale Hill Rest Area",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 209,
+            "y": 950
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "McCall",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 322,
+            "y": 883
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Town of McCall",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Payette Lake",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "central_idaho",
+    "access_rules": [
+      "own_idaho, idaho_chosen, unlock_central_idaho, @southwestern_idaho",
+      "own_idaho, idaho_chosen, unlock_central_idaho, @great_basin",
+      "own_idaho, idaho_chosen, unlock_central_idaho, @eastern_idaho",
+      "own_idaho, idaho_chosen, unlock_central_idaho, unlock_ft_central_idaho",
+      "own_idaho, idaho_chosen, unlock_central_idaho, start_central_idaho"
+    ],
+    "visibility_rules": [
+      "own_idaho, idaho_chosen"
+    ],
+    "children": [
+      {
+        "name": "Salmon",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 640,
+            "y": 883
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Ketchum",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 522,
+            "y": 1151
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Twin Falls",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 434,
+            "y": 1388
+          }
+        ],
+        "sections": [
+          {
+            "name": "Twin Falls",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Twin Falls Potato Farm",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Perrine Memorial Bridge",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 480,
+            "y": 1338
+          }
+        ],
+        "sections": [
+          {
+            "name": "Perrine Memorial Bridge - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Perrine Memorial Bridge - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Craters of the Moon",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 608,
+            "y": 1247
+          }
+        ],
+        "sections": [
+          {
+            "name": "Craters of the Moon National Monument & Preserve",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Craters of the Moon National Monument",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Galena Summit",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 491,
+            "y": 1093
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mackay Reservoir",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 616,
+            "y": 1132
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "$camera_check"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "eastern_idaho",
+    "access_rules": [
+      "own_idaho, idaho_chosen, unlock_eastern_idaho, @central_idaho",
+      "own_idaho, idaho_chosen, unlock_eastern_idaho, @northern_utah",
+      "own_idaho, idaho_chosen, unlock_eastern_idaho, unlock_ft_eastern_idaho",
+      "own_idaho, idaho_chosen, unlock_eastern_idaho, start_eastern_idaho"
+    ],
+    "visibility_rules": [
+      "own_idaho, idaho_chosen"
+    ],
+    "children": [
+      {
+        "name": "Pocatello",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 730,
+            "y": 1371
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Idaho Falls",
+        "map_locations": [
+          {
+            "map": "idaho_map",
+            "x": 854,
+            "y": 1235
+          }
+        ],
+        "sections": [
+          {
+            "name": "Idaho Falls",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "The City of Idaho Falls",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Idaho Falls - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
