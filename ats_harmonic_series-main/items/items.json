@@ -299,6 +299,38 @@
     "disabled_img": "images/items/region_lock.png"
   },
   {
+    "name": "Unlock Idaho Panhandle",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_idaho_panhandle",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Southwestern Idaho",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_southwestern_idaho",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Central Idaho",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_central_idaho",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Eastern Idaho",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_eastern_idaho",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
     "name": "Unlock Fast Travel - Kingman",
     "type": "toggle",
     "loop": "true",
@@ -1376,5 +1408,83 @@
     "name": "Starting City - Spokane",
     "type": "toggle",
     "codes": "start_spokane, start_columbia_basin"
+  },
+  {
+    "name": "Unlock Fast Travel - Sandpoint",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_sandpoint, unlock_ft_idaho_panhandle",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Sandpoint",
+    "type": "toggle",
+    "codes": "start_sandpoint, start_idaho_panhandle"
+  },
+  {
+    "name": "Unlock Fast Travel - Coeur d'Alene",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_coeur_dalene, unlock_ft_idaho_panhandle",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Coeur d'Alene",
+    "type": "toggle",
+    "codes": "start_coeur_dalene, start_idaho_panhandle"
+  },
+  {
+    "name": "Unlock Fast Travel - Lewiston",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_lewiston, unlock_ft_idaho_panhandle",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Lewiston",
+    "type": "toggle",
+    "codes": "start_lewiston, start_idaho_panhandle"
+  },
+  {
+    "name": "Unlock Fast Travel - Boise",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_boise, unlock_ft_southwestern_idaho",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Boise",
+    "type": "toggle",
+    "codes": "start_boise, start_southwestern_idaho"
+  },
+  {
+    "name": "Unlock Fast Travel - Twin Falls",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_twin_falls, unlock_ft_central_idaho",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Twin Falls",
+    "type": "toggle",
+    "codes": "start_twin_falls, start_central_idaho"
+  },
+  {
+    "name": "Unlock Fast Travel - Idaho Falls",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_idaho_falls, unlock_ft_eastern_idaho",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Idaho Falls",
+    "type": "toggle",
+    "codes": "start_idaho_falls, start_eastern_idaho"
   }
 ]

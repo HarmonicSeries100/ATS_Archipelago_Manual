@@ -44,5 +44,11 @@
     "yaml_option": [
       "own_washington"
     ]
+  },
+  "DLC - Idaho": {
+    "hidden": true,
+    "yaml_option": [
+      "own_idaho"
+    ]
   }
 }

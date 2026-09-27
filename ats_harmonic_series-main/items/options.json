@@ -213,5 +213,28 @@
         "codes": "washington_victory"
       }
     ]
+  },
+  {
+    "name": "Owns Idaho",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "own_idaho",
+    "img": "images/flags/idaho.png"
+  },
+  {
+    "name": "Idaho Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/idaho.png",
+        "codes": "idaho_chosen"
+      },
+      {
+        "img": "images/flags/idaho.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "idaho_victory"
+      }
+    ]
   }
 ]

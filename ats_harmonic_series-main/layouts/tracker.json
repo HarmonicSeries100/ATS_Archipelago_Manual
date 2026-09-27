@@ -67,6 +67,13 @@
             "type": "layout",
             "key": "washington_layout"
           }
+        },
+        {
+          "title": "Idaho",
+          "content": {
+            "type": "layout",
+            "key": "idaho_layout"
+          }
         }
       ]
     }

@@ -107,6 +107,8 @@
       "Sierras",
       "Central Oregon",
       "Eastern Oregon",
+      "Southwestern Idaho",
+      "Central Idaho",
       "FT - Great Basin"
     ],
     "requires": "|Unlock Great Basin|",
@@ -242,6 +244,7 @@
     "connects_to": [
       "Central Utah",
       "Great Basin",
+      "Eastern Idaho",
       "FT - Northern Utah"
     ],
     "requires": "|Unlock Northern Utah|",
@@ -400,6 +403,7 @@
       "Central Oregon",
       "Great Basin",
       "Columbia Basin",
+      "Southwestern Idaho",
       "FT - Eastern Oregon"
     ],
     "requires": "|Unlock Eastern Oregon|",
@@ -453,12 +457,64 @@
       "Northern Washington",
       "Central Oregon",
       "Eastern Oregon",
+      "Idaho Panhandle",
       "FT - Columbia Basin"
     ],
     "requires": "|Unlock Columbia Basin|",
     "starting": true,
     "entrance_requires": {
       "Manual": "|Starting City - Yakima| OR |Starting City - Wenatchee| OR |Starting City - Spokane|"
+    }
+  },
+  "Idaho Panhandle": {
+    "connects_to": [
+      "Columbia Basin",
+      "Southwestern Idaho",
+      "FT - Idaho Panhandle"
+    ],
+    "requires": "|Unlock Idaho Panhandle|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Sandpoint| OR |Starting City - Coeur d'Alene| OR |Starting City - Lewiston|"
+    }
+  },
+  "Southwestern Idaho": {
+    "connects_to": [
+      "Idaho Panhandle",
+      "Eastern Oregon",
+      "Great Basin",
+      "Central Idaho",
+      "FT - Southwestern Idaho"
+    ],
+    "requires": "|Unlock Southwestern Idaho|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Boise|"
+    }
+  },
+  "Central Idaho": {
+    "connects_to": [
+      "Southwestern Idaho",
+      "Great Basin",
+      "Eastern Idaho",
+      "FT - Central Idaho"
+    ],
+    "requires": "|Unlock Central Idaho|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Twin Falls|"
+    }
+  },
+  "Eastern Idaho": {
+    "connects_to": [
+      "Central Idaho",
+      "Northern Utah",
+      "FT - Eastern Idaho"
+    ],
+    "requires": "|Unlock Eastern Idaho|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Idaho Falls|"
     }
   },
   "FT Hub": {
@@ -493,7 +549,11 @@
       "FT - Puget Sound",
       "FT - Washington Mountains",
       "FT - Northern Washington",
-      "FT - Columbia Basin"
+      "FT - Columbia Basin",
+      "FT - Idaho Panhandle",
+      "FT - Southwestern Idaho",
+      "FT - Central Idaho",
+      "FT - Eastern Idaho"
     ],
     "requires": ""
   },
@@ -713,5 +773,33 @@
       "Columbia Basin"
     ],
     "requires": "|Unlock Columbia Basin| AND (|Unlock Fast Travel - Yakima| OR |Unlock Fast Travel - Wenatchee| OR |Unlock Fast Travel - Spokane|)"
+  },
+  "FT - Idaho Panhandle": {
+    "connects_to": [
+      "FT Hub",
+      "Idaho Panhandle"
+    ],
+    "requires": "|Unlock Idaho Panhandle| AND (|Unlock Fast Travel - Sandpoint| OR |Unlock Fast Travel - Coeur d'Alene| OR |Unlock Fast Travel - Lewiston|)"
+  },
+  "FT - Southwestern Idaho": {
+    "connects_to": [
+      "FT Hub",
+      "Southwestern Idaho"
+    ],
+    "requires": "|Unlock Southwestern Idaho| AND (|Unlock Fast Travel - Boise|)"
+  },
+  "FT - Central Idaho": {
+    "connects_to": [
+      "FT Hub",
+      "Central Idaho"
+    ],
+    "requires": "|Unlock Central Idaho| AND (|Unlock Fast Travel - Twin Falls|)"
+  },
+  "FT - Eastern Idaho": {
+    "connects_to": [
+      "FT Hub",
+      "Eastern Idaho"
+    ],
+    "requires": "|Unlock Eastern Idaho| AND (|Unlock Fast Travel - Idaho Falls|)"
   }
 }
