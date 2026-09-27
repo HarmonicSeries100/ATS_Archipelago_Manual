@@ -83,6 +83,8 @@ def process_state_csv(json_data,poptracker_data):
             lua_state_options[state_code+const.POPTRACKER_STATE_CHOSEN_SUFFIX] = state_name
 
     gen_lua.generate_init_lua_script(dlc_list, state_list)
+    json_data["options"]["user"]["number_of_states"]["range_end"] = len(state_list)
+    json_data["options"]["user"]["number_of_stamps_available"]["range_end"] = len(state_list)*3
     return json_data, poptracker_data, lua_state_options, state_metadata
 
 
