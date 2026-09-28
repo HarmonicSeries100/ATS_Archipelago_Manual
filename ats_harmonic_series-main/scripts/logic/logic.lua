@@ -72,3 +72,15 @@ function camera_check()
         return camera_item.Active --Photo trophies only available if camera item is found
     end
 end
+
+function set_state_dlc(state_dlc_list)
+    local state_dlc_key
+    local state_dlc_obj
+    for _, value in ipairs(state_dlc_list) do
+        state_dlc_key = "own_" .. string.gsub(string.lower(value), " ", "_")
+        state_dlc_obj = Tracker:FindObjectForCode(state_dlc_key)
+        if state_dlc_obj ~= nil then
+            state_dlc_obj.Active = 1
+        end
+    end
+end

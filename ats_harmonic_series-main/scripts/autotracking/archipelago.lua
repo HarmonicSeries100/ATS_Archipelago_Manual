@@ -104,6 +104,7 @@ function apply_slot_data(slot_data)
 	if slot_data ~= nil then
 		local chosen_state_list = {}
 		local victory_state
+		local state_dlc_list = {}
         for key, value in pairs(slot_data) do
 			if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 				print("Parsing slot data")
@@ -133,9 +134,17 @@ function apply_slot_data(slot_data)
 				end
 				victory_state = value
 			end
+			if key == "state_dlc" then
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("Parsing state DLC")
+					print(dump_table(value))
+				end
+				state_dlc_list = value
+			end
 		end
 		set_chosen_states(chosen_state_list, victory_state)
 		set_required_stamps()
+		set_state_dlc(state_dlc_list)
     end
 end
 
