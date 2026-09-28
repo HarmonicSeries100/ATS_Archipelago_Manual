@@ -98,13 +98,6 @@
       "range_end": 100,
       "group": "State_Preferences"
     },
-    "own_new_mexico": {
-      "type": "Toggle",
-      "display_name": "Own New Mexico DLC",
-      "description": "Do you own the New Mexico DLC?",
-      "default": true,
-      "group": "DLC"
-    },
     "new_mexico_preference": {
       "type": "Range",
       "display_name": "New Mexico Preference",
@@ -118,13 +111,6 @@
       "range_start": 0,
       "range_end": 100,
       "group": "State_Preferences"
-    },
-    "own_utah": {
-      "type": "Toggle",
-      "display_name": "Own Utah DLC",
-      "description": "Do you own the Utah DLC?",
-      "default": true,
-      "group": "DLC"
     },
     "utah_preference": {
       "type": "Range",
@@ -140,13 +126,6 @@
       "range_end": 100,
       "group": "State_Preferences"
     },
-    "own_colorado": {
-      "type": "Toggle",
-      "display_name": "Own Colorado DLC",
-      "description": "Do you own the Colorado DLC?",
-      "default": true,
-      "group": "DLC"
-    },
     "colorado_preference": {
       "type": "Range",
       "display_name": "Colorado Preference",
@@ -160,13 +139,6 @@
       "range_start": 0,
       "range_end": 100,
       "group": "State_Preferences"
-    },
-    "own_oregon": {
-      "type": "Toggle",
-      "display_name": "Own Oregon DLC",
-      "description": "Do you own the Oregon DLC?",
-      "default": true,
-      "group": "DLC"
     },
     "oregon_preference": {
       "type": "Range",
@@ -182,13 +154,6 @@
       "range_end": 100,
       "group": "State_Preferences"
     },
-    "own_washington": {
-      "type": "Toggle",
-      "display_name": "Own Washington DLC",
-      "description": "Do you own the Washington DLC?",
-      "default": true,
-      "group": "DLC"
-    },
     "washington_preference": {
       "type": "Range",
       "display_name": "Washington Preference",
@@ -202,13 +167,6 @@
       "range_start": 0,
       "range_end": 100,
       "group": "State_Preferences"
-    },
-    "own_idaho": {
-      "type": "Toggle",
-      "display_name": "Own Idaho DLC",
-      "description": "Do you own the Idaho DLC?",
-      "default": true,
-      "group": "DLC"
     },
     "idaho_preference": {
       "type": "Range",

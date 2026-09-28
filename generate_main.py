@@ -15,6 +15,7 @@ import generate_lua_scripts as gen_lua
 from util import to_snake_case
 
 def generate_hook_util(state_metadata):
+    dlc_set = set()
     file_content = "STATE_DICT = {\n"
     for key,value in state_metadata.items():
         file_content += f"  \"{key}\":\n"
@@ -22,6 +23,12 @@ def generate_hook_util(state_metadata):
         file_content += f"    \"items\": {value["items"]},\n"
         file_content += f"    \"locations\": {value["locations"]}\n"
         file_content += f"  }},\n"
+
+        dlc_set.add(value["DLC"])
+    file_content += "}\n\n"
+    file_content += "STATE_DLC_SET = {\n"
+    for item in dlc_set:
+        file_content += f"  \"{item}\",\n"
     file_content += "}"
     with open("./manual_americantrucksimulator_harmonicseries/hooks/util.py","w") as file:
         file.write(file_content)
@@ -43,17 +50,12 @@ def process_state_csv(json_data,poptracker_data):
                 json_data['categories'][dlc_category] = {
                     "hidden": True,
                 }
-                if dlc_name != 'Base':
-                    json_data['categories'][dlc_category]['yaml_option'] = [dlc_option]
 
                 layout_row = poptracker_data["layout"]["options_layout"]["settings_popup"]["content"][1]["content"]["rows"]
                 layout_row = gen_pop_layout.add_item_to_row(layout_row, const.DLC_OPTION_PREFIX+dlc_id, const.NUMBER_OF_OPTION_COLUMNS)
                 poptracker_data["layout"]["options_layout"]["settings_popup"]["content"][1]["content"]["rows"]=layout_row
                 poptracker_data["item"]["options"].append(gen_pop.get_poptracker_dlc_owned_item(dlc_id, dlc_name))
                 dlc_list.append(dlc_id)
-
-            if dlc_option not in json_data['options']['user'] and dlc_name != 'Base':
-                json_data['options']['user'][dlc_option] = gen_man.get_own_dlc_option(dlc_name)
 
             state_code = state["state_id"]
             state_name = state["state_display_name"]

@@ -1,8 +1,9 @@
 # Object classes from AP that represent different types of options that you can create
-from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions
+from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Choice, TextChoice, Range, NamedRange, OptionGroup, PerGameCommonOptions, OptionSet
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
 from typing import Type, Any
+from .util import STATE_DLC_SET
 
 
 ####################################################################
@@ -32,8 +33,17 @@ class TotalCharactersToWinWith(Range):
     range_end = 50
     default = 50
 
+class StateDLC(OptionSet):
+    """Owned State DLC. Base DLC (CA, NV, AZ) always included"""
+    display_name = "Owned State DLC"
+    valid_key_set = STATE_DLC_SET
+    valid_key_set.discard("Base")
+    valid_keys = sorted(list(valid_key_set))
+    default = valid_keys
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict[str, Type[Option[Any]]]) -> dict[str, Type[Option[Any]]]:
+    options["state_dlc"] = StateDLC
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

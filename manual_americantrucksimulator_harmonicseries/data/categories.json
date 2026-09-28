@@ -16,39 +16,21 @@
     "hidden": true
   },
   "DLC - New Mexico": {
-    "hidden": true,
-    "yaml_option": [
-      "own_new_mexico"
-    ]
+    "hidden": true
   },
   "DLC - Utah": {
-    "hidden": true,
-    "yaml_option": [
-      "own_utah"
-    ]
+    "hidden": true
   },
   "DLC - Colorado": {
-    "hidden": true,
-    "yaml_option": [
-      "own_colorado"
-    ]
+    "hidden": true
   },
   "DLC - Oregon": {
-    "hidden": true,
-    "yaml_option": [
-      "own_oregon"
-    ]
+    "hidden": true
   },
   "DLC - Washington": {
-    "hidden": true,
-    "yaml_option": [
-      "own_washington"
-    ]
+    "hidden": true
   },
   "DLC - Idaho": {
-    "hidden": true,
-    "yaml_option": [
-      "own_idaho"
-    ]
+    "hidden": true
   }
 }

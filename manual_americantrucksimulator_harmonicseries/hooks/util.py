@@ -45,3 +45,13 @@ STATE_DICT = {
     "locations": 28
   },
 }
+
+STATE_DLC_SET = {
+  "Base",
+  "Idaho",
+  "Washington",
+  "Colorado",
+  "Utah",
+  "Oregon",
+  "New Mexico",
+}
