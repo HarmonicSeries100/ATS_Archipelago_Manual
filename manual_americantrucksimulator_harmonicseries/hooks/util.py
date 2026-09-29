@@ -46,12 +46,12 @@ STATE_DICT = {
   },
 }
 
-STATE_DLC_SET = {
-  "Base",
-  "Idaho",
-  "Washington",
-  "Colorado",
-  "Utah",
-  "Oregon",
-  "New Mexico",
+STATE_DLC_DICT = {
+  "Base": ["California","Nevada","Arizona"],
+  "New Mexico": ["New Mexico"],
+  "Utah": ["Utah"],
+  "Colorado": ["Colorado"],
+  "Oregon": ["Oregon"],
+  "Washington": ["Washington"],
+  "Idaho": ["Idaho"],
 }

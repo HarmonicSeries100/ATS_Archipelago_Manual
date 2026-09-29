@@ -13,9 +13,10 @@ import generate_poptracker as gen_pop
 import generate_pop_layouts as gen_pop_layout
 import generate_lua_scripts as gen_lua
 from util import to_snake_case
+from collections import defaultdict
 
 def generate_hook_util(state_metadata):
-    dlc_set = set()
+    dlc_dict = defaultdict(list)
     file_content = "STATE_DICT = {\n"
     for key,value in state_metadata.items():
         file_content += f"  \"{key}\":\n"
@@ -24,11 +25,12 @@ def generate_hook_util(state_metadata):
         file_content += f"    \"locations\": {value["locations"]}\n"
         file_content += f"  }},\n"
 
-        dlc_set.add(value["DLC"])
+        dlc_dict[value["DLC"]].append(key)
     file_content += "}\n\n"
-    file_content += "STATE_DLC_SET = {\n"
-    for item in dlc_set:
-        file_content += f"  \"{item}\",\n"
+    file_content += "STATE_DLC_DICT = {\n"
+    for key,value in dlc_dict.items():
+        formatted_list = [f"\"{item}\"" for item in value]
+        file_content += f"  \"{key}\": [{",".join(formatted_list)}],\n"
     file_content += "}"
     with open("./manual_americantrucksimulator_harmonicseries/hooks/util.py","w") as file:
         file.write(file_content)

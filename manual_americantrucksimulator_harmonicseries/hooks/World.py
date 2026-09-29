@@ -20,7 +20,7 @@ import logging
 
 from Options import OptionError
 
-from .util import STATE_DICT
+from .util import STATE_DICT, STATE_DLC_DICT
 
 ########################################################################################
 ## Order of method calls when the world generates:
@@ -49,18 +49,14 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
         world.chosen_states = slot_data["chosen_states"]
         world.victory_state = slot_data["victory_state"]
         return
-    available_states = list(STATE_DICT)
     allowed_states = []
     include_states = []
     random_states = []
     random_state_weights = []
-    dlc_option_list = [f"own_{state.lower().replace(' ', '_')}" for state in available_states]
-    for option, state in zip(dlc_option_list, available_states):
-        # The base DLC states are always available and don't have an option toggle
-        if state in ['California', 'Nevada', 'Arizona']:
-            allowed_states.append(state)
-        elif is_option_enabled(multiworld, player, option):
-            allowed_states.append(state)
+    state_dlc = get_option_value(multiworld, player, "state_dlc")
+    state_dlc.add("Base")
+    for dlc in state_dlc:
+        allowed_states.extend(STATE_DLC_DICT[dlc])
     pref_option_list = [f"{state.lower().replace(' ', '_')}_preference" for state in allowed_states]
     for option, state in zip(pref_option_list, allowed_states):
         weighting = get_option_value(multiworld, player, option)
@@ -85,7 +81,6 @@ def before_generate_early(world: World, multiworld: MultiWorld, player: int) -> 
 
     for _ in range(remaining_state_count):
         state_choice = world.random.choices(random_states, weights=random_state_weights)[0]
-        print(state_choice)
         world.chosen_states.append(state_choice)
         index = random_states.index(state_choice)
         random_states.pop(index)
