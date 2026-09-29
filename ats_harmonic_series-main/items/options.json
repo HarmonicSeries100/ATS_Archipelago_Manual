@@ -236,5 +236,28 @@
         "codes": "idaho_victory"
       }
     ]
+  },
+  {
+    "name": "Owns Montana",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "own_montana",
+    "img": "images/flags/montana.png"
+  },
+  {
+    "name": "Montana Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/montana.png",
+        "codes": "montana_chosen"
+      },
+      {
+        "img": "images/flags/montana.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "montana_victory"
+      }
+    ]
   }
 ]

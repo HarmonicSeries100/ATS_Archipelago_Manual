@@ -343,6 +343,51 @@
       "items": [
         "Unlock Eastern Idaho"
       ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Kalispell",
+        "Starting City - Missoula"
+      ],
+      "items": [
+        "Unlock Glacier Country"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Helena",
+        "Starting City - Butte"
+      ],
+      "items": [
+        "Unlock Southwest Montana"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Bozeman"
+      ],
+      "items": [
+        "Unlock Yellowstone Country"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Great Falls",
+        "Starting City - Lewistown"
+      ],
+      "items": [
+        "Unlock Central Montana"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Billings",
+        "Starting City - Miles City",
+        "Starting City - Glendive"
+      ],
+      "items": [
+        "Unlock Southeast Montana"
+      ]
     }
   ]
 }

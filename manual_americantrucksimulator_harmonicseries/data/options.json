@@ -32,7 +32,7 @@
       ],
       "range_start": 1,
       "default": 2,
-      "range_end": 9
+      "range_end": 10
     },
     "number_of_stamps_available": {
       "type": "Range",
@@ -40,7 +40,7 @@
       "description": "Number of National Park Stamps available in the randomizer",
       "range_start": 2,
       "default": 5,
-      "range_end": 27
+      "range_end": 30
     },
     "percent_stamps_required": {
       "type": "Range",
@@ -173,6 +173,20 @@
       "display_name": "Idaho Preference",
       "description": [
         "Preference setting for Idaho. Choose a weighting between 0 and 100",
+        "0 will always exclude the state from being picked",
+        "100 will always include the state",
+        "If there are more '100' states than the number_of_states option, randomly choose between them with equal weighting"
+      ],
+      "default": 50,
+      "range_start": 0,
+      "range_end": 100,
+      "group": "State_Preferences"
+    },
+    "montana_preference": {
+      "type": "Range",
+      "display_name": "Montana Preference",
+      "description": [
+        "Preference setting for Montana. Choose a weighting between 0 and 100",
         "0 will always exclude the state from being picked",
         "100 will always include the state",
         "If there are more '100' states than the number_of_states option, randomly choose between them with equal weighting"

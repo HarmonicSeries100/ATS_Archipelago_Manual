@@ -68,5 +68,12 @@
     "location_border_thickness": 2,
     "location_shape": "rect",
     "img": "images/maps/idaho_map.png"
+  },
+  {
+    "name": "montana_map",
+    "location_size": 24,
+    "location_border_thickness": 2,
+    "location_shape": "rect",
+    "img": "images/maps/montana_map.png"
   }
 ]

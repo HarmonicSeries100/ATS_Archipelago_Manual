@@ -44,6 +44,11 @@ STATE_DICT = {
     "items": 10,
     "locations": 28
   },
+  "Montana":
+  {
+    "items": 16,
+    "locations": 34
+  },
 }
 
 STATE_DLC_DICT = {
@@ -54,4 +59,5 @@ STATE_DLC_DICT = {
   "Oregon": ["Oregon"],
   "Washington": ["Washington"],
   "Idaho": ["Idaho"],
+  "Montana": ["Montana"],
 }

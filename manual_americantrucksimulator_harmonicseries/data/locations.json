@@ -2713,6 +2713,360 @@
         "Idaho"
       ],
       "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Kalispell",
+      "region": "Glacier Country",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Thompson Falls",
+      "region": "Glacier Country",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Missoula",
+      "region": "Glacier Country",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Helena",
+      "region": "Southwest Montana",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Passport Validation Center - Helena",
+      "region": "Southwest Montana",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
+    },
+    {
+      "name": "Butte",
+      "region": "Southwest Montana",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bozeman",
+      "region": "Yellowstone Country",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Great Falls",
+      "region": "Central Montana",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Lewistown",
+      "region": "Central Montana",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Havre",
+      "region": "Central Montana",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Glasgow",
+      "region": "Missouri River Country",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Sidney",
+      "region": "Missouri River Country",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Laurel",
+      "region": "Southeast Montana",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Billings",
+      "region": "Southeast Montana",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Miles City",
+      "region": "Southeast Montana",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Glendive",
+      "region": "Southeast Montana",
+      "category": [
+        "City",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Earthquake Lake - Viewpoint",
+      "region": "Yellowstone Country",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "City of Billings",
+      "region": "Southeast Montana",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Signal Peak Coal Mine",
+      "region": "Southeast Montana",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "City of Butte",
+      "region": "Southwest Montana",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Lewistown - Viewpoint",
+      "region": "Central Montana",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Fort Peck Spillway",
+      "region": "Missouri River Country",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Great Falls - Viewpoint",
+      "region": "Central Montana",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Flathead Lake - Viewpoint",
+      "region": "Glacier Country",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Thompson Falls - Viewpoint",
+      "region": "Glacier Country",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Glacier National Park",
+      "region": "Glacier Country",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Mount Oberlin",
+      "region": "Glacier Country",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Fort Peck Power Plant",
+      "region": "Missouri River Country",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Black Eagle Falls",
+      "region": "Central Montana",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Helena - Montana State Capital",
+      "region": "Southwest Montana",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Flathead Lake - Photo Trophy",
+      "region": "Glacier Country",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Missoula - County Court House",
+      "region": "Glacier Country",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Butte - Silver Bow Courthouse",
+      "region": "Southwest Montana",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Earthquake Lake - Photo Trophy",
+      "region": "Yellowstone Country",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Historic District of Bozeman",
+      "region": "Yellowstone Country",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     }
   ]
 }

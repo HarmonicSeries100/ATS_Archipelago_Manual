@@ -331,6 +331,54 @@
     "disabled_img": "images/items/region_lock.png"
   },
   {
+    "name": "Unlock Glacier Country",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_glacier_country",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Southwest Montana",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_southwest_montana",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Central Montana",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_central_montana",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Yellowstone Country",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_yellowstone_country",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Missouri River Country",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_missouri_river_country",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Southeast Montana",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_southeast_montana",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
     "name": "Unlock Fast Travel - Kingman",
     "type": "toggle",
     "loop": "true",
@@ -1486,5 +1534,135 @@
     "name": "Starting City - Idaho Falls",
     "type": "toggle",
     "codes": "start_idaho_falls, start_eastern_idaho"
+  },
+  {
+    "name": "Unlock Fast Travel - Kalispell",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_kalispell, unlock_ft_glacier_country",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Kalispell",
+    "type": "toggle",
+    "codes": "start_kalispell, start_glacier_country"
+  },
+  {
+    "name": "Unlock Fast Travel - Missoula",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_missoula, unlock_ft_glacier_country",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Missoula",
+    "type": "toggle",
+    "codes": "start_missoula, start_glacier_country"
+  },
+  {
+    "name": "Unlock Fast Travel - Helena",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_helena, unlock_ft_southwest_montana",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Helena",
+    "type": "toggle",
+    "codes": "start_helena, start_southwest_montana"
+  },
+  {
+    "name": "Unlock Fast Travel - Butte",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_butte, unlock_ft_southwest_montana",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Butte",
+    "type": "toggle",
+    "codes": "start_butte, start_southwest_montana"
+  },
+  {
+    "name": "Unlock Fast Travel - Bozeman",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_bozeman, unlock_ft_yellowstone_country",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Bozeman",
+    "type": "toggle",
+    "codes": "start_bozeman, start_yellowstone_country"
+  },
+  {
+    "name": "Unlock Fast Travel - Great Falls",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_great_falls, unlock_ft_central_montana",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Great Falls",
+    "type": "toggle",
+    "codes": "start_great_falls, start_central_montana"
+  },
+  {
+    "name": "Unlock Fast Travel - Lewistown",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_lewistown, unlock_ft_central_montana",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Lewistown",
+    "type": "toggle",
+    "codes": "start_lewistown, start_central_montana"
+  },
+  {
+    "name": "Unlock Fast Travel - Billings",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_billings, unlock_ft_southeast_montana",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Billings",
+    "type": "toggle",
+    "codes": "start_billings, start_southeast_montana"
+  },
+  {
+    "name": "Unlock Fast Travel - Miles City",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_miles_city, unlock_ft_southeast_montana",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Miles City",
+    "type": "toggle",
+    "codes": "start_miles_city, start_southeast_montana"
+  },
+  {
+    "name": "Unlock Fast Travel - Glendive",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_glendive, unlock_ft_southeast_montana",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Glendive",
+    "type": "toggle",
+    "codes": "start_glendive, start_southeast_montana"
   }
 ]

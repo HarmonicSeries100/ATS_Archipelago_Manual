@@ -1,0 +1,589 @@
+[
+  {
+    "name": "glacier_country",
+    "access_rules": [
+      "own_montana, montana_chosen, unlock_glacier_country, @idaho_panhandle",
+      "own_montana, montana_chosen, unlock_glacier_country, @central_idaho",
+      "own_montana, montana_chosen, unlock_glacier_country, @southwest_montana",
+      "own_montana, montana_chosen, unlock_glacier_country, @central_montana",
+      "own_montana, montana_chosen, unlock_glacier_country, unlock_ft_glacier_country",
+      "own_montana, montana_chosen, unlock_glacier_country, start_glacier_country"
+    ],
+    "visibility_rules": [
+      "own_montana, montana_chosen"
+    ],
+    "children": [
+      {
+        "name": "Kalispell",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 268,
+            "y": 225
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Thompson Falls",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 141,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Thompson Falls",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Thompson Falls - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Missoula",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 281,
+            "y": 536
+          }
+        ],
+        "sections": [
+          {
+            "name": "Missoula",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Missoula - County Court House",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Flathead Lake",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 299,
+            "y": 358
+          }
+        ],
+        "sections": [
+          {
+            "name": "Flathead Lake - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Flathead Lake - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Glacier National Park",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 411,
+            "y": 140
+          }
+        ],
+        "sections": [
+          {
+            "name": "Glacier National Park",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Mount Oberlin",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "southwest_montana",
+    "access_rules": [
+      "own_montana, montana_chosen, unlock_southwest_montana, @glacier_country",
+      "own_montana, montana_chosen, unlock_southwest_montana, @eastern_idaho",
+      "own_montana, montana_chosen, unlock_southwest_montana, @central_montana",
+      "own_montana, montana_chosen, unlock_southwest_montana, @yellowstone_country",
+      "own_montana, montana_chosen, unlock_southwest_montana, unlock_ft_southwest_montana",
+      "own_montana, montana_chosen, unlock_southwest_montana, start_southwest_montana"
+    ],
+    "visibility_rules": [
+      "own_montana, montana_chosen"
+    ],
+    "children": [
+      {
+        "name": "Helena",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 564,
+            "y": 657
+          }
+        ],
+        "sections": [
+          {
+            "name": "Helena",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Passport Validation Center - Helena",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png",
+            "access_rules": [
+              "$has_enough_stamps, montana_victory"
+            ],
+            "visibility_rules": [
+              "montana_victory"
+            ]
+          },
+          {
+            "name": "Helena - Montana State Capital",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Butte",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 463,
+            "y": 772
+          }
+        ],
+        "sections": [
+          {
+            "name": "Butte",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "City of Butte",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Butte - Silver Bow Courthouse",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "central_montana",
+    "access_rules": [
+      "own_montana, montana_chosen, unlock_central_montana, @glacier_country",
+      "own_montana, montana_chosen, unlock_central_montana, @southwest_montana",
+      "own_montana, montana_chosen, unlock_central_montana, @yellowstone_country",
+      "own_montana, montana_chosen, unlock_central_montana, @missouri_river_country",
+      "own_montana, montana_chosen, unlock_central_montana, unlock_ft_central_montana",
+      "own_montana, montana_chosen, unlock_central_montana, start_central_montana"
+    ],
+    "visibility_rules": [
+      "own_montana, montana_chosen"
+    ],
+    "children": [
+      {
+        "name": "Great Falls",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 738,
+            "y": 444
+          }
+        ],
+        "sections": [
+          {
+            "name": "Great Falls",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Great Falls - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Black Eagle Falls",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lewistown",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 954,
+            "y": 626
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lewistown",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Lewistown - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Havre",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 960,
+            "y": 298
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "yellowstone_country",
+    "access_rules": [
+      "own_montana, montana_chosen, unlock_yellowstone_country, @eastern_idaho",
+      "own_montana, montana_chosen, unlock_yellowstone_country, @southwest_montana",
+      "own_montana, montana_chosen, unlock_yellowstone_country, @central_montana",
+      "own_montana, montana_chosen, unlock_yellowstone_country, @southeast_montana",
+      "own_montana, montana_chosen, unlock_yellowstone_country, unlock_ft_yellowstone_country",
+      "own_montana, montana_chosen, unlock_yellowstone_country, start_yellowstone_country"
+    ],
+    "visibility_rules": [
+      "own_montana, montana_chosen"
+    ],
+    "children": [
+      {
+        "name": "Bozeman",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 655,
+            "y": 878
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bozeman",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Historic District of Bozeman",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Earthquake Lake",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 579,
+            "y": 977
+          }
+        ],
+        "sections": [
+          {
+            "name": "Earthquake Lake - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Earthquake Lake - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "missouri_river_country",
+    "access_rules": [
+      "own_montana, montana_chosen, unlock_missouri_river_country, @central_montana",
+      "own_montana, montana_chosen, unlock_missouri_river_country, @southeast_montana",
+      "own_montana, montana_chosen, unlock_missouri_river_country, unlock_ft_missouri_river_country",
+      "own_montana, montana_chosen, unlock_missouri_river_country, start_missouri_river_country"
+    ],
+    "visibility_rules": [
+      "own_montana, montana_chosen"
+    ],
+    "children": [
+      {
+        "name": "Glasgow",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 1401,
+            "y": 432
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sidney",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 1742,
+            "y": 564
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fort Peck Spillway",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 1513,
+            "y": 506
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Fort Peck Power Plant",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 1472,
+            "y": 503
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "$camera_check"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "southeast_montana",
+    "access_rules": [
+      "own_montana, montana_chosen, unlock_southeast_montana, @yellowstone_country",
+      "own_montana, montana_chosen, unlock_southeast_montana, @missouri_river_country",
+      "own_montana, montana_chosen, unlock_southeast_montana, unlock_ft_southeast_montana",
+      "own_montana, montana_chosen, unlock_southeast_montana, start_southeast_montana"
+    ],
+    "visibility_rules": [
+      "own_montana, montana_chosen"
+    ],
+    "children": [
+      {
+        "name": "Laurel",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 1014,
+            "y": 959
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Billings",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 1083,
+            "y": 894
+          }
+        ],
+        "sections": [
+          {
+            "name": "Billings",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "City of Billings",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Miles City",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 1489,
+            "y": 793
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Glendive",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 1658,
+            "y": 708
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Signal Peak Coal Mine",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "montana_map",
+            "x": 1153,
+            "y": 782
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]
