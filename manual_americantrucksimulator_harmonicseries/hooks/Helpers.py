@@ -1,6 +1,6 @@
 from typing import Optional, Any
 from BaseClasses import MultiWorld, Item, Location
-from .util import STATE_DICT, STATE_DLC_SET
+from .util import STATE_DICT
 
 # Use this if you want to override the default behavior of is_option_enabled
 # Return True to enable the category, False to disable it, or None to use the default behavior

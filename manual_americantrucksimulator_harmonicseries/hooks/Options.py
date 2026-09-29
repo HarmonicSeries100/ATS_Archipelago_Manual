@@ -3,8 +3,8 @@ from Options import Option, FreeText, NumericOption, Toggle, DefaultOnToggle, Ch
 # These helper methods allow you to determine if an option has been set, or what its value is, for any player in the multiworld
 from ..Helpers import is_option_enabled, get_option_value
 from typing import Type, Any
-from .util import STATE_DLC_SET
-
+from .util import STATE_DLC_DICT
+from copy import deepcopy
 
 ####################################################################
 # NOTE: At the time that options are created, Manual has no concept of the multiworld or its own world.
@@ -36,9 +36,10 @@ class TotalCharactersToWinWith(Range):
 class StateDLC(OptionSet):
     """Owned State DLC. Base DLC (CA, NV, AZ) always included"""
     display_name = "Owned State DLC"
-    valid_key_set = STATE_DLC_SET
-    valid_key_set.discard("Base")
-    valid_keys = sorted(list(valid_key_set))
+    _state_dlc = deepcopy(STATE_DLC_DICT)
+    _state_dlc.pop("Base")
+    _valid_key_set = _state_dlc.keys()
+    valid_keys = sorted(list(_valid_key_set))
     default = valid_keys
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
