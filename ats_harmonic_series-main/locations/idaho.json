@@ -4,6 +4,7 @@
     "access_rules": [
       "own_idaho, idaho_chosen, unlock_idaho_panhandle, @columbia_basin",
       "own_idaho, idaho_chosen, unlock_idaho_panhandle, @southwestern_idaho",
+      "own_idaho, idaho_chosen, unlock_idaho_panhandle, @glacier_country",
       "own_idaho, idaho_chosen, unlock_idaho_panhandle, unlock_ft_idaho_panhandle",
       "own_idaho, idaho_chosen, unlock_idaho_panhandle, start_idaho_panhandle"
     ],
@@ -260,6 +261,7 @@
       "own_idaho, idaho_chosen, unlock_central_idaho, @southwestern_idaho",
       "own_idaho, idaho_chosen, unlock_central_idaho, @great_basin",
       "own_idaho, idaho_chosen, unlock_central_idaho, @eastern_idaho",
+      "own_idaho, idaho_chosen, unlock_central_idaho, @glacier_country",
       "own_idaho, idaho_chosen, unlock_central_idaho, unlock_ft_central_idaho",
       "own_idaho, idaho_chosen, unlock_central_idaho, start_central_idaho"
     ],
@@ -427,6 +429,8 @@
     "access_rules": [
       "own_idaho, idaho_chosen, unlock_eastern_idaho, @central_idaho",
       "own_idaho, idaho_chosen, unlock_eastern_idaho, @northern_utah",
+      "own_idaho, idaho_chosen, unlock_eastern_idaho, @southwest_montana",
+      "own_idaho, idaho_chosen, unlock_eastern_idaho, @yellowstone_country",
       "own_idaho, idaho_chosen, unlock_eastern_idaho, unlock_ft_eastern_idaho",
       "own_idaho, idaho_chosen, unlock_eastern_idaho, start_eastern_idaho"
     ],

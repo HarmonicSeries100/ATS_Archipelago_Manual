@@ -470,6 +470,7 @@
     "connects_to": [
       "Columbia Basin",
       "Southwestern Idaho",
+      "Glacier Country",
       "FT - Idaho Panhandle"
     ],
     "requires": "|Unlock Idaho Panhandle|",
@@ -497,6 +498,7 @@
       "Southwestern Idaho",
       "Great Basin",
       "Eastern Idaho",
+      "Glacier Country",
       "FT - Central Idaho"
     ],
     "requires": "|Unlock Central Idaho|",
@@ -509,12 +511,89 @@
     "connects_to": [
       "Central Idaho",
       "Northern Utah",
+      "Southwest Montana",
+      "Yellowstone Country",
       "FT - Eastern Idaho"
     ],
     "requires": "|Unlock Eastern Idaho|",
     "starting": true,
     "entrance_requires": {
       "Manual": "|Starting City - Idaho Falls|"
+    }
+  },
+  "Glacier Country": {
+    "connects_to": [
+      "Idaho Panhandle",
+      "Central Idaho",
+      "Southwest Montana",
+      "Central Montana",
+      "FT - Glacier Country"
+    ],
+    "requires": "|Unlock Glacier Country|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Kalispell| OR |Starting City - Missoula|"
+    }
+  },
+  "Southwest Montana": {
+    "connects_to": [
+      "Glacier Country",
+      "Eastern Idaho",
+      "Central Montana",
+      "Yellowstone Country",
+      "FT - Southwest Montana"
+    ],
+    "requires": "|Unlock Southwest Montana|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Helena| OR |Starting City - Butte|"
+    }
+  },
+  "Central Montana": {
+    "connects_to": [
+      "Glacier Country",
+      "Southwest Montana",
+      "Yellowstone Country",
+      "Missouri River Country",
+      "FT - Central Montana"
+    ],
+    "requires": "|Unlock Central Montana|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Great Falls| OR |Starting City - Lewistown|"
+    }
+  },
+  "Yellowstone Country": {
+    "connects_to": [
+      "Eastern Idaho",
+      "Southwest Montana",
+      "Central Montana",
+      "Southeast Montana",
+      "FT - Yellowstone Country"
+    ],
+    "requires": "|Unlock Yellowstone Country|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Bozeman|"
+    }
+  },
+  "Missouri River Country": {
+    "connects_to": [
+      "Central Montana",
+      "Southeast Montana"
+    ],
+    "requires": "|Unlock Missouri River Country|"
+  },
+  "Southeast Montana": {
+    "connects_to": [
+      "Yellowstone Country",
+      "Missouri River Country",
+      "FT - Southeast Montana"
+    ],
+    "requires": "|Unlock Southeast Montana|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Billings| OR |Starting City - Miles City| OR |Starting City - Glendive|"
     }
   },
   "FT Hub": {
@@ -553,7 +632,12 @@
       "FT - Idaho Panhandle",
       "FT - Southwestern Idaho",
       "FT - Central Idaho",
-      "FT - Eastern Idaho"
+      "FT - Eastern Idaho",
+      "FT - Glacier Country",
+      "FT - Southwest Montana",
+      "FT - Yellowstone Country",
+      "FT - Central Montana",
+      "FT - Southeast Montana"
     ],
     "requires": ""
   },
@@ -801,5 +885,40 @@
       "Eastern Idaho"
     ],
     "requires": "|Unlock Eastern Idaho| AND (|Unlock Fast Travel - Idaho Falls|)"
+  },
+  "FT - Glacier Country": {
+    "connects_to": [
+      "FT Hub",
+      "Glacier Country"
+    ],
+    "requires": "|Unlock Glacier Country| AND (|Unlock Fast Travel - Kalispell| OR |Unlock Fast Travel - Missoula|)"
+  },
+  "FT - Southwest Montana": {
+    "connects_to": [
+      "FT Hub",
+      "Southwest Montana"
+    ],
+    "requires": "|Unlock Southwest Montana| AND (|Unlock Fast Travel - Helena| OR |Unlock Fast Travel - Butte|)"
+  },
+  "FT - Yellowstone Country": {
+    "connects_to": [
+      "FT Hub",
+      "Yellowstone Country"
+    ],
+    "requires": "|Unlock Yellowstone Country| AND (|Unlock Fast Travel - Bozeman|)"
+  },
+  "FT - Central Montana": {
+    "connects_to": [
+      "FT Hub",
+      "Central Montana"
+    ],
+    "requires": "|Unlock Central Montana| AND (|Unlock Fast Travel - Great Falls| OR |Unlock Fast Travel - Lewistown|)"
+  },
+  "FT - Southeast Montana": {
+    "connects_to": [
+      "FT Hub",
+      "Southeast Montana"
+    ],
+    "requires": "|Unlock Southeast Montana| AND (|Unlock Fast Travel - Billings| OR |Unlock Fast Travel - Miles City| OR |Unlock Fast Travel - Glendive|)"
   }
 }

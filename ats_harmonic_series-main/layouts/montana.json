@@ -1,0 +1,130 @@
+{
+  "montana_layout": {
+    "type": "dock",
+    "background": "#222228",
+    "content": [
+      {
+        "type": "map",
+        "maps": [
+          "montana_map"
+        ]
+      },
+      {
+        "type": "array",
+        "dock": "left",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "shared_item_grid"
+          },
+          {
+            "type": "group",
+            "header": "Montana Items",
+            "content": {
+              "type": "array",
+              "orientation": "vertical",
+              "margin": "10,5,5,5",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Glacier Country",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_glacier_country",
+                        "unlock_ft_kalispell",
+                        "unlock_ft_missoula"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Southwest Montana",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_southwest_montana",
+                        "unlock_ft_helena",
+                        "unlock_ft_butte"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Central Montana",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_central_montana",
+                        "unlock_ft_great_falls",
+                        "unlock_ft_lewistown"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Yellowstone Country",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_yellowstone_country",
+                        "unlock_ft_bozeman"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Missouri River Country",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_missouri_river_country"
+                      ]
+                    ]
+                  }
+                },
+                {
+                  "type": "group",
+                  "header": "Southeast Montana",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_southeast_montana",
+                        "unlock_ft_billings",
+                        "unlock_ft_miles_city",
+                        "unlock_ft_glendive"
+                      ]
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

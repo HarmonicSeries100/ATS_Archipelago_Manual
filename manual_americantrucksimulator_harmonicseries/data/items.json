@@ -429,6 +429,66 @@
     },
     {
       "count": 1,
+      "name": "Unlock Glacier Country",
+      "category": [
+        "Region Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southwest Montana",
+      "category": [
+        "Region Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central Montana",
+      "category": [
+        "Region Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Yellowstone Country",
+      "category": [
+        "Region Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Missouri River Country",
+      "category": [
+        "Region Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southeast Montana",
+      "category": [
+        "Region Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Kingman",
       "category": [
         "Fast Travel Unlock",
@@ -2204,6 +2264,206 @@
         "Start Item",
         "DLC - Idaho",
         "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Kalispell",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Kalispell",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Missoula",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Missoula",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Helena",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Helena",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Butte",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Butte",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Bozeman",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Bozeman",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Great Falls",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Great Falls",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Lewistown",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Lewistown",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Billings",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Billings",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Miles City",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Miles City",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Glendive",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Montana",
+        "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Glendive",
+      "category": [
+        "Start Item",
+        "DLC - Montana",
+        "Montana"
       ],
       "progression": true
     }
