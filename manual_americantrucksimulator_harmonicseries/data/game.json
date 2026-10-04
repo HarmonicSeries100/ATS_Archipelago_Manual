@@ -388,6 +388,42 @@
       "items": [
         "Unlock Southeast Montana"
       ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Gillette"
+      ],
+      "items": [
+        "Unlock Northern Wyoming"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Riverton",
+        "Starting City - Casper"
+      ],
+      "items": [
+        "Unlock Central Wyoming"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Evanston",
+        "Starting City - Rock Springs",
+        "Starting City - Rawlins"
+      ],
+      "items": [
+        "Unlock Southwest Wyoming"
+      ]
+    },
+    {
+      "if_previous_item": [
+        "Starting City - Laramie",
+        "Starting City - Cheyenne"
+      ],
+      "items": [
+        "Unlock Southeast Wyoming"
+      ]
     }
   ]
 }

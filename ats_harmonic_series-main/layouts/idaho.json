@@ -87,6 +87,20 @@
                       ]
                     ]
                   }
+                },
+                {
+                  "type": "group",
+                  "header": "Bear Lake",
+                  "content": {
+                    "type": "itemgrid",
+                    "item_size": 32,
+                    "h_alignment": "left",
+                    "rows": [
+                      [
+                        "unlock_bear_lake"
+                      ]
+                    ]
+                  }
                 }
               ]
             }

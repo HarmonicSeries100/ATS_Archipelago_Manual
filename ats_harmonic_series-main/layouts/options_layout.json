@@ -44,7 +44,8 @@
             [
               "own_washington",
               "own_idaho",
-              "own_montana"
+              "own_montana",
+              "own_wyoming"
             ]
           ]
         }
@@ -71,6 +72,9 @@
               "washington_chosen",
               "idaho_chosen",
               "montana_chosen"
+            ],
+            [
+              "wyoming_chosen"
             ]
           ]
         }

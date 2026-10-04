@@ -324,6 +324,7 @@
       "own_montana, montana_chosen, unlock_yellowstone_country, @southwest_montana",
       "own_montana, montana_chosen, unlock_yellowstone_country, @central_montana",
       "own_montana, montana_chosen, unlock_yellowstone_country, @southeast_montana",
+      "own_montana, montana_chosen, unlock_yellowstone_country, @national_park_area",
       "own_montana, montana_chosen, unlock_yellowstone_country, unlock_ft_yellowstone_country",
       "own_montana, montana_chosen, unlock_yellowstone_country, start_yellowstone_country"
     ],
@@ -481,6 +482,7 @@
     "access_rules": [
       "own_montana, montana_chosen, unlock_southeast_montana, @yellowstone_country",
       "own_montana, montana_chosen, unlock_southeast_montana, @missouri_river_country",
+      "own_montana, montana_chosen, unlock_southeast_montana, @northern_wyoming",
       "own_montana, montana_chosen, unlock_southeast_montana, unlock_ft_southeast_montana",
       "own_montana, montana_chosen, unlock_southeast_montana, start_southeast_montana"
     ],

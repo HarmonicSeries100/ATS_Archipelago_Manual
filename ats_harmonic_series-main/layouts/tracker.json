@@ -81,6 +81,13 @@
             "type": "layout",
             "key": "montana_layout"
           }
+        },
+        {
+          "title": "Wyoming",
+          "content": {
+            "type": "layout",
+            "key": "wyoming_layout"
+          }
         }
       ]
     }

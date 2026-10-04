@@ -379,6 +379,54 @@
     "disabled_img": "images/items/region_lock.png"
   },
   {
+    "name": "Unlock National Park Area",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_national_park_area",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Northern Wyoming",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_northern_wyoming",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Central Wyoming",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_central_wyoming",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Southwest Wyoming",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_southwest_wyoming",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Southeast Wyoming",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_southeast_wyoming",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
+    "name": "Unlock Bear Lake",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_bear_lake",
+    "img": "images/items/region_unlock.png",
+    "disabled_img": "images/items/region_lock.png"
+  },
+  {
     "name": "Unlock Fast Travel - Kingman",
     "type": "toggle",
     "loop": "true",
@@ -1664,5 +1712,109 @@
     "name": "Starting City - Glendive",
     "type": "toggle",
     "codes": "start_glendive, start_southeast_montana"
+  },
+  {
+    "name": "Unlock Fast Travel - Gillette",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_gillette, unlock_ft_northern_wyoming",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Gillette",
+    "type": "toggle",
+    "codes": "start_gillette, start_northern_wyoming"
+  },
+  {
+    "name": "Unlock Fast Travel - Riverton",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_riverton, unlock_ft_central_wyoming",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Riverton",
+    "type": "toggle",
+    "codes": "start_riverton, start_central_wyoming"
+  },
+  {
+    "name": "Unlock Fast Travel - Casper",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_casper, unlock_ft_central_wyoming",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Casper",
+    "type": "toggle",
+    "codes": "start_casper, start_central_wyoming"
+  },
+  {
+    "name": "Unlock Fast Travel - Evanston",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_evanston, unlock_ft_southwest_wyoming",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Evanston",
+    "type": "toggle",
+    "codes": "start_evanston, start_southwest_wyoming"
+  },
+  {
+    "name": "Unlock Fast Travel - Rock Springs",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_rock_springs, unlock_ft_southwest_wyoming",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Rock Springs",
+    "type": "toggle",
+    "codes": "start_rock_springs, start_southwest_wyoming"
+  },
+  {
+    "name": "Unlock Fast Travel - Rawlins",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_rawlins, unlock_ft_southwest_wyoming",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Rawlins",
+    "type": "toggle",
+    "codes": "start_rawlins, start_southwest_wyoming"
+  },
+  {
+    "name": "Unlock Fast Travel - Laramie",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_laramie, unlock_ft_southeast_wyoming",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Laramie",
+    "type": "toggle",
+    "codes": "start_laramie, start_southeast_wyoming"
+  },
+  {
+    "name": "Unlock Fast Travel - Cheyenne",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "unlock_ft_cheyenne, unlock_ft_southeast_wyoming",
+    "img": "images/items/fast_travel_unlock.png",
+    "disabled_img": "images/items/fast_travel_lock.png"
+  },
+  {
+    "name": "Starting City - Cheyenne",
+    "type": "toggle",
+    "codes": "start_cheyenne, start_southeast_wyoming"
   }
 ]
