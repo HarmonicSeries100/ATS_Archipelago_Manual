@@ -1,23 +1,16 @@
 # American Truck Simulator Archipelago Manual: Road Trip Edition
 
-This is an Archipelago randomizer for American Truck Simulator that emphasizes the road tripping aspect of the game
-rather than the hauling aspect. Rather than progressing via finishing jobs and leveling up, this randomizer is a simple,
-sync-friendly collect-a-thon that has you driving all over the countryside to collect thingies to unlock more
-countryside to collect more thingies.
+This is an Archipelago randomizer for American Truck Simulator that emphasizes the road tripping aspect of the game rather than the hauling aspect. Rather than progressing via finishing jobs and leveling up, this randomizer is a simple, sync-friendly collect-a-thon that has you driving all over the countryside to collect thingies to unlock more countryside to collect more thingies.
 
-A few design decisions went into this to make this sync-viable, while still allowing for long, leisurely
-playthroughs:
+A few design decisions went into this to make this sync-viable, while still allowing for long, leisurely playthroughs:
 * Configurable number of states, to reduce the amount of land to cover during syncs
-* States are further divided into regions, so that playing only a couple of states won't have half your checks in
-Sphere 1.
+* States are further divided into regions, so that playing only a couple of states won't have half your checks in Sphere 1.
 * Quick Travel is enabled to reduce the amount of back-and-forth driving
-* No hauling jobs necessary, drive without cargo (or in a car with mods or the Road Trip DLC when it comes out)
+* No hauling jobs necessary, drive without cargo or in a car
 
 ## Goal
 
-The goal is to travel to cities, viewpoints, and photo trophy locations to collect stamps for your [National Park
-Passport](https://americasnationalparks.org/passport-to-your-national-parks/) (no affiliation with the actual National Park Service). Once you collect the required amount of stamps,
-proceed to the Passport Validation Center in the designated state capital to complete your run.
+The goal is to travel to cities, viewpoints, and photo trophy locations to collect stamps for your [National Park Passport](https://americasnationalparks.org/passport-to-your-national-parks/) (no affiliation with the actual National Park Service). Once you collect the required amount of stamps, proceed to the Passport Validation Center in the designated state capital to complete your run.
 
 ### What is Victory Island?
 
@@ -42,35 +35,31 @@ Victory Island is where the goal location is. The only goal available currently 
   * When enabled, the Camera item is required before Photo Trophy locations can be collected.
 * Vehicle Unlocks
   * Windshield Wipers - Do not use your wipers until you have this item
-  * Headlights - Do not use your headlights until you have this item. You may sleep through the night to avoid the
-danger and eye-strain of driving at night without your headlights
+  * Headlights - Do not use your headlights until you have this item. You may sleep through the night to avoid the danger and eye-strain of driving at night without your headlights
 
 ## Quick Travel Rules
 
-* Quick Travel teleporting is included in logic, so you may encounter a situation where the next region to check can
-only be accessible by teleporting to it.
-* To Quick Travel to a city, you must have the Quick Travel Unlock for that city _and_ the Regional Unlock for the region
-that city is in.
-* The game will not let you Quick Travel if your vehicle is damaged enough. If you need to use QT while damaged, make
-your way to the nearest service area before teleporting. If your truck is overturned, use the "Tow to Road" feature introduced
-in ATS 1.59. If your truck is completely disabled, use the "Emergency Towing Service" to tow your truck to the nearest 
-service station. This service station may be out-of-logic, so remember to get back in bounds before continuing.
+* Quick Travel teleporting is included in logic, so you may encounter a situation where the next region to check can only be accessible by teleporting to it.
+* To Quick Travel to a city, you must have the Quick Travel Unlock for that city _and_ the Regional Unlock for the region that city is in.
+* The game will not let you Quick Travel if your vehicle is damaged enough. If you need to use QT while damaged, make your way to the nearest service area before teleporting. If your vehicle is overturned, use the "Tow to Road" feature introduced in ATS 1.59. If your vehicle is completely disabled, use the "Emergency Towing Service" to tow your vehicle to the nearest service station. This service station may be out-of-logic, so remember to get back in bounds before continuing.
 
 
 ## Other Notes
 
-* This manual is meant to be played on a "complete" save file with all cities discovered and enough money to handle
-fuel/repair costs.
-* Driving like a maniac and making frequent use of teleporting is **HIGHLY RECOMMENDED FOR SYNCS** to keep the play time
-reasonable.
+* This manual is meant to be played on a "complete" save file with all cities discovered and enough money to handle fuel/repair costs.
+* Driving like a maniac and making frequent use of teleporting is **HIGHLY RECOMMENDED FOR SYNCS** to keep the play time reasonable.
 * Some locations are in logic for one state but require the DLC of a different state.
-* The Four Corners Monument is in logic for Utah, Colorado, Arizona, and New Mexico and will appear if any of those states
-are chosen. The Hoover Dam is in logic for Nevada and Arizona.
-* This manual is up-to-date as of ATS 1.60.
+* The Four Corners Monument is in logic for Utah, Colorado, Arizona, and New Mexico and will appear if any of those states are chosen. The Hoover Dam is in logic for Nevada and Arizona. Bear Lake is in logic for Utah and Idaho.
+* This manual is up-to-date as of ATS 1.61.
+
+## Links
+* [ATS Road Trip Manual Discord Thread](https://discord.com/channels/1097532591650910289/1486158926591295498)
 
 ## Still to Do
 
+* Integrate with the Road Trip DLC
 * Add all the states
-* Vehiclesanity? (different trucks as items)
-* Integrate with the Road Trip DLC after it comes out
+* Vehiclesanity (Vehicles as items)
+* More randomization options for maps (contiguous state mode)
 * Better filler items and traps
+* Map of all states in Poptracker
