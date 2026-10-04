@@ -259,5 +259,28 @@
         "codes": "montana_victory"
       }
     ]
+  },
+  {
+    "name": "Owns Wyoming",
+    "type": "toggle",
+    "loop": "true",
+    "codes": "own_wyoming",
+    "img": "images/flags/wyoming.png"
+  },
+  {
+    "name": "Wyoming Option",
+    "type": "progressive",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/flags/wyoming.png",
+        "codes": "wyoming_chosen"
+      },
+      {
+        "img": "images/flags/wyoming.png",
+        "img_mods": "overlay|images/overlay/trophy_overlay.png",
+        "codes": "wyoming_victory"
+      }
+    ]
   }
 ]

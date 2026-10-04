@@ -7,6 +7,7 @@
       "own_utah, utah_chosen, unlock_central_utah, @southeast_utah",
       "own_utah, utah_chosen, unlock_central_utah, @western_slope",
       "own_utah, utah_chosen, unlock_central_utah, @great_basin",
+      "own_utah, utah_chosen, unlock_central_utah, @southwest_wyoming",
       "own_utah, utah_chosen, unlock_central_utah, unlock_ft_central_utah",
       "own_utah, utah_chosen, unlock_central_utah, start_central_utah"
     ],
@@ -112,6 +113,30 @@
             "item_count": 1
           }
         ]
+      },
+      {
+        "name": "Flaming Gorge Dam",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 897,
+            "y": 356
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "own_wyoming"
+        ],
+        "visibility_rules": [
+          "own_wyoming"
+        ]
       }
     ]
   },
@@ -121,6 +146,8 @@
       "own_utah, utah_chosen, unlock_northern_utah, @central_utah",
       "own_utah, utah_chosen, unlock_northern_utah, @great_basin",
       "own_utah, utah_chosen, unlock_northern_utah, @eastern_idaho",
+      "own_utah, utah_chosen, unlock_northern_utah, @bear_lake",
+      "own_utah, utah_chosen, unlock_northern_utah, @southwest_wyoming",
       "own_utah, utah_chosen, unlock_northern_utah, unlock_ft_northern_utah",
       "own_utah, utah_chosen, unlock_northern_utah, start_northern_utah"
     ],

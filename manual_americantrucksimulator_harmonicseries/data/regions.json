@@ -232,6 +232,7 @@
       "Southeast Utah",
       "Western Slope",
       "Great Basin",
+      "Southwest Wyoming",
       "FT - Central Utah"
     ],
     "requires": "|Unlock Central Utah|",
@@ -245,6 +246,8 @@
       "Central Utah",
       "Great Basin",
       "Eastern Idaho",
+      "Bear Lake",
+      "Southwest Wyoming",
       "FT - Northern Utah"
     ],
     "requires": "|Unlock Northern Utah|",
@@ -297,6 +300,7 @@
       "Western Slope",
       "Front Range",
       "New Mexico Highlands",
+      "Southwest Wyoming",
       "FT - Colorado Rockies"
     ],
     "requires": "|Unlock Colorado Rockies|",
@@ -310,6 +314,7 @@
       "Colorado Rockies",
       "Colorado Plains",
       "New Mexico Highlands",
+      "Southeast Wyoming",
       "FT - Front Range"
     ],
     "requires": "|Unlock Front Range|",
@@ -513,6 +518,8 @@
       "Northern Utah",
       "Southwest Montana",
       "Yellowstone Country",
+      "Bear Lake",
+      "National Park Area",
       "FT - Eastern Idaho"
     ],
     "requires": "|Unlock Eastern Idaho|",
@@ -569,6 +576,7 @@
       "Southwest Montana",
       "Central Montana",
       "Southeast Montana",
+      "National Park Area",
       "FT - Yellowstone Country"
     ],
     "requires": "|Unlock Yellowstone Country|",
@@ -588,6 +596,7 @@
     "connects_to": [
       "Yellowstone Country",
       "Missouri River Country",
+      "Northern Wyoming",
       "FT - Southeast Montana"
     ],
     "requires": "|Unlock Southeast Montana|",
@@ -595,6 +604,79 @@
     "entrance_requires": {
       "Manual": "|Starting City - Billings| OR |Starting City - Miles City| OR |Starting City - Glendive|"
     }
+  },
+  "National Park Area": {
+    "connects_to": [
+      "Eastern Idaho",
+      "Yellowstone Country",
+      "Northern Wyoming",
+      "Central Wyoming",
+      "Southwest Wyoming"
+    ],
+    "requires": "|Unlock National Park Area|"
+  },
+  "Northern Wyoming": {
+    "connects_to": [
+      "Southeast Montana",
+      "National Park Area",
+      "Central Wyoming",
+      "FT - Northern Wyoming"
+    ],
+    "requires": "|Unlock Northern Wyoming|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Gillette|"
+    }
+  },
+  "Central Wyoming": {
+    "connects_to": [
+      "National Park Area",
+      "Northern Wyoming",
+      "Southwest Wyoming",
+      "Southeast Wyoming",
+      "FT - Central Wyoming"
+    ],
+    "requires": "|Unlock Central Wyoming|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Riverton| OR |Starting City - Casper|"
+    }
+  },
+  "Southwest Wyoming": {
+    "connects_to": [
+      "Northern Utah",
+      "Central Utah",
+      "Colorado Rockies",
+      "National Park Area",
+      "Central Wyoming",
+      "Southeast Wyoming",
+      "FT - Southwest Wyoming"
+    ],
+    "requires": "|Unlock Southwest Wyoming|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Evanston| OR |Starting City - Rock Springs| OR |Starting City - Rawlins|"
+    }
+  },
+  "Southeast Wyoming": {
+    "connects_to": [
+      "Front Range",
+      "Central Wyoming",
+      "Southwest Wyoming",
+      "FT - Southeast Wyoming"
+    ],
+    "requires": "|Unlock Southeast Wyoming|",
+    "starting": true,
+    "entrance_requires": {
+      "Manual": "|Starting City - Laramie| OR |Starting City - Cheyenne|"
+    }
+  },
+  "Bear Lake": {
+    "connects_to": [
+      "Northern Utah",
+      "Eastern Idaho"
+    ],
+    "requires": "|Unlock Bear Lake|"
   },
   "FT Hub": {
     "connects_to": [
@@ -637,7 +719,11 @@
       "FT - Southwest Montana",
       "FT - Yellowstone Country",
       "FT - Central Montana",
-      "FT - Southeast Montana"
+      "FT - Southeast Montana",
+      "FT - Northern Wyoming",
+      "FT - Central Wyoming",
+      "FT - Southwest Wyoming",
+      "FT - Southeast Wyoming"
     ],
     "requires": ""
   },
@@ -920,5 +1006,33 @@
       "Southeast Montana"
     ],
     "requires": "|Unlock Southeast Montana| AND (|Unlock Fast Travel - Billings| OR |Unlock Fast Travel - Miles City| OR |Unlock Fast Travel - Glendive|)"
+  },
+  "FT - Northern Wyoming": {
+    "connects_to": [
+      "FT Hub",
+      "Northern Wyoming"
+    ],
+    "requires": "|Unlock Northern Wyoming| AND (|Unlock Fast Travel - Gillette|)"
+  },
+  "FT - Central Wyoming": {
+    "connects_to": [
+      "FT Hub",
+      "Central Wyoming"
+    ],
+    "requires": "|Unlock Central Wyoming| AND (|Unlock Fast Travel - Riverton| OR |Unlock Fast Travel - Casper|)"
+  },
+  "FT - Southwest Wyoming": {
+    "connects_to": [
+      "FT Hub",
+      "Southwest Wyoming"
+    ],
+    "requires": "|Unlock Southwest Wyoming| AND (|Unlock Fast Travel - Evanston| OR |Unlock Fast Travel - Rock Springs| OR |Unlock Fast Travel - Rawlins|)"
+  },
+  "FT - Southeast Wyoming": {
+    "connects_to": [
+      "FT Hub",
+      "Southeast Wyoming"
+    ],
+    "requires": "|Unlock Southeast Wyoming| AND (|Unlock Fast Travel - Laramie| OR |Unlock Fast Travel - Cheyenne|)"
   }
 }

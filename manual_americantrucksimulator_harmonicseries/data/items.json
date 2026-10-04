@@ -489,6 +489,67 @@
     },
     {
       "count": 1,
+      "name": "Unlock National Park Area",
+      "category": [
+        "Region Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Northern Wyoming",
+      "category": [
+        "Region Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Central Wyoming",
+      "category": [
+        "Region Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southwest Wyoming",
+      "category": [
+        "Region Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Southeast Wyoming",
+      "category": [
+        "Region Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Bear Lake",
+      "category": [
+        "Region Unlock",
+        "DLC - Wyoming",
+        "Utah",
+        "Idaho"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
       "name": "Unlock Fast Travel - Kingman",
       "category": [
         "Fast Travel Unlock",
@@ -2464,6 +2525,166 @@
         "Start Item",
         "DLC - Montana",
         "Montana"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Gillette",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Gillette",
+      "category": [
+        "Start Item",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Riverton",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Riverton",
+      "category": [
+        "Start Item",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Casper",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Casper",
+      "category": [
+        "Start Item",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Evanston",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Evanston",
+      "category": [
+        "Start Item",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Rock Springs",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Rock Springs",
+      "category": [
+        "Start Item",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Rawlins",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Rawlins",
+      "category": [
+        "Start Item",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Laramie",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Laramie",
+      "category": [
+        "Start Item",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Unlock Fast Travel - Cheyenne",
+      "category": [
+        "Fast Travel Unlock",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "progression": true
+    },
+    {
+      "count": 1,
+      "name": "Starting City - Cheyenne",
+      "category": [
+        "Start Item",
+        "DLC - Wyoming",
+        "Wyoming"
       ],
       "progression": true
     }

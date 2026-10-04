@@ -1,12 +1,12 @@
 {
-  "utah_layout": {
+  "wyoming_layout": {
     "type": "dock",
     "background": "#222228",
     "content": [
       {
         "type": "map",
         "maps": [
-          "utah_map"
+          "wyoming_map"
         ]
       },
       {
@@ -20,7 +20,7 @@
           },
           {
             "type": "group",
-            "header": "Utah Items",
+            "header": "Wyoming Items",
             "content": {
               "type": "array",
               "orientation": "vertical",
@@ -28,94 +28,78 @@
               "content": [
                 {
                   "type": "group",
-                  "header": "Central Utah",
+                  "header": "National Park Area",
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
                     "h_alignment": "left",
                     "rows": [
                       [
-                        "unlock_central_utah",
-                        "unlock_ft_price",
-                        "unlock_ft_provo",
-                        "unlock_ft_salina",
-                        "unlock_ft_vernal"
+                        "unlock_national_park_area"
                       ]
                     ]
                   }
                 },
                 {
                   "type": "group",
-                  "header": "Northern Utah",
+                  "header": "Northern Wyoming",
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
                     "h_alignment": "left",
                     "rows": [
                       [
-                        "unlock_northern_utah",
-                        "unlock_ft_logan",
-                        "unlock_ft_ogden",
-                        "unlock_ft_salt_lake_city"
+                        "unlock_northern_wyoming",
+                        "unlock_ft_gillette"
                       ]
                     ]
                   }
                 },
                 {
                   "type": "group",
-                  "header": "Southeast Utah",
+                  "header": "Central Wyoming",
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
                     "h_alignment": "left",
                     "rows": [
                       [
-                        "unlock_southeast_utah",
-                        "unlock_ft_moab"
+                        "unlock_central_wyoming",
+                        "unlock_ft_riverton",
+                        "unlock_ft_casper"
                       ]
                     ]
                   }
                 },
                 {
                   "type": "group",
-                  "header": "St. George Area",
+                  "header": "Southwest Wyoming",
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
                     "h_alignment": "left",
                     "rows": [
                       [
-                        "unlock_st._george_area",
-                        "unlock_ft_cedar_city",
-                        "unlock_ft_st._george"
+                        "unlock_southwest_wyoming",
+                        "unlock_ft_evanston",
+                        "unlock_ft_rock_springs",
+                        "unlock_ft_rawlins"
                       ]
                     ]
                   }
                 },
                 {
                   "type": "group",
-                  "header": "Four Corners",
+                  "header": "Southeast Wyoming",
                   "content": {
                     "type": "itemgrid",
                     "item_size": 32,
                     "h_alignment": "left",
                     "rows": [
                       [
-                        "unlock_four_corners"
-                      ]
-                    ]
-                  }
-                },
-                {
-                  "type": "group",
-                  "header": "Bear Lake",
-                  "content": {
-                    "type": "itemgrid",
-                    "item_size": 32,
-                    "h_alignment": "left",
-                    "rows": [
-                      [
-                        "unlock_bear_lake"
+                        "unlock_southeast_wyoming",
+                        "unlock_ft_laramie",
+                        "unlock_ft_cheyenne"
                       ]
                     ]
                   }

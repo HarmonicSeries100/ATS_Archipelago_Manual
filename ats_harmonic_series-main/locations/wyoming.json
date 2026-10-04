@@ -1,0 +1,585 @@
+[
+  {
+    "name": "national_park_area",
+    "access_rules": [
+      "own_wyoming, wyoming_chosen, unlock_national_park_area, @eastern_idaho",
+      "own_wyoming, wyoming_chosen, unlock_national_park_area, @yellowstone_country",
+      "own_wyoming, wyoming_chosen, unlock_national_park_area, @northern_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_national_park_area, @central_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_national_park_area, @southwest_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_national_park_area, unlock_ft_national_park_area",
+      "own_wyoming, wyoming_chosen, unlock_national_park_area, start_national_park_area"
+    ],
+    "visibility_rules": [
+      "own_wyoming, wyoming_chosen"
+    ],
+    "children": [
+      {
+        "name": "Yellowstone National Park - Viewpoint",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 187,
+            "y": 58
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "own_montana"
+        ],
+        "visibility_rules": [
+          "own_montana"
+        ]
+      },
+      {
+        "name": "Jackson",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 200,
+            "y": 353
+          }
+        ],
+        "sections": [
+          {
+            "name": "Jackson",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Jackson Town Square",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alpine",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 104,
+            "y": 437
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Grand Tetons",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 236,
+            "y": 264
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grand Teton National Park - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Grand Teton National Park - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Yellowstone National Park - Photo Trophy",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 234,
+            "y": 125
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "$camera_check"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "northern_wyoming",
+    "access_rules": [
+      "own_wyoming, wyoming_chosen, unlock_northern_wyoming, @southeast_montana",
+      "own_wyoming, wyoming_chosen, unlock_northern_wyoming, @national_park_area",
+      "own_wyoming, wyoming_chosen, unlock_northern_wyoming, @central_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_northern_wyoming, unlock_ft_northern_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_northern_wyoming, start_northern_wyoming"
+    ],
+    "visibility_rules": [
+      "own_wyoming, wyoming_chosen"
+    ],
+    "children": [
+      {
+        "name": "Cody",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 465,
+            "y": 149
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cody",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Buffalo Bill Center of the West",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sheridan",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 796,
+            "y": 195
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Gillette",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 994,
+            "y": 309
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Devils Tower",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 1083,
+            "y": 206
+          }
+        ],
+        "sections": [
+          {
+            "name": "Devils Tower - Viewpoint",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Devils Tower - Photo Trophy",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bighorn National Forest",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 687,
+            "y": 139
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "central_wyoming",
+    "access_rules": [
+      "own_wyoming, wyoming_chosen, unlock_central_wyoming, @national_park_area",
+      "own_wyoming, wyoming_chosen, unlock_central_wyoming, @northern_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_central_wyoming, @southwest_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_central_wyoming, @southeast_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_central_wyoming, unlock_ft_central_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_central_wyoming, start_central_wyoming"
+    ],
+    "visibility_rules": [
+      "own_wyoming, wyoming_chosen"
+    ],
+    "children": [
+      {
+        "name": "Riverton",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 532,
+            "y": 471
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Casper",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 824,
+            "y": 574
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hell's Half Acre",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 699,
+            "y": 512
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Boysen State Park",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 569,
+            "y": 374
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Independence Rock",
+        "chest_unopened_img": "images/items/photo_trophy_lock.png",
+        "chest_opened_img": "images/items/photo_trophy_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 687,
+            "y": 660
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ],
+        "access_rules": [
+          "$camera_check"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "southwest_wyoming",
+    "access_rules": [
+      "own_wyoming, wyoming_chosen, unlock_southwest_wyoming, @northern_utah",
+      "own_wyoming, wyoming_chosen, unlock_southwest_wyoming, @central_utah",
+      "own_wyoming, wyoming_chosen, unlock_southwest_wyoming, @colorado_rockies",
+      "own_wyoming, wyoming_chosen, unlock_southwest_wyoming, @national_park_area",
+      "own_wyoming, wyoming_chosen, unlock_southwest_wyoming, @central_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_southwest_wyoming, @southeast_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_southwest_wyoming, unlock_ft_southwest_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_southwest_wyoming, start_southwest_wyoming"
+    ],
+    "visibility_rules": [
+      "own_wyoming, wyoming_chosen"
+    ],
+    "children": [
+      {
+        "name": "Evanston",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 127,
+            "y": 787
+          }
+        ],
+        "sections": [
+          {
+            "name": "Evanston",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "City of Evanston",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          }
+        ]
+      },
+      {
+        "name": "Rock Springs",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 388,
+            "y": 782
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Rawlins",
+        "chest_unopened_img": "images/items/city_lock.png",
+        "chest_opened_img": "images/items/city_unlock.png",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 638,
+            "y": 739
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "southeast_wyoming",
+    "access_rules": [
+      "own_wyoming, wyoming_chosen, unlock_southeast_wyoming, @front_range",
+      "own_wyoming, wyoming_chosen, unlock_southeast_wyoming, @central_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_southeast_wyoming, @southwest_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_southeast_wyoming, unlock_ft_southeast_wyoming",
+      "own_wyoming, wyoming_chosen, unlock_southeast_wyoming, start_southeast_wyoming"
+    ],
+    "visibility_rules": [
+      "own_wyoming, wyoming_chosen"
+    ],
+    "children": [
+      {
+        "name": "Laramie",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 855,
+            "y": 827
+          }
+        ],
+        "sections": [
+          {
+            "name": "Laramie",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "University of Wyoming",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          },
+          {
+            "name": "St. Matthew's Episcopal Church",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cheyenne",
+        "map_locations": [
+          {
+            "map": "wyoming_map",
+            "x": 1056,
+            "y": 899
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cheyenne",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png"
+          },
+          {
+            "name": "Passport Validation Center - Cheyenne",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/city_lock.png",
+            "chest_opened_img": "images/items/city_unlock.png",
+            "access_rules": [
+              "$has_enough_stamps, wyoming_victory"
+            ],
+            "visibility_rules": [
+              "wyoming_victory"
+            ]
+          },
+          {
+            "name": "City of Cheyenne",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/viewpoint_lock.png",
+            "chest_opened_img": "images/items/viewpoint_unlock.png"
+          },
+          {
+            "name": "Cheyenne Depot Museum",
+            "item_count": 1,
+            "chest_unopened_img": "images/items/photo_trophy_lock.png",
+            "chest_opened_img": "images/items/photo_trophy_unlock.png",
+            "access_rules": [
+              "$camera_check"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bear_lake",
+    "access_rules": [
+      "own_wyoming, $is_in_chosen_state|utah|idaho, unlock_bear_lake, @northern_utah",
+      "own_wyoming, $is_in_chosen_state|utah|idaho, unlock_bear_lake, @eastern_idaho",
+      "own_wyoming, $is_in_chosen_state|utah|idaho, unlock_bear_lake, unlock_ft_bear_lake",
+      "own_wyoming, $is_in_chosen_state|utah|idaho, unlock_bear_lake, start_bear_lake"
+    ],
+    "visibility_rules": [
+      "own_wyoming"
+    ],
+    "children": [
+      {
+        "name": "Bear Lake",
+        "chest_unopened_img": "images/items/viewpoint_lock.png",
+        "chest_opened_img": "images/items/viewpoint_unlock.png",
+        "map_locations": [
+          {
+            "map": "utah_map",
+            "x": 641,
+            "y": 83,
+            "restrict_visibility_rules": [
+              "utah_chosen"
+            ]
+          },
+          {
+            "map": "idaho_map",
+            "x": 903,
+            "y": 1613,
+            "restrict_visibility_rules": [
+              "idaho_chosen"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

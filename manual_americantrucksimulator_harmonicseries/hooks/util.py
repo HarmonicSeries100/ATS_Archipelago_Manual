@@ -21,7 +21,7 @@ STATE_DICT = {
   },
   "Utah":
   {
-    "items": 14,
+    "items": 15,
     "locations": 26
   },
   "Colorado":
@@ -49,6 +49,11 @@ STATE_DICT = {
     "items": 16,
     "locations": 34
   },
+  "Wyoming":
+  {
+    "items": 13,
+    "locations": 28
+  },
 }
 
 STATE_DLC_DICT = {
@@ -60,4 +65,5 @@ STATE_DLC_DICT = {
   "Washington": ["Washington"],
   "Idaho": ["Idaho"],
   "Montana": ["Montana"],
+  "Wyoming": ["Wyoming"],
 }

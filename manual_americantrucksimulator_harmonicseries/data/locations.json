@@ -3067,6 +3067,331 @@
         "Montana"
       ],
       "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Yellowstone National Park - Viewpoint",
+      "region": "National Park Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Montana",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Cody",
+      "region": "Northern Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Sheridan",
+      "region": "Northern Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Gillette",
+      "region": "Northern Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Jackson",
+      "region": "National Park Area",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Riverton",
+      "region": "Central Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Casper",
+      "region": "Central Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Evanston",
+      "region": "Southwest Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Rock Springs",
+      "region": "Southwest Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Rawlins",
+      "region": "Southwest Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Laramie",
+      "region": "Southeast Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Cheyenne",
+      "region": "Southeast Wyoming",
+      "category": [
+        "City",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Passport Validation Center - Cheyenne",
+      "region": "Southeast Wyoming",
+      "category": [
+        "State Capital",
+        "Victory",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "|All Stamps Collected|",
+      "place_item": [
+        "Validated Passport"
+      ]
+    },
+    {
+      "name": "Flaming Gorge Dam",
+      "region": "Central Utah",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Utah"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "City of Cheyenne",
+      "region": "Southeast Wyoming",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "City of Evanston",
+      "region": "Southwest Wyoming",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bear Lake",
+      "region": "Bear Lake",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Utah",
+        "Idaho"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Hell's Half Acre",
+      "region": "Central Wyoming",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Alpine",
+      "region": "National Park Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Boysen State Park",
+      "region": "Central Wyoming",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Grand Teton National Park - Viewpoint",
+      "region": "National Park Area",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Devils Tower - Viewpoint",
+      "region": "Northern Wyoming",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Bighorn National Forest",
+      "region": "Northern Wyoming",
+      "category": [
+        "Viewpoint",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": ""
+    },
+    {
+      "name": "Yellowstone National Park - Photo Trophy",
+      "region": "National Park Area",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Grand Teton National Park - Photo Trophy",
+      "region": "National Park Area",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Buffalo Bill Center of the West",
+      "region": "Northern Wyoming",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Independence Rock",
+      "region": "Central Wyoming",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Devils Tower - Photo Trophy",
+      "region": "Northern Wyoming",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Cheyenne Depot Museum",
+      "region": "Southeast Wyoming",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "Jackson Town Square",
+      "region": "National Park Area",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "University of Wyoming",
+      "region": "Southeast Wyoming",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
+    },
+    {
+      "name": "St. Matthew's Episcopal Church",
+      "region": "Southeast Wyoming",
+      "category": [
+        "Photo Trophy Point",
+        "DLC - Wyoming",
+        "Wyoming"
+      ],
+      "requires": "({YamlEnabled(enable_camera)} AND |Camera|) OR {YamlDisabled(enable_camera)}"
     }
   ]
 }

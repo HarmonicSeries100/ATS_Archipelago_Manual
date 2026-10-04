@@ -43,6 +43,7 @@ Tracker:AddLayouts("layouts/oregon.json")
 Tracker:AddLayouts("layouts/washington.json")
 Tracker:AddLayouts("layouts/idaho.json")
 Tracker:AddLayouts("layouts/montana.json")
+Tracker:AddLayouts("layouts/wyoming.json")
 
 -- Locations
 Tracker:AddLocations("locations/base.json")
@@ -53,3 +54,4 @@ Tracker:AddLocations("locations/oregon.json")
 Tracker:AddLocations("locations/washington.json")
 Tracker:AddLocations("locations/idaho.json")
 Tracker:AddLocations("locations/montana.json")
+Tracker:AddLocations("locations/wyoming.json")
